@@ -1,0 +1,13 @@
+{
+  "slug": "day02-double-cleansing",
+  "mood": "calm",
+  "seed": 2,
+  "frames": [
+    {"type": "hook", "kicker": "이중세안 · Korean double cleansing", "title": "You're washing your face *wrong.*", "sub": "Here's how Koreans do it ↓", "dur": 2.5},
+    {"type": "step", "num": "01", "title": "Oil cleanser", "line": "on a DRY face.", "sub": "It melts sunscreen & makeup.", "tone": "warm", "dur": 3},
+    {"type": "list", "items": ["Massage 1 min", "Add a splash of water", "Rinse"], "sub": "Milky = it's working.", "dur": 3},
+    {"type": "step", "num": "02", "title": "Gentle foam cleanser", "line": "washes away the rest.", "sub": "Lukewarm water. No scrubbing.", "tone": "cool", "dur": 3},
+    {"type": "statement", "lines": ["Clean.", "*Not tight.*"], "sub": "Do it every night. That's the whole secret.", "dur": 2.5},
+    {"type": "cta", "title": "Try it tonight.", "dur": 3.5}
+  ]
+}
