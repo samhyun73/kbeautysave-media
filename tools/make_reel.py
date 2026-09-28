@@ -60,7 +60,7 @@ def f_cta(f):
 <div style="padding:56px 48px;border-radius:32px;border:3px dashed #fff;background:{C['cream']};color:{C['ink']};display:flex;flex-direction:column;align-items:center;gap:16px">
 <span style="font-size:34px;font-weight:700;letter-spacing:4px;color:{C['mute']}">USE CODE</span>
 <span class="serif" style="font-size:116px;font-weight:700;letter-spacing:3px;line-height:1">KBEAUTY73</span></div>
-<p style="font-size:46px;line-height:1.4">at <b>@oliveyoung_global</b><br>Link in bio</p>
+<p style="font-size:46px;line-height:1.4">at checkout on<br><b>Olive Young Global</b> @oliveyoung_global</p>
 <span style="font-size:30px;opacity:.9">#oliveyoungaffiliate #ad</span>"""
     return page(C["accent"], "#fff", inner)
 
