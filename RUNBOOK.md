@@ -6,7 +6,7 @@ Owner: kbeautysave (Olive Young Global affiliate). Instagram @kbeautysave, Faceb
 - Affiliate link: https://global.oliveyoung.com/if/rd?su=Q7NAABDP — currently NOT used anywhere (see rule 5)
 - Code: **KBEAUTY73**
 - Required tags: `#oliveyoungaffiliate` + `#ad` on every post; mention `@oliveyoung_global` on Instagram.
-- Metricool brand (blogId): `7131571`, timezone `Asia/Seoul`. Free plan = 20 scheduled posts / month.
+- Metricool brand (blogId): `7131683` (Metricool userId 5514763; switched from 7131571 on 2026-09-29), timezone `Asia/Seoul`. Free plan = 20 scheduled posts / month.
 - Media is served from this public repo: `https://raw.githubusercontent.com/samhyun73/kbeautysave-media/main/<path>`
 
 ## Schedule
@@ -29,13 +29,13 @@ Check `topics.md` before choosing; never repeat a topic from the last 30 entries
 7. Frames: max ~12 words each; hook frame first (a surprising or "you're doing it wrong" line), CTA frame last.
 
 ## Daily steps
-0. Call Metricool `getScheduledPosts` (brandId 7131571, today 00:00–23:59 KST). If a Reel is already scheduled for today, skip steps 1–5 (only send the Weibo caption if not already sent) and stop.
+0. Call Metricool `getScheduledPosts` (brandId 7131683, today 00:00–23:59 KST). If a Reel is already scheduled for today, skip steps 1–5 (only send the Weibo caption if not already sent) and stop.
 1. Pick today's topic (rotation + `topics.md`).
 2. Write `specs/YYYY-MM-DD-<slug>.json` (see existing specs; frame types: hook, step, list, statement, cta; 5–7 frames, 14–18 s total; vary `seed`, `mood` calm|bright). On Mon/Wed/Fri add a `"pin"` object: `{title, sub, kicker, steps:[{title, body},{title, body}], avoid:[...], note}`.
 3. Render: `python3 tools/make_reel.py specs/<file>.json out/<date>` → copy `out/<date>/<slug>.mp4` to `media/<date>/reel.mp4`, `frame1.png` to `media/<date>/cover.png`, and `pin.png` (if any) to `media/<date>/pin.png`.
    Needs: python3 + numpy + scipy, ffmpeg, node + playwright (global), fonts "Noto Serif CJK KR"/"Noto Sans CJK KR".
 4. Commit & push to `main`; verify the raw URL returns 200 before scheduling.
-5. Schedule in Metricool (`createScheduledPost`, blogId 7131571): providers instagram + facebook + tiktok, `media: [raw reel URL]`, `instagramData.type: "REEL"`, `facebookData.type: "REEL"`, tiktokData `commercialContentThirdParty: true` and a REQUIRED `title` (short TikTok caption with the code, #oliveyoungaffiliate #ad, no link), facebookData `title`, publish 19:00 KST today (if already past, next weekday 19:00). Text = caption with the code (no link); `firstCommentText` = "" (empty).
+5. Schedule in Metricool (`createScheduledPost`, blogId 7131683): providers instagram + facebook + tiktok, `media: [raw reel URL]`, `instagramData.type: "REEL"`, `facebookData.type: "REEL"`, tiktokData `commercialContentThirdParty: true` and a REQUIRED `title` (short TikTok caption with the code, #oliveyoungaffiliate #ad, no link), facebookData `title`, publish 19:00 KST today (if already past, next weekday 19:00). Text = caption with the code (no link); `firstCommentText` = "" (empty).
 6. Message the user: what was scheduled (with plannerUrl), the Weibo caption (≤140 chars for comments; post body can be longer), and on pin days the pin image + title + description (code only, leave the pin link field empty) + suggested board "Korean Skincare Routine".
 7. Append `YYYY-MM-DD | topic | status` to `topics.md`, commit, push.
 8. Delete media folders older than 60 days to keep the repo small.
