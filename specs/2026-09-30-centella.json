@@ -1,0 +1,24 @@
+{
+  "slug": "day03-centella",
+  "mood": "bright",
+  "seed": 3,
+  "frames": [
+    {"type": "hook", "kicker": "병풀 · Centella asiatica", "title": "Why is *\"cica\"* on every K-beauty label?", "sub": "Meet Korea's favorite calming herb ↓", "dur": 2.5},
+    {"type": "step", "num": "01", "title": "What it is", "line": "A leafy plant called centella asiatica.", "sub": "Nicknamed \"cica\" in skincare.", "tone": "cool", "dur": 3},
+    {"type": "list", "title": "Look for", "items": ["Centella extract", "Madecassoside", "Asiaticoside"], "sub": "All come from the same plant.", "dur": 3},
+    {"type": "step", "num": "02", "title": "Why it's loved", "line": "Helps soothe & comfort skin.", "sub": "Gentle enough for daily use.", "tone": "warm", "dur": 3},
+    {"type": "statement", "lines": ["Toner. Serum.", "*Cream.*"], "sub": "Pick one step — no need for all three.", "dur": 2.5},
+    {"type": "cta", "title": "Find your cica pick.", "dur": 3.5}
+  ],
+  "pin": {
+    "title": "Cica 101: Korea's Calming Ingredient",
+    "sub": "What centella asiatica is & how to use it",
+    "kicker": "INGREDIENT GUIDE",
+    "steps": [
+      {"title": "Know the names", "body": "Centella asiatica, cica, madecassoside and asiaticoside all come from the same leafy plant."},
+      {"title": "Add one step", "body": "Choose a cica toner, serum or cream and layer it after cleansing. Loved by Korean skincare fans for comfort."}
+    ],
+    "avoid": ["Stacking five new products at once", "Skipping a patch test with anything new", "Forgetting sunscreen in the morning"],
+    "note": "Tip: start with one product and give your skin time to adjust."
+  }
+}
