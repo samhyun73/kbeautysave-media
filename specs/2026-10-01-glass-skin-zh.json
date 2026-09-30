@@ -1,0 +1,14 @@
+{
+  "slug": "day04-glass-skin-zh",
+  "lang": "zh",
+  "mood": "calm",
+  "seed": 4,
+  "frames": [
+    {"type": "hook", "kicker": "玻璃肌 · Korean glass skin", "title": "玻璃肌不靠 *化妆*", "sub": "韩国人真正的意思是 ↓", "dur": 2.5},
+    {"type": "step", "num": "01", "title": "什么是玻璃肌", "line": "水润到看起来通透", "sub": "像光穿过玻璃一样", "tone": "cool", "dur": 3},
+    {"type": "list", "title": "日常习惯", "items": ["温和清洁", "薄涂多层补水", "乳霜锁住水分"], "sub": "先补水，光泽自然来", "dur": 3},
+    {"type": "step", "num": "02", "title": "每天防晒", "line": "每个早晨都涂防晒", "sub": "韩国人的必做步骤", "tone": "warm", "dur": 3},
+    {"type": "statement", "lines": ["坚持，", "*不求完美*"], "sub": "是一种护肤心态，不是滤镜", "dur": 2.5},
+    {"type": "cta", "title": "从补水开始", "code_label": "优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.5}
+  ]
+}
