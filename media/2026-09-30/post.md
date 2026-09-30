@@ -1,9 +1,9 @@
 # 2026-09-30 · 시카(병풀) 성분 릴스
 
-- 파일: [reel.mp4](reel.mp4) · [pin.png](pin.png) · [cover.png](cover.png)
+- 파일: [reel.mp4](reel.mp4) (영어) · [reel_zh.mp4](reel_zh.mp4) (중국어, 웨이보용) · [pin.png](pin.png) · [cover.png](cover.png)
 - 인스타·페북·틱톡: 19:00 KST 자동 게시 (Metricool)
 
-## 웨이보 (직접 게시 · reel.mp4 첨부)
+## 웨이보 (직접 게시 · reel_zh.mp4 첨부)
 ```
 为什么韩国护肤品上都写着"cica"？🌿
 它就是积雪草（centella asiatica），韩国人很爱用的舒缓成分～

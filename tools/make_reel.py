@@ -7,8 +7,13 @@ import json, os, sys, subprocess, html
 
 C = dict(cream="#FBF4EE", ink="#2A1E1C", blush="#F2D9CF", sky="#DCE6EE", accent="#A63F31",
          navy="#2F4B7C", pink="#F2B8A8", mute="#5B4A45", mute2="#D9CBC5", deep="#3A2A27")
-SERIF = "'Noto Serif CJK KR','Noto Serif CJK SC',serif"
-SANS = "'Noto Sans CJK KR','Noto Sans CJK SC',sans-serif"
+FONTS = {
+    "en": ("'Noto Serif CJK KR','Noto Serif CJK SC',serif", "'Noto Sans CJK KR','Noto Sans CJK SC',sans-serif"),
+    "zh": ("'Noto Serif CJK SC','Noto Serif CJK KR',serif", "'Noto Sans CJK SC','Noto Sans CJK KR',sans-serif"),
+    "ja": ("'Noto Serif CJK JP','Noto Serif CJK KR',serif", "'Noto Sans CJK JP','Noto Sans CJK KR',sans-serif"),
+}
+SERIF, SANS = FONTS["en"]
+LANG = "en"
 W, H = 1080, 1920
 PAD = "padding:260px 160px 440px 96px"  # keeps text out of IG/TikTok UI zones
 
@@ -20,7 +25,7 @@ def em(s, color):
     return "".join(f'<span style="color:{color}">{p}</span>' if i % 2 else p for i, p in enumerate(parts))
 
 def page(bg, fg, inner, extra=""):
-    return f"""<!doctype html><html><head><meta charset="utf-8"><style>
+    return f"""<!doctype html><html lang="{LANG}"><head><meta charset="utf-8"><style>
 html,body{{margin:0;width:{W}px;height:{H}px;overflow:hidden}}
 body{{background:{bg};color:{fg};font-family:{SANS}}}
 .root{{width:{W}px;height:{H}px;box-sizing:border-box;{PAD};display:flex;flex-direction:column;justify-content:center;gap:48px;position:relative;overflow:hidden}}
@@ -58,10 +63,10 @@ def f_statement(f):
 def f_cta(f):
     inner = f"""<h2 class="serif" style="font-size:120px;line-height:1.05;font-weight:700">{e(f.get('title','Try it tonight.'))}</h2>
 <div style="padding:56px 48px;border-radius:32px;border:3px dashed #fff;background:{C['cream']};color:{C['ink']};display:flex;flex-direction:column;align-items:center;gap:16px">
-<span style="font-size:34px;font-weight:700;letter-spacing:4px;color:{C['mute']}">USE CODE</span>
+<span style="font-size:34px;font-weight:700;letter-spacing:4px;color:{C['mute']}">{e(f.get('code_label','USE CODE'))}</span>
 <span class="serif" style="font-size:116px;font-weight:700;letter-spacing:3px;line-height:1">KBEAUTY73</span></div>
-<p style="font-size:46px;line-height:1.4">at checkout on<br><b>Olive Young Global</b> @oliveyoung_global</p>
-<span style="font-size:30px;opacity:.9">#oliveyoungaffiliate #ad</span>"""
+<p style="font-size:46px;line-height:1.4">{f.get('where_html','at checkout on<br><b>Olive Young Global</b> @oliveyoung_global')}</p>
+<span style="font-size:30px;opacity:.9">{e(f.get('tags','#oliveyoungaffiliate #ad'))}</span>"""
     return page(C["accent"], "#fff", inner)
 
 RENDER = {"hook": f_hook, "step": f_step, "list": f_list, "statement": f_statement, "cta": f_cta}
@@ -104,7 +109,9 @@ const { chromium } = require('playwright');
 """
 
 def main(spec_path, out):
+    global SERIF, SANS, LANG
     spec = json.load(open(spec_path)); os.makedirs(out, exist_ok=True)
+    LANG = spec.get("lang", "en"); SERIF, SANS = FONTS.get(LANG, FONTS["en"])
     here = os.path.dirname(os.path.abspath(__file__))
     jobs, durs = [], []
     for i, f in enumerate(spec["frames"]):

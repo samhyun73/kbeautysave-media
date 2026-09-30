@@ -1,0 +1,14 @@
+{
+  "slug": "day03-centella-zh",
+  "lang": "zh",
+  "mood": "bright",
+  "seed": 3,
+  "frames": [
+    {"type": "hook", "kicker": "积雪草 · Centella asiatica", "title": "为什么韩妆都在写 *cica*？", "sub": "认识韩国人最爱的舒缓成分 ↓", "dur": 2.5},
+    {"type": "step", "num": "01", "title": "它是什么", "line": "一种叫积雪草的植物", "sub": "护肤圈昵称「cica」", "tone": "cool", "dur": 3},
+    {"type": "list", "title": "成分表找这些", "items": ["积雪草提取物", "羟基积雪草苷", "积雪草苷"], "sub": "都来自同一种植物", "dur": 3},
+    {"type": "step", "num": "02", "title": "为什么受欢迎", "line": "帮助舒缓、安抚肌肤", "sub": "温和，适合日常使用", "tone": "warm", "dur": 3},
+    {"type": "statement", "lines": ["水、精华、", "*面霜*"], "sub": "选一步就够，不用全部叠加", "dur": 2.5},
+    {"type": "cta", "title": "找到你的 cica 好物", "code_label": "优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.5}
+  ]
+}
