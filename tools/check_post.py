@@ -67,6 +67,10 @@ def check_caption(path, platform):
     check("caption: no invented personal experience", hit is None, hit or "")
     if platform == "tiktok":
         check("caption: tiktok title <= 150 chars", len(t.strip()) <= 150, f"{len(t.strip())} chars")
+    if platform == "x":
+        # X counts most CJK/emoji as 2; stay safely under 280 weighted chars
+        w = sum(2 if ord(c) > 0x10FF else 1 for c in t.strip())
+        check("caption: X post <= 280 (weighted)", w <= 280, f"{w} weighted chars")
 
 def check_video(path):
     pr = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "stream=codec_type,width,height:format=duration",
@@ -86,7 +90,7 @@ def check_video(path):
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--spec"); ap.add_argument("--video"); ap.add_argument("--caption")
-    ap.add_argument("--platform", default="instagram", choices=["instagram", "facebook", "tiktok", "weibo", "pinterest"])
+    ap.add_argument("--platform", default="instagram", choices=["instagram", "facebook", "tiktok", "weibo", "pinterest", "x"])
     a = ap.parse_args()
     if a.spec: check_spec(a.spec)
     if a.caption: check_caption(a.caption, a.platform)

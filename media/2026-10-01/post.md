@@ -4,6 +4,17 @@
 - 인스타·페북·틱톡: 19:00 KST 자동 게시 (Metricool)
 - 오늘은 목요일이라 Pinterest 핀 없음
 
+## X (직접 게시 · reel.mp4 첨부)
+```
+"Glass skin" isn't a makeup look. In Korea it's a habit 🇰🇷
+
+Gentle cleanse → thin hydrating layers → moisturizer → SPF every morning.
+Consistency over perfection.
+
+Extra 5% off with code KBEAUTY73 at Olive Young Global
+#oliveyoungaffiliate #ad #glassskin #kbeauty
+```
+
 ## 웨이보 (직접 게시 · reel_zh.mp4 첨부)
 ```
 韩国人说的"玻璃肌"，其实不是靠化妆✨

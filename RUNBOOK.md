@@ -13,6 +13,7 @@ Owner: kbeautysave (Olive Young Global affiliate). Instagram @kbeautysave, Faceb
 - **Mon–Fri**: one Reel → Instagram (REEL) + Facebook (REEL) + TikTok, one Metricool post, published 19:00 KST the same day.
 - **Mon / Wed / Fri**: also a Pinterest pin (1000×1500) — sent to the user to upload manually (keeps within the free-plan post limit).
 - **Every weekday**: Weibo caption + Chinese-text reel (`reel_zh.mp4`) sent to the user to post manually.
+- **Every weekday**: X (Twitter) post text sent to the user to post manually with the English `reel.mp4` (X is not connected to Metricool).
 - Weekends: nothing.
 
 ## Weekly topic rotation
@@ -39,11 +40,11 @@ Check `topics.md` before choosing; never repeat a topic from the last 30 entries
 3c. **Quality gate (must pass — "if it can't be verified, it doesn't ship"):** write each caption to a temp file and run
    `python3 tools/check_post.py --spec specs/<file>.json --video media/<date>/reel.mp4 --caption <ig caption> --platform instagram`,
    then `--caption <tiktok title> --platform tiktok`, and for Weibo `--spec specs/<file>-zh.json --video media/<date>/reel_zh.mp4 --caption <weibo text> --platform weibo`
-   (pin days: `--caption <pin description> --platform pinterest`). Any FAIL → fix the spec/caption, re-render, re-run. If still failing, do not schedule; tell the user what failed.
+   (pin days: `--caption <pin description> --platform pinterest`), and the X post `--caption <x text> --platform x`. Any FAIL → fix the spec/caption, re-render, re-run. If still failing, do not schedule; tell the user what failed.
    Also extract 4–6 stills per video and look at them (layout problems the script can't see).
 4. Commit & push to `main`; verify the raw URL returns 200 before scheduling.
 5. Schedule in Metricool (`createScheduledPost`, blogId 7131683): providers instagram + facebook + tiktok, `media: [raw reel URL]`, `videoThumbnailUrl: [raw cover.png URL]` (cover = hook slide, auto-saved as frame1.png), `instagramData.type: "REEL"`, `facebookData.type: "REEL"`, tiktokData `commercialContentThirdParty: true` and a REQUIRED `title` (short TikTok caption with the code, #oliveyoungaffiliate #ad, no link), facebookData `title`, publish 19:00 KST today (if already past, next weekday 19:00). Text = caption with the code (no link); `firstCommentText` = "" (empty).
-6. Write `media/<date>/post.md` (Korean headings; see `media/2026-09-30/post.md` as the template): links to reel.mp4 / reel_zh.mp4 / pin.png, the Weibo caption (tell them to attach reel_zh.mp4) in a code block, and on pin days the Pinterest board, title and description in code blocks (link field empty). Commit & push it — this is the user's daily "posting kit" page at https://github.com/samhyun73/kbeautysave-media/tree/main/media/<date>.
+6. Write `media/<date>/post.md` (Korean headings; see `media/2026-09-30/post.md` as the template): links to reel.mp4 / reel_zh.mp4 / pin.png, an **X section** (English, ≤280 weighted chars, a punchy 1-line hook + 1–2 lines of value + "Extra 5% off with code KBEAUTY73 at Olive Young Global" + `#oliveyoungaffiliate #ad` + 1–2 topic hashtags, no link; tell them to attach reel.mp4), the Weibo caption (tell them to attach reel_zh.mp4) in a code block, and on pin days the Pinterest board, title and description in code blocks (link field empty). Commit & push it — this is the user's daily "posting kit" page at https://github.com/samhyun73/kbeautysave-media/tree/main/media/<date>.
    Then message the user: what was scheduled (with plannerUrl), the posting-kit link, the Weibo caption (≤140 chars for comments; post body can be longer), and on pin days the pin image + title + description (code only, leave the pin link field empty) + suggested board "Korean Skincare Routine".
 7. Append `YYYY-MM-DD | topic | status` to `topics.md`, commit, push.
 8. Delete media folders older than 60 days to keep the repo small.
