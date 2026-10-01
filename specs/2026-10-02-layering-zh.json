@@ -1,0 +1,63 @@
+{
+  "hangul": "레이어링",
+  "slug": "day05-layering-zh",
+  "mood": "bright",
+  "seed": 5,
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "레이어링 · 韩式叠涂",
+      "title": "你的护肤顺序可能反了",
+      "sub": "韩国人的原则：由薄到厚 ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "step",
+      "num": "01",
+      "title": "先上水状质地",
+      "line": "洁面后先用爽肤水或精华水",
+      "sub": "最轻薄的放在第一步",
+      "tone": "cool",
+      "dur": 3
+    },
+    {
+      "type": "list",
+      "title": "再一层层叠加",
+      "items": [
+        "爽肤水",
+        "精华",
+        "面霜"
+      ],
+      "sub": "每一层稍微厚一点",
+      "tone": "cool",
+      "dur": 3
+    },
+    {
+      "type": "step",
+      "num": "02",
+      "title": "最后锁水",
+      "line": "面霜放最后，锁住水润",
+      "sub": "早上最后再涂防晒",
+      "tone": "warm",
+      "dur": 3
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "由薄到厚，",
+        "就是全部秘诀"
+      ],
+      "sub": "每层之间稍等几秒",
+      "dur": 2.5
+    },
+    {
+      "type": "cta",
+      "title": "这个周末试试看",
+      "code_label": "额外95折 优惠码",
+      "where_html": "在 <b>Olive Young Global</b><br>结账时输入",
+      "tags": "#广告",
+      "dur": 3.5
+    }
+  ],
+  "lang": "zh"
+}

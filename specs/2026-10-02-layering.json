@@ -1,0 +1,25 @@
+{
+  "hangul": "레이어링",
+  "slug": "day05-layering",
+  "mood": "bright",
+  "seed": 5,
+  "frames": [
+    {"type": "hook", "kicker": "레이어링 · Korean layering", "title": "Your routine order might be backwards.", "sub": "The Korean rule: thin to thick ↓", "dur": 2.5},
+    {"type": "step", "num": "01", "title": "Watery first", "line": "Toner or essence right after cleansing.", "sub": "The lightest texture goes on first.", "tone": "cool", "dur": 3},
+    {"type": "list", "title": "Then build up", "items": ["Toner", "Serum", "Moisturizer"], "sub": "Each layer a little thicker.", "tone": "cool", "dur": 3},
+    {"type": "step", "num": "02", "title": "Seal it in", "line": "Cream last to lock in hydration.", "sub": "Mornings: sunscreen goes on top.", "tone": "warm", "dur": 3},
+    {"type": "statement", "lines": ["Thin to thick.", "That's the whole trick."], "sub": "Wait a few seconds between layers.", "dur": 2.5},
+    {"type": "cta", "title": "Try it this weekend.", "dur": 3.5}
+  ],
+  "pin": {
+    "title": "Korean Skincare Layering Order",
+    "sub": "Thin to thick, step by step",
+    "kicker": "Weekend routine idea",
+    "steps": [
+      {"title": "Start watery", "body": "After cleansing, pat on a toner or essence. The lightest, most watery texture always goes first."},
+      {"title": "Build to thick", "body": "Follow with a serum, then seal everything with a moisturizer. In the morning, finish with sunscreen."}
+    ],
+    "avoid": ["Putting a heavy cream before a watery serum", "Rushing layers without a short pause", "Skipping sunscreen as the last morning step"],
+    "note": "Tip: you don't need every step. Two or three thin layers are plenty."
+  }
+}
