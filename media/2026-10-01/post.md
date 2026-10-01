@@ -10,6 +10,6 @@
 而是一种护肤习惯：温和清洁、薄涂多层补水、乳霜锁水，再加上每天早上的防晒～
 目标是水润到看起来通透，像光穿过玻璃一样。
 坚持比完美更重要！
-在 Olive Young Global 结账时输入优惠码 KBEAUTY73 💕
+在 Olive Young Global 结账时输入优惠码 KBEAUTY73，额外享95折 💕
 #韩国护肤# #玻璃肌# #补水# #oliveyoungaffiliate# #广告#
 ```

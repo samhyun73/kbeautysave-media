@@ -87,12 +87,12 @@ def f_statement(f, ctx):
     return page(C["pine"], C["rice"], lines + sub, ctx["wm"], C["pine2"], ctx["prog"], ctx["dur"], dark=True)
 
 def f_cta(f, ctx):
-    label = f.get("code_label", "Use code")
+    label = f.get("code_label", "Extra 5% off with code")
     where = f.get("where_html", "at checkout on <b>Olive Young Global</b><br>@oliveyoung_global")
     inner = (f'<h2 class="d" style="font-size:112px">{plain(f.get("title","Try it tonight."))}</h2>'
              f'<div style="align-self:flex-start;padding:44px 56px 48px;border-radius:120px;background:{C["rice"]};color:{C["pine"]};'
              f'display:flex;flex-direction:column;gap:6px;box-shadow:0 0 0 6px {C["pine"]}">'
-             f'<span style="font-size:36px;font-weight:500;color:{C["muted"]}">{e(label)}</span>'
+             f'<span style="font-size:46px;font-weight:700;color:{C["deep"]}">{e(label)}</span>'
              f'<span style="font-size:118px;font-weight:900;letter-spacing:2px;line-height:1">KBEAUTY73</span></div>'
              f'<p style="font-size:46px;line-height:1.4">{where}</p>'
              f'<p style="font-size:30px;color:{C["pine2"]}">{e(f.get("tags","#oliveyoungaffiliate #ad"))}</p>')
@@ -127,7 +127,7 @@ p,h1{{margin:0}}</style></head><body>
 <div style="flex-grow:1;padding:52px 72px;display:flex;flex-direction:column;gap:36px">
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px">{steps}</div>{avoid}{note}</div>
 <div style="padding:40px 72px 48px;background:{C['celadon']};display:flex;justify-content:space-between;align-items:flex-end">
-<div style="display:flex;flex-direction:column;gap:4px"><span style="font-size:28px;font-weight:500">Use code at Olive Young Global checkout</span>
+<div style="display:flex;flex-direction:column;gap:4px"><span style="font-size:28px;font-weight:500">Extra 5% off at Olive Young Global checkout</span>
 <span style="font-size:68px;font-weight:900;letter-spacing:2px;line-height:1.05">KBEAUTY73</span></div>
 <span style="font-size:24px">#ad</span></div>
 </div></body></html>"""
