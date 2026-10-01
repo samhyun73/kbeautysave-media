@@ -1,13 +1,58 @@
 {
+  "hangul": "유리 피부",
   "slug": "day04-glass-skin",
   "mood": "calm",
   "seed": 4,
   "frames": [
-    {"type": "hook", "kicker": "유리 피부 · Korean \"glass skin\"", "title": "Glass skin isn't about *makeup.*", "sub": "What Koreans actually mean ↓", "dur": 2.5},
-    {"type": "step", "num": "01", "title": "The idea", "line": "Skin so hydrated it looks clear.", "sub": "Like light through glass.", "tone": "cool", "dur": 3},
-    {"type": "list", "title": "The habit", "items": ["Gentle cleanse", "Thin hydrating layers", "Seal with moisturizer"], "sub": "Water first, shine second.", "dur": 3},
-    {"type": "step", "num": "02", "title": "Daily SPF", "line": "Sunscreen every single morning.", "sub": "A non-negotiable in Korea.", "tone": "warm", "dur": 3},
-    {"type": "statement", "lines": ["Consistency.", "*Not perfection.*"], "sub": "It's a routine mindset, not a filter.", "dur": 2.5},
-    {"type": "cta", "title": "Start with hydration.", "dur": 3.5}
+    {
+      "type": "hook",
+      "kicker": "유리 피부 · Korean \"glass skin\"",
+      "title": "Glass skin isn't about *makeup.*",
+      "sub": "What Koreans actually mean ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "step",
+      "num": "01",
+      "title": "The idea",
+      "line": "Skin so hydrated it looks clear.",
+      "sub": "Like light through glass.",
+      "tone": "cool",
+      "dur": 3
+    },
+    {
+      "type": "list",
+      "title": "The habit",
+      "items": [
+        "Gentle cleanse",
+        "Thin hydrating layers",
+        "Seal with moisturizer"
+      ],
+      "sub": "Water first, shine second.",
+      "dur": 3
+    },
+    {
+      "type": "step",
+      "num": "02",
+      "title": "Daily SPF",
+      "line": "Sunscreen every single morning.",
+      "sub": "A non-negotiable in Korea.",
+      "tone": "warm",
+      "dur": 3
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "Consistency.",
+        "*Not perfection.*"
+      ],
+      "sub": "It's a routine mindset, not a filter.",
+      "dur": 2.5
+    },
+    {
+      "type": "cta",
+      "title": "Start with hydration.",
+      "dur": 3.5
+    }
   ]
 }
