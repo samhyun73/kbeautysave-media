@@ -21,6 +21,7 @@ FONTS = {
 }
 HANGUL_FONT = "'Noto Serif CJK KR',serif"
 W, H, FPS, XF = 1080, 1920, 24, 0.4
+BPM = {"calm": 84, "bright": 96}   # must match tools/bgm.py
 LANG, SANS = "en", FONTS["en"]
 
 def e(s): return html.escape(str(s))
@@ -161,7 +162,10 @@ def main(spec_path, out):
     frames = spec["frames"]; n = len(frames)
     jobs, durs = [], []
     for i, f in enumerate(frames):
-        d = float(f.get("dur", 3)); durs.append(d)
+        # beat grid: each slide = whole beats + crossfade, so every cut lands on a beat of the BGM
+        beat = 60.0 / BPM[spec.get("mood", "calm")]
+        nb = max(2, round((float(f.get("dur", 3)) - XF) / beat))
+        d = nb * beat + XF; durs.append(d)
         hp = os.path.abspath(os.path.join(out, f"frame{i+1}.html"))
         open(hp, "w").write(RENDER[f["type"]](f, dict(wm=wm, prog=(i, n), dur=d)))
         sd = os.path.abspath(os.path.join(out, f"seq{i+1}")); shutil.rmtree(sd, ignore_errors=True); os.makedirs(sd)
@@ -179,7 +183,10 @@ def main(spec_path, out):
 
     total = sum(durs) - XF * (n - 1)
     wav = os.path.join(out, "bgm.wav")
-    subprocess.run([sys.executable, os.path.join(here, "bgm.py"), wav, f"{total:.2f}", str(spec.get("seed", 1)), spec.get("mood", "calm")], check=True)
+    raw = os.path.join(out, "bgm_raw.wav")
+    subprocess.run([sys.executable, os.path.join(here, "bgm.py"), raw, f"{total:.2f}", str(spec.get("seed", 1)), spec.get("mood", "calm")], check=True)
+    # loudness: -14 LUFS integrated, -1.5 dBTP (Instagram/TikTok/YouTube target)
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", raw, "-af", "loudnorm=I=-14:TP=-1.5:LRA=11", "-ar", "44100", wav], check=True)
     cmd = ["ffmpeg", "-y", "-loglevel", "error"]
     for i in range(n):
         cmd += ["-framerate", str(FPS), "-i", os.path.join(out, f"seq{i+1}", "%04d.png")]
