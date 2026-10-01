@@ -6,21 +6,28 @@
 
 ## X (직접 게시 · reel.mp4 첨부)
 ```
-"Glass skin" isn't a makeup look. In Korea it's a habit 🇰🇷
+✨ "Glass skin" isn't makeup. In Korea 🇰🇷 it's a habit
 
-Gentle cleanse → thin hydrating layers → moisturizer → SPF every morning.
-Consistency over perfection.
+🫧 Gentle cleanse
+💧 Thin hydrating layers
+🧴 Seal with moisturizer
+☀️ SPF every morning
 
-Extra 5% off with code KBEAUTY73 at Olive Young Global
+Consistency > perfection 💕
+🛍️ Extra 5% off: code KBEAUTY73 at Olive Young Global
 #oliveyoungaffiliate #ad #glassskin #kbeauty
 ```
 
 ## 웨이보 (직접 게시 · reel_zh.mp4 첨부)
 ```
-韩国人说的"玻璃肌"，其实不是靠化妆✨
-而是一种护肤习惯：温和清洁、薄涂多层补水、乳霜锁水，再加上每天早上的防晒～
-目标是水润到看起来通透，像光穿过玻璃一样。
-坚持比完美更重要！
-在 Olive Young Global 结账时输入优惠码 KBEAUTY73，额外享95折 💕
+✨韩国人说的"玻璃肌"，其实不是靠化妆哦～🇰🇷
+而是每天的护肤小习惯👇
+🫧 温和清洁
+💧 薄涂多层补水
+🧴 乳霜锁水
+☀️ 每天早上防晒
+目标是水润到通透，像光穿过玻璃一样💎
+坚持比完美更重要💪💕
+🛍️ 在 Olive Young Global 结账时输入优惠码 KBEAUTY73，额外享95折🎁
 #韩国护肤# #玻璃肌# #补水# #oliveyoungaffiliate# #广告#
 ```

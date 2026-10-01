@@ -67,6 +67,9 @@ def check_caption(path, platform):
     check("caption: no invented personal experience", hit is None, hit or "")
     if platform == "tiktok":
         check("caption: tiktok title <= 150 chars", len(t.strip()) <= 150, f"{len(t.strip())} chars")
+    if platform in ("x", "weibo", "pinterest"):
+        emo = len(re.findall(r"[\U0001F300-\U0001FAFF\u2600-\u27BF\u2B50\u2705\u274C\u2728\U0001F1E6-\U0001F1FF]", t))
+        check(f"caption: {platform} has plenty of emojis (>=5)", emo >= 5, f"{emo} emojis — user wants lots on manual posts")
     if platform == "x":
         # X counts most CJK/emoji as 2; stay safely under 280 weighted chars
         w = sum(2 if ord(c) > 0x10FF else 1 for c in t.strip())

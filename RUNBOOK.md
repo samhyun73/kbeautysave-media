@@ -30,6 +30,9 @@ Check `topics.md` before choosing; never repeat a topic from the last 30 entries
 7. Frames: max ~12 words each; hook frame first (a surprising or "you're doing it wrong" line), CTA frame last.
 8. Visual system v2 (tools/make_reel.py, 2026-10-01): rice-mist/pine/celadon palette, heavy sans display, the topic's **Korean word as an oversized vertical Hangul watermark** (the signature element), animated entrances, progress bar. Every spec (en AND zh) must set `"hangul"` to the topic's short Korean word (e.g. "이중세안", "병풀", "유리 피부"). Kickers in sentence case (no ALL CAPS); don't use `*word*` accents (they render plain). Use numbered lists only for real sequences.
 
+## Manual-post style (X, Weibo, Pinterest — the posts the user publishes by hand)
+User preference (2026-10-01): **lots of emojis**. Aim for 6–10 per post: one at the start of most lines, emoji bullets for steps (1️⃣ 2️⃣ 3️⃣ or ✅ 💧 🧴 ☀️), a ✨/💕/🔖 near the CTA. Keep them on-topic (skincare, water, plants, sun, sparkles, hearts, Korea 🇰🇷) and never inside the code or hashtags. X still has to fit 280 weighted chars (emojis count double) — trim words before emojis. The auto-scheduled IG/FB/TikTok captions keep their current moderate emoji use.
+
 ## Daily steps
 0. Call Metricool `getScheduledPosts` (brandId 7131683, today 00:00–23:59 KST). If a Reel is already scheduled for today, skip steps 1–5 (only send the Weibo caption if not already sent) and stop.
 1. Pick today's topic (rotation + `topics.md`).
