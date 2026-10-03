@@ -22,12 +22,34 @@ Owner: kbeautysave (Olive Young Global affiliate). Instagram @kbeautysave, Faceb
 - **Sat / Sun (manual-only weekend kit, user decision 2026-10-03):** no Buffer post (weekend = manual kit only). Make the same content set — English `reel.mp4`, Chinese `reel_zh.mp4`, Pinterest `pin.png`, `post.md` with X / Weibo / Pinterest copy — and send it to the user, who posts X, Pinterest and Weibo by hand. See "Weekend steps" below.
 
 ## Weekly topic rotation
-Mon K-beauty basics · Tue skin-type tips · Wed ingredient explainer · Thu Korean beauty culture · Fri routine idea · Sat myth vs fact (a common skincare mix-up, gently corrected) · Sun seasonal / weekly self-care (what Koreans do this time of year).
+**Direction (user decision 2026-10-03): shift naturally toward Korean nails and hair**, where US Pinterest search volume is far larger than skincare (Pinterest Trends, US, "beauty", 2026-09-29: within "korean" keywords — korean makeup 100, korean nails 73, korean skincare 46, korean haircut/hairstyle/perm 25–30, blush nails korean +100% y/y, korean lash lift +1,000% y/y; across all beauty, nails and hairstyles dominate the top 50). Skincare stays, but as 2 of 5 weekdays. All categories exist on Olive Young Global (Makeup › Nail, Eye › Eyelashes, Lip › Tint; Hair › Treatments, Styling, Color & Perms, Devices).
+
+Mon **K-nails** (jelly nails, blush nails, cat eye, short/simple nails, seasonal colours) · Tue **skincare** by skin type / ingredient (centella and "routine order" are rising terms) · Wed **K-hair** (layered cuts, perms, hair oil/treatment, heatless styling, scalp care as cleansing habit) · Thu **Korean makeup** (blush placement, gradient lips, eye makeup) or beauty culture · Fri **nails or hair**, seasonal (alternate weeks) · Sat myth vs fact (any category, gently corrected) · Sun seasonal self-care / skincare reset.
+Nails and hair reels are guides, not personal results: "3 Korean nail trends for fall", "how Koreans ask for a layered cut", "jelly nails at home: 3 steps". Name product *types* (gel nail strips, sheer jelly polish, hair oil, heatless curler) unless the brand is well known and on Olive Young Global.
+
+**Seasonal calendar** (Pinterest search starts rising 6–8 weeks before the peak — post pins 4–6 weeks ahead):
+- Oct: fall/October nails (burgundy, plum, brown, dark purple, cat eye), Halloween makeup removal (double cleanse), homecoming hair & makeup prep. Halloween nails peak mid/late Oct.
+- Nov: holiday/Christmas nails start rising early Nov (peak 2nd week Dec); skincare products & gift sets peak mid-Nov–early Dec.
+- late Dec–early Jan: biggest skincare peak of the year (New Year routine reset; "skincare", "skincare routine", "korean skincare" all top out Dec 30–Jan 6); winter hair braids peak Dec.
+- Jan–Feb: Valentine's nails (rise mid-Jan, peak ~Feb 10). Feb–Mar: spring nails (peak late Mar). May–Jun: summer nails (peak early Jun).
+
+**Products to feature** (Olive Young Global best sellers, checked 2026-10-03 — these are well known and on the site, so they may be named; still describe, never claim results):
+- Nails: ohora Natural Glow Milk Syrup (sheer milky colour → fits "jelly / milky / blush nails" trends).
+- Hair: La'dor Perfumed Hair Oil, Longtake Hair Oil, UNOVE Deep Damage Repair Hair Mask, LABO-H Scalp Strengthening Shampoo (scalp *cleansing* only — never hair-loss or regrowth claims; skip "growth" ampoules).
+- Makeup: blush is the biggest group (fwee Cheek Chip, 2aN Dual Cheek, espoir Blur Wear Blush, ABOUT_TONE Skin Layer Fit Blusher, freshian Egg-like Cream Blush); lips (fwee 3D Voluming Gloss & Stay-fit Lip Tint, peripera Mood Glowy Tint, CLIO Crystal Glam Tint); eyes (CLIO / 2aN / WAKEMAKE palettes); no-glue lashes (CORINGCO Toktok Hara, BANILA CO Curly Studio) as the safe at-home answer to the "korean lash lift" trend.
+- Skincare: Anua (PDRN line, Heartleaf toner), Torriden Dive In, MEDIHEAL sheet masks, Dr. Althea 345, AESTURA Atobarrier 365, Centellian24 Madeca, SKIN1004 centella (incl. Double Cleansing Duo), BANILA CO Clean It Zero, ma:nyo cleansing oil, ROUND LAB Birch Juice sunscreen.
+- Never feature supplements / slimming / "eye bag lift" / glutathione items (health and weight claims).
+
+**Starter plan** (adapt to reports; skip any already in topics.md):
+- Week of 10-05: Mon milky jelly nails for fall (pin) · Tue Halloween makeup removal = Korean double cleanse · Wed fall hair-oil routine for frizz (pin) · Thu Korean blush placement · Fri burgundy & plum fall nails, Korean style (pin) · Sat myth: "hair oil makes hair greasy" · Sun fall skin reset.
+- Week of 10-12: Mon blush nails · Tue centella for sensitive skin · Wed post-summer damaged-hair mask routine (pin) · Thu gradient lips in fall shades · Fri no-glue lashes vs lash lift (pin).
+
+**Pinterest titles**: [specific topic] + Korean + simple/easy/classy + ideas/inspo/aesthetic + year, e.g. "Korean Jelly Nails for Fall 2026: Simple Burgundy Ideas", "Skincare Routine Order: Simple Korean Steps (Aesthetic Guide)". Avoid the bare phrase "Korean skincare routine" (−60% y/y); be specific.
 Check `topics.md` before choosing; never repeat a topic from the last 30 entries. Append the chosen topic after posting.
 
 ## Content rules (must follow)
 1. Educational first; the code appears on the last frame and in the caption, never pushy.
-2. No medical claims ("treats acne", "removes wrinkles"). Use "helps soothe", "hydrating", etc.
+2. No medical claims ("treats acne", "removes wrinkles", "stops/prevents hair loss", "regrows hair", "fixes nail fungus"). Use "helps soothe", "hydrating", "smoother-looking", "glossy", etc. Don't encourage salon procedures at home (lash lifts, perms, bleaching chemicals) — talk about aftercare and everyday products instead.
 3. Never invent personal experience or testimonials ("I've used this for months…"). Describe products as "popular in Korea", "loved by Korean skincare fans".
 4. Only name products that are well known and widely sold; if unsure it is on Olive Young Global, talk about the product type instead of a brand.
 5. **NO LINKS (account-safety mode, user decision 2026-09-28, until the user says otherwise):** never put the affiliate link (or "link in bio") anywhere — not in captions, first comments, pin link fields, or frames. Promote with the code only: "Use code KBEAUTY73 at checkout on Olive Young Global (@oliveyoung_global)". `firstCommentText` stays empty.

@@ -14,7 +14,8 @@ import argparse, json, re, subprocess, sys
 FRAME_TYPES = {"hook", "step", "list", "statement", "cta"}
 MEDICAL = [r"\bcure[sd]?\b", r"\btreat(s|ment|ing)?\b", r"\bheal(s|ing)?\b", r"\beliminat", r"\bremove[sd]? (acne|wrinkles|scars|pores)",
            r"\banti-?acne\b", r"\bclinically proven\b", r"\bprescription\b", r"\bget rid of (acne|wrinkles)",
-           "治疗", "治愈", "祛痘", "去皱", "医学", "疗效", "治る", "除去"]
+           r"\b(prevents?|stops?|reverses?|cures?) hair ?loss", r"\bregrow", r"\bnail fungus", r"\bantifungal\b",
+           "治疗", "治愈", "祛痘", "去皱", "医学", "疗效", "治る", "除去", "防脱", "生发"]
 FAKE_EXPERIENCE = [r"\bI(?:'ve| have) (?:been )?us(?:ed|ing)\b", r"\bmy skin (?:got|became|is now)\b", r"\bI swear by\b",
                    "我用了", "我一直在用", "亲测"]
 LINKS = [r"https?://", r"www\.", r"link in bio", r"\.com/", "oliveyoung.com/if"]
