@@ -41,8 +41,15 @@ Nails and hair reels are guides, not personal results: "3 Korean nail trends for
 - Never feature supplements / slimming / "eye bag lift" / glutathione items (health and weight claims).
 
 **Starter plan** (adapt to reports; skip any already in topics.md):
-- Week of 10-05: Mon milky jelly nails for fall (pin) · Tue Halloween makeup removal = Korean double cleanse · Wed fall hair-oil routine for frizz (pin) · Thu Korean blush placement · Fri burgundy & plum fall nails, Korean style (pin) · Sat myth: "hair oil makes hair greasy" · Sun fall skin reset.
-- Week of 10-12: Mon blush nails · Tue centella for sensitive skin · Wed post-summer damaged-hair mask routine (pin) · Thu gradient lips in fall shades · Fri no-glue lashes vs lash lift (pin).
+- Week of 10-05: Mon milky jelly nails for fall (pin) · Tue Halloween makeup removal = Korean double cleanse (cleansing oils/balms are on sale: ma:nyo, BANILA CO, Dr.G Anpanman balm) · Wed **post-summer hair SOS**: mask + oil routine (pin; OYG runs a "Post-Summer Hair SOS" gift-with-purchase event — UNOVE mask, Mise-en-Scene Glazing Hair Milk, La'dor oil) · Thu Korean blush placement (espoir "Rising Brand Week" 7-day flash sale on the Blur blush set; 2aN Dual Cheek, WAKEMAKE) · Fri burgundy & plum fall nails, Korean style (pin) · Sat myth: "hair oil makes hair greasy" · Sun fall skin reset.
+- Week of 10-12: Mon blush nails · Tue centella for sensitive skin · Wed fall hair-oil routine for frizz (pin) · Thu gradient lips in fall "cherry/burgundy" shades (WAKEMAKE Off Cherry, peripera, CLIO, 2aN Dewy Fit Tint) · Fri no-glue lashes vs lash lift (pin).
+
+**Sales, new arrivals, events** (checked 2026-10-03): use them as timely hooks, never as price claims.
+- Before choosing the day's topic, the run may WebFetch https://global.oliveyoung.com/event/main and /display/page/new-arrivals to pick up a matching event or collab (e.g. a hair event on a hair day).
+- Never put prices or % off in the video; deals change daily. A caption may say "this week's Olive Young Global event" only if the run saw it that same day. Never say the code stacks with a sale (unverified).
+- Limited collab packaging (Sanrio, Anpanman, Trolls, Bubble Bobble editions) suits Pinterest "aesthetic" and gift content (Nov–Dec) — show product *types*/brand names only, never characters or logos in our frames.
+- K-pop: albums/merch aren't our content. "Idol makeup" angles are fine as Korean makeup *style* (no idol names, photos or likeness).
+- Skip supplements, slimming, toothpaste/oral care items in sale lists.
 
 **Pinterest titles**: [specific topic] + Korean + simple/easy/classy + ideas/inspo/aesthetic + year, e.g. "Korean Jelly Nails for Fall 2026: Simple Burgundy Ideas", "Skincare Routine Order: Simple Korean Steps (Aesthetic Guide)". Avoid the bare phrase "Korean skincare routine" (−60% y/y); be specific.
 Check `topics.md` before choosing; never repeat a topic from the last 30 entries. Append the chosen topic after posting.
