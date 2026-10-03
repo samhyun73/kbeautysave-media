@@ -44,5 +44,11 @@ Data sanity: a post with 0 views/reach 48 h+ after publishing is almost always a
 ## LEARNINGS.md
 Append-only log of what went wrong or what was learned (failed schedules, gate failures, platform errors, things the user corrected). One dated line each, newest at the bottom. Read it before a run so the same mistake isn't repeated.
 
+## Working principles (adapted from Karpathy's guidelines, forrestchang/andrej-karpathy-skills, MIT)
+1. **Think before changing**: state your assumptions; if a request is ambiguous and a wrong guess is costly (anything published), ask or stop instead of guessing.
+2. **Simplicity first**: the smallest change that does the job; no speculative options, flags or "might need later" features in `tools/`.
+3. **Surgical changes**: touch only what the task needs; don't refactor or reformat working code (old specs must keep rendering).
+4. **Goal-driven**: define a checkable success test first (gate passes, stills look right, Buffer status `scheduled`) and iterate until it is met — then report the observed result, not the intent.
+
 ## Working on the tools (spec → plan → build → test → review)
 Changes to `tools/` go in small steps: describe the change, render one existing spec before/after, extract stills (`ffmpeg -ss`) and look at them, run `check_post.py`, then commit. Keep old specs rendering — they are the regression set.
