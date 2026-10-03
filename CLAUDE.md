@@ -33,5 +33,12 @@ python3 tools/check_post.py --spec specs/<file>.json --video out/<date>/<slug>.m
 - Don't hand-build images or videos outside `tools/`; change the generator instead so every day stays consistent.
 - Don't force-push or rewrite history on `main` (published raw URLs point at commits).
 
+## Scope of the daily scheduled run (guardrails)
+The unattended daily run may write only: `specs/`, `media/`, `topics.md`, `LEARNINGS.md` — and schedule at most **one** Metricool post per weekday (never more; check the month's count stays within the free plan's 20).
+It must NOT edit `tools/`, `RUNBOOK.md` or `CLAUDE.md` on its own. If it thinks a rule or tool should change, it writes the proposal in `LEARNINGS.md` and in its message to the user, and a human-present session makes the change. Every change is a normal git commit, so the history is the audit log.
+
+## LEARNINGS.md
+Append-only log of what went wrong or what was learned (failed schedules, gate failures, platform errors, things the user corrected). One dated line each, newest at the bottom. Read it before a run so the same mistake isn't repeated.
+
 ## Working on the tools (spec → plan → build → test → review)
 Changes to `tools/` go in small steps: describe the change, render one existing spec before/after, extract stills (`ffmpeg -ss`) and look at them, run `check_post.py`, then commit. Keep old specs rendering — they are the regression set.
