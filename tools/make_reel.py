@@ -41,6 +41,8 @@ def page(bg, fg, inner, wm="", wm_color="", progress=(0, 1), dur=3.0, dark=False
         f'<span style="flex:1;height:6px;border-radius:3px;background:{(C["rice"] if dark else C["pine"]) if k <= i else (C["pine2"] if dark else C["mist"])}"></span>'
         for k in range(n))
     wm_html = (f'<div class="wm" style="color:{wm_color}">{e(wm)}</div>' if wm else "")
+    # hook slide (i == 0) is fully visible from frame 0: viewers decide in ~1 s (FB data 2026-10-03: avg watch 1.1-1.8 s)
+    entrance = "" if i == 0 else ".block>*{animation:rise .6s cubic-bezier(.2,.7,.2,1) both}"
     return f"""<!doctype html><html lang="{LANG}"><head><meta charset="utf-8"><style>
 html,body{{margin:0;width:{W}px;height:{H}px;overflow:hidden}}
 body{{background:{bg};color:{fg};font-family:{SANS};-webkit-font-smoothing:antialiased}}
@@ -49,7 +51,7 @@ body{{background:{bg};color:{fg};font-family:{SANS};-webkit-font-smoothing:antia
 .wm{{position:absolute;right:-40px;top:300px;writing-mode:vertical-rl;font-family:{HANGUL_FONT};font-weight:900;
      font-size:400px;line-height:1;letter-spacing:-10px;white-space:nowrap;animation:drift {dur}s linear both}}
 .block{{position:absolute;left:96px;right:200px;top:560px;bottom:440px;display:flex;flex-direction:column;justify-content:center;gap:40px}}
-.block>*{{animation:rise .6s cubic-bezier(.2,.7,.2,1) both}}
+{entrance}
 .block>*:nth-child(2){{animation-delay:.12s}} .block>*:nth-child(3){{animation-delay:.24s}}
 .block>*:nth-child(4){{animation-delay:.36s}} .block>*:nth-child(5){{animation-delay:.48s}}
 h1,h2,p{{margin:0}}
