@@ -34,8 +34,12 @@ python3 tools/check_post.py --spec specs/<file>.json --video out/<date>/<slug>.m
 - Don't force-push or rewrite history on `main` (published raw URLs point at commits).
 
 ## Scope of the daily scheduled run (guardrails)
-The unattended daily run may write only: `specs/`, `media/`, `topics.md`, `LEARNINGS.md` — and schedule at most **one** Metricool post per weekday (never more; check the month's count stays within the free plan's 20).
+The unattended daily run may write only: `specs/`, `media/`, `topics.md`, `LEARNINGS.md` (the weekly review run: `reports/` and `LEARNINGS.md` only) — and schedule at most **one** Metricool post per weekday (never more; check the month's count stays within the free plan's 20).
 It must NOT edit `tools/`, `RUNBOOK.md` or `CLAUDE.md` on its own. If it thinks a rule or tool should change, it writes the proposal in `LEARNINGS.md` and in its message to the user, and a human-present session makes the change. Every change is a normal git commit, so the history is the audit log.
+
+## Weekly review (Observe step)
+Every Monday a separate scheduled run pulls last week's performance from Metricool (Instagram reels IGRE*, TikTok posts TKPO*, Facebook reels) and writes `reports/YYYY-Www.md`: one row per post (date, topic, views, reach, likes, saves, shares, comments, watch/retention where available), the top and bottom posts, what the winners have in common (hook style, topic type, length), and 2–3 concrete suggestions for this week's topics/hooks. Durable lessons go into `LEARNINGS.md`. The daily run reads the latest report before picking a topic.
+Data sanity: a post with 0 views/reach 48 h+ after publishing is almost always a data/permission problem (or a platform restriction), not a real result — flag it to the user instead of drawing conclusions from it.
 
 ## LEARNINGS.md
 Append-only log of what went wrong or what was learned (failed schedules, gate failures, platform errors, things the user corrected). One dated line each, newest at the bottom. Read it before a run so the same mistake isn't repeated.

@@ -35,7 +35,7 @@ User preference (2026-10-01): **lots of emojis**. Aim for 6–10 per post: one a
 
 ## Daily steps
 0. Call Metricool `getScheduledPosts` (brandId 7131683, today 00:00–23:59 KST). If a Reel is already scheduled for today, skip steps 1–5 (only send the Weibo caption if not already sent) and stop.
-1. Pick today's topic (rotation + `topics.md`).
+1. Pick today's topic (rotation + `topics.md`), informed by the latest `reports/` file and `LEARNINGS.md` (favor topic types and hook styles that performed best).
 2. Write `specs/YYYY-MM-DD-<slug>.json` (see existing specs; frame types: hook, step, list, statement, cta; 5–7 frames, 14–18 s total; vary `seed`, `mood` calm|bright). On Mon/Wed/Fri add a `"pin"` object: `{title, sub, kicker, steps:[{title, body},{title, body}], avoid:[...], note}`.
 3. Render: `python3 tools/make_reel.py specs/<file>.json out/<date>` → copy `out/<date>/<slug>.mp4` to `media/<date>/reel.mp4`, `frame1.png` to `media/<date>/cover.png`, and `pin.png` (if any) to `media/<date>/pin.png`.
    Needs: python3 + numpy + scipy, ffmpeg, node + playwright (global), fonts "Noto Serif CJK KR"/"Noto Sans CJK KR".
