@@ -40,6 +40,13 @@ Nails and hair reels are guides, not personal results: "3 Korean nail trends for
 - Skincare: Anua (PDRN line, Heartleaf toner), Torriden Dive In, MEDIHEAL sheet masks, Dr. Althea 345, AESTURA Atobarrier 365, Centellian24 Madeca, SKIN1004 centella (incl. Double Cleansing Duo), BANILA CO Clean It Zero, ma:nyo cleansing oil, ROUND LAB Birch Juice sunscreen.
 - Never feature supplements / slimming / "eye bag lift" / glutathione items (health and weight claims).
 
+**Product facts for this week** (from brand pages, 2026-10-03 — use for "how to use", never repeat brand test stats like "+419%" or "−32% split ends"):
+- ohora Milk Syrup (nails): milky, glossy "natural glow"; 1 coat = sheer wash, 2–3 coats build colour; quick-dry, no base coat or UV lamp. Shades include Cherry Blossom, Rosehip, Chai, Hazelnut, Berry Jam, Ganache, Meringue. Brand calls it a strengthener — we don't claim it strengthens or repairs nails.
+- UNOVE Deep Damage Repair Hair Mask: on damp hair after shampoo, mid-lengths to ends (avoid scalp), leave 1–3 min, rinse; 2–3× a week; quarter-sized amount.
+- espoir Blur Wear Blush: soft-matte powder; brand applies it on the cheekbones, blending outwards and upwards; shades Nu Pink, Cortado, Proud Pink, Cream Solar, Dazed Mauve, Caramel Rose (Dazed Mauve / Caramel Rose suit fall — good for a `swatch` frame).
+- La'dor Perfumed Hair Oil: a few drops on ends, damp or dry; scented (e.g. Osmanthus, Our Leaf, La Pitta).
+The Olive Young Global site renders search/product pages with JavaScript, so WebFetch can't read them; event/home/best-seller listings are readable. Check brand pages for usage facts.
+
 **Starter plan** (adapt to reports; skip any already in topics.md):
 - Week of 10-05: Mon milky jelly nails for fall (pin) · Tue Halloween makeup removal = Korean double cleanse (cleansing oils/balms are on sale: ma:nyo, BANILA CO, Dr.G Anpanman balm) · Wed **post-summer hair SOS**: mask + oil routine (pin; OYG runs a "Post-Summer Hair SOS" gift-with-purchase event — UNOVE mask, Mise-en-Scene Glazing Hair Milk, La'dor oil) · Thu Korean blush placement (espoir "Rising Brand Week" 7-day flash sale on the Blur blush set; 2aN Dual Cheek, WAKEMAKE) · Fri burgundy & plum fall nails, Korean style (pin) · Sat myth: "hair oil makes hair greasy" · Sun fall skin reset.
 - Week of 10-12: Mon blush nails · Tue centella for sensitive skin · Wed fall hair-oil routine for frizz (pin) · Thu gradient lips in fall "cherry/burgundy" shades (WAKEMAKE Off Cherry, peripera, CLIO, 2aN Dewy Fit Tint) · Fri no-glue lashes vs lash lift (pin).
