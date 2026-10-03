@@ -55,8 +55,13 @@ def check_caption(path, platform):
     else:
         check("caption: #oliveyoungaffiliate", "#oliveyoungaffiliate" in t.lower())
         check("caption: #ad", re.search(r"(^|\s)#ad\b", t, re.I) is not None)
-        check("caption: code + 5% benefit", "KBEAUTY73" in t and re.search(r"5\s?%", t) is not None,
-              "say \"Extra 5% off with code KBEAUTY73\"")
+        if platform in ("instagram", "facebook"):
+            # user decision 2026-10-03: IG/FB captions point to the profile (code + link live in the bio)
+            check("caption: points to profile for code & link", re.search(r"\bprofile\b", t, re.I) is not None,
+                  "say e.g. \"Code + shopping link are in my profile\"")
+        else:
+            check("caption: code + 5% benefit", "KBEAUTY73" in t and re.search(r"5\s?%", t) is not None,
+                  "say \"Extra 5% off with code KBEAUTY73\"")
     if platform == "instagram":
         check("caption: @oliveyoung_global", "@oliveyoung_global" in t)
     hit = next((p for p in LINKS if re.search(p, t, re.I)), None)

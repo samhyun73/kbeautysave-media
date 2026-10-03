@@ -6,3 +6,4 @@
 2026-10-03 | Metricool analytics check: IG reels show 0 views/reach for every post incl. 09-29 (4 days old) → IG insights likely not flowing (Instagram-login connection?). TikTok: 09-28/09-29 ~110 views, 09-30..10-02 show 0. Verify in the apps before trusting analytics.
 2026-10-03 | TikTok Studio confirms 0 views on 09-30, 10-01, 10-02 (auto-posted via Metricool with commercialContentThirdParty=true); 09-29 (same setup) got 115. 'Edit' greyed out = normal for posts marked as commercial content, not itself a penalty. Cause under investigation (FYF-ineligible / review / account-level).
 2026-10-03 | Decision: TikTok auto-posting via Metricool stopped; user uploads TikTok manually from the app (branded-content toggle on). IG/FB stay automatic.
+2026-10-03 | Decision: IG/FB captions drop the 'Extra 5% off with code… @oliveyoung_global' line and point to the profile for code + link (user keeps them in the bio). Keep @oliveyoung_global tag on IG (program requirement).

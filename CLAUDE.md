@@ -25,9 +25,9 @@ python3 tools/check_post.py --spec specs/<file>.json --video out/<date>/<slug>.m
 ```
 
 ## Never
-- Never put the affiliate link or "link in bio" anywhere (no-link mode, user decision 2026-09-28).
+- Never put the affiliate link (a URL) in any caption, comment, frame or pin. Exception (user decision 2026-10-03): Instagram/Facebook captions say the code and shopping link are **in the profile** — the user keeps them in the bio. Other platforms stay code-only.
 - Never claim medical effects, never invent personal experience or testimonials.
-- Never omit `#oliveyoungaffiliate` + `#ad` (Weibo `#广告#`), or the code benefit ("Extra 5% off with code KBEAUTY73").
+- Never omit `#oliveyoungaffiliate` + `#ad` (Weibo `#广告#`). Code benefit ("Extra 5% off with code KBEAUTY73") goes in TikTok/X/Weibo/Pinterest copy and the video CTA; IG/FB captions point to the profile instead and must keep `@oliveyoung_global` on IG.
 - Never schedule if `check_post.py` fails — fix and re-render, or stop and tell the user.
 - Never double-post: check Metricool `getScheduledPosts` for the day first.
 - Don't hand-build images or videos outside `tools/`; change the generator instead so every day stays consistent.
