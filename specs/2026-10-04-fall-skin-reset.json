@@ -1,0 +1,106 @@
+{
+  "slug": "day07-fall-skin-reset",
+  "lang": "en",
+  "mood": "calm",
+  "seed": 14,
+  "hangul": "환절기",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "환절기 · Fall skin reset",
+      "title": "Still using your summer routine?",
+      "sub": "Koreans switch it up in fall ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "step",
+      "num": "01",
+      "title": "Koreans call it 환절기",
+      "line": "The season change, when the air turns dry.",
+      "sub": "Skin often feels tighter in fall.",
+      "tone": "cool",
+      "dur": 3.0
+    },
+    {
+      "type": "list",
+      "title": "3 small swaps",
+      "items": [
+        "A gentler cleanser",
+        "Richer cream at night",
+        "One extra toner layer"
+      ],
+      "sub": "Small swaps, not a new routine.",
+      "tone": "warm",
+      "dur": 3.2
+    },
+    {
+      "type": "step",
+      "num": "02",
+      "title": "Keep the sunscreen",
+      "line": "Fall sun still counts, every morning.",
+      "sub": "A Korean habit all year round.",
+      "tone": "cool",
+      "dur": 3.0
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "New season,",
+        "softer routine."
+      ],
+      "sub": "Hydrate a little more.",
+      "dur": 2.5
+    },
+    {
+      "type": "cta",
+      "title": "Reset for fall.",
+      "dur": 3.5
+    }
+  ],
+  "pin": {
+    "kicker": "Seasonal skincare",
+    "title": "Korean Fall Skincare Reset: 3 Easy Swaps",
+    "sub": "What Koreans change when the air turns dry",
+    "steps": [
+      {
+        "title": "Go gentler",
+        "body": "A mild cleanser, so skin doesn't feel tight."
+      },
+      {
+        "title": "Layer a bit more",
+        "body": "One extra toner layer, richer cream at night."
+      }
+    ],
+    "avoid": [
+      "Over-scrubbing dry patches",
+      "Dropping sunscreen in fall"
+    ],
+    "note": "Swap one step per week."
+  },
+  "pins": [
+    {
+      "layout": "list",
+      "kicker": "Dry skin season",
+      "title": "Fall Skincare for Dry Skin: 4 Simple Korean Steps",
+      "sub": "Comforting, hydrating layers for cooler days",
+      "items": [
+        {
+          "title": "Mild cleanser",
+          "body": "Skin should feel soft, not squeaky, after washing."
+        },
+        {
+          "title": "Thin toner layers",
+          "body": "Pat in 2 light layers instead of one heavy one."
+        },
+        {
+          "title": "Cream at night",
+          "body": "A richer texture helps lock in hydration."
+        },
+        {
+          "title": "Sunscreen every morning",
+          "body": "Fall UV still counts, even on cloudy days."
+        }
+      ]
+    }
+  ]
+}

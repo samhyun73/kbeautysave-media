@@ -1,0 +1,15 @@
+{
+  "slug": "day07-fall-skin-reset-zh",
+  "lang": "zh",
+  "mood": "calm",
+  "seed": 14,
+  "hangul": "환절기",
+  "frames": [
+    {"type": "hook", "kicker": "환절기 · 秋季护肤", "title": "还在用夏季护肤？", "sub": "韩国人秋天这样换 ↓", "dur": 2.5},
+    {"type": "step", "num": "01", "title": "换季了", "line": "韩语叫“환절기”，空气变干", "sub": "秋天皮肤容易觉得紧绷", "tone": "cool", "dur": 3.0},
+    {"type": "list", "title": "三个小调整", "items": ["换更温和的洁面", "晚上用滋润面霜", "多拍一层爽肤水"], "sub": "小调整，不用全换", "tone": "warm", "dur": 3.2},
+    {"type": "step", "num": "02", "title": "防晒别停", "line": "秋天的阳光也要防", "sub": "韩国人一年四季的习惯", "tone": "cool", "dur": 3.0},
+    {"type": "statement", "lines": ["换季，", "护肤更温柔"], "sub": "多补一点水", "dur": 2.5},
+    {"type": "cta", "title": "秋季护肤重启", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.5}
+  ]
+}
