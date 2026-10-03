@@ -180,6 +180,33 @@ p,h1{{margin:0}}</style></head><body>
 <span style="font-size:24px">#ad</span></div>
 </div></body></html>"""
 
+def pin_list_html(p, wm):
+    """Second pin layout ("list"): light ground, big title, 3-5 numbered tips, optional swatches. Different look from pin_html."""
+    items = "".join(
+        f'<div style="display:flex;gap:28px;align-items:baseline;padding:22px 0;border-top:2px solid {C["mist"]}">'
+        f'<span style="font-size:44px;font-weight:900;color:{C["deep"]};min-width:40px">{i+1}</span>'
+        f'<span style="display:flex;flex-direction:column;gap:6px"><span style="font-size:44px;font-weight:900;line-height:1.1;letter-spacing:-1px">{plain(t["title"] if isinstance(t, dict) else t)}</span>'
+        + (f'<span style="font-size:28px;line-height:1.4;color:{C["muted"]}">{plain(t["body"])}</span>' if isinstance(t, dict) and t.get("body") else "")
+        + '</span></div>'
+        for i, t in enumerate(p["items"][:5]))
+    sw = f'<div style="margin:6px 0 10px">{nail_row(p["swatches"], 760, 0.62)}</div>' if p.get("swatches") else ""
+    wm_html = (f'<div style="position:absolute;right:-50px;top:120px;writing-mode:vertical-rl;font-family:{HANGUL_FONT};font-weight:900;'
+               f'font-size:420px;line-height:1;letter-spacing:-12px;color:{C["mist"]};opacity:.6;white-space:nowrap">{e(wm)}</div>') if wm else ""
+    return f"""<!doctype html><html lang="{LANG}"><head><meta charset="utf-8"><style>
+html,body{{margin:0;width:1000px;height:1500px;overflow:hidden;background:{C['rice']};color:{C['pine']};font-family:{SANS}}}
+p,h1{{margin:0}}</style></head><body>
+<div style="position:relative;width:1000px;height:1500px;display:flex;flex-direction:column;overflow:hidden">{wm_html}
+<div style="position:relative;flex-grow:1;padding:84px 80px 40px;display:flex;flex-direction:column;gap:20px">
+<p style="align-self:flex-start;font-size:28px;font-weight:700;padding:10px 26px 12px;border-radius:40px;background:{C['blush']}">{plain(p.get('kicker','Korean beauty guide'))}</p>
+<h1 style="font-size:86px;line-height:1.02;font-weight:900;letter-spacing:-2.5px;max-width:800px">{plain(p['title'])}</h1>
+<p style="font-size:34px;line-height:1.35;color:{C['muted']};max-width:760px">{plain(p.get('sub',''))}</p>
+{sw}<div style="display:flex;flex-direction:column;max-width:800px">{items}</div></div>
+<div style="flex-shrink:0;padding:36px 80px 44px;background:{C['pine']};color:{C['rice']};display:flex;justify-content:space-between;align-items:flex-end">
+<div style="display:flex;flex-direction:column;gap:4px"><span style="font-size:28px;color:{C['celadon']}">Extra 5% off at Olive Young Global checkout</span>
+<span style="font-size:64px;font-weight:900;letter-spacing:2px;line-height:1.05">KBEAUTY73</span></div>
+<span style="font-size:24px">#ad</span></div>
+</div></body></html>"""
+
 SHOT_JS = r"""
 const { chromium } = require('playwright');
 (async () => {
@@ -217,9 +244,13 @@ def main(spec_path, out):
         open(hp, "w").write(RENDER[f["type"]](f, dict(wm=wm, prog=(i, n), dur=d)))
         sd = os.path.abspath(os.path.join(out, f"seq{i+1}")); shutil.rmtree(sd, ignore_errors=True); os.makedirs(sd)
         jobs.append(dict(html=hp, w=W, h=H, fps=FPS, frames=int(round(d * FPS)), pattern=os.path.join(sd, "%04d.png")))
-    if spec.get("pin"):
-        hp = os.path.abspath(os.path.join(out, "pin.html")); open(hp, "w").write(pin_html(spec["pin"], wm))
-        jobs.append(dict(html=hp, png=os.path.abspath(os.path.join(out, "pin.png")), w=1000, h=1500))
+    # image pins: "pin" (one) and/or "pins" (list) -> pin.png, pin2.png, ... ; layout "list" uses the second template
+    pins = ([spec["pin"]] if spec.get("pin") else []) + list(spec.get("pins", []))
+    for k, pspec in enumerate(pins):
+        name = "pin" if k == 0 else f"pin{k+1}"
+        hp = os.path.abspath(os.path.join(out, f"{name}.html"))
+        open(hp, "w").write((pin_list_html if pspec.get("layout") == "list" else pin_html)(pspec, wm))
+        jobs.append(dict(html=hp, png=os.path.abspath(os.path.join(out, f"{name}.png")), w=1000, h=1500))
     jf = os.path.join(out, "_jobs.json"); json.dump(jobs, open(jf, "w"))
     js = os.path.join(out, "_shot.js"); open(js, "w").write(SHOT_JS)
     env = dict(os.environ, NODE_PATH=subprocess.check_output(["npm", "root", "-g"]).decode().strip())

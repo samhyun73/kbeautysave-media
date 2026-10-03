@@ -33,5 +33,19 @@
     ],
     "avoid": ["One thick, opaque coat", "Long square tips (try short and rounded)"],
     "note": "Look for sheer 'milky' or 'syrup' polishes at Olive Young Global."
-  }
+  },
+  "pins": [
+    {
+      "layout": "list",
+      "kicker": "Short nail ideas",
+      "title": "Simple Korean Jelly Nails at Home: 4 Easy Steps",
+      "sub": "Short, glossy and sheer — the clean look for fall",
+      "items": [
+        {"title": "Shape short and rounded", "body": "Soft tips make sheer colour look neat."},
+        {"title": "Gently push back cuticles", "body": "A clean edge makes the jelly look glassy."},
+        {"title": "2–3 thin sheer coats", "body": "One coat is a wash; build slowly."},
+        {"title": "Finish glossy", "body": "Shine is what makes it look 'Korean'."}
+      ]
+    }
+  ]
 }
