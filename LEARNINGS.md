@@ -11,3 +11,4 @@
 2026-10-03 | FB shows a 0-view "Photo story" twin for each reel (auto story share) — harmless.
 2026-10-03 | Hook v2.1: hook slide now bright blush background, bigger question title (156px), kicker pill, visible from frame 0 (fix for ~1.2 s FB avg watch). Measure avg watch time on reels from 10-05 on vs. 09-29..10-02 baseline (1.1-1.8 s). `"hook_style": "dark"` restores the old hook.
 2026-10-03 | Buffer test OK: YouTube Short published via Buffer MCP at 19:00 KST (https://www.youtube.com/shorts/4kmCjSJf-OI) from a raw GitHub mp4 URL; metadata.type=short, categoryId 26. Buffer has no 'paid promotion' flag — tick it in YouTube Studio. Reason for Buffer: Metricool free plan counts each network separately (IG+FB = 2 of 20/month), so weekday IG+FB would exceed the limit ~10/13.
+2026-10-03 | Switched publishing from Metricool to Buffer (user OK): IG reel + FB reel + YouTube Short at 19:00 KST, 3 Buffer posts per weekday; Metricool analytics-only.

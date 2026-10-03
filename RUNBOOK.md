@@ -6,16 +6,20 @@ Owner: kbeautysave (Olive Young Global affiliate). Instagram @kbeautysave, Faceb
 - Affiliate link: https://global.oliveyoung.com/if/rd?su=Q7NAABDP — currently NOT used anywhere (see rule 5)
 - Code: **KBEAUTY73** = **extra 5% off** at Olive Young Global checkout (confirmed by user 2026-10-01). Always state the benefit: EN "Extra 5% off with code KBEAUTY73", ZH "额外95折 优惠码 KBEAUTY73" (cta `code_label`: "额外95折 优惠码").
 - Required tags: `#oliveyoungaffiliate` + `#ad` on every post; mention `@oliveyoung_global` on Instagram.
-- Metricool brand (blogId): `7131683` (Metricool userId 5514763; switched from 7131571 on 2026-09-29), timezone `Asia/Seoul`. Free plan = 20 scheduled posts / month.
+- **Publishing = Buffer** (user decision 2026-10-03; Buffer account jkk736540@gmail.com, free plan: 3 channels, max 10 scheduled posts queued at a time — we only ever queue today's 3). Connector `Buffer_kbeauty`. Organization `6ac09e1778721e574b910296` ("My organization"), timezone Asia/Seoul. Channels:
+  - Instagram kbeautysave: `6ac09f9eea19ca0bde60715b`
+  - Facebook page "For My Health": `6ac09fc4ea19ca0bde607267`
+  - YouTube kbeautysave (Shorts): `6ac0a281ea19ca0bde608325`
+- Metricool brand (blogId) `7131683` is now **analytics only** (weekly review). Do NOT schedule in Metricool: its free plan counts every network separately (IG+FB = 2 of 20 posts/month) and ran out mid-month.
 - Media is served from this public repo: `https://raw.githubusercontent.com/samhyun73/kbeautysave-media/main/<path>`
 
 ## Schedule
-- **Mon–Fri**: one Reel → Instagram (REEL) + Facebook (REEL), one Metricool post, published 19:00 KST the same day.
-- **TikTok = MANUAL (user decision 2026-10-03)**: auto-posted TikToks (09-30..10-02) got 0 views with no violation shown, so the user uploads `reel.mp4` in the TikTok app by hand. Put a TikTok section in `post.md` (caption + reminder to switch on "Content disclosure → Branded content"). Never add `tiktok` to Metricool providers until the user says so.
+- **Mon–Fri**: the reel → Instagram (reel) + Facebook (reel) + YouTube (Short), three Buffer posts, all published 19:00 KST the same day.
+- **TikTok = MANUAL (user decision 2026-10-03)**: auto-posted TikToks (09-30..10-02) got 0 views with no violation shown, so the user uploads `reel.mp4` in the TikTok app by hand. Put a TikTok section in `post.md` (caption + reminder to switch on "Content disclosure → Branded content"). Never schedule TikTok (Buffer or Metricool) until the user says so.
 - **Mon / Wed / Fri**: also a Pinterest pin (1000×1500) — sent to the user to upload manually (keeps within the free-plan post limit).
 - **Every weekday**: Weibo caption + Chinese-text reel (`reel_zh.mp4`) sent to the user to post manually.
-- **Every weekday**: X (Twitter) post text sent to the user to post manually with the English `reel.mp4` (X is not connected to Metricool).
-- **Sat / Sun (manual-only weekend kit, user decision 2026-10-03):** no Metricool post (keeps the free-plan quota for weekdays). Make the same content set — English `reel.mp4`, Chinese `reel_zh.mp4`, Pinterest `pin.png`, `post.md` with X / Weibo / Pinterest copy — and send it to the user, who posts X, Pinterest and Weibo by hand. See "Weekend steps" below.
+- **Every weekday**: X (Twitter) post text sent to the user to post manually with the English `reel.mp4` (X is not connected to Buffer).
+- **Sat / Sun (manual-only weekend kit, user decision 2026-10-03):** no Buffer post (weekend = manual kit only). Make the same content set — English `reel.mp4`, Chinese `reel_zh.mp4`, Pinterest `pin.png`, `post.md` with X / Weibo / Pinterest copy — and send it to the user, who posts X, Pinterest and Weibo by hand. See "Weekend steps" below.
 
 ## Weekly topic rotation
 Mon K-beauty basics · Tue skin-type tips · Wed ingredient explainer · Thu Korean beauty culture · Fri routine idea · Sat myth vs fact (a common skincare mix-up, gently corrected) · Sun seasonal / weekly self-care (what Koreans do this time of year).
@@ -36,7 +40,7 @@ Check `topics.md` before choosing; never repeat a topic from the last 30 entries
 User preference (2026-10-01): **lots of emojis**. Aim for 6–10 per post: one at the start of most lines, emoji bullets for steps (1️⃣ 2️⃣ 3️⃣ or ✅ 💧 🧴 ☀️), a ✨/💕/🔖 near the CTA. Keep them on-topic (skincare, water, plants, sun, sparkles, hearts, Korea 🇰🇷) and never inside the code or hashtags. X still has to fit 280 weighted chars (emojis count double) — trim words before emojis. The auto-scheduled IG/FB/TikTok captions keep their current moderate emoji use.
 
 ## Daily steps
-0. Call Metricool `getScheduledPosts` (brandId 7131683, today 00:00–23:59 KST). If a Reel is already scheduled for today, skip steps 1–5 (only send the Weibo caption if not already sent) and stop.
+0. Call Buffer `list_posts` (organizationId above, dueAt today 00:00–23:59 KST, status scheduled/sending/sent). If today's reel is already queued on a channel, don't queue it again on that channel (never double-post); if all three exist, skip steps 1–5 and only send the posting kit if not already sent. If a channel shows `isDisconnected` in `list_channels`, tell the user which one to reconnect in Buffer.
 1. Pick today's topic (rotation + `topics.md`), informed by the latest `reports/` file and `LEARNINGS.md` (favor topic types and hook styles that performed best).
 2. Write `specs/YYYY-MM-DD-<slug>.json` (see existing specs; frame types: hook, step, list, statement, cta; 5–7 frames, 14–18 s total; vary `seed`, `mood` calm|bright). On Mon/Wed/Fri add a `"pin"` object: `{title, sub, kicker, steps:[{title, body},{title, body}], avoid:[...], note}`.
 3. Render: `python3 tools/make_reel.py specs/<file>.json out/<date>` → copy `out/<date>/<slug>.mp4` to `media/<date>/reel.mp4`, `frame1.png` to `media/<date>/cover.png`, and `pin.png` (if any) to `media/<date>/pin.png`.
@@ -45,18 +49,22 @@ User preference (2026-10-01): **lots of emojis**. Aim for 6–10 per post: one a
 3c. **Quality gate (must pass — "if it can't be verified, it doesn't ship"):** write each caption to a temp file and run
    `python3 tools/check_post.py --spec specs/<file>.json --video media/<date>/reel.mp4 --caption <ig caption> --platform instagram`,
    then `--caption <tiktok title> --platform tiktok`, and for Weibo `--spec specs/<file>-zh.json --video media/<date>/reel_zh.mp4 --caption <weibo text> --platform weibo`
-   (pin days: `--caption <pin description> --platform pinterest`), and the X post `--caption <x text> --platform x`. Any FAIL → fix the spec/caption, re-render, re-run. If still failing, do not schedule; tell the user what failed.
+   (pin days: `--caption <pin description> --platform pinterest`), the X post `--caption <x text> --platform x`, and the YouTube description `--caption <yt description> --platform youtube` (+ the title must be ≤100 chars). Any FAIL → fix the spec/caption, re-render, re-run. If still failing, do not schedule; tell the user what failed.
    Also extract 4–6 stills per video and look at them (layout problems the script can't see).
 4. Commit & push to `main`; verify the raw URL returns 200 before scheduling.
-5. Schedule in Metricool (`createScheduledPost`, blogId 7131683): providers instagram + facebook (NOT tiktok — manual, see Schedule), `media: [raw reel URL]`, `videoThumbnailUrl: [raw cover.png URL]` (cover = hook slide, auto-saved as frame1.png), `instagramData.type: "REEL"`, `facebookData.type: "REEL"`, facebookData `title`, publish 19:00 KST today (if already past, next weekday 19:00). Text = caption with the code (no link); `firstCommentText` = "" (empty).
-6. Write `media/<date>/post.md` (Korean headings; see `media/2026-09-30/post.md` as the template): links to reel.mp4 / reel_zh.mp4 / pin.png, a **TikTok section** (short caption ≤150 chars with the code + 5% benefit, `#oliveyoungaffiliate #ad` + 2–3 topic hashtags, moderate emojis, no link; steps: upload reel.mp4 in the TikTok app → 더보기 옵션 → 콘텐츠 공개 → 브랜드 콘텐츠 ON → 게시, ideally 19:00–21:00 KST), an **X section** (English, ≤280 weighted chars, a punchy 1-line hook + 1–2 lines of value + "Extra 5% off with code KBEAUTY73 at Olive Young Global" + `#oliveyoungaffiliate #ad` + 1–2 topic hashtags, no link; tell them to attach reel.mp4), the Weibo caption (tell them to attach reel_zh.mp4) in a code block, and on pin days the Pinterest board, title and description in code blocks (link field empty). Commit & push it — this is the user's daily "posting kit" page at https://github.com/samhyun73/kbeautysave-media/tree/main/media/<date>.
-   Then message the user: what was scheduled (with plannerUrl), the posting-kit link, the Weibo caption (≤140 chars for comments; post body can be longer), and on pin days the pin image + title + description (code only, leave the pin link field empty) + suggested board "Korean Skincare Routine".
+5. Schedule in **Buffer** (`create_post`, `schedulingType: "automatic"`, `mode: "customScheduled"`, `dueAt: "<date>T19:00:00+09:00"`; if already past, the next weekday 19:00). Same asset for all three: `assets: [{video: {url: <raw reel URL pinned to the commit>}}]` (the cover is the first frame = the hook slide). Three calls:
+   - Instagram `6ac09f9eea19ca0bde60715b`: text = IG caption (profile pointer, `@oliveyoung_global`, no code line), `metadata.instagram: {type: "reel", shouldShareToFeed: true, firstComment: ""}`.
+   - Facebook `6ac09fc4ea19ca0bde607267`: text = FB caption (profile pointer, no code line), `metadata.facebook: {type: "reel"}`.
+   - YouTube `6ac0a281ea19ca0bde608325`: text = YouTube description (hook line + 2–3 emoji value lines + "🛍️ Extra 5% off with code KBEAUTY73 at Olive Young Global checkout" + `#oliveyoungaffiliate #ad #kbeauty #koreanskincare <topic> #shorts`; no link), `metadata.youtube: {title: <hook-style title ≤100 chars ending in #shorts>, categoryId: "26", madeForKids: false, privacy: "public"}`.
+   Check each result's `status` is `scheduled` and `error` is null. Buffer has no YouTube "paid promotion" flag: remind the user to tick it in YouTube Studio after 19:00.
+6. Write `media/<date>/post.md` (Korean headings; see `media/2026-09-30/post.md` as the template): links to reel.mp4 / reel_zh.mp4 / pin.png, a **YouTube note** (title + reminder to tick 유료 프로모션 in YouTube Studio), a **TikTok section** (short caption ≤150 chars with the code + 5% benefit, `#oliveyoungaffiliate #ad` + 2–3 topic hashtags, moderate emojis, no link; steps: upload reel.mp4 in the TikTok app → 더보기 옵션 → 콘텐츠 공개 → 브랜드 콘텐츠 ON → 게시, ideally 19:00–21:00 KST), an **X section** (English, ≤280 weighted chars, a punchy 1-line hook + 1–2 lines of value + "Extra 5% off with code KBEAUTY73 at Olive Young Global" + `#oliveyoungaffiliate #ad` + 1–2 topic hashtags, no link; tell them to attach reel.mp4), the Weibo caption (tell them to attach reel_zh.mp4) in a code block, and on pin days the Pinterest board, title and description in code blocks (link field empty). Commit & push it — this is the user's daily "posting kit" page at https://github.com/samhyun73/kbeautysave-media/tree/main/media/<date>.
+   Then message the user: what was scheduled (IG + FB + YouTube at 19:00 via Buffer), the posting-kit link, the Weibo caption (≤140 chars for comments; post body can be longer), and on pin days the pin image + title + description (code only, leave the pin link field empty) + suggested board "Korean Skincare Routine".
 7. Append `YYYY-MM-DD | topic | status` to `topics.md`, commit, push.
 8. Delete media folders older than 60 days to keep the repo small.
 
 ## Weekend steps (Sat / Sun — manual posting only)
 Same as Daily steps with these changes:
-- Skip step 0's Metricool check and step 5 (no `createScheduledPost`). Nothing goes to IG / FB / TikTok.
+- Skip step 0's Buffer check and step 5 (no `create_post`). Nothing goes to IG / FB / YouTube / TikTok.
 - Step 2: always add a `"pin"` object (a pin every weekend day).
 - Step 3c: run the gate for `--platform x`, `--platform pinterest` and `--platform weibo` (Instagram/TikTok captions are not needed).
 - Step 6: `post.md` header says "주말 · 직접 게시 (X · Pinterest · 웨이보)". Message the user with the posting-kit link, X text, Weibo caption, pin title + description (board "Korean Skincare Routine", link field empty), and send `pin.png`, `reel.mp4`, `reel_zh.mp4` with SendUserFile.

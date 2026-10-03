@@ -70,6 +70,9 @@ def check_caption(path, platform):
     check("caption: no medical claims", hit is None, hit or "")
     hit = next((p for p in FAKE_EXPERIENCE if re.search(p, t, re.I)), None)
     check("caption: no invented personal experience", hit is None, hit or "")
+    if platform == "youtube":
+        check("caption: youtube description <= 5000 chars", len(t) <= 5000, f"{len(t)} chars")
+        check("caption: youtube has #shorts", "#shorts" in t.lower())
     if platform == "tiktok":
         check("caption: tiktok title <= 150 chars", len(t.strip()) <= 150, f"{len(t.strip())} chars")
     if platform in ("x", "weibo", "pinterest"):
@@ -98,7 +101,7 @@ def check_video(path):
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--spec"); ap.add_argument("--video"); ap.add_argument("--caption")
-    ap.add_argument("--platform", default="instagram", choices=["instagram", "facebook", "tiktok", "weibo", "pinterest", "x"])
+    ap.add_argument("--platform", default="instagram", choices=["instagram", "facebook", "tiktok", "weibo", "pinterest", "x", "youtube"])
     a = ap.parse_args()
     if a.spec: check_spec(a.spec)
     if a.caption: check_caption(a.caption, a.platform)
