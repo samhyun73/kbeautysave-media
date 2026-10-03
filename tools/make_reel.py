@@ -61,10 +61,20 @@ h1,h2,p{{margin:0}}
 </style></head><body><div class="root">{wm_html}<div class="bar">{segs}</div><div class="block">{inner}</div></div></body></html>"""
 
 def f_hook(f, ctx):
-    inner = (f'<p style="font-size:40px;font-weight:500;color:{C["celadon"]}">{plain(f.get("kicker",""))}</p>'
-             f'<h1 class="d" style="font-size:132px">{plain(f["title"])}</h1>'
-             f'<p style="font-size:50px;line-height:1.35;color:{C["soft"]}">{plain(f.get("sub",""))}</p>')
-    return page(C["pine"], C["rice"], inner, ctx["wm"], C["pine2"], ctx["prog"], ctx["dur"], dark=True)
+    # v2.1 (2026-10-03): bright blush hook — high contrast, bigger question line, kicker as a pill.
+    # Stands out in a dark feed; the rest of the reel keeps the rice/pine rhythm. "hook_style": "dark" = old look.
+    if f.get("hook_style") == "dark":
+        inner = (f'<p style="font-size:40px;font-weight:500;color:{C["celadon"]}">{plain(f.get("kicker",""))}</p>'
+                 f'<h1 class="d" style="font-size:132px">{plain(f["title"])}</h1>'
+                 f'<p style="font-size:50px;line-height:1.35;color:{C["soft"]}">{plain(f.get("sub",""))}</p>')
+        return page(C["pine"], C["rice"], inner, ctx["wm"], C["pine2"], ctx["prog"], ctx["dur"], dark=True)
+    t = plain(f["title"])
+    size = 156 if len(t) <= 34 or LANG != "en" else 138
+    inner = (f'<p style="align-self:flex-start;font-size:40px;font-weight:700;padding:14px 32px 16px;border-radius:60px;'
+             f'background:{C["pine"]};color:{C["rice"]}">{plain(f.get("kicker",""))}</p>'
+             f'<h1 class="d" style="font-size:{size}px;color:{C["pine"]}">{t}</h1>'
+             f'<p style="font-size:52px;line-height:1.35;font-weight:700;color:{C["deep"]}">{plain(f.get("sub",""))}</p>')
+    return page(C["blush"], C["pine"], inner, ctx["wm"], "#E8B3A5", ctx["prog"], ctx["dur"])
 
 def f_step(f, ctx):
     inner = (f'<h2 class="d" style="font-size:124px">{plain(f["title"])}</h2>'
