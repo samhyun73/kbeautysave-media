@@ -1,0 +1,63 @@
+{
+  "hangul": "지성 피부",
+  "slug": "day06-oily-moisturizer-zh",
+  "mood": "bright",
+  "seed": 6,
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "지성 피부 · 误区与真相",
+      "title": "油皮要保湿吗",
+      "sub": "韩式护肤的答案是 ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "step",
+      "num": "01",
+      "title": "油不等于水",
+      "line": "出油和缺水是两回事",
+      "sub": "油皮也可能觉得紧绷",
+      "tone": "cool",
+      "dur": 3
+    },
+    {
+      "type": "list",
+      "title": "可以选择",
+      "items": [
+        "啫喱质地",
+        "轻薄乳液",
+        "水感乳"
+      ],
+      "sub": "轻薄一层，不用厚重面霜",
+      "tone": "cool",
+      "dur": 3
+    },
+    {
+      "type": "step",
+      "num": "02",
+      "title": "薄薄一层",
+      "line": "爽肤水后涂一层轻薄保湿",
+      "sub": "韩国油皮常用的方法",
+      "tone": "warm",
+      "dur": 3
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "油光满面，",
+        "也会缺水"
+      ],
+      "sub": "每天轻轻补水",
+      "dur": 2.5
+    },
+    {
+      "type": "cta",
+      "title": "试试轻薄保湿",
+      "code_label": "额外95折 优惠码",
+      "where_html": "在 <b>Olive Young Global</b><br>结账时输入",
+      "tags": "#广告",
+      "dur": 3.5
+    }
+  ],
+  "lang": "zh"
+}

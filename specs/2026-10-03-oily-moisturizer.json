@@ -1,0 +1,80 @@
+{
+  "hangul": "지성 피부",
+  "slug": "day06-oily-moisturizer",
+  "mood": "bright",
+  "seed": 6,
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "지성 피부 · Myth vs fact",
+      "title": "Oily skin doesn't need moisturizer?",
+      "sub": "Korean skincare says otherwise ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "step",
+      "num": "01",
+      "title": "Oil isn't water",
+      "line": "Shine and hydration are different things.",
+      "sub": "Oily skin can still feel tight.",
+      "tone": "cool",
+      "dur": 3
+    },
+    {
+      "type": "list",
+      "title": "Look for",
+      "items": [
+        "Gel textures",
+        "Lightweight lotions",
+        "Watery emulsions"
+      ],
+      "sub": "Light layers, not heavy creams.",
+      "tone": "cool",
+      "dur": 3
+    },
+    {
+      "type": "step",
+      "num": "02",
+      "title": "Keep it thin",
+      "line": "One light layer after toner.",
+      "sub": "A popular Korean approach for oily skin.",
+      "tone": "warm",
+      "dur": 3
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "Shiny skin",
+        "can still be thirsty."
+      ],
+      "sub": "Hydrate lightly, every day.",
+      "dur": 2.5
+    },
+    {
+      "type": "cta",
+      "title": "Find your light layer.",
+      "dur": 3.5
+    }
+  ],
+  "pin": {
+    "title": "Does Oily Skin Need Moisturizer?",
+    "sub": "Why Korean routines still hydrate shiny skin",
+    "kicker": "Myth vs fact",
+    "steps": [
+      {
+        "title": "Oil isn't hydration",
+        "body": "Shine comes from oil; hydration is about water. Oily skin can still feel tight or dull without a moisturizing step."
+      },
+      {
+        "title": "Go light",
+        "body": "Choose a gel, light lotion or watery emulsion and apply one thin layer after toner, morning and night."
+      }
+    ],
+    "avoid": [
+      "Skipping moisturizer to fight shine",
+      "Piling on heavy creams",
+      "Over-cleansing until skin feels tight"
+    ],
+    "note": "Tip: if a texture feels heavy, try a gel version of the same step."
+  }
+}

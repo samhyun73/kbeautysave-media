@@ -4,3 +4,4 @@
 2026-09-30 | Centella asiatica / cica (ingredient reel) | scheduled 19:00 IG+FB+TikTok (brand 7131683); pin + Weibo manual
 2026-10-01 | Korean "glass skin" (유리 피부) culture reel | scheduled 19:00 IG+FB+TikTok (brand 7131683); Weibo manual
 2026-10-02 | Korean layering order, thin to thick (Fri routine reel) | scheduled 19:00 IG+FB+TikTok (brand 7131683); pin + Weibo + X manual
+2026-10-03 | Myth vs fact: oily skin & moisturizer (Sat) | manual kit (X + Pinterest + Weibo)

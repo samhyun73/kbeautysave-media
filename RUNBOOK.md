@@ -14,10 +14,10 @@ Owner: kbeautysave (Olive Young Global affiliate). Instagram @kbeautysave, Faceb
 - **Mon / Wed / Fri**: also a Pinterest pin (1000×1500) — sent to the user to upload manually (keeps within the free-plan post limit).
 - **Every weekday**: Weibo caption + Chinese-text reel (`reel_zh.mp4`) sent to the user to post manually.
 - **Every weekday**: X (Twitter) post text sent to the user to post manually with the English `reel.mp4` (X is not connected to Metricool).
-- Weekends: nothing.
+- **Sat / Sun (manual-only weekend kit, user decision 2026-10-03):** no Metricool post (keeps the free-plan quota for weekdays). Make the same content set — English `reel.mp4`, Chinese `reel_zh.mp4`, Pinterest `pin.png`, `post.md` with X / Weibo / Pinterest copy — and send it to the user, who posts X, Pinterest and Weibo by hand. See "Weekend steps" below.
 
 ## Weekly topic rotation
-Mon K-beauty basics · Tue skin-type tips · Wed ingredient explainer · Thu Korean beauty culture · Fri routine idea.
+Mon K-beauty basics · Tue skin-type tips · Wed ingredient explainer · Thu Korean beauty culture · Fri routine idea · Sat myth vs fact (a common skincare mix-up, gently corrected) · Sun seasonal / weekly self-care (what Koreans do this time of year).
 Check `topics.md` before choosing; never repeat a topic from the last 30 entries. Append the chosen topic after posting.
 
 ## Content rules (must follow)
@@ -51,3 +51,11 @@ User preference (2026-10-01): **lots of emojis**. Aim for 6–10 per post: one a
    Then message the user: what was scheduled (with plannerUrl), the posting-kit link, the Weibo caption (≤140 chars for comments; post body can be longer), and on pin days the pin image + title + description (code only, leave the pin link field empty) + suggested board "Korean Skincare Routine".
 7. Append `YYYY-MM-DD | topic | status` to `topics.md`, commit, push.
 8. Delete media folders older than 60 days to keep the repo small.
+
+## Weekend steps (Sat / Sun — manual posting only)
+Same as Daily steps with these changes:
+- Skip step 0's Metricool check and step 5 (no `createScheduledPost`). Nothing goes to IG / FB / TikTok.
+- Step 2: always add a `"pin"` object (a pin every weekend day).
+- Step 3c: run the gate for `--platform x`, `--platform pinterest` and `--platform weibo` (Instagram/TikTok captions are not needed).
+- Step 6: `post.md` header says "주말 · 직접 게시 (X · Pinterest · 웨이보)". Message the user with the posting-kit link, X text, Weibo caption, pin title + description (board "Korean Skincare Routine", link field empty), and send `pin.png`, `reel.mp4`, `reel_zh.mp4` with SendUserFile.
+- Step 7: log status as `manual kit (X + Pinterest + Weibo)`.
