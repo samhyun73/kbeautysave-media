@@ -111,7 +111,41 @@ def f_cta(f, ctx):
              f'<p style="font-size:30px;color:{C["pine2"]}">{e(f.get("tags","#oliveyoungaffiliate #ad"))}</p>')
     return page(C["celadon"], C["pine"], inner, ctx["wm"], "#B3CDC3", ctx["prog"], ctx["dur"])
 
-RENDER = {"hook": f_hook, "step": f_step, "list": f_list, "statement": f_statement, "cta": f_cta}
+SKIN = "#EBCBB8"   # fingertip tone behind sheer (jelly / milky) colours
+
+def nail_row(sw, max_w, scale=1.0):
+    """Row of fingertip + nail swatches. sw: [{name, color, sheer?: bool, finish?: "gloss"|"cat eye"|"shimmer"}]"""
+    n = max(1, len(sw)); gap = int(34 * scale)
+    fw = int(min(200 * scale, (max_w - gap * (n - 1)) / n)); fh = int(fw * 1.75)
+    nw, nh = int(fw * 0.72), int(fw * 1.02)
+    cells = []
+    for s in sw:
+        col = s.get("color", C["blush"]); sheer = s.get("sheer", False); fin = s.get("finish", "gloss")
+        fill = f"background:{col};opacity:{0.8 if sheer else 1}"
+        extra = ""
+        if fin == "cat eye":   # a soft light band across the nail
+            extra = (f'<div style="position:absolute;left:0;right:0;top:38%;height:22%;'
+                     f'background:linear-gradient(90deg,transparent,rgba(255,255,255,.55),transparent);transform:rotate(-12deg)"></div>')
+        elif fin == "shimmer":
+            extra = ('<div style="position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.75) 1.2px,transparent 1.6px);'
+                     'background-size:9px 9px;opacity:.7"></div>')
+        nail = (f'<div style="position:absolute;left:{(fw-nw)//2}px;top:{int(fw*0.12)}px;width:{nw}px;height:{nh}px;'
+                f'border-radius:50% 50% 44% 44% / 64% 64% 36% 36%;overflow:hidden;box-shadow:inset 0 -6px 14px rgba(0,0,0,.08)">'
+                f'<div style="position:absolute;inset:0;{fill}"></div>{extra}'
+                f'<div style="position:absolute;left:18%;top:10%;width:16%;height:52%;border-radius:50%;background:rgba(255,255,255,.55);filter:blur(2px)"></div></div>')
+        finger = (f'<div style="position:relative;width:{fw}px;height:{fh}px;border-radius:{fw//2}px {fw//2}px 26px 26px;'
+                  f'background:linear-gradient(180deg,{SKIN},#E2BBA6);overflow:hidden">{nail}</div>')
+        label = f'<span style="font-size:{int(36*scale)}px;font-weight:700;line-height:1.15;text-align:center;max-width:{fw+20}px">{plain(s.get("name",""))}</span>'
+        cells.append(f'<div style="display:flex;flex-direction:column;align-items:center;gap:{int(18*scale)}px">{finger}{label}</div>')
+    return f'<div style="display:flex;gap:{gap}px;align-items:flex-start">{"".join(cells)}</div>'
+
+def f_swatch(f, ctx):
+    """Colour swatches as nail tips — for nails / lip / blush colour topics (sheer: true = jelly / milky look)."""
+    title = f'<h2 class="d" style="font-size:96px">{plain(f["title"])}</h2>' if f.get("title") else ""
+    sub = f'<p style="font-size:44px;line-height:1.4;color:{C["muted"]}">{plain(f["sub"])}</p>' if f.get("sub") else ""
+    return page(C["rice"], C["pine"], title + nail_row(f["swatches"], 784) + sub, ctx["wm"], C["mist"], ctx["prog"], ctx["dur"])
+
+RENDER = {"hook": f_hook, "step": f_step, "list": f_list, "statement": f_statement, "cta": f_cta, "swatch": f_swatch}
 
 def pin_html(p, wm):
     steps = "".join(
@@ -132,14 +166,15 @@ def pin_html(p, wm):
 html,body{{margin:0;width:1000px;height:1500px;overflow:hidden;background:#F5F7F3;color:{C['pine']};font-family:{SANS}}}
 p,h1{{margin:0}}</style></head><body>
 <div style="width:1000px;height:1500px;display:flex;flex-direction:column">
-<div style="position:relative;overflow:hidden;padding:80px 72px 64px;background:{C['pine']};color:{C['rice']};display:flex;flex-direction:column;gap:22px">
+<div style="flex-shrink:0;position:relative;overflow:hidden;padding:{"56px 72px 42px" if p.get("swatches") else "80px 72px 64px"};background:{C['pine']};color:{C['rice']};display:flex;flex-direction:column;gap:22px">
 {wm_html}
 <p style="position:relative;font-size:30px;font-weight:500;color:{C['celadon']}">{plain(p.get('kicker','Korean skincare guide'))}</p>
 <h1 style="position:relative;font-size:84px;line-height:1.04;font-weight:900;letter-spacing:-2px;max-width:760px">{plain(p['title'])}</h1>
 <p style="position:relative;font-size:34px;line-height:1.35;color:{C['soft']};max-width:720px">{plain(p.get('sub',''))}</p></div>
-<div style="flex-grow:1;padding:52px 72px;display:flex;flex-direction:column;gap:36px">
+<div style="flex-grow:1;padding:{"30px 72px" if p.get("swatches") else "52px 72px"};display:flex;flex-direction:column;gap:{20 if p.get("swatches") else 36}px">
+{nail_row(p["swatches"], 856, 0.62) if p.get("swatches") else ""}
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px">{steps}</div>{avoid}{note}</div>
-<div style="padding:40px 72px 48px;background:{C['celadon']};display:flex;justify-content:space-between;align-items:flex-end">
+<div style="flex-shrink:0;padding:40px 72px 48px;background:{C['celadon']};display:flex;justify-content:space-between;align-items:flex-end">
 <div style="display:flex;flex-direction:column;gap:4px"><span style="font-size:28px;font-weight:500">Extra 5% off at Olive Young Global checkout</span>
 <span style="font-size:68px;font-weight:900;letter-spacing:2px;line-height:1.05">KBEAUTY73</span></div>
 <span style="font-size:24px">#ad</span></div>

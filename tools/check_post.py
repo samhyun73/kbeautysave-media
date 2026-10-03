@@ -11,7 +11,7 @@ Checks (each prints PASS/FAIL with a reason):
 """
 import argparse, json, re, subprocess, sys
 
-FRAME_TYPES = {"hook", "step", "list", "statement", "cta"}
+FRAME_TYPES = {"hook", "step", "list", "statement", "cta", "swatch"}
 MEDICAL = [r"\bcure[sd]?\b", r"\btreat(s|ment|ing)?\b", r"\bheal(s|ing)?\b", r"\beliminat", r"\bremove[sd]? (acne|wrinkles|scars|pores)",
            r"\banti-?acne\b", r"\bclinically proven\b", r"\bprescription\b", r"\bget rid of (acne|wrinkles)",
            r"\b(prevents?|stops?|reverses?|cures?) hair ?loss", r"\bregrow", r"\bnail fungus", r"\bantifungal\b",
@@ -39,6 +39,7 @@ def check_spec(path):
     zh = s.get("lang") in ("zh", "ja")
     for i, f in enumerate(fr):
         text = " ".join(words(f.get(k)) for k in ("title", "line", "sub", "items", "lines", "kicker"))
+        text += " " + " ".join(s.get("name", "") for s in f.get("swatches", []))
         n = len(re.sub(r"\s", "", text)) if zh else len(text.split())
         lim = 45 if zh else 22
         check(f"spec: frame {i+1} length", n <= lim, f"{n} {'chars' if zh else 'words'} > {lim}")

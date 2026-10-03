@@ -1,0 +1,37 @@
+{
+  "slug": "day08-milky-jelly-nails",
+  "lang": "en",
+  "mood": "bright",
+  "seed": 11,
+  "hangul": "밀키 네일",
+  "frames": [
+    {"type": "hook", "kicker": "밀키 네일 · Korean nail trend", "title": "Why do Korean nails look so clean?", "sub": "Milky jelly nails, explained ↓", "dur": 2.5},
+    {"type": "swatch", "title": "Fall jelly shades", "swatches": [
+      {"name": "Milky pink", "color": "#F3CBC6", "sheer": true},
+      {"name": "Rosy beige", "color": "#D49C8C", "sheer": true},
+      {"name": "Plum", "color": "#6B2C4A", "sheer": true},
+      {"name": "Burgundy", "color": "#7A1F2B", "sheer": true}
+    ], "sub": "Sheer colour lets the nail show through.", "dur": 3.6},
+    {"type": "step", "title": "Thin layers win", "line": "2–3 sheer coats, never one thick coat", "sub": "Each coat stays see-through, so the colour looks soft.", "dur": 2.9},
+    {"type": "list", "title": "At home, 3 steps", "items": ["Gently push back cuticles", "2–3 thin sheer coats", "Glossy top coat"], "sub": "Short, rounded tips keep it Korean.", "dur": 3.2},
+    {"type": "statement", "lines": ["Soft colour.", "Glass finish."], "sub": "The Korean nail rule for fall.", "dur": 2.5},
+    {"type": "cta", "title": "Try it this week.", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "Korean nail trend",
+    "title": "Korean Milky Jelly Nails for Fall 2026",
+    "sub": "Simple sheer shades that look clean, not heavy",
+    "swatches": [
+      {"name": "Milky pink", "color": "#F3CBC6", "sheer": true},
+      {"name": "Rosy beige", "color": "#D49C8C", "sheer": true},
+      {"name": "Plum", "color": "#6B2C4A", "sheer": true},
+      {"name": "Burgundy", "color": "#7A1F2B", "sheer": true}
+    ],
+    "steps": [
+      {"title": "Sheer, not thick", "body": "2–3 thin coats keep the see-through jelly look."},
+      {"title": "Glass top coat", "body": "A glossy finish gives the clean Korean effect."}
+    ],
+    "avoid": ["One thick, opaque coat", "Long square tips (try short and rounded)"],
+    "note": "Look for sheer 'milky' or 'syrup' polishes at Olive Young Global."
+  }
+}
