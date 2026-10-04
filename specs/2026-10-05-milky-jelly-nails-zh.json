@@ -1,0 +1,20 @@
+{
+  "slug": "day08-milky-jelly-nails-zh",
+  "lang": "zh",
+  "mood": "bright",
+  "seed": 11,
+  "hangul": "밀키 네일",
+  "frames": [
+    {"type": "hook", "kicker": "밀키 네일 · 韩式美甲", "title": "韩式美甲为何干净？", "sub": "牛奶果冻甲 ↓", "dur": 2.5},
+    {"type": "swatch", "title": "秋季果冻色", "swatches": [
+      {"name": "牛奶粉", "color": "#F3CBC6", "sheer": true},
+      {"name": "玫瑰米", "color": "#D49C8C", "sheer": true},
+      {"name": "梅子色", "color": "#6B2C4A", "sheer": true},
+      {"name": "酒红色", "color": "#7A1F2B", "sheer": true}
+    ], "sub": "透色，能看到指甲本身", "dur": 3.6},
+    {"type": "step", "title": "薄涂才好看", "line": "薄涂2–3层，不要一次厚涂", "sub": "每层都透，颜色更柔和", "dur": 2.9},
+    {"type": "list", "title": "在家三步", "items": ["轻推死皮", "薄涂2–3层透色甲油", "上亮面封层"], "sub": "短圆甲型更有韩式感", "dur": 3.2},
+    {"type": "statement", "lines": ["柔和颜色，", "玻璃光泽"], "sub": "韩式秋季美甲法则", "dur": 2.5},
+    {"type": "cta", "title": "这周试试吧", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}
