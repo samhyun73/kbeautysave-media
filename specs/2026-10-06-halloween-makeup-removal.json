@@ -1,0 +1,40 @@
+{
+  "slug": "day09-halloween-makeup-removal",
+  "lang": "en",
+  "mood": "calm",
+  "seed": 12,
+  "hangul": "클렌징",
+  "frames": [
+    {"type": "hook", "kicker": "클렌징 · Halloween makeup", "title": "You're taking off Halloween makeup wrong.", "sub": "The Korean way is gentler ↓", "dur": 2.5},
+    {"type": "step", "title": "Oil or balm first", "line": "on a dry face, with dry hands", "sub": "Oil melts heavy makeup and glitter.", "dur": 3.0},
+    {"type": "list", "title": "Let it melt", "items": ["Massage about 60 seconds", "Add a splash of water", "Rinse when it turns milky"], "sub": "No scrubbing, no hot water.", "dur": 3.2},
+    {"type": "step", "title": "Lashes and lips", "line": "Hold a soaked pad for 10 seconds", "sub": "Then wipe once. No rubbing.", "dur": 3.0},
+    {"type": "statement", "lines": ["Melt first.", "Then wash."], "sub": "Finish with a gentle foam cleanser.", "dur": 2.8},
+    {"type": "cta", "title": "Save it for Halloween night.", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "Halloween makeup",
+    "title": "How to Remove Halloween Makeup the Korean Way",
+    "sub": "Melt heavy makeup first, then wash",
+    "steps": [
+      {"title": "Oil or balm first", "body": "On a dry face. Massage about 60 seconds."},
+      {"title": "Gentle foam second", "body": "Lukewarm water. No scrubbing."}
+    ],
+    "avoid": ["Scrubbing with makeup wipes", "Hot water on tired skin"],
+    "note": "Find cleansing oils and balms at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "list",
+      "kicker": "Halloween night",
+      "title": "Glitter & Face Paint Removal: 4 Easy Korean Tips",
+      "sub": "Gentle steps for heavy costume makeup",
+      "items": [
+        {"title": "Oil on dry skin first", "body": "Water first makes the oil slide off."},
+        {"title": "Soak lashes and lips", "body": "Hold a soaked pad 10 seconds, then wipe."},
+        {"title": "Add water, then rinse", "body": "Rinse once the oil turns milky."},
+        {"title": "Wash gently", "body": "Mild foam, lukewarm water, pat dry."}
+      ]
+    }
+  ]
+}

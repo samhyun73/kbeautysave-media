@@ -1,0 +1,15 @@
+{
+  "slug": "day09-halloween-makeup-removal-zh",
+  "lang": "zh",
+  "mood": "calm",
+  "seed": 12,
+  "hangul": "클렌징",
+  "frames": [
+    {"type": "hook", "kicker": "클렌징 · 万圣节卸妆", "title": "你卸妆卸错了吗？", "sub": "韩式卸妆更温和 ↓", "dur": 2.5},
+    {"type": "step", "title": "先用卸妆油", "line": "或卸妆膏，干脸干手使用", "sub": "油能溶解浓妆和亮片", "dur": 3.0},
+    {"type": "list", "title": "让它融化", "items": ["按摩约60秒", "加少量清水", "乳化变白后冲净"], "sub": "不要搓，不用热水", "dur": 3.2},
+    {"type": "step", "title": "睫毛和嘴唇", "line": "湿敷化妆棉10秒", "sub": "再轻轻擦一次，不要来回揉", "dur": 3.0},
+    {"type": "statement", "lines": ["先溶解，", "再洗净。"], "sub": "最后用温和洁面泡沫", "dur": 2.8},
+    {"type": "cta", "title": "万圣节夜晚收藏备用", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}
