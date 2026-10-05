@@ -19,6 +19,10 @@ MEDICAL = [r"\bcure[sd]?\b", r"\btreat(s|ment|ing)?\b", r"\bheal(s|ing)?\b", r"\
 FAKE_EXPERIENCE = [r"\bI(?:'ve| have) (?:been )?us(?:ed|ing)\b", r"\bmy skin (?:got|became|is now)\b", r"\bI swear by\b",
                    "我用了", "我一直在用", "亲测"]
 LINKS = [r"https?://", r"www\.", r"link in bio", r"\.com/", "oliveyoung.com/if"]
+# English "AI-written" tells (idea from the humanizer skills); captions that read like a bot lose trust
+AI_TELLS = [r"\bdelve", r"\btestament to\b", r"\belevate", r"\bgame[- ]changer", r"\bunlock", r"\bunleash", r"\bseamless",
+            r"\btapestry", r"\bembark", r"\blook no further", r"\brevolutioni[sz]", r"\bin today's .{0,15}world",
+            r"\bnavigate the\b", r"\bit'?s worth noting", r"\bdive (in)?to the world", r"\bbeauty journey", r"\bsay goodbye to"]
 
 results = []
 def check(name, ok, why=""):
@@ -72,6 +76,10 @@ def check_caption(path, platform):
     check("caption: no medical claims", hit is None, hit or "")
     hit = next((p for p in FAKE_EXPERIENCE if re.search(p, t, re.I)), None)
     check("caption: no invented personal experience", hit is None, hit or "")
+    if platform != "weibo":
+        hit = next((p for p in AI_TELLS if re.search(p, t, re.I)), None)
+        check("caption: no AI-sounding clichés", hit is None, f"{hit} — rewrite in plain words")
+        check("caption: at most one em dash", t.count("—") <= 1, f"{t.count('—')} em dashes — use a period or colon")
     if platform == "youtube":
         check("caption: youtube description <= 5000 chars", len(t) <= 5000, f"{len(t)} chars")
         check("caption: youtube has #shorts", "#shorts" in t.lower())
