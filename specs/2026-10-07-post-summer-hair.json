@@ -1,0 +1,40 @@
+{
+  "slug": "day10-post-summer-hair",
+  "lang": "en",
+  "mood": "bright",
+  "seed": 13,
+  "hangul": "머릿결",
+  "frames": [
+    {"type": "hook", "kicker": "머릿결 · Post-summer hair", "title": "You're putting hair oil on wrong.", "sub": "Ends first, never the roots ↓", "dur": 2.5},
+    {"type": "step", "title": "Mask after shampoo", "line": "on damp hair, mid-lengths to ends", "sub": "Skip the scalp. Leave 1 to 3 minutes.", "dur": 3.0},
+    {"type": "list", "title": "Rinse, then towel-dry", "items": ["Press, don't rub", "Squeeze out extra water", "Comb from the ends up"], "sub": "Wet hair tangles easily.", "dur": 3.2},
+    {"type": "step", "title": "A few drops of oil", "line": "warm it between your palms", "sub": "Ends first. Only the leftover goes higher.", "dur": 3.0},
+    {"type": "statement", "lines": ["Mask, rinse,", "then oil."], "sub": "Ends only. Roots stay fresh.", "dur": 2.8},
+    {"type": "cta", "title": "Save it for your next wash day.", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "Post-summer hair",
+    "title": "Post-Summer Hair Care: Korean Mask + Oil Routine",
+    "sub": "Soft, glossy-looking ends in 2 steps",
+    "steps": [
+      {"title": "Mask after shampoo", "body": "Damp hair, mid-lengths to ends, 1 to 3 minutes."},
+      {"title": "Oil on the ends", "body": "A few drops, warmed in your palms."}
+    ],
+    "avoid": ["Oil or mask on the scalp", "Rubbing wet hair with a towel"],
+    "note": "Find hair masks and oils at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "list",
+      "kicker": "Frizzy fall hair",
+      "title": "How to Use Hair Oil: 4 Simple Korean Tips",
+      "sub": "Less frizz-looking, no greasy roots",
+      "items": [
+        {"title": "Start with a few drops", "body": "You can add more, not take it back."},
+        {"title": "Warm it in your palms", "body": "It spreads thinner and more evenly."},
+        {"title": "Ends first", "body": "Only the leftover goes on mid-lengths."},
+        {"title": "Damp or dry hair", "body": "Damp after a wash, dry to tame flyaways."}
+      ]
+    }
+  ]
+}

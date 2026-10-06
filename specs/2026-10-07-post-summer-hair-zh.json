@@ -1,0 +1,58 @@
+{
+  "slug": "day10-post-summer-hair-zh",
+  "lang": "zh",
+  "mood": "bright",
+  "seed": 13,
+  "hangul": "머릿결",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "머릿결 · 夏后护发",
+      "title": "护发油抹对了吗？",
+      "sub": "先抹发尾，不碰发根 ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "step",
+      "title": "洗后发膜",
+      "line": "湿发，从发中抹到发尾",
+      "sub": "避开头皮，停留1到3分钟",
+      "dur": 3.0
+    },
+    {
+      "type": "list",
+      "title": "冲净擦干",
+      "items": [
+        "用毛巾按压，不要搓",
+        "挤出多余水分",
+        "从发尾往上梳"
+      ],
+      "sub": "湿发最容易打结",
+      "dur": 3.2
+    },
+    {
+      "type": "step",
+      "title": "几滴护发油",
+      "line": "先在掌心搓热",
+      "sub": "先抹发尾，剩下的再往上带",
+      "dur": 3.0
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "先发膜，",
+        "再抹油。"
+      ],
+      "sub": "只抹发尾，发根保持清爽",
+      "dur": 2.8
+    },
+    {
+      "type": "cta",
+      "title": "下次洗头前收藏备用",
+      "code_label": "额外95折 优惠码",
+      "where_html": "在 <b>Olive Young Global</b><br>结账时输入",
+      "tags": "#广告",
+      "dur": 3.0
+    }
+  ]
+}
