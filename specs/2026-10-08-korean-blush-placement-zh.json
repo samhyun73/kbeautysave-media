@@ -1,0 +1,20 @@
+{
+  "slug": "day11-korean-blush-placement-zh",
+  "lang": "zh",
+  "mood": "calm",
+  "seed": 14,
+  "hangul": "블러셔",
+  "frames": [
+    {"type": "hook", "kicker": "블러셔 · 韩式腮红", "title": "腮红打太低了吗？", "sub": "韩式打法从高处开始 ↓", "dur": 2.5},
+    {"type": "step", "title": "从颧骨高处", "line": "就在外眼角下方", "sub": "不在苹果肌，不靠近鼻子", "dur": 3.0},
+    {"type": "swatch", "title": "秋季腮红色", "swatches": [
+      {"name": "雾紫", "color": "#B98A9A", "sheer": true},
+      {"name": "焦糖玫瑰", "color": "#C98E7C", "sheer": true},
+      {"name": "柔珊瑚", "color": "#E9A08E", "sheer": true},
+      {"name": "莓果", "color": "#9C4A5E", "sheer": true}
+    ], "sub": "轻薄可叠加，最有韩式感", "dur": 3.2},
+    {"type": "step", "title": "向外向上晕", "line": "轻拍到太阳穴方向", "sub": "薄涂叠加，别一下扫重", "dur": 3.0},
+    {"type": "statement", "lines": ["要高，", "要轻透。"], "sub": "韩式腮红的诀窍", "dur": 2.8},
+    {"type": "cta", "title": "下次化妆前收藏备用", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}

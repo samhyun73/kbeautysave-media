@@ -1,0 +1,140 @@
+{
+  "slug": "day11-korean-blush-placement",
+  "lang": "en",
+  "mood": "calm",
+  "seed": 14,
+  "hangul": "블러셔",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "블러셔 · Korean blush",
+      "title": "Your blush is sitting too low.",
+      "sub": "Korean placement starts higher ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "step",
+      "title": "Start high",
+      "line": "on the cheekbone, just below the outer eye",
+      "sub": "Not on the apples, not near the nose.",
+      "dur": 3.0
+    },
+    {
+      "type": "swatch",
+      "title": "Soft fall shades",
+      "swatches": [
+        {
+          "name": "Mauve",
+          "color": "#B98A9A",
+          "sheer": true
+        },
+        {
+          "name": "Caramel rose",
+          "color": "#C98E7C",
+          "sheer": true
+        },
+        {
+          "name": "Soft coral",
+          "color": "#E9A08E",
+          "sheer": true
+        },
+        {
+          "name": "Berry",
+          "color": "#9C4A5E",
+          "sheer": true
+        }
+      ],
+      "sub": "Sheer and buildable looks most Korean.",
+      "dur": 3.2
+    },
+    {
+      "type": "step",
+      "title": "Blend out and up",
+      "line": "toward the temples, in soft taps",
+      "sub": "Thin layers. Build it, don't swipe once.",
+      "dur": 3.0
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "High, soft,",
+        "sheer."
+      ],
+      "sub": "The Korean blush rule.",
+      "dur": 2.8
+    },
+    {
+      "type": "cta",
+      "title": "Save it for your next makeup day.",
+      "dur": 3.0
+    }
+  ],
+  "pin": {
+    "kicker": "Korean blush",
+    "title": "Korean Blush Placement Guide",
+    "sub": "High, soft and sheer in 2 steps",
+    "swatches": [
+      {
+        "name": "Mauve",
+        "color": "#B98A9A",
+        "sheer": true
+      },
+      {
+        "name": "Caramel rose",
+        "color": "#C98E7C",
+        "sheer": true
+      },
+      {
+        "name": "Soft coral",
+        "color": "#E9A08E",
+        "sheer": true
+      },
+      {
+        "name": "Berry",
+        "color": "#9C4A5E",
+        "sheer": true
+      }
+    ],
+    "steps": [
+      {
+        "title": "Start high",
+        "body": "Cheekbone, just below the outer eye."
+      },
+      {
+        "title": "Blend up",
+        "body": "Soft taps toward the temples."
+      }
+    ],
+    "avoid": [
+      "Blush low, near the nose",
+      "One heavy swipe"
+    ],
+    "note": "Find blush at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "list",
+      "kicker": "Fall makeup",
+      "title": "Korean Blush for Fall: 4 Easy Tips",
+      "sub": "Cream or powder, soft and sheer",
+      "items": [
+        {
+          "title": "Pick a muted shade",
+          "body": "Mauve or caramel rose suit fall."
+        },
+        {
+          "title": "Cream: tap with fingers",
+          "body": "Warm fingertips help it melt in."
+        },
+        {
+          "title": "Powder: light brush",
+          "body": "Tap off the extra first."
+        },
+        {
+          "title": "Build in thin layers",
+          "body": "Easier to add than to take away."
+        }
+      ]
+    }
+  ]
+}
