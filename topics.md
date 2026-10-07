@@ -9,3 +9,4 @@
 2026-10-05 | Milky jelly nails for fall (Mon K-nails, swatch) | scheduled 19:00 IG+FB+YouTube (Buffer); TikTok + X + Weibo + Pinterest ×3 manual
 2026-10-06 | Halloween makeup removal: oil/balm first, then foam (Tue skincare, seasonal) | scheduled 19:00 IG+FB+YouTube (Buffer); TikTok + X + Weibo + Pinterest ×3 manual
 2026-10-07 | Post-summer hair SOS: mask then oil, ends first (Wed K-hair) | scheduled 19:00 IG+FB+YouTube (Buffer); TikTok + X + Weibo + Pinterest ×3 manual
+2026-10-08 | Korean blush placement: high, soft, sheer (Thu K-makeup, swatch) | scheduled 19:00 IG+FB+YouTube (Buffer); TikTok + X + Weibo + Pinterest ×3 manual
