@@ -21,13 +21,13 @@ Daily content pipeline for the @kbeautysave Olive Young Global affiliate account
 ## Commands
 ```
 python3 tools/make_reel.py specs/<file>.json out/<date>          # render
-python3 tools/check_post.py --spec specs/<file>.json --video out/<date>/<slug>.mp4 --caption caption.txt [--platform tiktok|weibo|pinterest]
+python3 tools/check_post.py --spec specs/<file>.json --video out/<date>/<slug>.mp4 --caption caption.txt [--platform instagram|facebook|youtube|tiktok|x|weibo|pinterest]
 ```
 
 ## Never
-- Never put the affiliate link (a URL) in any caption, comment, frame or pin. Exception (user decision 2026-10-03): Instagram/Facebook captions say the code and shopping link are **in the profile** — the user keeps them in the bio. Other platforms stay code-only.
+- Never put the affiliate link (a URL) in any caption, comment, frame or pin. Exception (user decision 2026-10-03): Instagram/Facebook captions say the code and shopping link are **in the profile** — the user keeps them in the bio. Other platforms stay code-only (TikTok/X: no code either, since 2026-10-08).
 - Never claim medical effects, never invent personal experience or testimonials.
-- Never omit `#oliveyoungaffiliate` + `#ad` (Weibo `#广告#`). Code benefit ("Extra 5% off with code KBEAUTY73") goes in TikTok/X/Weibo/Pinterest copy and the video CTA; IG/FB captions point to the profile instead and must keep `@oliveyoung_global` on IG.
+- Never omit `#oliveyoungaffiliate` + `#ad` (Weibo `#广告#`). Code benefit ("Extra 5% off with code KBEAUTY73") goes in YouTube/Weibo/Pinterest copy and the video CTA; IG/FB captions point to the profile instead and must keep `@oliveyoung_global` on IG; TikTok/X copy has no code line and is a detailed how-to (X = 3–4 post thread) — user decision 2026-10-08, see RUNBOOK "TikTok & X copy".
 - Never schedule if `check_post.py` fails — fix and re-render, or stop and tell the user.
 - Never double-post: check Buffer `list_posts` for the day first. Never schedule in Metricool (free plan counts each network; it runs out mid-month).
 - Don't hand-build images or videos outside `tools/`; change the generator instead so every day stays consistent.

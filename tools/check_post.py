@@ -5,7 +5,8 @@ usage:
 
 Checks (each prints PASS/FAIL with a reason):
   spec     hangul set, 5-7 frames, hook first / cta last, known frame types, frame text not too long
-  caption  #oliveyoungaffiliate + #ad (#广告# on weibo), code KBEAUTY73 with its benefit, no URLs / "link in bio",
+  caption  #oliveyoungaffiliate + #ad (#广告# on weibo), code KBEAUTY73 with its benefit (IG/FB: profile pointer;
+           TikTok/X: no code, detailed how-to instead; X = thread of 3-4 posts split by "---" lines), no URLs / "link in bio",
            no medical-claim words, no invented-experience phrases, weibo comment-length hint
   video    1080x1920, 12-20 s, has audio, integrated loudness within -16..-12 LUFS
 """
@@ -65,6 +66,9 @@ def check_caption(path, platform):
             # user decision 2026-10-03: IG/FB captions point to the profile (code + link live in the bio)
             check("caption: points to profile for code & link", re.search(r"\bprofile\b", t, re.I) is not None,
                   "say e.g. \"Code + shopping link are in my profile\"")
+        elif platform in ("tiktok", "x"):
+            # user decision 2026-10-08: TikTok/X copy carries no code line, it is a detailed, useful how-to instead
+            check("caption: no code line (TikTok/X)", "KBEAUTY73" not in t, "drop the code line on TikTok/X")
         else:
             check("caption: code + 5% benefit", "KBEAUTY73" in t and re.search(r"5\s?%", t) is not None,
                   "say \"Extra 5% off with code KBEAUTY73\"")
@@ -84,14 +88,21 @@ def check_caption(path, platform):
         check("caption: youtube description <= 5000 chars", len(t) <= 5000, f"{len(t)} chars")
         check("caption: youtube has #shorts", "#shorts" in t.lower())
     if platform == "tiktok":
-        check("caption: tiktok title <= 150 chars", len(t.strip()) <= 150, f"{len(t.strip())} chars")
+        n = len(t.strip())
+        check("caption: tiktok detailed (400-2200 chars)", 400 <= n <= 2200, f"{n} chars")
     if platform in ("x", "weibo", "pinterest"):
         emo = len(re.findall(r"[\U0001F300-\U0001FAFF\u2600-\u27BF\u2B50\u2705\u274C\u2728\U0001F1E6-\U0001F1FF]", t))
         check(f"caption: {platform} has plenty of emojis (>=5)", emo >= 5, f"{emo} emojis — user wants lots on manual posts")
     if platform == "x":
-        # X counts most CJK/emoji as 2; stay safely under 280 weighted chars
-        w = sum(2 if ord(c) > 0x10FF else 1 for c in t.strip())
-        check("caption: X post <= 280 (weighted)", w <= 280, f"{w} weighted chars")
+        # thread: posts separated by a line containing only "---"; X counts most CJK/emoji as 2
+        posts = [x.strip() for x in re.split(r"(?m)^---\s*$", t) if x.strip()]
+        check("caption: X thread of 3-4 posts", 3 <= len(posts) <= 4, f"{len(posts)} posts (separate with a '---' line)")
+        for i, x in enumerate(posts):
+            w = sum(2 if ord(c) > 0x10FF else 1 for c in x)
+            check(f"caption: X post {i+1} <= 280 (weighted)", w <= 280, f"{w} weighted chars")
+        first = posts[0] if posts else ""
+        check("caption: X first post discloses (#oliveyoungaffiliate #ad)",
+              "#oliveyoungaffiliate" in first.lower() and re.search(r"(^|\s)#ad\b", first, re.I) is not None)
 
 def check_video(path):
     pr = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "stream=codec_type,width,height:format=duration",
