@@ -1,0 +1,20 @@
+{
+  "slug": "day12-korean-wine-nails-zh",
+  "lang": "zh",
+  "mood": "calm",
+  "seed": 15,
+  "hangul": "와인 네일",
+  "frames": [
+    {"type": "hook", "kicker": "와인 네일 · 韩式秋季美甲", "title": "深色甲显得重吗？", "sub": "韩式涂法更轻盈 ↓", "dur": 2.5},
+    {"type": "swatch", "title": "秋季深色", "swatches": [
+      {"name": "酒红", "color": "#6E1A2B", "sheer": true},
+      {"name": "梅子", "color": "#5A2547", "sheer": true},
+      {"name": "酒红猫眼", "color": "#4A1428", "sheer": false, "finish": "cat eye"},
+      {"name": "摩卡棕", "color": "#5C3A2E", "sheer": false, "finish": "gloss"}
+    ], "sub": "透色或猫眼，比纯色更柔和", "dur": 3.4},
+    {"type": "step", "title": "留短指甲", "line": "刚过指尖，修成圆弧", "sub": "短甲配深色更利落", "dur": 3.0},
+    {"type": "list", "title": "在家三步", "items": ["薄涂底油，避开皮肤", "两层薄涂颜色", "亮面封层包住甲尖"], "sub": "涂出界？用小刷蘸卸甲水修边", "dur": 3.3},
+    {"type": "statement", "lines": ["短一点，", "亮一点。"], "sub": "韩式深色美甲法则", "dur": 2.5},
+    {"type": "cta", "title": "先收藏备用", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}

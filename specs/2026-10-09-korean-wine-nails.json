@@ -1,0 +1,152 @@
+{
+  "slug": "day12-korean-wine-nails",
+  "lang": "en",
+  "mood": "calm",
+  "seed": 15,
+  "hangul": "와인 네일",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "와인 네일 · Korean fall nails",
+      "title": "Dark nails look heavy on you?",
+      "sub": "The Korean way keeps them soft ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "swatch",
+      "title": "Deep fall shades",
+      "swatches": [
+        {
+          "name": "Burgundy",
+          "color": "#6E1A2B",
+          "sheer": true
+        },
+        {
+          "name": "Plum",
+          "color": "#5A2547",
+          "sheer": true
+        },
+        {
+          "name": "Wine cat eye",
+          "color": "#4A1428",
+          "sheer": false,
+          "finish": "cat eye"
+        },
+        {
+          "name": "Mocha",
+          "color": "#5C3A2E",
+          "sheer": false,
+          "finish": "gloss"
+        }
+      ],
+      "sub": "Sheer or cat eye reads softer than flat cream.",
+      "dur": 3.4
+    },
+    {
+      "type": "step",
+      "title": "Keep them short",
+      "line": "just past the fingertip, softly rounded",
+      "sub": "Short tips make dark colour look neat.",
+      "dur": 3.0
+    },
+    {
+      "type": "list",
+      "title": "Clean dark nails",
+      "items": [
+        "Thin base, off the skin",
+        "2 thin colour coats",
+        "Glossy top coat"
+      ],
+      "sub": "Slip? Use a remover brush.",
+      "dur": 3.3
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "Short, glossy,",
+        "deep."
+      ],
+      "sub": "The Korean rule for wine nails.",
+      "dur": 2.5
+    },
+    {
+      "type": "cta",
+      "title": "Save it for your next nail day.",
+      "dur": 3.0
+    }
+  ],
+  "pin": {
+    "kicker": "Korean fall nails",
+    "title": "Korean Wine Nails for Fall",
+    "sub": "Burgundy and plum, short and glossy",
+    "swatches": [
+      {
+        "name": "Burgundy",
+        "color": "#6E1A2B",
+        "sheer": true
+      },
+      {
+        "name": "Plum",
+        "color": "#5A2547",
+        "sheer": true
+      },
+      {
+        "name": "Wine cat eye",
+        "color": "#4A1428",
+        "sheer": false,
+        "finish": "cat eye"
+      },
+      {
+        "name": "Mocha",
+        "color": "#5C3A2E",
+        "sheer": false,
+        "finish": "gloss"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Keep them short",
+        "body": "Rounded tips just past the fingertip."
+      },
+      {
+        "title": "Thin coats",
+        "body": "Two sheer coats, then a glossy top."
+      }
+    ],
+    "avoid": [
+      "Long tips in very dark shades",
+      "One thick, flat coat"
+    ],
+    "note": "Find nail colour at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "list",
+      "kicker": "Nails at home",
+      "title": "Burgundy Nails at Home: Clean Edges in 5 Steps",
+      "sub": "Dark polish shows every slip, so go slow",
+      "items": [
+        {
+          "title": "Gently push back cuticles",
+          "body": "A clean edge makes dark colour look sharp."
+        },
+        {
+          "title": "Thin base, off the skin",
+          "body": "Leave a hair-thin gap at the edges."
+        },
+        {
+          "title": "Two thin colour coats",
+          "body": "Let each one set for a minute or two."
+        },
+        {
+          "title": "Cap the tip, then gloss",
+          "body": "Swipe top coat along the free edge."
+        },
+        {
+          "title": "Clean up with a small brush",
+          "body": "Dip it in remover and trace the edge."
+        }
+      ]
+    }
+  ]
+}
