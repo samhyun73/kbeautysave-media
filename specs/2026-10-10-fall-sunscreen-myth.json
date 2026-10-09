@@ -1,0 +1,40 @@
+{
+  "slug": "day13-fall-sunscreen-myth",
+  "lang": "en",
+  "mood": "bright",
+  "seed": 16,
+  "hangul": "선크림",
+  "frames": [
+    {"type": "hook", "kicker": "선크림 · Myth vs fact", "title": "Sunscreen is only for summer?", "sub": "Korean skincare says no ↓", "dur": 2.5},
+    {"type": "step", "title": "Fact: UV is there all year", "line": "even on cool, cloudy days", "sub": "Lower than summer, not zero.", "tone": "cool", "dur": 3.0},
+    {"type": "list", "title": "The Korean habit", "items": ["Last step every morning", "Two finger lengths", "Neck and ears too"], "sub": "Rain or shine.", "dur": 3.2},
+    {"type": "step", "title": "Pick a light texture", "line": "sun essence, sun milk or a cushion", "sub": "Easy to wear under makeup.", "tone": "warm", "dur": 3.0},
+    {"type": "statement", "lines": ["Every season,", "every morning."], "sub": "Same habit, all year.", "dur": 2.8},
+    {"type": "cta", "title": "Save it for your morning routine.", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "Myth vs fact",
+    "title": "Fall Sunscreen: The Korean Habit",
+    "sub": "Why Koreans wear it all year",
+    "steps": [
+      {"title": "Every morning", "body": "Last skincare step, before makeup."},
+      {"title": "Two finger lengths", "body": "Enough for the whole face."}
+    ],
+    "avoid": ["Skipping it on cloudy days", "Forgetting neck and ears"],
+    "note": "Find sunscreens at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "list",
+      "kicker": "Daily sunscreen",
+      "title": "How Much Sunscreen? The Korean Two Finger Rule",
+      "sub": "Simple steps for every morning",
+      "items": [
+        {"title": "Two finger lengths", "body": "Squeeze a line along two fingers for the face."},
+        {"title": "Dot, then spread", "body": "Forehead, cheeks, nose, chin, then blend out."},
+        {"title": "Don't skip the edges", "body": "Hairline, jaw, neck and ears."},
+        {"title": "Wait a minute", "body": "Let it set before makeup."}
+      ]
+    }
+  ]
+}

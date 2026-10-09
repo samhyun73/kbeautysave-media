@@ -1,0 +1,15 @@
+{
+  "slug": "day13-fall-sunscreen-myth-zh",
+  "lang": "zh",
+  "mood": "bright",
+  "seed": 16,
+  "hangul": "선크림",
+  "frames": [
+    {"type": "hook", "kicker": "선크림 · 误区与真相", "title": "秋天不用防晒吗？", "sub": "韩式护肤的答案是 ↓", "dur": 2.5},
+    {"type": "step", "title": "全年有紫外线", "line": "阴天、凉爽的日子也有", "sub": "比夏天弱，但不是零", "tone": "cool", "dur": 3.0},
+    {"type": "list", "title": "韩国人的习惯", "items": ["每天早上最后一步", "两指长的用量", "脖子和耳朵也涂"], "sub": "晴天雨天都一样", "dur": 3.2},
+    {"type": "step", "title": "选轻薄质地", "line": "防晒精华、防晒乳或气垫", "sub": "上妆也不厚重", "tone": "warm", "dur": 3.0},
+    {"type": "statement", "lines": ["四季，", "每天早上。"], "sub": "一年四季同一个习惯", "dur": 2.8},
+    {"type": "cta", "title": "早上护肤收藏", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}
