@@ -12,3 +12,4 @@
 2026-10-08 | Korean blush placement: high, soft, sheer (Thu K-makeup, swatch) | scheduled 19:00 IG+FB+YouTube (Buffer); TikTok + X + Weibo + Pinterest ×3 manual
 2026-10-09 | Korean wine nails: short, thin coats, glossy (Fri K-nails, fall, swatch) | scheduled 19:00 IG+FB+YouTube (Buffer); TikTok + X thread + Weibo + Pinterest ×3 manual
 2026-10-10 | Myth vs fact: sunscreen only for summer? Fall UV + 2-finger rule (Sat myth) | manual kit (X + Pinterest + Weibo)
+2026-10-11 | Sunday self-care: sheet mask timing, 15–20 min, off while damp (Sun reset) | manual kit (X + Pinterest + Weibo)

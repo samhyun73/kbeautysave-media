@@ -1,0 +1,15 @@
+{
+  "slug": "day14-sheet-mask-sunday-zh",
+  "lang": "zh",
+  "mood": "calm",
+  "seed": 17,
+  "hangul": "마스크팩",
+  "frames": [
+    {"type": "hook", "kicker": "마스크팩 · 周日护肤", "title": "面膜敷太久了吗？", "sub": "韩式小技巧：时间很重要 ↓", "dur": 2.5},
+    {"type": "step", "title": "按包装时间", "line": "一般15到20分钟", "sub": "趁面膜还湿润时揭下", "tone": "cool", "dur": 3.0},
+    {"type": "list", "title": "韩式步骤", "items": ["先洁面和爽肤", "抚平气泡", "轻拍剩余精华"], "sub": "不用冲洗", "dur": 3.2},
+    {"type": "step", "title": "最后锁水", "line": "叠一层轻薄面霜", "sub": "保持水润清爽", "tone": "warm", "dur": 3.0},
+    {"type": "statement", "lines": ["趁湿揭下，", "再涂面霜。"], "sub": "你的周日护肤", "dur": 2.8},
+    {"type": "cta", "title": "周日护肤收藏", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}

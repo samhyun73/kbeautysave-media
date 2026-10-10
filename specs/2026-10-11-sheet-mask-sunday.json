@@ -1,0 +1,40 @@
+{
+  "slug": "day14-sheet-mask-sunday",
+  "lang": "en",
+  "mood": "calm",
+  "seed": 17,
+  "hangul": "마스크팩",
+  "frames": [
+    {"type": "hook", "kicker": "마스크팩 · Sunday reset", "title": "Leaving your sheet mask on too long?", "sub": "Korean tip: timing matters ↓", "dur": 2.5},
+    {"type": "step", "title": "Follow the pack time", "line": "usually 15 to 20 minutes", "sub": "Take it off while it's still damp.", "tone": "cool", "dur": 3.0},
+    {"type": "list", "title": "The Korean way", "items": ["Cleanse and tone first", "Smooth out air bubbles", "Pat in leftover essence"], "sub": "No rinsing needed.", "dur": 3.2},
+    {"type": "step", "title": "Seal it in", "line": "a light moisturizer on top", "sub": "Keeps that fresh, dewy feel.", "tone": "warm", "dur": 3.0},
+    {"type": "statement", "lines": ["Off while damp,", "then moisturize."], "sub": "Your Sunday reset.", "dur": 2.8},
+    {"type": "cta", "title": "Save it for your Sunday reset.", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "Sunday reset",
+    "title": "Korean Sheet Mask Sunday",
+    "sub": "Simple steps, right timing",
+    "steps": [
+      {"title": "Prep first", "body": "Cleanse, then one layer of toner."},
+      {"title": "Off in 15 to 20 min", "body": "Before the sheet starts to dry."}
+    ],
+    "avoid": ["Sleeping in the sheet", "Rinsing off the essence"],
+    "note": "Find sheet masks at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "list",
+      "kicker": "Weekly self care",
+      "title": "How to Use a Sheet Mask: Easy Korean Steps",
+      "sub": "A calm Sunday night routine",
+      "items": [
+        {"title": "Cleanse and tone", "body": "Start on clean skin with a thin toner layer."},
+        {"title": "Smooth it on", "body": "Line up eyes and lips, press out air bubbles."},
+        {"title": "Set a timer", "body": "Usually 15 to 20 minutes, check the pack."},
+        {"title": "Pat, then moisturize", "body": "Pat leftover essence in, then a light cream."}
+      ]
+    }
+  ]
+}
