@@ -1,0 +1,52 @@
+{
+  "slug": "day15-korean-blush-nails",
+  "lang": "en",
+  "mood": "bright",
+  "seed": 16,
+  "hangul": "블러셔 네일",
+  "frames": [
+    {"type": "hook", "kicker": "블러셔 네일 · Korean nail trend", "title": "Blush nails look patchy at home?", "sub": "Dab it, don't paint it ↓", "dur": 2.5},
+    {"type": "swatch", "title": "Pick your flush", "swatches": [
+      {"name": "Milky", "color": "#F4D9D3", "sheer": true},
+      {"name": "Peach", "color": "#EE9F8A", "sheer": true},
+      {"name": "Rose", "color": "#D9707F", "sheer": true},
+      {"name": "Berry", "color": "#A8385A", "sheer": true}
+    ], "sub": "One sheer base plus one flush colour.", "dur": 3.4},
+    {"type": "step", "title": "Sheer base first", "line": "1–2 thin coats of milky pink", "sub": "Let it set for a minute.", "dur": 2.9},
+    {"type": "step", "title": "Dab the centre", "line": "one small dot, then tap outward with a sponge", "sub": "Keep the edges lighter.", "dur": 3.0},
+    {"type": "statement", "lines": ["Soft centre,", "sheer edges."], "sub": "A glossy top coat blurs it all.", "dur": 2.6},
+    {"type": "cta", "title": "Save it for nail night.", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "Korean nail trend",
+    "title": "Korean Blush Nails for Fall",
+    "sub": "A soft flush, sheer at the edges",
+    "swatches": [
+      {"name": "Milky", "color": "#F4D9D3", "sheer": true},
+      {"name": "Peach", "color": "#EE9F8A", "sheer": true},
+      {"name": "Rose", "color": "#D9707F", "sheer": true},
+      {"name": "Berry", "color": "#A8385A", "sheer": true}
+    ],
+    "steps": [
+      {"title": "Sheer base", "body": "One or two thin milky pink coats."},
+      {"title": "Dab, then blur", "body": "A dot in the centre, tapped outward."}
+    ],
+    "avoid": ["Painting the flush edge to edge", "Thick, opaque base coats"],
+    "note": "Find sheer polish at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "list",
+      "kicker": "Nails at home",
+      "title": "Blush Nails at Home: The Easy Sponge Method",
+      "sub": "No airbrush needed, just a makeup sponge",
+      "items": [
+        {"title": "Shape short and rounded", "body": "A soft tip makes the flush look natural."},
+        {"title": "Sheer milky base", "body": "One or two thin coats, then wait a minute."},
+        {"title": "Dot colour in the centre", "body": "A tiny drop on the sponge, not the nail."},
+        {"title": "Tap outward to blur", "body": "Light taps; leave the edges sheer."},
+        {"title": "Glossy top coat", "body": "Shine smooths the gradient into one look."}
+      ]
+    }
+  ]
+}

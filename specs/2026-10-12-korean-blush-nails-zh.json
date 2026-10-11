@@ -1,0 +1,20 @@
+{
+  "slug": "day15-korean-blush-nails-zh",
+  "lang": "zh",
+  "mood": "bright",
+  "seed": 16,
+  "hangul": "블러셔 네일",
+  "frames": [
+    {"type": "hook", "kicker": "블러셔 네일 · 韩式美甲", "title": "腮红甲总是不匀？", "sub": "点涂，不是平涂 ↓", "dur": 2.5},
+    {"type": "swatch", "title": "选一个腮红色", "swatches": [
+      {"name": "奶粉底", "color": "#F4D9D3", "sheer": true},
+      {"name": "蜜桃色", "color": "#EE9F8A", "sheer": true},
+      {"name": "玫瑰色", "color": "#D9707F", "sheer": true},
+      {"name": "莓果色", "color": "#A8385A", "sheer": true}
+    ], "sub": "一个透底色＋一个晕染色", "dur": 3.4},
+    {"type": "step", "title": "先涂透底色", "line": "薄涂1–2层奶粉色", "sub": "等一分钟让它定型", "dur": 2.9},
+    {"type": "step", "title": "中间点一点", "line": "点一小滴，用海绵向外轻拍", "sub": "边缘留得更浅", "dur": 3.0},
+    {"type": "statement", "lines": ["中间深，", "边缘透。"], "sub": "最后上亮面封层", "dur": 2.6},
+    {"type": "cta", "title": "收藏一下", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}
