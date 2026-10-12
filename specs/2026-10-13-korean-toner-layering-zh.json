@@ -1,0 +1,15 @@
+{
+  "slug": "day16-korean-toner-layering-zh",
+  "lang": "zh",
+  "mood": "bright",
+  "seed": 17,
+  "hangul": "토너 레이어링",
+  "frames": [
+    {"type": "hook", "kicker": "토너 레이어링 · 韩式护肤", "title": "化妆棉擦水对吗？", "sub": "韩国人用手一层层按 ↓", "dur": 2.5},
+    {"type": "step", "title": "用手不用棉", "line": "倒一枚硬币大小在掌心", "sub": "化妆棉会吸走不少", "dur": 2.9},
+    {"type": "step", "title": "先按再轻拍", "line": "手掌贴脸5秒，再轻拍", "sub": "不要搓，不要拉扯", "dur": 3.0},
+    {"type": "step", "title": "薄薄叠三层", "line": "大多数肤质三层就够", "sub": "等到微微黏手再叠", "dur": 3.0},
+    {"type": "statement", "lines": ["保湿水，", "不用酸。"], "sub": "最后用面霜锁住", "dur": 2.6},
+    {"type": "cta", "title": "今晚试试", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}

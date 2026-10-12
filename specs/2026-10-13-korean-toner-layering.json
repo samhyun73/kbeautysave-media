@@ -1,0 +1,41 @@
+{
+  "slug": "day16-korean-toner-layering",
+  "lang": "en",
+  "mood": "bright",
+  "seed": 17,
+  "hangul": "토너 레이어링",
+  "frames": [
+    {"type": "hook", "kicker": "토너 레이어링 · Korean skincare", "title": "Still swiping toner on cotton?", "sub": "Koreans press it in, in layers ↓", "dur": 2.5},
+    {"type": "step", "title": "Hands, not cotton", "line": "a coin-sized pour into your palms", "sub": "Cotton soaks up a lot of it.", "dur": 2.9},
+    {"type": "step", "title": "Press, then pat", "line": "palms on cheeks for 5 seconds, then light taps", "sub": "No rubbing, no pulling.", "dur": 3.0},
+    {"type": "step", "title": "Repeat in thin layers", "line": "3 layers is plenty for most skin", "sub": "Wait until it feels tacky.", "dur": 3.0},
+    {"type": "statement", "lines": ["Hydrating toner only.", "Skip acid toners here."], "sub": "Then seal with moisturizer.", "dur": 2.6},
+    {"type": "cta", "title": "Save it for tonight.", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "Korean skincare",
+    "title": "The Korean 7 Skin Method",
+    "sub": "Thin toner layers, pressed in by hand",
+    "steps": [
+      {"title": "Pour into palms", "body": "A coin-sized amount, no cotton pad."},
+      {"title": "Press, pat, repeat", "body": "Three thin layers, tacky in between."}
+    ],
+    "avoid": ["Layering exfoliating acid toners", "Rubbing or pulling the skin"],
+    "note": "Find hydrating toners at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "list",
+      "kicker": "Routine order",
+      "title": "Toner Layering at Home: Simple Korean Steps",
+      "sub": "Pick a gentle hydrating toner for this",
+      "items": [
+        {"title": "Start on clean skin", "body": "Right after cleansing, while skin is slightly damp."},
+        {"title": "Coin-sized pour", "body": "Into your palms, then warm it for a second."},
+        {"title": "Press for 5 seconds", "body": "Cheeks, forehead, chin. Light taps, no rubbing."},
+        {"title": "Wait until tacky", "body": "Then add the next thin layer. Three is plenty."},
+        {"title": "Seal it in", "body": "Finish with your usual moisturizer."}
+      ]
+    }
+  ]
+}
