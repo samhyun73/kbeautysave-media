@@ -30,8 +30,8 @@
         "lip care"
       ],
       "clips": [
-        "cv1hzSvVyXva",
-        "pb46450"
+        "pb203733",
+        "pb43721"
       ]
     },
     {
@@ -44,8 +44,8 @@
       ],
       "clips": [
         "cvKWh8Dq2KW6",
-        "pb203733",
-        "pb203732"
+        "pb203732",
+        "cv6WLo2ETsCq"
       ]
     },
     {
@@ -75,7 +75,7 @@
       ]
     },
     {
-      "say": "Save this for your next makeup day. Extra five percent off at Olive Young Global with code KBEAUTY73.",
+      "say": "Save this for your next makeup day. Extra five percent off at Olive Young Global, code KBEAUTY73.",
       "query": [
         "cosmetics",
         "makeup",
@@ -92,5 +92,6 @@
     "code": "KBEAUTY73",
     "line": "Extra 5% off",
     "where": "at Olive Young Global"
-  }
+  },
+  "tempo": 1.1
 }

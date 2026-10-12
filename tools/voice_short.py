@@ -14,7 +14,7 @@ These APIs are not reachable from the Claude workspace; real runs happen in .git
 
 Spec (specs/YYYY-MM-DD-<slug>-voice.json):
   {"type": "voice_short", "slug": "...", "lang": "en", "hangul": "그라데이션 립", "headline": "...",
-   "mood": "bright", "seed": 5, "voice_id": "",
+   "mood": "bright", "seed": 5, "voice_id": "", "tempo": 1.1,
    "scenes": [{"say": "spoken line", "label": "optional pill", "query": ["stock search", "..."], "clips": ["pb123", "px456"]}],
    "cta": {"code": "KBEAUTY73", "line": "Extra 5% off", "where": "at Olive Young Global"}}
   The last scene shows the CTA card. "clips" pins footage (ids from candidates.json); empty = top search hits.
@@ -72,9 +72,9 @@ def download(url, dest):
 
 
 # ------------------------------------------------------------------ voice ----
-def tts(text, voice):
-    """(mp3 path, duration, [(word, start, end)]) — cached by voice + text."""
-    h = hashlib.sha1(f"{voice}|{text}".encode()).hexdigest()[:12]
+def tts(text, voice, tempo=1.0):
+    """(mp3 path, duration, [(word, start, end)]) — cached by voice + tempo + text."""
+    h = hashlib.sha1(f"{voice}|{tempo}|{text}".encode()).hexdigest()[:12]
     d = CACHE / ("tts-mock" if MOCK else "tts")
     mp3, meta = d / f"{h}.mp3", d / f"{h}.json"
     if mp3.exists() and meta.exists():
@@ -92,7 +92,7 @@ def tts(text, voice):
              "-t", f"{dur:.3f}", "-c:a", "libmp3lame", str(mp3)])
     else:
         body = {"voice_id": voice, "text": text, "model": "ssfm-v30", "language": "eng",
-                "prompt": {"emotion_type": "smart"}, "output": {"audio_format": "mp3", "audio_tempo": 1.0}}
+                "prompt": {"emotion_type": "smart"}, "output": {"audio_format": "mp3", "audio_tempo": tempo}}
         url = "https://api.typecast.ai/v1/text-to-speech/with-timestamps?granularity=word"
         hdr = {"X-API-KEY": os.environ["TYPECAST_API_KEY"]}
         try:
@@ -480,7 +480,7 @@ def render(spec, outdir):
     # 1. narration and scene timing
     t = 0.0
     for i, sc in enumerate(scenes):
-        sc["mp3"], sc["dur"], sc["words"] = tts(sc["say"], voice)
+        sc["mp3"], sc["dur"], sc["words"] = tts(sc["say"], voice, float(spec.get("tempo", 1.0)))
         sc["D"] = LEAD + sc["dur"] + TAIL + (HOLD if i == len(scenes) - 1 else 0)
         sc["start"], t = t, t + sc["D"]
     print(f"narration {t:.1f}s, {len(scenes)} scenes")
@@ -548,6 +548,16 @@ def render(spec, outdir):
     run(cmd + ["-filter_complex", ";".join(g), "-map", "[vout]", "-map", "[aout]", "-t", f"{base_len:.3f}",
                "-c:v", "libx264", "-preset", "fast", "-crf", "23", "-maxrate", "2200k", "-bufsize", "4400k", "-r", str(FPS), "-c:a", "aac", "-b:a", "192k",
                "-movflags", "+faststart", str(out)])
+
+    # loudnorm in one pass can land ~2 dB low after the mix: measure and correct to -14 LUFS (video copied)
+    m = re.findall(r"I:\s+(-?\d+\.\d) LUFS", subprocess.run(["ffmpeg", "-hide_banner", "-i", str(out), "-af", "ebur128",
+                                                         "-f", "null", "-"], capture_output=True, text=True).stderr)
+    if m and abs(float(m[-1]) + 14) > 0.5:
+        fixed = work / "fixed.mp4"
+        run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(out), "-c:v", "copy", "-af",
+             f"volume={-14 - float(m[-1]):.2f}dB,alimiter=limit=0.89", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", str(fixed)])
+        shutil.move(fixed, out)
+        print(f"loudness {m[-1]} LUFS -> corrected toward -14")
 
     # 5. review files: cover (first frame with the headline), shot sheet, credits, meta
     run(["ffmpeg", "-y", "-loglevel", "error", "-ss", "0.5", "-i", str(out), "-frames:v", "1", str(outdir / "cover.png")])
