@@ -1,0 +1,4 @@
+voice1.mp3  tc_6aa23da1f9559d89ed550d7e  {'eng': 'Krista', 'kor': '크리스타'}  female  young_adult  ['Conversational']
+voice2.mp3  tc_6a7446c19f2d7dfed990a900  {'eng': 'Eunkyung', 'kor': '은경'}  female  young_adult  ['Conversational', 'Radio/Podcast']
+voice3.mp3  tc_69f2e455ea79fd197aa0476f  {'eng': 'Seohyeon', 'kor': '서현'}  female  young_adult  ['Announcer', 'Conversational']
+voice4.mp3  tc_692799c46508f6b9468c54c7  {'eng': 'Daeun', 'kor': '다은'}  female  young_adult  ['TikTok/Reels/Shorts', 'Conversational']
