@@ -1,0 +1,29 @@
+Stock footage (Pixabay / Pexels licences, no attribution required):
+mock88  mock  
+mock89  mock  
+mock11  mock  
+mock12  mock  
+mock45  mock  
+mock46  mock  
+mock86  mock  
+mock87  mock  
+mock92  mock  
+mock93  mock  
+mock13  mock  
+mock14  mock  
+mock15  mock  
+
+Shot log:
+   0.0s  scene 1  mock88  lip tint close up
+   3.6s  scene 1  mock89  lip tint close up
+   7.2s  scene 2  mock11  applying lip balm
+  10.8s  scene 2  mock12  applying lip balm
+  14.5s  scene 3  mock45  applying lip gloss
+  17.1s  scene 3  mock46  applying lip gloss
+  19.7s  scene 4  mock86  lips makeup finger
+  22.4s  scene 4  mock87  lips makeup finger
+  25.1s  scene 5  mock92  lip liner
+  28.8s  scene 5  mock93  lip liner
+  32.5s  scene 6  mock13  makeup cosmetics flat lay
+  35.6s  scene 6  mock14  makeup cosmetics flat lay
+  38.8s  scene 6  mock15  makeup cosmetics flat lay
