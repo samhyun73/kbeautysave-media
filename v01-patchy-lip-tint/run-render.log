@@ -1,8 +1,3 @@
-narration 39.2s, 6 scenes
-  Coverr download ping failed (HTTP Error 404: Not Found)
-  Coverr download ping failed (HTTP Error 404: Not Found)
-  Coverr download ping failed (HTTP Error 404: Not Found)
-  Coverr download ping failed (HTTP Error 404: Not Found)
-  Coverr download ping failed (HTTP Error 404: Not Found)
-  Coverr download ping failed (HTTP Error 404: Not Found)
-done: out/vs/v01-patchy-lip-tint.mp4 (39.6s)
+narration 34.9s, 6 scenes
+loudness -15.5 LUFS -> corrected toward -14
+done: out/vs/v01-patchy-lip-tint.mp4 (35.3s)
