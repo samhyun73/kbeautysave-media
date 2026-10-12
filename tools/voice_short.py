@@ -16,8 +16,8 @@ Spec (specs/YYYY-MM-DD-<slug>-voice.json):
   {"type": "voice_short", "slug": "...", "lang": "en", "hangul": "그라데이션 립", "headline": "...",
    "mood": "bright", "seed": 5, "voice_id": "", "tempo": 1.1,
    "scenes": [{"say": "spoken line", "label": "optional pill", "query": ["stock search", "..."], "clips": ["pb123", "px456"]}],
-   "cta": {"code": "KBEAUTY73", "line": "Extra 5% off", "where": "at Olive Young Global"}}
-  The last scene shows the CTA card. "clips" pins footage (ids from candidates.json); empty = top search hits.
+   "cta": {"line": "Shop the K-beauty picks", "main": "Link in my profile"}}
+  The last scene shows the profile card. No discount code or link in the video or its description (decision 2026-10-12). "clips" pins footage (ids from candidates.json); empty = top search hits.
 """
 import base64, hashlib, json, os, re, shutil, subprocess, sys, time, urllib.parse, urllib.request
 from pathlib import Path
@@ -346,8 +346,8 @@ def wrap(d, text, f, width):
 
 
 def overlay(spec, sc, path, last):
-    """Headline band + hangul pill (+ scene label) at the top, hangul watermark left, bottom shade for captions,
-    CTA card on the last scene. Text stays out of the top 260 / bottom 440 / right 160 px."""
+    """Headline band and pills centred at the top, hangul watermark left, bottom shade for captions, profile card on
+    the last scene (no code or link in the video, user decision 2026-10-12). Text avoids the top 260 / bottom 440 px."""
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
     shade = Image.new("L", (1, 760))
@@ -359,34 +359,34 @@ def overlay(spec, sc, path, last):
     size = min(150, int(600 / max(1, len(hg))))
     wm = font(size, "Black")
     for k, ch in enumerate(hg):
-        d.text((48, 600 + k * size), ch, font=wm, fill=C["rice"] + (70,))
-    # headline band
-    f = font(62)
-    lines = wrap(d, spec["headline"], f, 920 - 60 - 2 * 40)
-    top, lh = 270, 80
-    rounded(d, (60, top, 920, top + 44 + len(lines) * lh), 32, C["pine"] + (232,))
+        d.text((48, 640 + k * size), ch, font=wm, fill=C["rice"] + (70,))
+    # headline band: centred box, each line centred on its own slot (anchor "mm" = optical middle of the text)
+    f, lh, pad, bx0, bx1, top = font(62), 80, 30, 60, W - 60, 270
+    lines = wrap(d, spec["headline"], f, bx1 - bx0 - 2 * 56)
+    bottom = top + 2 * pad + len(lines) * lh
+    rounded(d, (bx0, top, bx1, bottom), 32, C["pine"] + (232,))
     for k, ln in enumerate(lines):
-        d.text((100, top + 22 + k * lh), ln, font=f, fill=C["rice"])
-    y = top + 44 + len(lines) * lh + 22
+        d.text((W // 2, top + pad + k * lh + lh // 2), ln, font=f, fill=C["rice"], anchor="mm")
+    # pills, centred as a row under the band
+    pf, ph, gap = font(38), 66, 16
     pills = [(spec["hangul"], C["celadon"])] + ([(sc["label"], C["blush"])] if sc.get("label") else [])
-    x = 60
-    pf = font(38)
-    for text, col in pills:
-        tw = d.textlength(text, font=pf)
-        rounded(d, (x, y, x + tw + 56, y + 66), 33, col + (245,))
-        d.text((x + 28, y + 10), text, font=pf, fill=C["pine"])
-        x += tw + 56 + 16
-    if last:
-        cta = spec["cta"]
-        box = (90, 820, 920, 1160)
+    widths = [d.textlength(t, font=pf) + 64 for t, _ in pills]
+    x, y = (W - sum(widths) - gap * (len(pills) - 1)) / 2, bottom + 22
+    for (text, col), pw in zip(pills, widths):
+        rounded(d, (x, y, x + pw, y + ph), ph // 2, col + (245,))
+        d.text((x + pw / 2, y + ph / 2), text, font=pf, fill=C["pine"], anchor="mm")
+        x += pw + gap
+    if last:   # profile pointer instead of a code: no code or link anywhere in the video
+        cta = spec.get("cta") or {}
+        box = (140, 860, W - 140, 1150)
         rounded(d, box, 40, C["rice"] + (246,))
-        d.text((130, 850), cta.get("line", "Extra 5% off"), font=font(46), fill=C["deep"])
-        size = 96
-        while d.textlength(f"Code {cta['code']}", font=font(size, "Black")) > box[2] - 130 - 40:
+        cx = W // 2
+        d.text((cx, 920), cta.get("line", "Shop the K-beauty picks"), font=font(44), fill=C["deep"], anchor="mm")
+        main, size = cta.get("main", "Link in my profile"), 84
+        while d.textlength(main, font=font(size, "Black")) > box[2] - box[0] - 80:
             size -= 4
-        d.text((130, 915 + (96 - size) // 2), f"Code {cta['code']}", font=font(size, "Black"), fill=C["pine"])
-        d.text((130, 1040), cta.get("where", "at Olive Young Global"), font=font(40, "Regular"), fill=C["pine"])
-        d.text((130, 1094), "#oliveyoungaffiliate #ad", font=font(32, "Regular"), fill=C["muted"])
+        d.text((cx, 1010), main, font=font(size, "Black"), fill=C["pine"], anchor="mm")
+        d.text((cx, 1100), "#oliveyoungaffiliate #ad", font=font(32, "Regular"), fill=C["muted"], anchor="mm")
     img.save(path)
 
 
@@ -430,7 +430,7 @@ WrapStyle: 0
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Cap,Noto Sans CJK KR,88,&H00FFFFFF,&H00FFFFFF,&H00272B1E,&H96000000,1,0,0,0,100,100,0,0,1,6,1,2,70,200,560,1
+Style: Cap,Noto Sans CJK KR,88,&H00FFFFFF,&H00FFFFFF,&H00272B1E,&H96000000,1,0,0,0,100,100,0,0,1,6,1,2,90,90,560,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text

@@ -46,7 +46,10 @@ def check_voice_spec(s):
         n = len(x.get("say", "").split())
         check(f"voice: scene {i+1} narration 3-30 words", 3 <= n <= 30, f"{n} words")
         check(f"voice: scene {i+1} has footage (clips or query)", bool(x.get("clips") or x.get("query")))
-    check("voice: CTA code KBEAUTY73", (s.get("cta") or {}).get("code") == "KBEAUTY73")
+    # user decision 2026-10-12: no code or link in voice Shorts; the last scene points to the profile instead
+    check("voice: no discount code in the video", "KBEAUTY73" not in json.dumps(s), "remove the code; point to the profile")
+    check("voice: last scene points to the profile", bool(sc) and "profile" in sc[-1].get("say", "").lower(),
+          "end with e.g. \"The shopping link is in my profile.\"")
     check("voice: hook is a question", "?" in (sc[0].get("say", "") if sc else ""), "open with the viewer's question")
     said = " ".join(x.get("say", "") for x in sc)
     hit = next((p for p in FAKE_EXPERIENCE if re.search(p, said, re.I)), None)

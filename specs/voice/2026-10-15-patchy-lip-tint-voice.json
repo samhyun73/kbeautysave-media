@@ -75,7 +75,7 @@
       ]
     },
     {
-      "say": "Save this for your next makeup day. Extra five percent off at Olive Young Global, code KBEAUTY73.",
+      "say": "Save this for your next makeup day. The shopping link is in my profile.",
       "query": [
         "cosmetics",
         "makeup",
@@ -89,9 +89,8 @@
     }
   ],
   "cta": {
-    "code": "KBEAUTY73",
-    "line": "Extra 5% off",
-    "where": "at Olive Young Global"
+    "line": "Shop the K-beauty picks",
+    "main": "Link in my profile"
   },
   "tempo": 1.1
 }
