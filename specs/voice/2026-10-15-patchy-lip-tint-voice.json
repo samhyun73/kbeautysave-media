@@ -8,18 +8,68 @@
   "seed": 7,
   "voice_id": "",
   "scenes": [
-    {"say": "Why does your lip tint look patchy by lunch? It's usually dry lips, not the tint.",
-     "query": ["lip tint close up", "red lipstick lips close up"], "clips": []},
-    {"say": "First, a thin layer of lip balm. Wait one minute, then blot it off with a tissue.", "label": "Step 1",
-     "query": ["applying lip balm", "lip balm"], "clips": []},
-    {"say": "Next, tap the tint only on the inner half of your lips.", "label": "Step 2",
-     "query": ["applying lip gloss", "woman applying lipstick mirror"], "clips": []},
-    {"say": "Blend it outward with your fingertip, so the edge fades softly.", "label": "Step 3",
-     "query": ["lips makeup finger", "lips close up makeup"], "clips": []},
-    {"say": "The common mistake? Lining the whole lip first. That hard edge is what fades unevenly.", "label": "Skip this",
-     "query": ["lip liner", "lipstick swatch"], "clips": []},
-    {"say": "Save this for your next makeup day. Extra five percent off at Olive Young Global with code KBEAUTY73.",
-     "query": ["makeup cosmetics flat lay", "lipstick collection"], "clips": []}
+    {
+      "say": "Why does your lip tint look patchy by lunch? It's usually dry lips, not the tint.",
+      "query": [
+        "lipstick",
+        "lips makeup",
+        "lip gloss"
+      ],
+      "clips": []
+    },
+    {
+      "say": "First, a thin layer of lip balm. Wait one minute, then blot it off with a tissue.",
+      "label": "Step 1",
+      "query": [
+        "lip balm",
+        "lips",
+        "lip care"
+      ],
+      "clips": []
+    },
+    {
+      "say": "Next, tap the tint only on the inner half of your lips.",
+      "label": "Step 2",
+      "query": [
+        "lipstick",
+        "lip gloss",
+        "lips makeup"
+      ],
+      "clips": []
+    },
+    {
+      "say": "Blend it outward with your fingertip, so the edge fades softly.",
+      "label": "Step 3",
+      "query": [
+        "lips",
+        "makeup",
+        "lipstick"
+      ],
+      "clips": []
+    },
+    {
+      "say": "The common mistake? Lining the whole lip first. That hard edge is what fades unevenly.",
+      "label": "Skip this",
+      "query": [
+        "lip liner",
+        "lipstick",
+        "makeup mirror"
+      ],
+      "clips": []
+    },
+    {
+      "say": "Save this for your next makeup day. Extra five percent off at Olive Young Global with code KBEAUTY73.",
+      "query": [
+        "cosmetics",
+        "makeup",
+        "lipstick"
+      ],
+      "clips": []
+    }
   ],
-  "cta": {"code": "KBEAUTY73", "line": "Extra 5% off", "where": "at Olive Young Global"}
+  "cta": {
+    "code": "KBEAUTY73",
+    "line": "Extra 5% off",
+    "where": "at Olive Young Global"
+  }
 }

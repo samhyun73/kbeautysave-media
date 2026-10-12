@@ -62,11 +62,11 @@ jobs:
         run: |
           if [ "$MODE" = voices ]; then
             NAME=voices
-            python tools/voice_short.py voices out/vs $MOCK
+            python tools/voice_short.py voices out/vs $MOCK 2>&1 | tee /tmp/run.log; test ${PIPESTATUS[0]} -eq 0
           else
             case "$SPEC" in specs/voice/*.json) ;; *) echo "spec must be specs/voice/<file>.json"; exit 1;; esac
             NAME=$(python -c "import json,sys;print(json.load(open(sys.argv[1]))['slug'])" "$SPEC")
-            python tools/voice_short.py "$MODE" "$SPEC" out/vs $MOCK
+            python tools/voice_short.py "$MODE" "$SPEC" out/vs $MOCK 2>&1 | tee /tmp/run.log; test ${PIPESTATUS[0]} -eq 0
             if [ "$MODE" = render ]; then
               python tools/check_post.py --spec "$SPEC" --video "out/vs/$NAME.mp4" || echo "::warning::quality gate failed (see above)"
             fi
@@ -75,6 +75,7 @@ jobs:
           echo "NAME=$NAME" >> "$GITHUB_ENV"
 
       - name: Save review files to the voice-previews branch
+        if: always()
         run: |
           git config user.name "kbeautysave-bot"
           git config user.email "kbeautysave-bot@users.noreply.github.com"
@@ -85,6 +86,7 @@ jobs:
           fi
           mkdir -p "../prev/$NAME"
           cp out/vs/* "../prev/$NAME/" 2>/dev/null || true
+          cp /tmp/run.log "../prev/$NAME/run-$MODE.log" 2>/dev/null || true
           cd ../prev
           git add -A
           git diff --cached --quiet || git commit -q -m "Voice Short $MODE: $NAME (run ${{ github.run_id }})"

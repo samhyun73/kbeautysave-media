@@ -204,6 +204,40 @@ def coverr_ping(cid):
         print(f"  Coverr download ping failed ({str(e)[:80]})")
 
 
+# Footage must look on-topic and brand-safe: tags need a beauty word and never a blocked one.
+BEAUTY = {"lip", "lips", "lipstick", "makeup", "cosmetics", "cosmetic", "beauty", "skincare", "facial", "moisturizer",
+          "lotion", "serum", "nail", "nails", "manicure", "hair", "haircare", "hairstyle", "blush", "foundation", "mascara",
+          "eyeshadow", "lipgloss", "spa"}
+BLOCK = {"cigarette", "smoking", "smoke", "tobacco", "nicotine", "alcohol", "cocktail", "beer", "wine", "drink", "bar",
+         "sexy", "sensual", "hot", "lingerie", "bikini", "nude", "drug", "drugs", "blood", "gun", "weapon", "halloween",
+         "zombie", "horror", "food", "meal"}
+STOP = {"close", "up", "closeup", "applying", "apply", "woman", "women", "girl", "with", "the", "a", "an", "of", "and",
+        "on", "in", "mirror", "finger", "fingers", "flat", "lay", "collection", "products", "product"}
+
+
+def on_topic(c, query):
+    tags = set(re.findall(r"[a-z]+", (c.get("tags") or "").lower()))
+    return not (tags & BLOCK) and bool(tags & BEAUTY)
+
+
+def interleave(lists):
+    out, seen = [], set()
+    for k in range(max(map(len, lists), default=0)):
+        for lst in lists:
+            if k < len(lst) and lst[k]["id"] not in seen:
+                seen.add(lst[k]["id"]); out.append(lst[k])
+    return out
+
+
+def scene_pool(sc):
+    """On-topic clips for a scene: per query, Pixabay and Coverr alternate (portrait first); queries alternate too."""
+    per_query = []
+    for q in sc.get("query", []):
+        hits = [c for c in search(q) if MOCK or on_topic(c, q)]
+        per_query.append(interleave([[c for c in hits if c["id"].startswith(p)] for p in ("pb", "cv", "mock")]))
+    return interleave(per_query)
+
+
 def search(query):
     """Stock clips for a query, vertical ones first."""
     if MOCK:
@@ -217,7 +251,11 @@ def search(query):
         out += [c for c in map(_pixabay, res.get("hits", [])) if c]
     res = _coverr_get("coverr-" + query, "/videos?" + urllib.parse.urlencode({"query": query[:100], "page_size": 30, "urls": "true"}))
     hits = res.get("hits") if isinstance(res, dict) else None
-    out += [c for c in map(_coverr, hits if isinstance(hits, list) else []) if c]
+    if res is not None and not isinstance(hits, list):
+        print(f"  Coverr: unexpected response shape {list(res)[:8] if isinstance(res, dict) else type(res).__name__}")
+    cv = [c for c in map(_coverr, hits if isinstance(hits, list) else []) if c]
+    print(f"  search '{query}': {len(out)} Pixabay, {len(cv)} Coverr" + ("" if os.environ.get("COVERR_API_KEY") else " (no Coverr key)"))
+    out += cv
     return sorted(out, key=lambda c: c["h"] <= c["w"])   # stable: portrait first, search order kept
 
 
@@ -258,12 +296,10 @@ def candidates(spec, outdir):
     outdir.mkdir(parents=True, exist_ok=True)
     seen, rows = set(), []
     for i, sc in enumerate(spec["scenes"]):
-        got = []
-        for q in sc.get("query", []):
-            for c in search(q):
-                if c["id"] not in seen and len(got) < 8:
-                    seen.add(c["id"]); got.append(c)
+        got = [c for c in scene_pool(sc) if c["id"] not in seen][:8]
+        seen.update(c["id"] for c in got)
         rows.append(got)
+        print(f"scene {i + 1}: {len(got)} on-topic clips ({sum(c['id'].startswith('cv') for c in got)} Coverr)")
     (outdir / "candidates.json").write_text(json.dumps(rows, indent=1, ensure_ascii=False))
     tw, th, head = 230, 300, 64
     sheet = Image.new("RGB", (tw * 8 + 20, len(rows) * (th + head + 40) + 20), C["rice"])
@@ -456,7 +492,7 @@ def render(spec, outdir):
         n = max(1, round(sc["D"] / SHOT))
         pinned = [clip_by_id(c) for c in sc.get("clips", [])]
         if len(pinned) < n:
-            pool = pool_cache.setdefault(i, [c for q in sc.get("query", []) for c in search(q)])
+            pool = pool_cache.setdefault(i, scene_pool(sc))
             pinned += [c for c in pool if c["id"] not in used and c["id"] not in {p["id"] for p in pinned}]
         if not pinned:
             raise SystemExit(f"scene {i + 1}: no footage (add clips or queries)")
