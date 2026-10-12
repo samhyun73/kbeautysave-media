@@ -1,0 +1,94 @@
+name: Voice Short
+
+# Renders voice Shorts (Typecast narration + Pixabay/Pexels footage) with tools/voice_short.py.
+# Review output goes to the `voice-previews` branch (<name>/...), never to main, so main stays small.
+# The approved mp4 is copied into media/<date>/ by a Claude session (identical file = no extra storage).
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "candidates = stock clips per scene, render = the Short, voices = Typecast voice samples"
+        type: choice
+        options: [candidates, render, voices]
+        default: candidates
+      spec:
+        description: "specs/voice/<file>.json (not needed for voices)"
+        required: false
+        default: ""
+      mock:
+        description: "Offline test (no API calls)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: voice-short
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install tools
+        run: |
+          pip install -q pillow numpy scipy
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-noto-cjk >/dev/null
+
+      - name: Restore footage and voice cache
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          key: voice-${{ github.run_id }}
+          restore-keys: voice-
+
+      - name: Run
+        env:
+          MODE: ${{ inputs.mode }}
+          SPEC: ${{ inputs.spec }}
+          MOCK: ${{ inputs.mock && '--mock' || '' }}
+          TYPECAST_API_KEY: ${{ secrets.TYPECAST_API_KEY }}
+          TYPECAST_VOICE_ID: ${{ secrets.TYPECAST_VOICE_ID }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+        run: |
+          if [ "$MODE" = voices ]; then
+            NAME=voices
+            python tools/voice_short.py voices out/vs $MOCK
+          else
+            case "$SPEC" in specs/voice/*.json) ;; *) echo "spec must be specs/voice/<file>.json"; exit 1;; esac
+            NAME=$(python -c "import json,sys;print(json.load(open(sys.argv[1]))['slug'])" "$SPEC")
+            python tools/voice_short.py "$MODE" "$SPEC" out/vs $MOCK
+            if [ "$MODE" = render ]; then
+              python tools/check_post.py --spec "$SPEC" --video "out/vs/$NAME.mp4" || echo "::warning::quality gate failed (see above)"
+            fi
+          fi
+          [ -n "$MOCK" ] && NAME="$NAME-mock"
+          echo "NAME=$NAME" >> "$GITHUB_ENV"
+
+      - name: Save review files to the voice-previews branch
+        run: |
+          git config user.name "kbeautysave-bot"
+          git config user.email "kbeautysave-bot@users.noreply.github.com"
+          if git fetch -q --depth 1 origin voice-previews; then
+            git worktree add -q ../prev FETCH_HEAD
+          else
+            git worktree add -q --orphan -b voice-previews ../prev
+          fi
+          mkdir -p "../prev/$NAME"
+          cp out/vs/* "../prev/$NAME/" 2>/dev/null || true
+          cd ../prev
+          git add -A
+          git diff --cached --quiet || git commit -q -m "Voice Short $MODE: $NAME (run ${{ github.run_id }})"
+          git push -q origin HEAD:voice-previews
+          echo "::notice::Review files: https://github.com/${{ github.repository }}/tree/voice-previews/$NAME"
+        env:
+          MODE: ${{ inputs.mode }}
