@@ -1,6 +1,6 @@
 name: Voice Short
 
-# Renders voice Shorts (Typecast narration + Pixabay/Pexels footage) with tools/voice_short.py.
+# Renders voice Shorts (Typecast narration + Pixabay/Coverr footage) with tools/voice_short.py.
 # Review output goes to the `voice-previews` branch (<name>/...), never to main, so main stays small.
 # The approved mp4 is copied into media/<date>/ by a Claude session (identical file = no extra storage).
 on:
@@ -58,7 +58,7 @@ jobs:
           TYPECAST_API_KEY: ${{ secrets.TYPECAST_API_KEY }}
           TYPECAST_VOICE_ID: ${{ secrets.TYPECAST_VOICE_ID }}
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
-          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          COVERR_API_KEY: ${{ secrets.COVERR_API_KEY }}
         run: |
           if [ "$MODE" = voices ]; then
             NAME=voices

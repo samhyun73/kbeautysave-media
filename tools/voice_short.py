@@ -1,4 +1,4 @@
-"""Voice Short: spec JSON -> 9:16 Short with Typecast narration, stock footage (Pixabay / Pexels),
+"""Voice Short: spec JSON -> 9:16 Short with Typecast narration, stock footage (Pixabay / Coverr),
 word-by-word captions, v2 "rice mist & celadon" overlays, synthesized BGM ducked under the voice, -14 LUFS.
 
 usage:
@@ -7,7 +7,9 @@ usage:
   python3 tools/voice_short.py render specs/<file>.json <outdir>        # -> <slug>.mp4, cover.png, shots.jpg, credits.txt
   add --mock to any of them for an offline test (silent voice, test-pattern clips)
 
-Env: TYPECAST_API_KEY, PIXABAY_API_KEY, optional PEXELS_API_KEY, optional TYPECAST_VOICE_ID (spec "voice_id" wins).
+Env: TYPECAST_API_KEY, PIXABAY_API_KEY, optional COVERR_API_KEY, optional TYPECAST_VOICE_ID (spec "voice_id" wins).
+Pexels stopped issuing API keys (2026-10), so it is not used. Coverr requires attribution: meta.json "attribution"
+lists it, and the post copy must then carry "🎥 Stock footage: Coverr".
 These APIs are not reachable from the Claude workspace; real runs happen in .github/workflows/voice-short.yml.
 
 Spec (specs/YYYY-MM-DD-<slug>-voice.json):
@@ -17,7 +19,7 @@ Spec (specs/YYYY-MM-DD-<slug>-voice.json):
    "cta": {"code": "KBEAUTY73", "line": "Extra 5% off", "where": "at Olive Young Global"}}
   The last scene shows the CTA card. "clips" pins footage (ids from candidates.json); empty = top search hits.
 """
-import base64, hashlib, json, os, re, shutil, subprocess, sys, urllib.parse, urllib.request
+import base64, hashlib, json, os, re, shutil, subprocess, sys, time, urllib.parse, urllib.request
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
@@ -136,9 +138,9 @@ def voices(outdir):
 
 
 # ---------------------------------------------------------------- footage ----
-def _cached(name, url, headers=None):
+def _cached(name, url, headers=None, max_age=None):
     p = CACHE / "search" / (re.sub(r"[^a-z0-9]+", "-", name.lower())[:120] + ".json")
-    if p.exists():
+    if p.exists() and (max_age is None or time.time() - p.stat().st_mtime < max_age):
         return json.loads(p.read_text())
     res = http_json(url, headers=headers, timeout=60)
     p.parent.mkdir(parents=True, exist_ok=True)
@@ -157,15 +159,49 @@ def _pixabay(h):
             "credit": f"{h.get('user', 'Pixabay')} (Pixabay)", "url": h.get("pageURL"), "tags": h.get("tags", ""), "thumb": thumb}
 
 
-def _pexels(v):
-    files = [f for f in v.get("video_files", []) if f.get("file_type") == "video/mp4"
-             and min(f.get("width") or 0, f.get("height") or 0) >= 720]
-    if not files:
+COVERR = "https://api.coverr.co"
+COVERR_AGE = 7 * 86400   # Coverr video URLs carry a token: don't trust older search results
+
+
+def _coverr_get(name, path):
+    """Coverr call (cached); None on any error so Coverr can never break a run."""
+    key = os.environ.get("COVERR_API_KEY")
+    if not key:
         return None
-    f = min(files, key=lambda f: abs(min(f["width"], f["height"]) - 1080))
-    return {"id": f"px{v['id']}", "duration": float(v.get("duration", 0)), "link": f["link"], "w": f["width"], "h": f["height"],
-            "credit": f"{(v.get('user') or {}).get('name', 'Pexels')} (Pexels)", "url": v.get("url"),
-            "tags": (v.get("url") or "").rstrip("/").split("/")[-1].replace("-", " "), "thumb": v.get("image")}
+    try:
+        return _cached(name, COVERR + path, {"Authorization": f"Bearer {key}"}, COVERR_AGE)
+    except Exception as e:  # noqa: BLE001
+        print(f"  Coverr call failed ({str(e)[:100]})")
+        return None
+
+
+def _coverr(v):
+    link = (v.get("urls") or {}).get("mp4") if isinstance(v, dict) else None
+    try:
+        width = int(v.get("max_width") or 0)
+    except (TypeError, ValueError, AttributeError):
+        width = 0
+    if not link or not v.get("id") or width < 720:
+        return None
+    vert = bool(v.get("is_vertical"))
+    tags = v.get("tags") or []
+    return {"id": f"cv{v['id']}", "duration": float(v.get("duration") or 0), "link": link,
+            "w": 1080 if vert else 1920, "h": 1920 if vert else 1080, "credit": "Coverr", "url": None,
+            "tags": ", ".join(map(str, [v.get("title", "")] + (tags if isinstance(tags, list) else [tags]))),
+            "thumb": v.get("thumbnail") or v.get("poster")}
+
+
+def coverr_ping(cid):
+    """Coverr asks API users to report downloads. Best effort."""
+    key = os.environ.get("COVERR_API_KEY")
+    if MOCK or not key or not cid.startswith("cv"):
+        return
+    try:
+        req = urllib.request.Request(f"{COVERR}/videos/{cid[2:]}/stats/downloads", method="PATCH",
+                                     headers={**UA, "Authorization": f"Bearer {key}"})
+        urllib.request.urlopen(req, timeout=30).close()
+    except Exception as e:  # noqa: BLE001
+        print(f"  Coverr download ping failed ({str(e)[:80]})")
 
 
 def search(query):
@@ -179,10 +215,9 @@ def search(query):
         res = _cached("pixabay-" + query, "https://pixabay.com/api/videos/?" + urllib.parse.urlencode(
             {"key": os.environ["PIXABAY_API_KEY"], "q": query[:100], "video_type": "film", "safesearch": "true", "per_page": 60}))
         out += [c for c in map(_pixabay, res.get("hits", [])) if c]
-    if os.environ.get("PEXELS_API_KEY"):
-        res = _cached("pexels-" + query, "https://api.pexels.com/videos/search?" + urllib.parse.urlencode(
-            {"query": query, "orientation": "portrait", "per_page": 30}), {"Authorization": os.environ["PEXELS_API_KEY"]})
-        out += [c for c in map(_pexels, res.get("videos", [])) if c]
+    res = _coverr_get("coverr-" + query, "/videos?" + urllib.parse.urlencode({"query": query[:100], "page_size": 30, "urls": "true"}))
+    hits = res.get("hits") if isinstance(res, dict) else None
+    out += [c for c in map(_coverr, hits if isinstance(hits, list) else []) if c]
     return sorted(out, key=lambda c: c["h"] <= c["w"])   # stable: portrait first, search order kept
 
 
@@ -195,8 +230,7 @@ def clip_by_id(cid):
             {"key": os.environ["PIXABAY_API_KEY"], "id": cid[2:]}))
         c = _pixabay((res.get("hits") or [{}])[0]) if res.get("hits") else None
     else:
-        c = _pexels(_cached("pexels-id-" + cid, f"https://api.pexels.com/videos/videos/{cid[2:]}",
-                            {"Authorization": os.environ["PEXELS_API_KEY"]}))
+        c = _coverr(_coverr_get("coverr-id-" + cid, f"/videos/{cid[2:]}?urls=true") or {})
     if not c:
         raise SystemExit(f"clip {cid} not found or too small")
     return c
@@ -211,7 +245,12 @@ def clip_file(c):
             run(["ffmpeg", "-y", "-loglevel", "error", "-f", "lavfi", "-i", f"testsrc2=size={c['w']}x{c['h']}:rate=30,hue=h={hue}",
                  "-t", "12", "-c:v", "libx264", "-preset", "ultrafast", "-pix_fmt", "yuv420p", str(p)])
         return p
-    return download(c["link"], CACHE / "clips" / f"{c['id']}-{c['w']}x{c['h']}.mp4")
+    dest = CACHE / "clips" / f"{c['id']}-{c['w']}x{c['h']}.mp4"
+    new = not dest.exists()
+    download(c["link"], dest)
+    if new:
+        coverr_ping(c["id"])
+    return dest
 
 
 def candidates(spec, outdir):
@@ -482,10 +521,11 @@ def render(spec, outdir):
         run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{L / 2:.2f}", "-i", str(p), "-frames:v", "1", "-vf", "scale=180:320", str(f)])
         sheet.paste(Image.open(f), ((k % 6) * 180, (k // 6) * 320))
     sheet.save(outdir / "shots.jpg", quality=85)
-    (outdir / "credits.txt").write_text("Stock footage (Pixabay / Pexels licences, no attribution required):\n"
+    (outdir / "credits.txt").write_text("Stock footage (Pixabay: no attribution required; Coverr: attribution required):\n"
                                         + "\n".join(credits.values()) + "\n\nShot log:\n" + "\n".join(log) + "\n")
     (outdir / "meta.json").write_text(json.dumps({"slug": spec["slug"], "voice_id": voice, "duration": round(base_len, 2),
-                                                  "clips": list(credits)}, indent=1))
+                                                  "clips": list(credits),
+                                                  "attribution": "Coverr" if any(c.startswith("cv") for c in credits) else ""}, indent=1))
     shutil.rmtree(work, ignore_errors=True)
     print(f"done: {out} ({base_len:.1f}s)")
 
