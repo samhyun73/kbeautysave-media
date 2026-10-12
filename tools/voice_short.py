@@ -32,6 +32,10 @@ C = dict(rice=(238, 240, 234), pine=(30, 43, 39), celadon=(157, 189, 176), deep=
          blush=(242, 201, 190), mist=(201, 214, 208), muted=(79, 95, 90))
 UA = {"User-Agent": "kbeautysave-voice-short/1.0"}
 MOCK = "--mock" in sys.argv
+# Voice rotation (user decision 2026-10-12: a different voice each Short). Spec "voice_id" wins; otherwise the
+# voice comes from the spec's position among specs/voice/*.json, so it is stable for re-renders of the same Short.
+VOICES = [("tc_692799c46508f6b9468c54c7", "Daeun"), ("tc_6aa23da1f9559d89ed550d7e", "Krista"),
+          ("tc_6a7446c19f2d7dfed990a900", "Eunkyung"), ("tc_69f2e455ea79fd197aa0476f", "Seohyeon")]
 SAMPLE = "Here's the Korean way to make your lip tint last all day, step by step."
 
 
@@ -481,15 +485,21 @@ def xfade(files, lens, out):
     return sum(lens) - T * (len(files) - 1)
 
 
+def rotation_voice(spec):
+    names = sorted(p.name for p in (ROOT / "specs" / "voice").glob("*.json"))
+    mine = next((n for n in names if json.loads((ROOT / "specs" / "voice" / n).read_text()).get("slug") == spec["slug"]), None)
+    vid, name = VOICES[(names.index(mine) if mine else len(names)) % len(VOICES)]
+    print(f"voice: {name} ({vid}) from the rotation")
+    return vid
+
+
 def render(spec, outdir):
     outdir.mkdir(parents=True, exist_ok=True)
     work = outdir / "work"
     shutil.rmtree(work, ignore_errors=True)
     work.mkdir()
     scenes = spec["scenes"]
-    voice = "mock" if MOCK else (spec.get("voice_id") or os.environ.get("TYPECAST_VOICE_ID"))
-    if not voice:
-        raise SystemExit("no voice: set spec voice_id or the TYPECAST_VOICE_ID secret (run `voices` to pick one)")
+    voice = "mock" if MOCK else (spec.get("voice_id") or rotation_voice(spec))
 
     # 1. narration and scene timing
     t = 0.0
