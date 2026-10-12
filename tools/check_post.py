@@ -34,8 +34,35 @@ def words(x):
     if isinstance(x, list): return " ".join(map(str, x))
     return str(x or "")
 
+VOICE = {"on": False}   # voice Short spec (tools/voice_short.py): different shape and length
+
+def check_voice_spec(s):
+    VOICE["on"] = True
+    sc = s.get("scenes", [])
+    check("voice: hangul set", bool(s.get("hangul")), "add \"hangul\": the topic's short Korean word")
+    check("voice: headline set (<= 60 chars)", 0 < len(s.get("headline", "")) <= 60)
+    check("voice: 4-8 scenes", 4 <= len(sc) <= 8, f"has {len(sc)}")
+    for i, x in enumerate(sc):
+        n = len(x.get("say", "").split())
+        check(f"voice: scene {i+1} narration 3-30 words", 3 <= n <= 30, f"{n} words")
+        check(f"voice: scene {i+1} has footage (clips or query)", bool(x.get("clips") or x.get("query")))
+    check("voice: CTA code KBEAUTY73", (s.get("cta") or {}).get("code") == "KBEAUTY73")
+    check("voice: hook is a question", "?" in (sc[0].get("say", "") if sc else ""), "open with the viewer's question")
+    said = " ".join(x.get("say", "") for x in sc)
+    hit = next((p for p in FAKE_EXPERIENCE if re.search(p, said, re.I)), None)
+    check("voice: no invented personal experience", hit is None, hit or "")
+    hit = next((p for p in AI_TELLS if re.search(p, said, re.I)), None)
+    check("voice: no AI-sounding clichés", hit is None, hit or "")
+
 def check_spec(path):
     s = json.load(open(path))
+    if s.get("type") == "voice_short":
+        check_voice_spec(s)
+        allt = json.dumps(s, ensure_ascii=False)
+        check("spec: no links", not any(re.search(p, allt, re.I) for p in LINKS))
+        check("spec: no medical claims", not any(re.search(p, allt, re.I) for p in MEDICAL),
+              next((p for p in MEDICAL if re.search(p, allt, re.I)), ""))
+        return
     fr = s.get("frames", [])
     check("spec: hangul set", bool(s.get("hangul")), "add \"hangul\": the topic's short Korean word")
     check("spec: 5-7 frames", 5 <= len(fr) <= 7, f"has {len(fr)}")
@@ -113,7 +140,8 @@ def check_video(path):
     check("video: 1080x1920", v.get("width") == 1080 and v.get("height") == 1920, f"{v.get('width')}x{v.get('height')}")
     check("video: has audio", any(x.get("codec_type") == "audio" for x in st))
     d = float(info.get("format", {}).get("duration", 0))
-    check("video: 12-20 s", 12 <= d <= 20, f"{d:.1f}s")
+    lo, hi = (20, 45) if VOICE["on"] else (12, 20)
+    check(f"video: {lo}-{hi} s", lo <= d <= hi, f"{d:.1f}s")
     r = subprocess.run(["ffmpeg", "-hide_banner", "-i", path, "-af", "ebur128", "-f", "null", "-"], capture_output=True, text=True)
     m = re.findall(r"I:\s+(-?\d+\.\d) LUFS", r.stderr)
     lufs = float(m[-1]) if m else None

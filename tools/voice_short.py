@@ -306,7 +306,10 @@ def overlay(spec, sc, path, last):
         box = (90, 820, 920, 1160)
         rounded(d, box, 40, C["rice"] + (246,))
         d.text((130, 850), cta.get("line", "Extra 5% off"), font=font(46), fill=C["deep"])
-        d.text((130, 915), f"Code {cta['code']}", font=font(96, "Black"), fill=C["pine"])
+        size = 96
+        while d.textlength(f"Code {cta['code']}", font=font(size, "Black")) > box[2] - 130 - 40:
+            size -= 4
+        d.text((130, 915 + (96 - size) // 2), f"Code {cta['code']}", font=font(size, "Black"), fill=C["pine"])
         d.text((130, 1040), cta.get("where", "at Olive Young Global"), font=font(40, "Regular"), fill=C["pine"])
         d.text((130, 1094), "#oliveyoungaffiliate #ad", font=font(32, "Regular"), fill=C["muted"])
     img.save(path)
