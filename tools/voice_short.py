@@ -345,38 +345,52 @@ def wrap(d, text, f, width):
     return lines + [cur] if cur else lines
 
 
-def overlay(spec, sc, path, last):
-    """Headline band and pills centred at the top, hangul watermark left, bottom shade for captions, profile card on
-    the last scene (no code or link in the video, user decision 2026-10-12). Text avoids the top 260 / bottom 440 px."""
+def _band(d, spec):
+    """Headline band geometry -> (lines, top, bottom, font)."""
+    f, lh, pad, top = font(62), 80, 30, 270
+    lines = wrap(d, spec["headline"], f, W - 120 - 2 * 56)
+    return lines, top, top + 2 * pad + len(lines) * lh, f, lh, pad
+
+
+def overlay_static(spec, path):
+    """Shown for the whole video (no fades, so nothing flickers at cuts): bottom shade for captions, hangul
+    watermark on the left, centred headline band and the centred hangul pill under it."""
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
     shade = Image.new("L", (1, 760))
     for y in range(760):
         shade.putpixel((0, y), int(185 * (y / 759) ** 1.5))
     img.paste(Image.new("RGBA", (W, 760), C["pine"] + (255,)), (0, H - 760), shade.resize((W, 760)))
-    # hangul watermark, vertical, left edge, above the caption zone
     hg = spec["hangul"].replace(" ", "")
     size = min(150, int(600 / max(1, len(hg))))
     wm = font(size, "Black")
     for k, ch in enumerate(hg):
-        d.text((48, 640 + k * size), ch, font=wm, fill=C["rice"] + (70,))
-    # headline band: centred box, each line centred on its own slot (anchor "mm" = optical middle of the text)
-    f, lh, pad, bx0, bx1, top = font(62), 80, 30, 60, W - 60, 270
-    lines = wrap(d, spec["headline"], f, bx1 - bx0 - 2 * 56)
-    bottom = top + 2 * pad + len(lines) * lh
-    rounded(d, (bx0, top, bx1, bottom), 32, C["pine"] + (232,))
-    for k, ln in enumerate(lines):
+        d.text((48, 700 + k * size), ch, font=wm, fill=C["rice"] + (70,))
+    lines, top, bottom, f, lh, pad = _band(d, spec)
+    rounded(d, (60, top, W - 60, bottom), 32, C["pine"] + (232,))
+    for k, ln in enumerate(lines):   # anchor "mm" = each line centred on its own slot
         d.text((W // 2, top + pad + k * lh + lh // 2), ln, font=f, fill=C["rice"], anchor="mm")
-    # pills, centred as a row under the band
-    pf, ph, gap = font(38), 66, 16
-    pills = [(spec["hangul"], C["celadon"])] + ([(sc["label"], C["blush"])] if sc.get("label") else [])
-    widths = [d.textlength(t, font=pf) + 64 for t, _ in pills]
-    x, y = (W - sum(widths) - gap * (len(pills) - 1)) / 2, bottom + 22
-    for (text, col), pw in zip(pills, widths):
-        rounded(d, (x, y, x + pw, y + ph), ph // 2, col + (245,))
-        d.text((x + pw / 2, y + ph / 2), text, font=pf, fill=C["pine"], anchor="mm")
-        x += pw + gap
-    if last:   # profile pointer instead of a code: no code or link anywhere in the video
+    _pill(d, spec["hangul"], C["celadon"], bottom + 22)
+    img.save(path)
+
+
+def _pill(d, text, col, y, ph=66):
+    pf = font(38)
+    pw = d.textlength(text, font=pf) + 64
+    x = (W - pw) / 2
+    rounded(d, (x, y, x + pw, y + ph), ph // 2, col + (245,))
+    d.text((W / 2, y + ph / 2), text, font=pf, fill=C["pine"], anchor="mm")
+
+
+def overlay(spec, sc, path, last):
+    """Per scene: the step label pill (centred, on its own row under the hangul pill) and, on the last scene, the
+    profile card (no code or link in the video, user decision 2026-10-12)."""
+    img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    _, _, bottom, _, _, _ = _band(d, spec)
+    if sc.get("label"):
+        _pill(d, sc["label"], C["blush"], bottom + 22 + 66 + 14)
+    if last:
         cta = spec.get("cta") or {}
         box = (140, 860, W - 140, 1150)
         rounded(d, box, 40, C["rice"] + (246,))
@@ -446,7 +460,7 @@ def shot(clip, L, path):
         frame = f"scale={W + 80}:-2,crop={W}:{H}:x='(iw-ow)*t/{L:.3f}':y='(ih-oh)/2'"
     else:
         frame = (f"split[a][b];[a]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},boxblur=24:2,"
-                 f"eq=brightness=-0.08[bg];[b]scale={W + 120}:-2,crop={W}:ih:x='(iw-ow)*t/{L:.3f}'[fg];[bg][fg]overlay=0:(H-h)/2-60")
+                 f"eq=brightness=-0.08[bg];[b]scale=-2:1180,crop={W}:ih:x='(iw-ow)*(0.3+0.4*t/{L:.3f})'[fg];[bg][fg]overlay=0:(H-h)/2+40")
     run(["ffmpeg", "-y", "-loglevel", "error", *loop, "-ss", f"{start:.2f}", "-i", str(clip_file(clip)), "-t", f"{L:.3f}", "-an",
          "-vf", f"{frame},fps={FPS},setsar=1,format=yuv420p", "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", str(path)])
 
@@ -526,6 +540,11 @@ def render(spec, outdir):
     # 4. final pass: per-scene overlays, progress bar, captions; voice + ducked BGM, -14 LUFS
     cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", str(base), "-i", str(narr), "-i", str(bgm)]
     g, v, idx = [], "0:v", 3
+    static = work / "static.png"
+    overlay_static(spec, static)
+    cmd += ["-loop", "1", "-framerate", str(FPS), "-t", f"{base_len:.3f}", "-i", str(static)]
+    g.append(f"[{v}][{idx}:v]overlay=format=auto:shortest=1[st]")
+    v, idx = "st", idx + 1
     for i, sc in enumerate(scenes):
         png = work / f"ov{i:02d}.png"
         overlay(spec, sc, png, last=i == len(scenes) - 1)
