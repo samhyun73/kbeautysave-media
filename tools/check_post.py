@@ -92,7 +92,11 @@ def check_caption(path, platform):
     else:
         check("caption: #oliveyoungaffiliate", "#oliveyoungaffiliate" in t.lower())
         check("caption: #ad", re.search(r"(^|\s)#ad\b", t, re.I) is not None)
-        if platform in ("instagram", "facebook"):
+        if VOICE["on"]:
+            # voice Shorts (user decision 2026-10-12): no code or link anywhere, point to the profile on every platform
+            check("caption: voice Short has no code", "KBEAUTY73" not in t, "drop the code; point to the profile")
+            check("caption: voice Short points to the profile", re.search(r"\bprofile\b", t, re.I) is not None)
+        elif platform in ("instagram", "facebook"):
             # user decision 2026-10-03: IG/FB captions point to the profile (code + link live in the bio)
             check("caption: points to profile for code & link", re.search(r"\bprofile\b", t, re.I) is not None,
                   "say e.g. \"Code + shopping link are in my profile\"")
