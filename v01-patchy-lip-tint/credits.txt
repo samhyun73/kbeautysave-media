@@ -9,7 +9,6 @@ pb73810  innamykytas (Pixabay)  https://pixabay.com/videos/id-73810/
 cvXQoTqbEf8P  Coverr  
 pb288891  viktoriastasik (Pixabay)  https://pixabay.com/videos/id-288891/
 cvo6DhozW7nP  Coverr  
-pb270065  u_8dz2kb64aq (Pixabay)  https://pixabay.com/videos/id-270065/
 
 Shot log:
    0.0s  scene 1  pb189018  lipstick, make up, bride, woman, fashion, wedding, close up, texture
@@ -21,5 +20,4 @@ Shot log:
   19.7s  scene 5  pb73810  face, person, eyes, young, female, girl, hair, lips, smile, portrait
   23.2s  scene 5  cvXQoTqbEf8P  Putting makeup on, girl, woman, makeup, powder, powder brush, brush, brush stroke, highlighter, bronzer, bronze, mattifying, finish, succulent, plant, small, rounded, mirror, beauty, cosmetics, industry, beautiful, clear skin, skincare, people, artsy, background
   26.8s  scene 6  pb288891  girl, t-shirt, pink t-shirt, blonde girl, smile, woman, female, background flowers, blonde hair, mascara, eyelashes, cosmetics, eyes, lashes
-  29.5s  scene 6  cvo6DhozW7nP  Putting on pink lipstick, woman, girl, pink, lipstick, cosmetics, beauty, industry, beautiful, sheer, color, sparkle, twist, lips, face, clear skin, skincare, makeup, slow motion, people, artsy, background
-  32.2s  scene 6  pb270065  makeup, cosmetics, woman
+  29.6s  scene 6  cvo6DhozW7nP  Putting on pink lipstick, woman, girl, pink, lipstick, cosmetics, beauty, industry, beautiful, sheer, color, sparkle, twist, lips, face, clear skin, skincare, makeup, slow motion, people, artsy, background
