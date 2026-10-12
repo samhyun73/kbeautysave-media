@@ -6,7 +6,7 @@
   "headline": "Why your lip tint looks patchy by lunch",
   "mood": "bright",
   "seed": 7,
-  "voice_id": "",
+  "voice_id": "tc_692799c46508f6b9468c54c7",
   "scenes": [
     {
       "say": "Why does your lip tint look patchy by lunch? It's usually dry lips, not the tint.",
@@ -15,7 +15,11 @@
         "lips makeup",
         "lip gloss"
       ],
-      "clips": []
+      "clips": [
+        "pb189018",
+        "cvsTbKlSjXph",
+        "pb203731"
+      ]
     },
     {
       "say": "First, a thin layer of lip balm. Wait one minute, then blot it off with a tissue.",
@@ -25,7 +29,10 @@
         "lips",
         "lip care"
       ],
-      "clips": []
+      "clips": [
+        "cv1hzSvVyXva",
+        "pb46450"
+      ]
     },
     {
       "say": "Next, tap the tint only on the inner half of your lips.",
@@ -35,7 +42,11 @@
         "lip gloss",
         "lips makeup"
       ],
-      "clips": []
+      "clips": [
+        "cvKWh8Dq2KW6",
+        "pb203733",
+        "pb203732"
+      ]
     },
     {
       "say": "Blend it outward with your fingertip, so the edge fades softly.",
@@ -45,7 +56,10 @@
         "makeup",
         "lipstick"
       ],
-      "clips": []
+      "clips": [
+        "pb211637",
+        "cvN11vrAnmAc"
+      ]
     },
     {
       "say": "The common mistake? Lining the whole lip first. That hard edge is what fades unevenly.",
@@ -55,7 +69,10 @@
         "lipstick",
         "makeup mirror"
       ],
-      "clips": []
+      "clips": [
+        "pb73810",
+        "cvXQoTqbEf8P"
+      ]
     },
     {
       "say": "Save this for your next makeup day. Extra five percent off at Olive Young Global with code KBEAUTY73.",
@@ -64,7 +81,11 @@
         "makeup",
         "lipstick"
       ],
-      "clips": []
+      "clips": [
+        "pb288891",
+        "cvo6DhozW7nP",
+        "pb270065"
+      ]
     }
   ],
   "cta": {
