@@ -1,0 +1,15 @@
+{
+  "slug": "day17-korean-layered-cut-zh",
+  "lang": "zh",
+  "mood": "bright",
+  "seed": 18,
+  "hangul": "레이어드 컷",
+  "frames": [
+    {"type": "hook", "kicker": "레이어드 컷 · 韩式发型", "title": "层次剪发怎么说？", "sub": "跟发型师说这三句 ↓", "dur": 2.5},
+    {"type": "step", "title": "带两张照片", "line": "正面背面各一张", "sub": "发质相近的最好", "dur": 2.9},
+    {"type": "step", "title": "说清第一层", "line": "“最短一层到下巴”", "sub": "想修脸型就到颧骨", "dur": 3.0},
+    {"type": "step", "title": "保住长度", "line": "“长度不变，修发尾”", "sub": "打薄要轻一点", "dur": 3.0},
+    {"type": "statement", "lines": ["发尾内扣，", "抹点发油。"], "sub": "圆梳吹出C字卷", "dur": 2.6},
+    {"type": "cta", "title": "剪发前收藏", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}
