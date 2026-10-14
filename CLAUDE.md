@@ -14,8 +14,8 @@ Daily content pipeline for the @kbeautysave Olive Young Global affiliate account
 - `tools/bgm.py` — BGM generator (moods: calm 84 bpm, bright 96 bpm; keep in sync with `BPM` in make_reel.py).
 - `tools/check_post.py` — quality gate. Must pass before anything is scheduled.
 - `tools/voice_short.py` + `.github/workflows/voice-short.yml` — **voice Shorts pilot** (Typecast narration + Pixabay/Coverr stock footage, ~30 s; Coverr clips need "🎥 Stock footage: Coverr" in the post copy (meta.json "attribution")). Renders only in GitHub Actions (keys in repo Secrets; the workspace can't reach these APIs). Flow: `candidates` → Claude looks at candidates.jpg and pins clip ids in the spec → `render` → Claude checks stills → user approves. Review files live on the `voice-previews` branch, never on main. Specs: `specs/voice/`. Content: a real viewer question, answered with concrete steps (where, how much, which tool, how long), one common mistake. **No discount code or link in voice Shorts** — not in the video and not in any description/caption; the last scene and the copy point to the profile ("The shopping link is in my profile"); `#oliveyoungaffiliate #ad` stays (user decision 2026-10-12). Voices rotate per Short (Daeun → Krista → Eunkyung → Seohyeon, `VOICES` in the tool; spec `voice_id` overrides) — user decision 2026-10-12. Pilot is human-present only: the unattended daily run must not dispatch it until the user approves the pilot (decision 2026-10-12).
-- `specs/YYYY-MM-DD-<slug>.json` (+ `-zh.json` for Weibo) — one spec per day.
-- `media/YYYY-MM-DD/` — published files: `reel.mp4`, `reel_zh.mp4`, `cover.png`, `pin.png`, `post.md` (the user's manual posting kit).
+- `specs/YYYY-MM-DD-<slug>.json` (+ `-zh.json` for Weibo, `-tiktok.json` for TikTok) — one spec per day.
+- `media/YYYY-MM-DD/` — published files: `reel.mp4`, `reel_zh.mp4`, `reel_tiktok.mp4` (TikTok cut without the code/CTA frame, spec `-tiktok.json`, user decision 2026-10-14), `cover.png`, `pin.png`, `post.md` (the user's manual posting kit).
 - `topics.md` — topic log; never repeat a topic from the last 30 entries.
 - `out/` — scratch renders (git-ignored).
 

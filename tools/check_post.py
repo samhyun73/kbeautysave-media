@@ -4,7 +4,7 @@ usage:
   python3 tools/check_post.py --spec specs/X.json [--video out/X.mp4] [--caption caption.txt] [--platform instagram|tiktok|weibo|pinterest]
 
 Checks (each prints PASS/FAIL with a reason):
-  spec     hangul set, 5-7 frames, hook first / cta last, known frame types, frame text not too long
+  spec     hangul set, 5-7 frames, hook first / cta last (TikTok: no cta, no code), known frame types, frame text not too long
   caption  #oliveyoungaffiliate + #ad (#广告# on weibo), code KBEAUTY73 with its benefit (IG/FB: profile pointer;
            TikTok/X: no code, detailed how-to instead; X = thread of 3-4 posts split by "---" lines), no URLs / "link in bio",
            no medical-claim words, no invented-experience phrases, weibo comment-length hint
@@ -57,7 +57,7 @@ def check_voice_spec(s):
     hit = next((p for p in AI_TELLS if re.search(p, said, re.I)), None)
     check("voice: no AI-sounding clichés", hit is None, hit or "")
 
-def check_spec(path):
+def check_spec(path, platform=None):
     s = json.load(open(path))
     if s.get("type") == "voice_short":
         check_voice_spec(s)
@@ -70,7 +70,13 @@ def check_spec(path):
     check("spec: hangul set", bool(s.get("hangul")), "add \"hangul\": the topic's short Korean word")
     check("spec: 5-7 frames", 5 <= len(fr) <= 7, f"has {len(fr)}")
     check("spec: known frame types", all(f.get("type") in FRAME_TYPES for f in fr))
-    check("spec: hook first, cta last", bool(fr) and fr[0].get("type") == "hook" and fr[-1].get("type") == "cta")
+    if platform == "tiktok":
+        # user decision 2026-10-14: TikTok gets its own cut without the code/CTA frame (reel_tiktok.mp4)
+        check("spec: hook first, no cta (TikTok cut)", bool(fr) and fr[0].get("type") == "hook" and all(f.get("type") != "cta" for f in fr),
+              "use the -tiktok spec: same frames minus the cta")
+        check("spec: no discount code in the TikTok video", "KBEAUTY73" not in json.dumps(s))
+    else:
+        check("spec: hook first, cta last", bool(fr) and fr[0].get("type") == "hook" and fr[-1].get("type") == "cta")
     zh = s.get("lang") in ("zh", "ja")
     for i, f in enumerate(fr):
         text = " ".join(words(f.get(k)) for k in ("title", "line", "sub", "items", "lines", "kicker"))
@@ -159,7 +165,7 @@ if __name__ == "__main__":
     ap.add_argument("--spec"); ap.add_argument("--video"); ap.add_argument("--caption")
     ap.add_argument("--platform", default="instagram", choices=["instagram", "facebook", "tiktok", "weibo", "pinterest", "x", "youtube"])
     a = ap.parse_args()
-    if a.spec: check_spec(a.spec)
+    if a.spec: check_spec(a.spec, a.platform)
     if a.caption: check_caption(a.caption, a.platform)
     if a.video: check_video(a.video)
     ok = all(results)
