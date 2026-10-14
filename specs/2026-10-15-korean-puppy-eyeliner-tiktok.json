@@ -1,0 +1,45 @@
+{
+  "slug": "day18-korean-puppy-eyeliner-tiktok",
+  "lang": "en",
+  "mood": "bright",
+  "seed": 19,
+  "hangul": "강아지 눈매",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "강아지 눈매 · Korean makeup",
+      "title": "Puppy eyeliner: tail goes down?",
+      "sub": "Soft Korean eyes in 3 steps ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "step",
+      "title": "Start halfway",
+      "line": "a thin brown line, outer half only",
+      "sub": "Brown reads softer than black.",
+      "dur": 2.9
+    },
+    {
+      "type": "step",
+      "title": "Angle the tail down",
+      "line": "follow your lower lashes out, about 3 mm",
+      "sub": "Keep it short and thin.",
+      "dur": 3.0
+    },
+    {
+      "type": "step",
+      "title": "Fill the triangle",
+      "line": "connect back to the lid, then fill with shadow",
+      "sub": "Matte brown, no shimmer here.",
+      "dur": 3.0
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "Smudge the tail."
+      ],
+      "sub": "A cotton bud blurs the hard edge.",
+      "dur": 2.6
+    }
+  ]
+}

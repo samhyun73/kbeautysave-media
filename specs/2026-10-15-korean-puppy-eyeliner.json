@@ -1,0 +1,100 @@
+{
+  "slug": "day18-korean-puppy-eyeliner",
+  "lang": "en",
+  "mood": "bright",
+  "seed": 19,
+  "hangul": "강아지 눈매",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "강아지 눈매 · Korean makeup",
+      "title": "Puppy eyeliner: tail goes down?",
+      "sub": "Soft Korean eyes in 3 steps ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "step",
+      "title": "Start halfway",
+      "line": "a thin brown line, outer half only",
+      "sub": "Brown reads softer than black.",
+      "dur": 2.9
+    },
+    {
+      "type": "step",
+      "title": "Angle the tail down",
+      "line": "follow your lower lashes out, about 3 mm",
+      "sub": "Keep it short and thin.",
+      "dur": 3.0
+    },
+    {
+      "type": "step",
+      "title": "Fill the triangle",
+      "line": "connect back to the lid, then fill with shadow",
+      "sub": "Matte brown, no shimmer here.",
+      "dur": 3.0
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "Smudge the tail."
+      ],
+      "sub": "A cotton bud blurs the hard edge.",
+      "dur": 2.6
+    },
+    {
+      "type": "cta",
+      "title": "Save it for your next look.",
+      "dur": 3.0
+    }
+  ],
+  "pin": {
+    "kicker": "Korean makeup",
+    "title": "Korean Puppy Eyeliner Steps",
+    "sub": "A soft, downturned eye in three moves",
+    "steps": [
+      {
+        "title": "Thin brown line",
+        "body": "Outer half of the upper lash line."
+      },
+      {
+        "title": "Tail angled down",
+        "body": "Follow the lower lashes, about 3 mm."
+      }
+    ],
+    "avoid": [
+      "Flicking the tail up",
+      "A thick black line"
+    ],
+    "note": "Brown liners and eye palettes at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "list",
+      "kicker": "Everyday eyes",
+      "title": "Soft Brown Eye Makeup: Simple Korean Daily Steps",
+      "sub": "One palette, about five minutes",
+      "items": [
+        {
+          "title": "Light base",
+          "body": "A beige shade over the whole lid."
+        },
+        {
+          "title": "Warm crease",
+          "body": "A soft brown in the crease, blended out."
+        },
+        {
+          "title": "Deeper lash line",
+          "body": "Dark brown close to the lashes, outer half."
+        },
+        {
+          "title": "Sparkle in the centre",
+          "body": "A tap of shimmer on the middle of the lid."
+        },
+        {
+          "title": "Brown mascara",
+          "body": "Curl first, then thin coats."
+        }
+      ]
+    }
+  ]
+}

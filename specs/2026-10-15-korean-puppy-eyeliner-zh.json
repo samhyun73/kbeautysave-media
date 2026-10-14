@@ -1,0 +1,15 @@
+{
+  "slug": "day18-korean-puppy-eyeliner-zh",
+  "lang": "zh",
+  "mood": "bright",
+  "seed": 19,
+  "hangul": "강아지 눈매",
+  "frames": [
+    {"type": "hook", "kicker": "강아지 눈매 · 韩式眼妆", "title": "狗狗眼线往下画？", "sub": "韩式温柔眼妆三步 ↓", "dur": 2.5},
+    {"type": "step", "title": "从中间开始", "line": "棕色细线，只画后半段", "sub": "棕色比黑色更柔和", "dur": 2.9},
+    {"type": "step", "title": "眼尾往下", "line": "顺着下睫毛延长3毫米", "sub": "短一点，细一点", "dur": 3.0},
+    {"type": "step", "title": "填满三角", "line": "连回眼皮，用眼影填满", "sub": "哑光棕色，不要珠光", "dur": 3.0},
+    {"type": "statement", "lines": ["晕开眼尾。"], "sub": "棉签把硬边晕柔", "dur": 2.6},
+    {"type": "cta", "title": "化妆前收藏", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}
