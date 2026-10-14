@@ -1,0 +1,45 @@
+{
+  "slug": "day17-korean-layered-cut-tiktok",
+  "lang": "en",
+  "mood": "bright",
+  "seed": 18,
+  "hangul": "레이어드 컷",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "레이어드 컷 · Korean hair",
+      "title": "Korean layered cut: what to say?",
+      "sub": "3 lines for your stylist ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "step",
+      "title": "Bring 2 photos",
+      "line": "front and back, hair texture like yours",
+      "sub": "\"Layers\" means different things.",
+      "dur": 2.9
+    },
+    {
+      "type": "step",
+      "title": "Name the first layer",
+      "line": "\"Shortest layer at my chin.\"",
+      "sub": "Cheekbone if you want more framing.",
+      "dur": 3.0
+    },
+    {
+      "type": "step",
+      "title": "Protect your length",
+      "line": "\"Keep my length, soften the ends.\"",
+      "sub": "Ask for light thinning only.",
+      "dur": 3.0
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "Curl the ends under."
+      ],
+      "sub": "Round brush, then a drop of oil.",
+      "dur": 2.6
+    }
+  ]
+}

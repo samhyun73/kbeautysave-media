@@ -1,13 +1,13 @@
 # 2026-10-14 (수) · 한국식 레이어드 컷: 미용실에서 이렇게 말하세요 (K-헤어)
 
 - 인스타 릴스 · 페이스북 릴스 · 유튜브 쇼츠: 19:00 KST 자동 게시 (Buffer)
-- 파일: [reel.mp4](reel.mp4) (영어) · [reel_zh.mp4](reel_zh.mp4) (중국어, 웨이보용) · [pin.png](pin.png) · [pin2.png](pin2.png) · [cover.png](cover.png)
+- 파일: [reel.mp4](reel.mp4) (영어) · [reel_zh.mp4](reel_zh.mp4) (중국어, 웨이보용) · [reel_tiktok.mp4](reel_tiktok.mp4) (틱톡용, 코드 장면 없음) · [pin.png](pin.png) · [pin2.png](pin2.png) · [cover.png](cover.png)
 
 ## 유튜브 메모
 - 제목: `Korean Layered Cut: What to Say at the Salon #shorts`
 - 19:00 게시 후 YouTube Studio → 해당 쇼츠 → 세부정보 → **유료 프로모션** 체크
 
-## 틱톡 (직접 게시 · reel.mp4)
+## 틱톡 (직접 게시 · reel_tiktok.mp4)
 ```
 Asking for "layers" at the salon and getting a choppy cut? A Korean layered cut (레이어드 컷) is soft because the request is specific. Here's exactly what to say ✂️
 
@@ -25,7 +25,7 @@ Asking for "layers" at the salon and getting a choppy cut? A Korean layered cut 
 
 #oliveyoungaffiliate #ad #koreanhair #layeredcut #koreanhairstyle #haircutideas
 ```
-- 틱톡 앱에서 reel.mp4 업로드 → 더보기 옵션 → 콘텐츠 공개 → **브랜드 콘텐츠 ON** → 게시 (19:00–21:00 KST 권장)
+- 틱톡 앱에서 reel_tiktok.mp4 업로드 → 더보기 옵션 → 콘텐츠 공개 → **브랜드 콘텐츠 ON** → 게시 (19:00–21:00 KST 권장)
 
 ## X 스레드 (직접 게시 · 1/4에 reel.mp4 첨부, 나머지는 답글로)
 **1/4**
