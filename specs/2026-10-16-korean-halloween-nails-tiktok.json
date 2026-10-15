@@ -1,0 +1,19 @@
+{
+  "slug": "day19-korean-halloween-nails-tiktok",
+  "lang": "en",
+  "mood": "bright",
+  "seed": 20,
+  "hangul": "할로윈 네일",
+  "frames": [
+    {"type": "hook", "kicker": "할로윈 네일 · Korean nails", "title": "Halloween nails too loud?", "sub": "Korean style keeps it soft ↓", "dur": 2.5},
+    {"type": "swatch", "title": "Spooky, but sheer", "swatches": [
+      {"name": "Smoky", "color": "#3B3540", "sheer": true},
+      {"name": "Plum", "color": "#5A2340", "sheer": false, "finish": "gloss"},
+      {"name": "Pumpkin", "color": "#C9733A", "sheer": true},
+      {"name": "Moon", "color": "#E8E0CF", "sheer": false, "finish": "shimmer"}
+    ], "sub": "Pick one dark and one light.", "dur": 3.4},
+    {"type": "step", "title": "Smoky, not solid", "line": "one thin coat of black over a milky base", "sub": "You should still see the nail.", "dur": 2.9},
+    {"type": "step", "title": "One accent nail", "line": "a tiny moon or star on the ring finger", "sub": "A sticker or a fine brush.", "dur": 3.0},
+    {"type": "statement", "lines": ["Short and glossy."], "sub": "Top coat turns dark shades jelly.", "dur": 2.6}
+  ]
+}

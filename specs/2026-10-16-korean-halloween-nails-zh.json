@@ -1,0 +1,20 @@
+{
+  "slug": "day19-korean-halloween-nails-zh",
+  "lang": "zh",
+  "mood": "bright",
+  "seed": 20,
+  "hangul": "할로윈 네일",
+  "frames": [
+    {"type": "hook", "kicker": "할로윈 네일 · 韩式美甲", "title": "万圣节美甲太浮夸？", "sub": "韩式做法更温柔 ↓", "dur": 2.5},
+    {"type": "swatch", "title": "暗色，但要透", "swatches": [
+      {"name": "烟黑", "color": "#3B3540", "sheer": true},
+      {"name": "梅子", "color": "#5A2340", "sheer": false, "finish": "gloss"},
+      {"name": "南瓜", "color": "#C9733A", "sheer": true},
+      {"name": "月光", "color": "#E8E0CF", "sheer": false, "finish": "shimmer"}
+    ], "sub": "一个深色＋一个浅色", "dur": 3.4},
+    {"type": "step", "title": "烟熏不涂实", "line": "奶白底上薄涂一层黑", "sub": "还能看到指甲本色", "dur": 2.9},
+    {"type": "step", "title": "一根点缀指", "line": "无名指贴个小月亮", "sub": "贴纸或细笔都行", "dur": 3.0},
+    {"type": "statement", "lines": ["短而亮。"], "sub": "亮面封层让深色像果冻", "dur": 2.6},
+    {"type": "cta", "title": "收藏一下", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}

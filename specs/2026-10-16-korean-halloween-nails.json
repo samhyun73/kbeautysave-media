@@ -1,0 +1,51 @@
+{
+  "slug": "day19-korean-halloween-nails",
+  "lang": "en",
+  "mood": "bright",
+  "seed": 20,
+  "hangul": "할로윈 네일",
+  "frames": [
+    {"type": "hook", "kicker": "할로윈 네일 · Korean nails", "title": "Halloween nails too loud?", "sub": "Korean style keeps it soft ↓", "dur": 2.5},
+    {"type": "swatch", "title": "Spooky, but sheer", "swatches": [
+      {"name": "Smoky", "color": "#3B3540", "sheer": true},
+      {"name": "Plum", "color": "#5A2340", "sheer": false, "finish": "gloss"},
+      {"name": "Pumpkin", "color": "#C9733A", "sheer": true},
+      {"name": "Moon", "color": "#E8E0CF", "sheer": false, "finish": "shimmer"}
+    ], "sub": "Pick one dark and one light.", "dur": 3.4},
+    {"type": "step", "title": "Smoky, not solid", "line": "one thin coat of black over a milky base", "sub": "You should still see the nail.", "dur": 2.9},
+    {"type": "step", "title": "One accent nail", "line": "a tiny moon or star on the ring finger", "sub": "A sticker or a fine brush.", "dur": 3.0},
+    {"type": "statement", "lines": ["Short and glossy."], "sub": "Top coat turns dark shades jelly.", "dur": 2.6},
+    {"type": "cta", "title": "Save it for nail night.", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "Korean nail trend",
+    "title": "Korean Halloween Nails 2026",
+    "sub": "Sheer, smoky and a little spooky",
+    "swatches": [
+      {"name": "Smoky", "color": "#3B3540", "sheer": true},
+      {"name": "Plum", "color": "#5A2340", "sheer": false, "finish": "gloss"},
+      {"name": "Pumpkin", "color": "#C9733A", "sheer": true},
+      {"name": "Moon", "color": "#E8E0CF", "sheer": false, "finish": "shimmer"}
+    ],
+    "steps": [
+      {"title": "Smoky jelly", "body": "One thin black coat over milky."},
+      {"title": "One accent", "body": "A tiny moon on the ring finger."}
+    ],
+    "avoid": ["Opaque black on every nail", "Long, sharp tips"],
+    "note": "Find sheer polish at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "list",
+      "kicker": "Nails at home",
+      "title": "Subtle Halloween Nails: Simple Korean Jelly Ideas",
+      "sub": "Cute enough to keep on after the 31st",
+      "items": [
+        {"title": "Smoky black jelly", "body": "One sheer coat of black over a milky base."},
+        {"title": "Plum gloss", "body": "Two thin coats, then a shiny top coat."},
+        {"title": "Pumpkin tips", "body": "A thin sheer orange line on the free edge."},
+        {"title": "Moon accent", "body": "One tiny shimmer moon on the ring finger."}
+      ]
+    }
+  ]
+}
