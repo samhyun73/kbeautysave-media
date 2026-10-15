@@ -18,3 +18,4 @@
 2026-10-13 | Korean toner layering / 7 skin method: hands not cotton, press + pat, 3 thin layers, hydrating toner only (Tue skincare) | scheduled 19:00 IG+FB+YouTube (Buffer); TikTok + X thread + Weibo + Pinterest ×3 manual
 2026-10-14 | Korean layered cut: what to say at the salon (2 photos, first layer at chin, keep length, light thinning; C-curl styling) (Wed K-hair) | scheduled 19:00 IG+FB+YouTube (Buffer); TikTok + X thread + Weibo + Pinterest ×3 manual
 2026-10-15 | Korean puppy eyeliner (강아지 눈매): brown line outer half, tail down ~3 mm, fill triangle, smudge (Thu K-makeup) | manual kit (TikTok + X thread + Weibo + Pinterest ×3); IG+FB+YouTube carried the voice Short
+2026-10-16 | Korean Halloween nails: smoky black jelly over milky base, one moon accent, short + glossy (Fri K-nails, seasonal, swatch) | scheduled 19:00 IG+FB+YouTube (Buffer); TikTok + X thread + Weibo + Pinterest ×3 manual
