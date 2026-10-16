@@ -569,7 +569,7 @@ def render(spec, outdir):
             continue
         n = max(1, round(sc["D"] / SHOT))
         pinned = [clip_by_id(c) for c in sc.get("clips", [])]
-        if len(pinned) < n:
+        if not pinned:   # pinned clips are a human pick: never pad them with search hits (they get reused instead)
             pool = pool_cache.setdefault(i, scene_pool(sc))
             pinned += [c for c in pool if c["id"] not in used and c["id"] not in {p["id"] for p in pinned}]
         if not pinned:
