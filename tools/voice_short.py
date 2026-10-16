@@ -216,7 +216,7 @@ BEAUTY = {"lip", "lips", "lipstick", "makeup", "cosmetics", "cosmetic", "beauty"
           "eyeshadow", "lipgloss", "spa"}
 BLOCK = {"cigarette", "smoking", "smoke", "tobacco", "nicotine", "alcohol", "cocktail", "beer", "wine", "drink", "bar",
          "sexy", "sensual", "hot", "lingerie", "bikini", "nude", "drug", "drugs", "blood", "gun", "weapon", "halloween",
-         "zombie", "horror", "food", "meal"}
+         "zombie", "horror", "food", "meal", "construction", "crane", "cranes", "building", "ice", "frost", "acne"}
 STOP = {"close", "up", "closeup", "applying", "apply", "woman", "women", "girl", "with", "the", "a", "an", "of", "and",
         "on", "in", "mirror", "finger", "fingers", "flat", "lay", "collection", "products", "product"}
 
