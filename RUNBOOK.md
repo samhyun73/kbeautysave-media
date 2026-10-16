@@ -6,6 +6,7 @@ Owner: kbeautysave (Olive Young Global affiliate). Instagram @kbeautysave, Faceb
 - Affiliate link: https://global.oliveyoung.com/if/rd?su=Q7NAABDP — currently NOT used anywhere (see rule 5)
 - Code: **KBEAUTY73** = **extra 5% off** at Olive Young Global checkout (confirmed by user 2026-10-01). Always state the benefit: EN "Extra 5% off with code KBEAUTY73", ZH "额外95折 优惠码 KBEAUTY73" (cta `code_label`: "额外95折 优惠码").
 - Required tags: `#oliveyoungaffiliate` + `#ad` on every post; mention `@oliveyoung_global` on Instagram.
+- Affiliate program page (user pasted 2026-10-16): a sale counts if the buyer comes through the `su=` link (code auto-filled, 30-day cookie) **or** types KBEAUTY73 in the "REDEEM CODE" field — so code-only promotion is credited. Commission 5–13% by monthly code sales (resets monthly); coupon amounts, shipping, tax, points and returns don't count. Site banners that day: "Free shipping over US$60", "SAVE US$20 with OLIVE YOUNG APP", "First Order Coupon Pack" — these change; only use one in copy after seeing it on the site that day, and never claim the code stacks with a sale or coupon (unverified).
 - **Publishing = Buffer** (user decision 2026-10-03; Buffer account jkk736540@gmail.com, free plan: 3 channels, max 10 scheduled posts queued at a time — we only ever queue today's 3). Connector `Buffer_kbeauty`. Organization `6ac09e1778721e574b910296` ("My organization"), timezone Asia/Seoul. Channels:
   - Instagram kbeautysave: `6ac09f9eea19ca0bde60715b`
   - Facebook page "For My Health": `6ac09fc4ea19ca0bde607267`
