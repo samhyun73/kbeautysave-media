@@ -88,6 +88,15 @@ def check_spec(path, platform=None):
         n = len(re.sub(r"\s", "", text)) if zh else len(text.split())
         lim = 45 if zh else 22
         check(f"spec: frame {i+1} length", n <= lim, f"{n} {'chars' if zh else 'words'} > {lim}")
+    for k, p in enumerate(([s["pin"]] if s.get("pin") else []) + list(s.get("pins", []))):
+        if p.get("layout") != "deal":
+            continue
+        # deal pins live for months: no prices / % off (deals change daily), no "stacks with the sale" claims (unverified).
+        # The code's own benefit ("KBEAUTY73 ... 5% off") is fine.
+        strs = re.findall(r'"((?:[^"\\]|\\.)*)"', json.dumps({x: y for x, y in p.items() if x != "code_line"}, ensure_ascii=False))
+        t = " | ".join(re.sub(r"\b5\s*%", "", x) if "KBEAUTY73" in x else x for x in strs)
+        bad = re.search(r"\d+\s*%|[$€£₩¥]\s*\d|\b(stack|stacks|stackable|on top of the sale|extra \d)", t, re.I)
+        check(f"spec: deal pin {k+1} has no prices, % off or stacking claims", not bad, bad.group(0) if bad else "")
     allt = json.dumps(s, ensure_ascii=False)
     check("spec: no links", not any(re.search(p, allt, re.I) for p in LINKS))
     check("spec: no medical claims", not any(re.search(p, allt, re.I) for p in MEDICAL),

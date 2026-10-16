@@ -19,6 +19,7 @@ Owner: kbeautysave (Olive Young Global affiliate). Instagram @kbeautysave, Faceb
 - **Pinterest = 3 pins every day, Mon–Sun (user decision 2026-10-03)**, posted by hand by the user:
   1. **Video pin** — the day's `reel.mp4` (9:16) with its own Pinterest title + description.
   2. **Image pin A** — `pin.png` (default layout: dark header, steps, "skip these").
+     (Sundays and sale weeks: pin B is a `"layout": "deal"` pin — see "Deal pins".)
   3. **Image pin B** — `pin2.png` (`"layout": "list"`: light ground, 3–5 numbered tips) — a *different angle and keyword* from pin A (e.g. A = "trend/colours", B = "how-to at home").
   Each of the 3 gets a different keyword-rich title (see "Pinterest titles") and its own description; never the same title twice. Boards: nails → "Korean Nail Ideas", hair → "Korean Hair Ideas", makeup → "Korean Makeup Looks", skincare → "Korean Skincare Routine" (tell the user to create a board the first time it's needed). Suggested posting times (US evening = KST morning): 09:00, 12:00 and 22:00 KST, spread out — not all at once. Link field empty.
 - **Every weekday**: Weibo caption + Chinese-text reel (`reel_zh.mp4`) sent to the user to post manually.
@@ -61,6 +62,12 @@ The Olive Young Global site renders search/product pages with JavaScript, so Web
 - Limited collab packaging (Sanrio, Anpanman, Trolls, Bubble Bobble editions) suits Pinterest "aesthetic" and gift content (Nov–Dec) — show product *types*/brand names only, never characters or logos in our frames.
 - K-pop: albums/merch aren't our content. "Idol makeup" angles are fine as Korean makeup *style* (no idol names, photos or likeness).
 - Skip supplements, slimming, toothpaste/oral care items in sale lists.
+
+**Deal pins (user decision 2026-10-16)** — sale/code pins got far more Pinterest impressions than how-to pins (user's own pins: sale 1.9K, code 470, how-to 127), so add them on a schedule; keep 70%+ informational overall.
+- Layout: `"layout": "deal"` in `pins` (→ pin2.png) — `{layout, kicker, title, dates?, dates_label?, sub, items:[{title, body}] ×3–4, note?}`. The gate blocks prices, % off and "stacks with the sale" claims (the code's own 5% is fine). Hangul e.g. 알뜰 쇼핑 / 올영세일. Never use the Olive Young logo, sale artwork or product photos.
+- **Evergreen deal pin: every Sunday**, pin B is a `deal` pin with no `dates` — a new angle each week (how to save on Olive Young Global, what to buy first on a first order, K-beauty gift ideas by category, what to stock up on in a sale). Pinterest title like "How to Save on Olive Young Global: K-Beauty Shopping Tips 2026".
+- **Event deal pin**: only when the run (or the user) has seen an official Olive Young Global announcement of the sale and its dates that day (event page, official social, press release). Make it daily as pin B from ~7 days before the start until the end, with `dates` exactly as announced. The Big Bang Sale usually runs 4×/year (Mar, Jun, Sep, Dec — 2024 press release); never guess dates.
+- In `post.md`, put the end date next to an event pin and remind the user to **archive it in Pinterest after the sale ends** (old sale pins keep circulating for months). Fill the pin description with search words ("Olive Young Global sale", "Olive Young discount code", "K-beauty deals"), `#ad`, no link.
 
 **Pinterest titles**: [specific topic] + Korean + simple/easy/classy + ideas/inspo/aesthetic + year, e.g. "Korean Jelly Nails for Fall 2026: Simple Burgundy Ideas", "Skincare Routine Order: Simple Korean Steps (Aesthetic Guide)". Avoid the bare phrase "Korean skincare routine" (−60% y/y); be specific.
 Check `topics.md` before choosing; never repeat a topic from the last 30 entries. Append the chosen topic after posting.

@@ -207,6 +207,37 @@ p,h1{{margin:0}}</style></head><body>
 <span style="font-size:24px">#ad</span></div>
 </div></body></html>"""
 
+def pin_deal_html(p, wm):
+    """Third pin layout ("deal"): sale/event or evergreen "how to save" pin. Blush ground, dates card, what to stock up on.
+    No prices or % off (deals change daily); never imply the code stacks with a sale; no Olive Young logo or artwork."""
+    items = "".join(
+        f'<div style="display:flex;flex-direction:column;gap:6px;padding:20px 0;border-top:2px solid #E8B3A5">'
+        f'<span style="font-size:42px;font-weight:900;line-height:1.1;letter-spacing:-1px">{plain(t["title"] if isinstance(t, dict) else t)}</span>'
+        + (f'<span style="font-size:28px;line-height:1.4;color:{C["muted"]}">{plain(t["body"])}</span>' if isinstance(t, dict) and t.get("body") else "")
+        + '</div>' for t in p.get("items", [])[:4])
+    dates = (f'<div style="align-self:flex-start;padding:26px 40px 30px;border-radius:32px;background:{C["pine"]};color:{C["rice"]};display:flex;flex-direction:column;gap:4px">'
+             f'<span style="font-size:28px;color:{C["celadon"]}">{plain(p.get("dates_label", "Sale dates"))}</span>'
+             f'<span style="font-size:80px;font-weight:900;letter-spacing:-1px;line-height:1.05">{plain(p["dates"])}</span></div>') if p.get("dates") else ""
+    note = f'<p style="font-size:26px;line-height:1.45;color:{C["muted"]}">{plain(p["note"])}</p>' if p.get("note") else ""
+    wm_html = (f'<div style="position:absolute;right:-40px;top:60px;writing-mode:vertical-rl;font-family:{HANGUL_FONT};font-weight:900;'
+               f'font-size:400px;line-height:1;letter-spacing:-12px;color:#E8B3A5;opacity:.55;white-space:nowrap">{e(wm)}</div>') if wm else ""
+    return f"""<!doctype html><html lang="{LANG}"><head><meta charset="utf-8"><style>
+html,body{{margin:0;width:1000px;height:1500px;overflow:hidden;background:{C['blush']};color:{C['pine']};font-family:{SANS}}}
+p,h1{{margin:0}}</style></head><body>
+<div style="position:relative;width:1000px;height:1500px;display:flex;flex-direction:column;overflow:hidden">{wm_html}
+<div style="position:relative;flex-grow:1;padding:80px 80px 36px;display:flex;flex-direction:column;gap:24px">
+<p style="align-self:flex-start;font-size:28px;font-weight:700;padding:10px 26px 12px;border-radius:40px;background:{C['rice']}">{plain(p.get('kicker','Olive Young Global'))}</p>
+<h1 style="font-size:84px;line-height:1.02;font-weight:900;letter-spacing:-2.5px;max-width:800px">{plain(p['title'])}</h1>
+{dates}<p style="font-size:32px;line-height:1.35;color:{C['pine2']};max-width:780px">{plain(p.get('sub',''))}</p>
+<div style="display:flex;flex-direction:column;max-width:800px">{items}</div>{note}</div>
+<div style="position:relative;flex-shrink:0;padding:36px 80px 44px;background:{C['pine']};color:{C['rice']};display:flex;justify-content:space-between;align-items:flex-end">
+<div style="display:flex;flex-direction:column;gap:4px"><span style="font-size:28px;color:{C['celadon']}">{plain(p.get('code_line', '5% off with my code at Olive Young Global checkout'))}</span>
+<span style="font-size:64px;font-weight:900;letter-spacing:2px;line-height:1.05">KBEAUTY73</span></div>
+<span style="font-size:24px">#ad</span></div>
+</div></body></html>"""
+
+PIN_LAYOUTS = {"list": pin_list_html, "deal": pin_deal_html}
+
 SHOT_JS = r"""
 const { chromium } = require('playwright');
 (async () => {
@@ -249,7 +280,7 @@ def main(spec_path, out):
     for k, pspec in enumerate(pins):
         name = "pin" if k == 0 else f"pin{k+1}"
         hp = os.path.abspath(os.path.join(out, f"{name}.html"))
-        open(hp, "w").write((pin_list_html if pspec.get("layout") == "list" else pin_html)(pspec, wm))
+        open(hp, "w").write(PIN_LAYOUTS.get(pspec.get("layout"), pin_html)(pspec, wm))
         jobs.append(dict(html=hp, png=os.path.abspath(os.path.join(out, f"{name}.png")), w=1000, h=1500))
     jf = os.path.join(out, "_jobs.json"); json.dump(jobs, open(jf, "w"))
     js = os.path.join(out, "_shot.js"); open(js, "w").write(SHOT_JS)
