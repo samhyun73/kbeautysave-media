@@ -1,4 +1,8 @@
 voice: Krista (tc_6aa23da1f9559d89ed550d7e) from the rotation
 narration 35.7s, 6 scenes
+  search 'applying face cream': 60 Pixabay, 0 Coverr
+  search 'face massage': 60 Pixabay, 3 Coverr
+  search 'moisturizer face': 60 Pixabay, 0 Coverr
+  search 'skincare hands': 60 Pixabay, 10 Coverr
 loudness -14.8 LUFS -> corrected toward -14
 done: out/vs/v02-mul-gwang.mp4 (36.1s)

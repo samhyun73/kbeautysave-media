@@ -2,8 +2,8 @@ Stock footage (Pixabay: no attribution required; Coverr: attribution required):
 ai:avery-mulgwang.mp4  AI-generated (Google Vids avatar)
 pb210846  u_qtg17dbg65 (Pixabay)  https://pixabay.com/videos/id-210846/
 pb42963  MaxMedyk (Pixabay)  https://pixabay.com/videos/id-42963/
-cvlVg41x5Ow6  Coverr  
 pb210574  u_xhp5h45w73 (Pixabay)  https://pixabay.com/videos/id-210574/
+pb216973  DoniShala (Pixabay)  https://pixabay.com/videos/id-216973/
 cvOrVUhC5L0A  Coverr  
 cvXSb0Zj5iaD  Coverr  
 pb203733  mehranbiabani (Pixabay)  https://pixabay.com/videos/id-203733/
@@ -15,8 +15,8 @@ Shot log:
    0.0s  scene 1  ai:avery-mulgwang.mp4  avatar
    9.8s  scene 2  pb210846  skincare, products, glow
   12.9s  scene 2  pb42963  skincare, man, moisturizer, lotion, moisturizing, wellness, healthy, product, cosmetics, face, facial, treatment, bearded man, acne, skin, care, clean, hygiene, health
-  16.0s  scene 3  cvlVg41x5Ow6  Close-Up: Hands After Applying Hand Cream — Beauty Demo, hands, hand cream, skincare, moisturizer, beauty tutorial, product demo, close-up, vertical video, personal care, woman, smiling, cosmetics tube, tabletop, skin texture
-  18.6s  scene 3  pb210574  woman, face cream, cosmetics, beauty, model, face, female, lips
+  16.0s  scene 3  pb210574  woman, face cream, cosmetics, beauty, model, face, female, lips
+  18.6s  scene 3  pb216973  woman, model, fashion, hairstyle, female, pose, posing, modeling, face, skin, style, makeup, portrait
   21.2s  scene 4  cvOrVUhC5L0A  Makeup artist applies liquid foundation, makeup, beauty sponge, beautyblender, tone, liquid foundation, primer, face, neck, beauty, industry, girl, skin, skincare, cosmetics, mua, people, artsy, slow motion, close up
   23.5s  scene 4  cvXSb0Zj5iaD  Applying makeup in front of mirror, girl, woman, makeup, finish, touches, beauty, cosmetics, industry, highlighter, contour, contouring, eyeshadow, cleansing, mascara, mascara wand, powder, powder brush, plant, decor, beautiful, people, artsy, background
   25.9s  scene 5  pb203733  girl, face, model, smile, eyes, makeup, fashion, skin, female, young, portrait, blink, wink
