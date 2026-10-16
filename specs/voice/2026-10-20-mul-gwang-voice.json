@@ -33,14 +33,12 @@
       "say": "Next, mix one drop of facial oil into your moisturizer, then press it in with your palms.",
       "label": "Step 2",
       "query": [
-        "face oil",
-        "moisturizer cream",
-        "facial skincare"
+        "applying face cream",
+        "face massage",
+        "moisturizer face",
+        "skincare hands"
       ],
-      "clips": [
-        "cvlVg41x5Ow6",
-        "pb210574"
-      ]
+      "clips": []
     },
     {
       "say": "Then use a dewy cushion foundation, and tap a little balm on your cheekbones and nose bridge.",
