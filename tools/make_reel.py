@@ -157,7 +157,7 @@ def pin_html(p, wm):
     avoid = ""
     if p.get("avoid"):
         items = "".join(f'<li style="margin:0 0 10px">{plain(t)}</li>' for t in p["avoid"])
-        avoid = (f'<div><p style="font-size:30px;font-weight:900;margin:0 0 12px">Skip these</p>'
+        avoid = (f'<div><p style="font-size:30px;font-weight:900;margin:0 0 12px">{plain(p.get("avoid_label", "Skip these"))}</p>'
                  f'<ul style="margin:0;padding-left:34px;font-size:29px;line-height:1.4">{items}</ul></div>')
     note = f'<p style="font-size:28px;line-height:1.45;color:{C["muted"]}">{plain(p["note"])}</p>' if p.get("note") else ""
     wm_html = (f'<div style="position:absolute;right:-30px;top:40px;writing-mode:vertical-rl;font-family:{HANGUL_FONT};font-weight:900;'
@@ -175,9 +175,9 @@ p,h1{{margin:0}}</style></head><body>
 {nail_row(p["swatches"], 856, 0.62) if p.get("swatches") else ""}
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px">{steps}</div>{avoid}{note}</div>
 <div style="flex-shrink:0;padding:40px 72px 48px;background:{C['celadon']};display:flex;justify-content:space-between;align-items:flex-end">
-<div style="display:flex;flex-direction:column;gap:4px"><span style="font-size:28px;font-weight:500">Extra 5% off at Olive Young Global checkout</span>
+<div style="display:flex;flex-direction:column;gap:4px"><span style="font-size:28px;font-weight:500">{plain(p.get('code_line', 'Extra 5% off at Olive Young Global checkout'))}</span>
 <span style="font-size:68px;font-weight:900;letter-spacing:2px;line-height:1.05">KBEAUTY73</span></div>
-<span style="font-size:24px">#ad</span></div>
+<span style="font-size:24px">{plain(p.get("tag", "#ad"))}</span></div>
 </div></body></html>"""
 
 def pin_list_html(p, wm):
@@ -202,9 +202,9 @@ p,h1{{margin:0}}</style></head><body>
 <p style="font-size:34px;line-height:1.35;color:{C['muted']};max-width:760px">{plain(p.get('sub',''))}</p>
 {sw}<div style="display:flex;flex-direction:column;max-width:800px">{items}</div></div>
 <div style="flex-shrink:0;padding:36px 80px 44px;background:{C['pine']};color:{C['rice']};display:flex;justify-content:space-between;align-items:flex-end">
-<div style="display:flex;flex-direction:column;gap:4px"><span style="font-size:28px;color:{C['celadon']}">Extra 5% off at Olive Young Global checkout</span>
+<div style="display:flex;flex-direction:column;gap:4px"><span style="font-size:28px;color:{C['celadon']}">{plain(p.get('code_line', 'Extra 5% off at Olive Young Global checkout'))}</span>
 <span style="font-size:64px;font-weight:900;letter-spacing:2px;line-height:1.05">KBEAUTY73</span></div>
-<span style="font-size:24px">#ad</span></div>
+<span style="font-size:24px">{plain(p.get("tag", "#ad"))}</span></div>
 </div></body></html>"""
 
 def pin_deal_html(p, wm):
@@ -233,7 +233,7 @@ p,h1{{margin:0}}</style></head><body>
 <div style="position:relative;flex-shrink:0;padding:36px 80px 44px;background:{C['pine']};color:{C['rice']};display:flex;justify-content:space-between;align-items:flex-end">
 <div style="display:flex;flex-direction:column;gap:4px"><span style="font-size:28px;color:{C['celadon']}">{plain(p.get('code_line', '5% off with my code at Olive Young Global checkout'))}</span>
 <span style="font-size:64px;font-weight:900;letter-spacing:2px;line-height:1.05">KBEAUTY73</span></div>
-<span style="font-size:24px">#ad</span></div>
+<span style="font-size:24px">{plain(p.get("tag", "#ad"))}</span></div>
 </div></body></html>"""
 
 PIN_LAYOUTS = {"list": pin_list_html, "deal": pin_deal_html}

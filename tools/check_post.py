@@ -17,7 +17,10 @@ FRAME_TYPES = {"hook", "step", "list", "statement", "cta", "swatch"}
 MEDICAL = [r"\bcure[sd]?\b", r"\btreat(s|ment|ing)?\b", r"\bheal(s|ing)?\b", r"\beliminat", r"\bremove[sd]? (acne|wrinkles|scars|pores)",
            r"\banti-?acne\b", r"\bclinically proven\b", r"\bprescription\b", r"\bget rid of (acne|wrinkles)",
            r"\b(prevents?|stops?|reverses?|cures?) hair ?loss", r"\bregrow", r"\bnail fungus", r"\bantifungal\b",
-           "治疗", "治愈", "祛痘", "去皱", "医学", "疗效", "治る", "除去", "防脱", "生发"]
+           "治疗", "治愈", "祛痘", "去皱", "医学", "疗效", "治る", "除去", "防脱", "生发",
+           # Japan (薬機法): no whitening, spot/wrinkle/pore removal, anti-aging or healing claims
+           "美白", "ホワイトニング", r"シミ(が|を)?(消|なくな|薄く)", r"シワ(が|を)?(消|なくな|伸ば)", r"毛穴(が|を)?(消|なくな)",
+           "若返", "アンチエイジング", "治す", "治ります", "改善", "再生", "殺菌"]
 FAKE_EXPERIENCE = [r"\bI(?:'ve| have) (?:been )?us(?:ed|ing)\b", r"\bmy skin (?:got|became|is now)\b", r"\bI swear by\b",
                    "我用了", "我一直在用", "亲测"]
 LINKS = [r"https?://", r"www\.", r"link in bio", r"\.com/", "oliveyoung.com/if"]
@@ -34,6 +37,8 @@ def check(name, ok, why=""):
 def words(x):
     if isinstance(x, list): return " ".join(map(str, x))
     return str(x or "")
+
+JA_PLATFORMS = ("x-ja", "pinterest-ja")   # Japanese manual posts (Japan test, 2026-10-16)
 
 VOICE = {"on": False}   # voice Short spec (tools/voice_short.py): different shape and length
 
@@ -105,7 +110,13 @@ def check_spec(path, platform=None):
 
 def check_caption(path, platform):
     t = open(path, encoding="utf-8").read()
-    if platform == "weibo":
+    if platform in JA_PLATFORMS:
+        # Japan test (user decision 2026-10-16): stealth-marketing law → #PR; the code only works for signed-in members
+        check("caption: #PR (Japan)", re.search(r"(^|\s)#PR\b", t) is not None)
+        check("caption: #oliveyoungaffiliate", "#oliveyoungaffiliate" in t.lower())
+        check("caption: code + 5% + ログイン", "KBEAUTY73" in t and re.search(r"5\s?[%％]", t) is not None and "ログイン" in t,
+              "e.g. 「ログイン後、クーポンコード KBEAUTY73 で5%オフ」")
+    elif platform == "weibo":
         check("caption: #广告#", "#广告#" in t)
         check("caption: code + 95折", "KBEAUTY73" in t and "95折" in t)
     else:
@@ -143,9 +154,16 @@ def check_caption(path, platform):
     if platform == "tiktok":
         n = len(t.strip())
         check("caption: tiktok detailed (400-2200 chars)", 400 <= n <= 2200, f"{n} chars")
-    if platform in ("x", "weibo", "pinterest"):
+    if platform in ("x", "weibo", "pinterest") + JA_PLATFORMS:
         emo = len(re.findall(r"[\U0001F300-\U0001FAFF\u2600-\u27BF\u2B50\u2705\u274C\u2728\U0001F1E6-\U0001F1FF]", t))
         check(f"caption: {platform} has plenty of emojis (>=5)", emo >= 5, f"{emo} emojis — user wants lots on manual posts")
+    if platform == "x-ja":
+        posts = [x.strip() for x in re.split(r"(?m)^---\s*$", t) if x.strip()]
+        check("caption: X (JP) 1-3 posts", 1 <= len(posts) <= 3, f"{len(posts)} posts (separate with a '---' line)")
+        for i, x in enumerate(posts):
+            w = sum(2 if ord(c) > 0x10FF else 1 for c in x)
+            check(f"caption: X (JP) post {i+1} <= 280 (weighted)", w <= 280, f"{w} weighted chars")
+        check("caption: X (JP) first post has #PR", bool(posts) and re.search(r"(^|\s)#PR\b", posts[0]) is not None)
     if platform == "x":
         # thread: posts separated by a line containing only "---"; X counts most CJK/emoji as 2
         posts = [x.strip() for x in re.split(r"(?m)^---\s*$", t) if x.strip()]
@@ -176,7 +194,7 @@ def check_video(path):
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--spec"); ap.add_argument("--video"); ap.add_argument("--caption")
-    ap.add_argument("--platform", default="instagram", choices=["instagram", "facebook", "tiktok", "weibo", "pinterest", "x", "youtube"])
+    ap.add_argument("--platform", default="instagram", choices=["instagram", "facebook", "tiktok", "weibo", "pinterest", "x", "youtube", "x-ja", "pinterest-ja"])
     a = ap.parse_args()
     if a.spec: check_spec(a.spec, a.platform)
     if a.caption: check_caption(a.caption, a.platform)
