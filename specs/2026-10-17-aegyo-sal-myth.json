@@ -1,0 +1,40 @@
+{
+  "slug": "day20-aegyo-sal-myth",
+  "lang": "en",
+  "mood": "bright",
+  "seed": 21,
+  "hangul": "애교살",
+  "frames": [
+    {"type": "hook", "kicker": "애교살 · Myth vs fact", "title": "Shimmer under eyes looks tired?", "sub": "Korean makeup says no ↓", "dur": 2.5},
+    {"type": "step", "title": "Fact: it's placement", "line": "light on the fold, soft shadow just below", "sub": "Koreans call it aegyo sal.", "tone": "warm", "dur": 3.0},
+    {"type": "list", "title": "Three quick steps", "items": ["Smile to find it", "Beige on the fold", "Soft brown below"], "sub": "Inner two thirds only.", "dur": 3.2},
+    {"type": "step", "title": "Skip white glitter", "line": "a matte or satin beige looks softer", "sub": "Chunky glitter looks harsh.", "tone": "cool", "dur": 3.0},
+    {"type": "statement", "lines": ["Light up,", "shade down."], "sub": "Keep the line thin and soft.", "dur": 2.8},
+    {"type": "cta", "title": "Save it for your next makeup.", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "Myth vs fact",
+    "title": "Korean Aegyo Sal Makeup",
+    "sub": "Under-eye shine, done softly",
+    "steps": [
+      {"title": "Light on the fold", "body": "Matte beige, inner part."},
+      {"title": "Soft shadow below", "body": "A thin brown line, smudged."}
+    ],
+    "avoid": ["Chunky white glitter", "A thick dark line"],
+    "note": "Find eye palettes at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "list",
+      "kicker": "Eye makeup at home",
+      "title": "How to Do Aegyo Sal: Easy Korean Under Eye Makeup",
+      "sub": "Four small steps with one palette",
+      "items": [
+        {"title": "Find the fold", "body": "Smile. It's the puffy band under the lashes."},
+        {"title": "Light beige on top", "body": "Pat a matte or satin beige on the fold, inner two thirds."},
+        {"title": "Thin shadow below", "body": "A soft brown line under the fold, centre of the eye."},
+        {"title": "Blend the edges", "body": "Clean fingertip or small brush, no hard line."}
+      ]
+    }
+  ]
+}

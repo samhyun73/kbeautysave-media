@@ -1,0 +1,15 @@
+{
+  "slug": "day20-aegyo-sal-myth-zh",
+  "lang": "zh",
+  "mood": "bright",
+  "seed": 21,
+  "hangul": "애교살",
+  "frames": [
+    {"type": "hook", "kicker": "애교살 · 误区与真相", "title": "卧蚕显得没精神？", "sub": "韩妆的答案是 ↓", "dur": 2.5},
+    {"type": "step", "title": "关键是位置", "line": "上面提亮，下面加阴影", "sub": "这就是韩式卧蚕妆", "tone": "warm", "dur": 3.0},
+    {"type": "list", "title": "三个步骤", "items": ["笑一下找到卧蚕", "米色提亮卧蚕", "下方细细的棕线"], "sub": "只画内侧三分之二", "dur": 3.2},
+    {"type": "step", "title": "别用白色亮片", "line": "哑光或缎光米色更自然", "sub": "粗亮片显得生硬", "tone": "cool", "dur": 3.0},
+    {"type": "statement", "lines": ["上亮，", "下影。"], "sub": "线条要细要柔和", "dur": 2.8},
+    {"type": "cta", "title": "化妆前收藏", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}

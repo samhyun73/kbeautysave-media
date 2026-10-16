@@ -20,3 +20,4 @@
 2026-10-15 | Korean puppy eyeliner (강아지 눈매): brown line outer half, tail down ~3 mm, fill triangle, smudge (Thu K-makeup) | manual kit (TikTok + X thread + Weibo + Pinterest ×3); IG+FB+YouTube carried the voice Short
 2026-10-16 | Korean Halloween nails: smoky black jelly over milky base, one moon accent, short + glossy (Fri K-nails, seasonal, swatch) | scheduled 19:00 IG+FB+YouTube (Buffer); TikTok + X thread + Weibo + Pinterest ×3 manual
 2026-10-20 | Voice Short #2: mul-gwang (물광) water-glow look in 3 steps (toner layers, oil drop in moisturizer, dewy cushion + balm on high points; mistake: shine all over) — Avery AI avatar intro | scheduled 19:00 IG+FB+YouTube (Buffer, isAiGenerated on IG/YT); daily run sends the manual kit (pick a non-glow topic)
+2026-10-17 | Myth vs fact: under-eye shimmer looks tired? Korean aegyo sal (beige on the fold, inner 2/3, thin soft brown line below; skip white glitter) (Sat myth, K-makeup) | manual kit (X + Pinterest + Weibo)
