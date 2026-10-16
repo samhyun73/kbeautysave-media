@@ -19,8 +19,8 @@ Owner: kbeautysave (Olive Young Global affiliate). Instagram @kbeautysave, Faceb
 - **Pinterest = 3 pins every day, Mon–Sun (user decision 2026-10-03)**, posted by hand by the user:
   1. **Video pin** — the day's `reel.mp4` (9:16) with its own Pinterest title + description.
   2. **Image pin A** — `pin.png` (default layout: dark header, steps, "skip these").
-     (Sundays and sale weeks: pin B is a `"layout": "deal"` pin — see "Deal pins".)
   3. **Image pin B** — `pin2.png` (`"layout": "list"`: light ground, 3–5 numbered tips) — a *different angle and keyword* from pin A (e.g. A = "trend/colours", B = "how-to at home").
+     (Sundays and sale weeks: pin B is a `"layout": "deal"` pin — see "Deal pins".)
   Each of the 3 gets a different keyword-rich title (see "Pinterest titles") and its own description; never the same title twice. Boards: nails → "Korean Nail Ideas", hair → "Korean Hair Ideas", makeup → "Korean Makeup Looks", skincare → "Korean Skincare Routine" (tell the user to create a board the first time it's needed). Suggested posting times (US evening = KST morning): 09:00, 12:00 and 22:00 KST, spread out — not all at once. Link field empty.
 - **Every weekday**: Weibo caption + Chinese-text reel (`reel_zh.mp4`) sent to the user to post manually.
 - **Every weekday**: an X (Twitter) **thread of 3–4 posts** sent to the user to post manually, `reel.mp4` attached to the first post (X is not connected to Buffer). See "TikTok & X copy" below.
