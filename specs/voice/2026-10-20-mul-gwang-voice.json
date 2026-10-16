@@ -1,0 +1,51 @@
+{
+  "type": "voice_short",
+  "slug": "v02-mul-gwang",
+  "lang": "en",
+  "hangul": "물광",
+  "headline": "How to get the Korean 'water glow' look",
+  "mood": "bright",
+  "seed": 12,
+  "voice_id": "",
+  "scenes": [
+    {
+      "avatar": "assets/ai/avery-mulgwang.mp4",
+      "trim": [0, 9.8],
+      "say": "Today's Korean beauty word: mul-gwang (물광). Mul-gwang means water glow, that fresh, dewy shine Koreans love. Here's how to get the look in three easy steps."
+    },
+    {
+      "say": "First, pat a hydrating toner into damp skin in two or three thin layers, not one heavy splash.",
+      "label": "Step 1",
+      "query": ["toner skincare", "applying toner", "skincare routine"],
+      "clips": []
+    },
+    {
+      "say": "Next, mix one drop of facial oil into your moisturizer, then press it in with your palms.",
+      "label": "Step 2",
+      "query": ["face oil", "moisturizer cream", "facial skincare"],
+      "clips": []
+    },
+    {
+      "say": "Then use a dewy cushion foundation, and tap a little balm on your cheekbones and nose bridge.",
+      "label": "Step 3",
+      "query": ["cushion foundation", "makeup sponge", "highlighter makeup"],
+      "clips": []
+    },
+    {
+      "say": "The common mistake? Shine all over the face. Keep it on the high points, so it looks glowy, not greasy.",
+      "label": "Common mistake",
+      "query": ["makeup mirror", "face makeup", "skincare face"],
+      "clips": []
+    },
+    {
+      "say": "Save this for your next glow day. The shopping link is in my profile.",
+      "query": ["cosmetics", "skincare products", "makeup"],
+      "clips": []
+    }
+  ],
+  "cta": {
+    "line": "Shop the K-beauty picks",
+    "main": "Link in my profile"
+  },
+  "tempo": 1.1
+}

@@ -17,6 +17,8 @@ Spec (specs/YYYY-MM-DD-<slug>-voice.json):
    "mood": "bright", "seed": 5, "voice_id": "", "tempo": 1.1,
    "scenes": [{"say": "spoken line", "label": "optional pill", "query": ["stock search", "..."], "clips": ["pb123", "px456"]}],
    "cta": {"line": "Shop the K-beauty picks", "main": "Link in my profile"}}
+  Avatar intro (optional, first scene): {"avatar": "assets/ai/<file>.mp4", "trim": [0, 9.8], "say": "caption text"} uses
+  the clip's own picture and voice (no Typecast), hides the headline band during it, and marks the Short ai_generated.
   The last scene shows the profile card. No discount code or link in the video or its description (decision 2026-10-12). "clips" pins footage (ids from candidates.json); empty = top search hits.
 """
 import base64, hashlib, json, os, re, shutil, subprocess, sys, time, urllib.parse, urllib.request
@@ -280,7 +282,7 @@ def clip_by_id(cid):
 
 def clip_file(c):
     if MOCK or c["id"].startswith("mock"):
-        p = CACHE / "mock" / f"{c['id']}.mp4"
+        p = CACHE / "mock" / f"{c['id']}-{c['w']}x{c['h']}.mp4"
         if not p.exists():
             p.parent.mkdir(parents=True, exist_ok=True)
             hue = int(re.sub(r"\D", "", c["id"]) or 0) * 37 % 360
@@ -458,14 +460,16 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 # ----------------------------------------------------------------- render ----
 def shot(clip, L, path):
     """Normalise one clip to a 1080x1920 shot of length L: portrait = slow pan crop, landscape = over a blurred copy."""
-    start = max(0.0, min(1.0, (clip["duration"] - L) / 3)) if clip["duration"] > L else 0.0
-    loop = ["-stream_loop", "-1"] if clip["duration"] < L + start else []
-    if clip["h"] > clip["w"]:
+    start = clip.get("start", max(0.0, min(1.0, (clip["duration"] - L) / 3)) if clip["duration"] > L else 0.0)
+    loop = ["-stream_loop", "-1"] if clip["duration"] < L + (0 if "start" in clip else start) and not clip.get("fixed") else []
+    if clip.get("fixed"):   # AI/avatar clips: whole frame, no crop, so the provider's watermark stays visible
+        frame = f"scale={W}:{H},tpad=stop_mode=clone:stop_duration=1"
+    elif clip["h"] > clip["w"]:
         frame = f"scale={W + 80}:-2,crop={W}:{H}:x='(iw-ow)*t/{L:.3f}':y='(ih-oh)/2'"
     else:
         frame = (f"split[a][b];[a]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},boxblur=24:2,"
                  f"eq=brightness=-0.08[bg];[b]scale=-2:1180,crop={W}:ih:x='(iw-ow)*(0.3+0.4*t/{L:.3f})'[fg];[bg][fg]overlay=0:(H-h)/2+40")
-    run(["ffmpeg", "-y", "-loglevel", "error", *loop, "-ss", f"{start:.2f}", "-i", str(clip_file(clip)), "-t", f"{L:.3f}", "-an",
+    run(["ffmpeg", "-y", "-loglevel", "error", *loop, "-ss", f"{start:.2f}", "-i", str(clip.get("path") or clip_file(clip)), "-t", f"{L:.3f}", "-an",
          "-vf", f"{frame},fps={FPS},setsar=1,format=yuv420p", "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", str(path)])
 
 
@@ -483,6 +487,40 @@ def xfade(files, lens, out):
     run(cmd + ["-filter_complex", ";".join(g), "-map", f"[{prev}]", "-c:v", "libx264", "-preset", "veryfast",
                "-crf", "18", "-pix_fmt", "yuv420p", "-r", str(FPS), str(out)])
     return sum(lens) - T * (len(files) - 1)
+
+
+def avatar_audio(sc, work, i):
+    """Cut the avatar clip's own voice to the trim window -> (wav, duration, [(word, start, end)]).
+    Words are spread over the speech segments found with silencedetect, one sentence per segment when counts match."""
+    src = ROOT / sc["avatar"]
+    t0, t1 = sc.get("trim", [0, probe(src)])
+    wav = work / f"avatar{i:02d}.wav"
+    run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{t0}", "-to", f"{t1}", "-i", str(src), "-vn",
+         "-af", "aresample=44100,aformat=channel_layouts=mono", str(wav)])
+    dur = t1 - t0
+    err = subprocess.run(["ffmpeg", "-hide_banner", "-nostats", "-i", str(wav), "-af", "silencedetect=n=-35dB:d=0.4",
+                          "-f", "null", "-"], capture_output=True, text=True).stderr
+    starts = [float(x) for x in re.findall(r"silence_start: ([\d.]+)", err)]
+    ends = [float(x) for x in re.findall(r"silence_end: ([\d.]+)", err)]
+    segs, cur = [], 0.0
+    for a, b in zip(starts, ends + [dur] * (len(starts) - len(ends))):
+        if a - cur > 0.3:
+            segs.append((cur, a))
+        cur = b
+    if dur - cur > 0.3:
+        segs.append((cur, dur))
+    sents = [x for x in re.split(r"(?<=[.!?])\s+", sc["say"].strip()) if x]
+    groups = list(zip(sents, segs)) if len(sents) == len(segs) else [(sc["say"], (segs[0][0], segs[-1][1]) if segs else (0, dur))]
+    words = []
+    for text, (a, b) in groups:
+        toks = text.split()
+        total = sum(len(w) + 1 for w in toks)
+        t = a
+        for w in toks:
+            d = (b - a) * (len(w) + 1) / total
+            words.append((w, round(t, 3), round(t + d, 3)))
+            t += d
+    return wav, dur, words
 
 
 def rotation_voice(spec):
@@ -504,8 +542,13 @@ def render(spec, outdir):
     # 1. narration and scene timing
     t = 0.0
     for i, sc in enumerate(scenes):
-        sc["mp3"], sc["dur"], sc["words"] = tts(sc["say"], voice, float(spec.get("tempo", 1.0)))
-        sc["D"] = LEAD + sc["dur"] + TAIL + (HOLD if i == len(scenes) - 1 else 0)
+        if sc.get("avatar"):   # the avatar speaks for itself: no lead-in, no Typecast
+            sc["mp3"], sc["dur"], sc["words"] = avatar_audio(sc, work, i)
+            sc["lead"], sc["D"] = 0.0, sc["dur"]
+        else:
+            sc["mp3"], sc["dur"], sc["words"] = tts(sc["say"], voice, float(spec.get("tempo", 1.0)))
+            sc["lead"] = LEAD
+            sc["D"] = LEAD + sc["dur"] + TAIL + (HOLD if i == len(scenes) - 1 else 0)
         sc["start"], t = t, t + sc["D"]
     print(f"narration {t:.1f}s, {len(scenes)} scenes")
 
@@ -513,6 +556,17 @@ def render(spec, outdir):
     used, shots, lens, log, credits = set(), [], [], [], {}
     pool_cache = {}
     for i, sc in enumerate(scenes):
+        if sc.get("avatar"):
+            t0 = sc.get("trim", [0])[0]
+            c = {"id": "ai:" + Path(sc["avatar"]).name, "duration": probe(ROOT / sc["avatar"]) - t0, "w": 720, "h": 1280,
+                 "credit": "AI-generated (Google Vids avatar)", "path": ROOT / sc["avatar"], "start": t0, "fixed": True, "tags": "avatar"}
+            L = sc["D"] + T
+            p = work / f"shot{len(shots):03d}.mp4"
+            shot(c, L, p)
+            shots.append(p); lens.append(L)
+            credits[c["id"]] = f"{c['id']}  {c['credit']}"
+            log.append(f"{sc['start']:6.1f}s  scene {i + 1}  {c['id']}  avatar")
+            continue
         n = max(1, round(sc["D"] / SHOT))
         pinned = [clip_by_id(c) for c in sc.get("clips", [])]
         if len(pinned) < n:
@@ -536,14 +590,14 @@ def render(spec, outdir):
     for i, sc in enumerate(scenes):
         p = work / f"narr{i:02d}.wav"
         run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(sc["mp3"]), "-af",
-             f"aresample=44100,aformat=channel_layouts=mono,adelay={int(LEAD * 1000)},apad,atrim=0:{sc['D']:.3f}", str(p)])
+             f"aresample=44100,aformat=channel_layouts=mono,adelay={int(sc['lead'] * 1000)},apad,atrim=0:{sc['D']:.3f}", str(p)])
         parts.append(p)
     (work / "narr.txt").write_text("".join(f"file '{p.name}'\n" for p in parts))
     narr = work / "narr.wav"
     run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(work / "narr.txt"),
          "-af", f"apad,atrim=0:{base_len:.3f}", str(narr)])
     ass = work / "captions.ass"
-    captions([(w, sc["start"] + LEAD + s, sc["start"] + LEAD + e) for sc in scenes for w, s, e in sc["words"]], ass)
+    captions([(w, sc["start"] + sc["lead"] + s, sc["start"] + sc["lead"] + e) for sc in scenes for w, s, e in sc["words"]], ass)
     bgm = work / "bgm.wav"
     run([sys.executable, str(ROOT / "tools" / "bgm.py"), str(bgm), f"{base_len + 1:.1f}", str(spec.get("seed", 1)), spec.get("mood", "bright")])
 
@@ -552,10 +606,15 @@ def render(spec, outdir):
     g, v, idx = [], "0:v", 3
     static = work / "static.png"
     overlay_static(spec, static)
-    cmd += ["-loop", "1", "-framerate", str(FPS), "-t", f"{base_len:.3f}", "-i", str(static)]
-    g.append(f"[{v}][{idx}:v]overlay=format=auto:shortest=1[st]")
+    s0 = scenes[0]["D"] if scenes[0].get("avatar") else 0.0   # keep the avatar's face clear of the headline band
+    cmd += ["-loop", "1", "-framerate", str(FPS), "-t", f"{base_len - s0:.3f}", "-i", str(static)]
+    fade = f"format=rgba,fade=t=in:st=0:d=0.3:alpha=1," if s0 else "format=rgba,"
+    g.append(f"[{idx}:v]{fade}setpts=PTS+{s0:.3f}/TB[stl]")
+    g.append(f"[{v}][stl]overlay=eof_action=pass:format=auto[st]")
     v, idx = "st", idx + 1
     for i, sc in enumerate(scenes):
+        if sc.get("avatar"):
+            continue
         png = work / f"ov{i:02d}.png"
         overlay(spec, sc, png, last=i == len(scenes) - 1)
         a = sc["start"] + (0 if i == 0 else T / 2)
@@ -600,7 +659,8 @@ def render(spec, outdir):
                                         + "\n".join(credits.values()) + "\n\nShot log:\n" + "\n".join(log) + "\n")
     (outdir / "meta.json").write_text(json.dumps({"slug": spec["slug"], "voice_id": voice, "duration": round(base_len, 2),
                                                   "clips": list(credits),
-                                                  "attribution": "Coverr" if any(c.startswith("cv") for c in credits) else ""}, indent=1))
+                                                  "attribution": "Coverr" if any(c.startswith("cv") for c in credits) else "",
+                                                  "ai_generated": any(sc.get("avatar") for sc in scenes)}, indent=1))
     shutil.rmtree(work, ignore_errors=True)
     print(f"done: {out} ({base_len:.1f}s)")
 
