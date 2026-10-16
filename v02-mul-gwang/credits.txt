@@ -1,0 +1,25 @@
+Stock footage (Pixabay: no attribution required; Coverr: attribution required):
+ai:avery-mulgwang.mp4  AI-generated (Google Vids avatar)
+pb103255  azharkhandeena (Pixabay)  https://pixabay.com/videos/id-103255/
+pb210846  u_qtg17dbg65 (Pixabay)  https://pixabay.com/videos/id-210846/
+cvGg5RlLSxNp  Coverr  
+cvlVg41x5Ow6  Coverr  
+cvOrVUhC5L0A  Coverr  
+cvXSb0Zj5iaD  Coverr  
+pb203733  mehranbiabani (Pixabay)  https://pixabay.com/videos/id-203733/
+cvHQOXGc7PFs  Coverr  
+pb209634  u_45xbkmqygv (Pixabay)  https://pixabay.com/videos/id-209634/
+cvo6DhozW7nP  Coverr  
+
+Shot log:
+   0.0s  scene 1  ai:avery-mulgwang.mp4  avatar
+   9.8s  scene 2  pb103255  skin care, woman, skin, grl, natural skincare, organic, organic skin care
+  12.9s  scene 2  pb210846  skincare, products, glow
+  16.0s  scene 3  cvGg5RlLSxNp  Close-Up Golden Facial Oil Drop from Luxury Serum Dropper, golden oil, serum, dropper, droplet, cosmetic, skincare, beauty product, luxury, macro, close-up, liquid, bokeh, studio lighting, shallow depth of field, reflection, texture, premium, advertising, product shot, slow motion
+  18.6s  scene 3  cvlVg41x5Ow6  Close-Up: Hands After Applying Hand Cream — Beauty Demo, hands, hand cream, skincare, moisturizer, beauty tutorial, product demo, close-up, vertical video, personal care, woman, smiling, cosmetics tube, tabletop, skin texture
+  21.2s  scene 4  cvOrVUhC5L0A  Makeup artist applies liquid foundation, makeup, beauty sponge, beautyblender, tone, liquid foundation, primer, face, neck, beauty, industry, girl, skin, skincare, cosmetics, mua, people, artsy, slow motion, close up
+  23.5s  scene 4  cvXSb0Zj5iaD  Applying makeup in front of mirror, girl, woman, makeup, finish, touches, beauty, cosmetics, industry, highlighter, contour, contouring, eyeshadow, cleansing, mascara, mascara wand, powder, powder brush, plant, decor, beautiful, people, artsy, background
+  25.9s  scene 5  pb203733  girl, face, model, smile, eyes, makeup, fashion, skin, female, young, portrait, blink, wink
+  28.3s  scene 5  cvHQOXGc7PFs  Makeup artist applies face powder, makeup, foundation powder, powder brush, powder, makeup brush, brush stroke, beauty, industry, face, skin, skincare, neck, cosmetics, mua, tone, people, artsy, close up, slow motion, quarantine, covid-19
+  30.8s  scene 6  pb209634  woman, cosmetics, products, freshness, healthy, beauty
+  33.3s  scene 6  cvo6DhozW7nP  Putting on pink lipstick, woman, girl, pink, lipstick, cosmetics, beauty, industry, beautiful, sheer, color, sparkle, twist, lips, face, clear skin, skincare, makeup, slow motion, people, artsy, background
