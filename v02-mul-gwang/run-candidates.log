@@ -1,0 +1,22 @@
+scene 1: 0 on-topic clips (0 Coverr)
+  search 'toner skincare': 12 Pixabay, 7 Coverr
+  search 'applying toner': 3 Pixabay, 6 Coverr
+  search 'skincare routine': 40 Pixabay, 0 Coverr
+scene 2: 8 on-topic clips (2 Coverr)
+  search 'face oil': 60 Pixabay, 1 Coverr
+  search 'moisturizer cream': 60 Pixabay, 1 Coverr
+  search 'facial skincare': 28 Pixabay, 6 Coverr
+scene 3: 8 on-topic clips (3 Coverr)
+  search 'cushion foundation': 36 Pixabay, 0 Coverr
+  search 'makeup sponge': 60 Pixabay, 4 Coverr
+  search 'highlighter makeup': 60 Pixabay, 15 Coverr
+scene 4: 8 on-topic clips (2 Coverr)
+  search 'makeup mirror': 60 Pixabay, 16 Coverr
+  search 'face makeup': 60 Pixabay, 30 Coverr
+  search 'skincare face': 60 Pixabay, 30 Coverr
+scene 5: 8 on-topic clips (6 Coverr)
+  search 'cosmetics': 35 Pixabay, 30 Coverr
+  search 'skincare products': 60 Pixabay, 14 Coverr
+  search 'makeup': 52 Pixabay, 30 Coverr
+scene 6: 8 on-topic clips (5 Coverr)
+candidates: 40 clips in 6 scenes -> out/vs/candidates.jpg
