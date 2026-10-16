@@ -577,6 +577,8 @@ def render(spec, outdir):
         for k in range(n):
             c = pinned[k % len(pinned)]
             L = sc["D"] / n + T
+            if k >= len(pinned) and c["duration"] > L:   # same clip again: use a later part, not a repeat
+                c = {**c, "start": min(c["duration"] - L, 1.0 + (k // len(pinned)) * (L - T))}
             p = work / f"shot{len(shots):03d}.mp4"
             shot(c, L, p)
             shots.append(p); lens.append(L); used.add(c["id"])
