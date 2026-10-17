@@ -1,0 +1,25 @@
+  search 'blush makeup': 53 Pixabay, 30 Coverr
+  search 'makeup brush cheek': 60 Pixabay, 0 Coverr
+  search 'applying blush': 4 Pixabay, 30 Coverr
+scene 1: 8 on-topic clips (2 Coverr)
+  search 'applying sunscreen face': 60 Pixabay, 0 Coverr
+  search 'foundation makeup': 60 Pixabay, 7 Coverr
+  search 'skincare face': 60 Pixabay, 30 Coverr
+scene 2: 8 on-topic clips (4 Coverr)
+  search 'cream blush': 60 Pixabay, 0 Coverr
+  search 'makeup fingers cheek': 60 Pixabay, 0 Coverr
+  search 'applying makeup cheek': 58 Pixabay, 0 Coverr
+scene 3: 8 on-topic clips (0 Coverr)
+  search 'powder blush brush': 60 Pixabay, 19 Coverr
+  search 'makeup brush': 60 Pixabay, 30 Coverr
+  search 'blush palette': 15 Pixabay, 28 Coverr
+scene 4: 8 on-topic clips (5 Coverr)
+  search 'makeup mirror': 60 Pixabay, 16 Coverr
+  search 'face makeup': 60 Pixabay, 30 Coverr
+  search 'makeup brush': 60 Pixabay, 30 Coverr
+scene 5: 8 on-topic clips (6 Coverr)
+  search 'cosmetics': 35 Pixabay, 30 Coverr
+  search 'makeup': 52 Pixabay, 30 Coverr
+  search 'blush': 1 Pixabay, 30 Coverr
+scene 6: 8 on-topic clips (5 Coverr)
+candidates: 48 clips in 6 scenes -> out/vs/candidates.jpg
