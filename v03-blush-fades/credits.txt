@@ -1,8 +1,8 @@
 Stock footage (Pixabay: no attribution required; Coverr: attribution required):
 pb72007  unster_blich (Pixabay)  https://pixabay.com/videos/id-72007/
 pb12004  whitesession (Pixabay)  https://pixabay.com/videos/id-12004/
-pb210574  u_xhp5h45w73 (Pixabay)  https://pixabay.com/videos/id-210574/
 cvOrVUhC5L0A  Coverr  
+pb210574  u_xhp5h45w73 (Pixabay)  https://pixabay.com/videos/id-210574/
 pb38080  mephala1980 (Pixabay)  https://pixabay.com/videos/id-38080/
 pb203732  mehranbiabani (Pixabay)  https://pixabay.com/videos/id-203732/
 pb25850  paule00070 (Pixabay)  https://pixabay.com/videos/id-25850/
@@ -10,13 +10,13 @@ cvhZXup8fQX0  Coverr
 cvsAibMdAOQE  Coverr  
 cvXQoTqbEf8P  Coverr  
 pb288891  viktoriastasik (Pixabay)  https://pixabay.com/videos/id-288891/
-pb45283  Engin_Akyurt (Pixabay)  https://pixabay.com/videos/id-45283/
+cvo6DhozW7nP  Coverr  
 
 Shot log:
    0.0s  scene 1  pb72007  cosmetics, blush, brush, make-up, salon, style, fashion
    3.4s  scene 1  pb12004  woman applying makeup, mask, make up, attractive, melted, fashion, lips, human, woman, portrait, girl, face, close up, female, pretty, young woman, beauty
-   6.9s  scene 2  pb210574  woman, face cream, cosmetics, beauty, model, face, female, lips
-  10.3s  scene 2  cvOrVUhC5L0A  Makeup artist applies liquid foundation, makeup, beauty sponge, beautyblender, tone, liquid foundation, primer, face, neck, beauty, industry, girl, skin, skincare, cosmetics, mua, people, artsy, slow motion, close up
+   6.9s  scene 2  cvOrVUhC5L0A  Makeup artist applies liquid foundation, makeup, beauty sponge, beautyblender, tone, liquid foundation, primer, face, neck, beauty, industry, girl, skin, skincare, cosmetics, mua, people, artsy, slow motion, close up
+  10.3s  scene 2  pb210574  woman, face cream, cosmetics, beauty, model, face, female, lips
   13.8s  scene 3  pb38080  hands, hand cream, cream, health, skin, care, skincare, wellness, lotion, cosmetics, treatment, woman
   17.0s  scene 3  pb203732  girl, face, model, smile, eyes, makeup, fashion, skin, female, young, portrait
   20.2s  scene 4  pb25850  cosmetics, makeup, brush, acrylic, salon, wiper
@@ -24,4 +24,4 @@ Shot log:
   27.2s  scene 5  cvsAibMdAOQE  Blonde woman putting on lipstick, girl, woman, pink, lipstick, makeup, cosmetics, beauty, industry, highlighter, contour, contouring, eyeshadow, powder, powder brush, mascara, small, rounded, mirror, succulent, plant, candle, decoration, interior, beautiful, brushes, people, artsy, background
   30.5s  scene 5  cvXQoTqbEf8P  Putting makeup on, girl, woman, makeup, powder, powder brush, brush, brush stroke, highlighter, bronzer, bronze, mattifying, finish, succulent, plant, small, rounded, mirror, beauty, cosmetics, industry, beautiful, clear skin, skincare, people, artsy, background
   33.7s  scene 6  pb288891  girl, t-shirt, pink t-shirt, blonde girl, smile, woman, female, background flowers, blonde hair, mascara, eyelashes, cosmetics, eyes, lashes
-  36.8s  scene 6  pb45283  portrait, woman, smile, girl, beautiful, pose, model, expression, mimic, beauty, white, background, insulating, face, young, make-up, eyes, laugh, happy, happiness, teeth, mouth, cosmetics
+  36.8s  scene 6  cvo6DhozW7nP  Putting on pink lipstick, woman, girl, pink, lipstick, cosmetics, beauty, industry, beautiful, sheer, color, sparkle, twist, lips, face, clear skin, skincare, makeup, slow motion, people, artsy, background
