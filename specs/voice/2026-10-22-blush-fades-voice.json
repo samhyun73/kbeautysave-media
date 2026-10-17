@@ -3,7 +3,7 @@
   "slug": "v03-blush-fades",
   "lang": "en",
   "hangul": "블러셔",
-  "headline": "Why your blush fades by noon",
+  "headline": "Why blush fades by noon",
   "mood": "bright",
   "seed": 17,
   "voice_id": "",
@@ -30,8 +30,8 @@
         "skincare face"
       ],
       "clips": [
-        "pb210574",
-        "cvOrVUhC5L0A"
+        "cvOrVUhC5L0A",
+        "pb210574"
       ]
     },
     {
@@ -82,7 +82,7 @@
       ],
       "clips": [
         "pb288891",
-        "pb45283"
+        "cvo6DhozW7nP"
       ]
     }
   ],
