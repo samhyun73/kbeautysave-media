@@ -1,0 +1,41 @@
+{
+  "slug": "day21-sunday-hand-cuticle-reset",
+  "lang": "en",
+  "mood": "bright",
+  "seed": 22,
+  "hangul": "손 관리",
+  "frames": [
+    {"type": "hook", "kicker": "손 관리 · Sunday reset", "title": "Dry cuticles ruining your nails?", "sub": "Try the Korean hand reset ↓", "dur": 2.5},
+    {"type": "step", "title": "Soften first", "line": "right after a warm shower", "sub": "Pat your hands almost dry.", "tone": "cool", "dur": 3.0},
+    {"type": "list", "title": "Sunday steps", "items": ["One drop of oil", "Push back gently", "Rich hand cream"], "sub": "Massage it all in.", "dur": 3.2},
+    {"type": "step", "title": "No cutting", "line": "push back with a soft cotton tip", "sub": "Picking leaves rough edges.", "tone": "warm", "dur": 3.0},
+    {"type": "statement", "lines": ["Soak, oil,", "then cream."], "sub": "Cotton gloves for overnight.", "dur": 2.8},
+    {"type": "cta", "title": "Save it for Sunday night.", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "Sunday reset",
+    "title": "Korean Hand Care Sunday",
+    "sub": "Soft cuticles, neat nails",
+    "steps": [
+      {"title": "Soften first", "body": "After a warm shower."},
+      {"title": "Oil, then cream", "body": "A drop, then cream."}
+    ],
+    "avoid": ["Cutting the cuticles", "Picking at dry skin"],
+    "note": "Find hand creams at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "deal",
+      "kicker": "Shopping tips",
+      "title": "How to Save on Olive Young Global",
+      "sub": "Four habits before you check out",
+      "items": [
+        {"title": "Sign in first", "body": "The code works only for signed in members."},
+        {"title": "Enter KBEAUTY73", "body": "Type it in the Redeem Code field at checkout."},
+        {"title": "Check the event page", "body": "Weekly events and new arrivals change often."},
+        {"title": "Mind the shipping line", "body": "See the free shipping threshold on the site."}
+      ],
+      "note": "Event terms change, so check the site the day you order."
+    }
+  ]
+}

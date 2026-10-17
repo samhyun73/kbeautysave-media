@@ -1,0 +1,60 @@
+{
+  "slug": "day21-sunday-hand-cuticle-reset-zh",
+  "lang": "zh",
+  "mood": "bright",
+  "seed": 22,
+  "hangul": "손 관리",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "손 관리 · 周日护手",
+      "title": "死皮总是翘起来？",
+      "sub": "试试韩式周日护手 ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "step",
+      "title": "先泡软",
+      "line": "洗完澡或温水泡5分钟",
+      "sub": "拍到半干",
+      "tone": "cool",
+      "dur": 3.0
+    },
+    {
+      "type": "list",
+      "title": "周日护手",
+      "items": [
+        "一滴指缘油",
+        "轻轻往后推",
+        "厚涂护手霜"
+      ],
+      "sub": "按摩吸收",
+      "dur": 3.2
+    },
+    {
+      "type": "step",
+      "title": "别剪别撕",
+      "line": "用棉签轻轻推回",
+      "sub": "撕了边缘更粗糙",
+      "tone": "warm",
+      "dur": 3.0
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "先泡再油，",
+        "最后涂霜。"
+      ],
+      "sub": "睡前戴棉手套",
+      "dur": 2.8
+    },
+    {
+      "type": "cta",
+      "title": "收藏备用",
+      "code_label": "额外95折 优惠码",
+      "where_html": "在 <b>Olive Young Global</b><br>结账时输入",
+      "tags": "#广告",
+      "dur": 3.0
+    }
+  ]
+}
