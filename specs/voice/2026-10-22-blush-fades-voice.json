@@ -10,31 +10,80 @@
   "scenes": [
     {
       "say": "Why does your blush disappear by noon? It's usually how you layer it, not the blush itself.",
-      "query": ["blush makeup", "makeup brush cheek", "applying blush"]
+      "query": [
+        "blush makeup",
+        "makeup brush cheek",
+        "applying blush"
+      ],
+      "clips": [
+        "pb72007",
+        "pb12004",
+        "pb270065"
+      ]
     },
     {
       "say": "First, let your sunscreen and base sit for two minutes. Blush slides around on damp skin.",
       "label": "Step 1",
-      "query": ["applying sunscreen face", "foundation makeup", "skincare face"]
+      "query": [
+        "applying sunscreen face",
+        "foundation makeup",
+        "skincare face"
+      ],
+      "clips": [
+        "pb210574",
+        "cvOrVUhC5L0A"
+      ]
     },
     {
       "say": "Next, tap a cream or liquid blush onto your cheeks with your fingertip. Tap, don't swipe.",
       "label": "Step 2",
-      "query": ["cream blush", "makeup fingers cheek", "applying makeup cheek"]
+      "query": [
+        "cream blush",
+        "makeup fingers cheek",
+        "applying makeup cheek"
+      ],
+      "clips": [
+        "pb38080",
+        "pb203732"
+      ]
     },
     {
       "say": "Then dust a little powder blush in the same shade on top. Two thin layers stay put longer.",
       "label": "Step 3",
-      "query": ["powder blush brush", "makeup brush", "blush palette"]
+      "query": [
+        "powder blush brush",
+        "makeup brush",
+        "blush palette"
+      ],
+      "clips": [
+        "pb25850",
+        "cvhZXup8fQX0"
+      ]
     },
     {
       "say": "The common mistake? One heavy layer of powder. It sits on top and wears off unevenly.",
       "label": "Common mistake",
-      "query": ["makeup mirror", "face makeup", "makeup brush"]
+      "query": [
+        "makeup mirror",
+        "face makeup",
+        "makeup brush"
+      ],
+      "clips": [
+        "cvsAibMdAOQE",
+        "cvXQoTqbEf8P"
+      ]
     },
     {
       "say": "Which step do you skip? Tell me in the comments. The shopping link is in my profile.",
-      "query": ["cosmetics", "makeup", "blush"]
+      "query": [
+        "cosmetics",
+        "makeup",
+        "blush"
+      ],
+      "clips": [
+        "pb288891",
+        "pb45283"
+      ]
     }
   ],
   "cta": {
