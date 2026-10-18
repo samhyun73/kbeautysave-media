@@ -32,7 +32,8 @@
       "clips": [
         "cvOrVUhC5L0A",
         "pb210574"
-      ]
+      ],
+      "check": "Let your base set 2 min"
     },
     {
       "say": "Next, tap a cream or liquid blush onto your cheeks with your fingertip. Tap, don't swipe.",
@@ -45,7 +46,8 @@
       "clips": [
         "pb38080",
         "pb203732"
-      ]
+      ],
+      "check": "Tap on cream blush"
     },
     {
       "say": "Then dust a little powder blush in the same shade on top. Two thin layers stay put longer.",
@@ -58,7 +60,8 @@
       "clips": [
         "pb25850",
         "cvhZXup8fQX0"
-      ]
+      ],
+      "check": "Same-shade powder on top"
     },
     {
       "say": "The common mistake? One heavy layer of powder. It sits on top and wears off unevenly.",

@@ -410,6 +410,30 @@ def overlay(spec, sc, path, last):
     img.save(path)
 
 
+def checklist(spec, items, done, path):
+    """Step checklist card (idea: Skillry "Wall Checklist Reveal", 2026-10-18): one row per scene "check", centred
+    under the pills. Rows before `done` are ticked, row `done` is the current step (blush ring), later rows are
+    hidden, so the list builds up as the narration moves on; after the last step every row is ticked."""
+    img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    _, _, bottom, _, _, _ = _band(d, spec)
+    f, rh, pad, r = font(38), 62, 24, 16
+    shown = items[:done + 1]
+    tw = max(d.textlength(t, font=f) for t in items)
+    cw = int(pad * 2 + 2 * r + 22 + tw)
+    x0, y0 = (W - cw) // 2, bottom + 22 + 66 + 14 + 66 + 30   # under the hangul and label pills
+    rounded(d, (x0, y0, x0 + cw, y0 + 2 * pad - 10 + len(shown) * rh), 28, C["rice"] + (236,))
+    for k, t in enumerate(shown):
+        cy, cx = y0 + pad - 5 + k * rh + rh // 2, x0 + pad + r
+        if k < done:   # ticked: filled circle with a check mark
+            d.ellipse((cx - r, cy - r, cx + r, cy + r), fill=C["deep"])
+            d.line([(cx - 8, cy + 1), (cx - 2, cy + 7), (cx + 9, cy - 7)], fill=C["rice"], width=5, joint="curve")
+        else:          # current step
+            d.ellipse((cx - r, cy - r, cx + r, cy + r), outline=C["blush"], width=6)
+        d.text((cx + r + 22, cy), t, font=f, fill=C["pine"] if k == done else C["muted"], anchor="lm")
+    img.save(path)
+
+
 # --------------------------------------------------------------- captions ----
 def ass_time(t):
     cs = int(round(t * 100))
@@ -627,6 +651,20 @@ def render(spec, outdir):
         g.append(f"[{idx}:v]format=rgba,{fin}{fout}setpts=PTS+{a:.3f}/TB[o{i}]")
         g.append(f"[{v}][o{i}]overlay=eof_action=pass:format=auto[w{i}]")
         v, idx = f"w{i}", idx + 1
+    # step checklist (optional scene "check" texts): no fades, so the card stays put and only the new row changes
+    items = [sc["check"] for sc in scenes if sc.get("check")]
+    k = -1
+    for i, sc in enumerate(scenes):
+        if items and (sc.get("check") or k >= 0):
+            k = k + 1 if sc.get("check") else len(items)
+            png = work / f"ck{i:02d}.png"
+            checklist(spec, items, min(k, len(items)), png)
+            a = sc["start"] + (0 if i == 0 else T / 2)
+            b = base_len if i == len(scenes) - 1 else sc["start"] + sc["D"] + T / 2
+            cmd += ["-loop", "1", "-framerate", str(FPS), "-t", f"{b - a:.3f}", "-i", str(png)]
+            g.append(f"[{idx}:v]format=rgba,setpts=PTS+{a:.3f}/TB[c{i}]")
+            g.append(f"[{v}][c{i}]overlay=eof_action=pass:format=auto[x{i}]")
+            v, idx = f"x{i}", idx + 1
     cmd += ["-f", "lavfi", "-i", f"color=c=0x9DBDB0:s={W}x10:r={FPS}:d={base_len:.3f}"]
     g.append(f"[{v}][{idx}:v]overlay=x='-w+w*t/{base_len:.3f}':y=0:shortest=1[bar]")
     g.append(f"[bar]subtitles='{str(ass).replace(':', chr(92) + ':')}',format=yuv420p[vout]")
