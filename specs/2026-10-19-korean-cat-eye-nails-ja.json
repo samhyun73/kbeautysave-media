@@ -1,0 +1,125 @@
+{
+  "slug": "day20-korean-cat-eye-nails-ja",
+  "lang": "ja",
+  "mood": "bright",
+  "seed": 21,
+  "hangul": "캣아이 네일",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "캣아이 네일 · 韓国ネイル",
+      "title": "マグネットが苦手？",
+      "sub": "韓国風ならやわらか ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "swatch",
+      "title": "秋のマグネット色",
+      "swatches": [
+        {
+          "name": "モカ",
+          "color": "#6B4A3A",
+          "sheer": false,
+          "finish": "cat eye"
+        },
+        {
+          "name": "プラム",
+          "color": "#5A2A44",
+          "sheer": false,
+          "finish": "cat eye"
+        },
+        {
+          "name": "スモーク",
+          "color": "#6E6A72",
+          "sheer": true,
+          "finish": "cat eye"
+        },
+        {
+          "name": "ミルク",
+          "color": "#EDE3DA",
+          "sheer": true
+        }
+      ],
+      "sub": "透け感ベースで上品に",
+      "dur": 3.4
+    },
+    {
+      "type": "step",
+      "title": "乾く前に磁石",
+      "line": "爪の真上で10秒キープ",
+      "sub": "乾く前・ライトの前に",
+      "dur": 3.0
+    },
+    {
+      "type": "step",
+      "title": "斜めでぼかす",
+      "line": "磁石を傾けて光を広げる",
+      "sub": "ぼかすとベロアみたい",
+      "dur": 3.0
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "薄く塗る。"
+      ],
+      "sub": "厚塗りは光がにごる",
+      "dur": 2.6
+    },
+    {
+      "type": "cta",
+      "title": "保存してね",
+      "code_label": "ログイン後 クーポンコード",
+      "where_html": "<b>Olive Young Global</b> で5%オフ",
+      "tags": "#PR #oliveyoungaffiliate",
+      "dur": 3.0
+    }
+  ],
+  "pin": {
+    "kicker": "韓国風ネイル",
+    "title": "マグネットネイル",
+    "sub": "秋はやわらかベロアに",
+    "swatches": [
+      {
+        "name": "モカ",
+        "color": "#6B4A3A",
+        "sheer": false,
+        "finish": "cat eye"
+      },
+      {
+        "name": "プラム",
+        "color": "#5A2A44",
+        "sheer": false,
+        "finish": "cat eye"
+      },
+      {
+        "name": "スモーク",
+        "color": "#6E6A72",
+        "sheer": true,
+        "finish": "cat eye"
+      },
+      {
+        "name": "ミルク",
+        "color": "#EDE3DA",
+        "sheer": true
+      }
+    ],
+    "steps": [
+      {
+        "title": "乾く前に磁石",
+        "body": "爪の真上で10秒"
+      },
+      {
+        "title": "斜めにぼかす",
+        "body": "広げるとベロア風"
+      }
+    ],
+    "avoid": [
+      "厚塗り",
+      "磁石を爪につける"
+    ],
+    "note": "ネイルは Olive Young Global で",
+    "code_line": "ログイン後、Olive Young Global の決済で5%オフ",
+    "avoid_label": "やらないこと",
+    "tag": "#PR"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "slug": "day20-korean-cat-eye-nails",
+  "lang": "en",
+  "mood": "bright",
+  "seed": 21,
+  "hangul": "캣아이 네일",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "캣아이 네일 · Korean nails",
+      "title": "Cat eye nails too flashy?",
+      "sub": "Korean style keeps it soft ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "swatch",
+      "title": "Soft fall cat eye",
+      "swatches": [
+        {
+          "name": "Mocha",
+          "color": "#6B4A3A",
+          "sheer": false,
+          "finish": "cat eye"
+        },
+        {
+          "name": "Plum",
+          "color": "#5A2A44",
+          "sheer": false,
+          "finish": "cat eye"
+        },
+        {
+          "name": "Smoke",
+          "color": "#6E6A72",
+          "sheer": true,
+          "finish": "cat eye"
+        },
+        {
+          "name": "Milk",
+          "color": "#EDE3DA",
+          "sheer": true
+        }
+      ],
+      "sub": "Sheer base, soft shimmer.",
+      "dur": 3.4
+    },
+    {
+      "type": "step",
+      "title": "Magnet while wet",
+      "line": "hold it just above the nail for 10 seconds",
+      "sub": "Before it dries or goes under a lamp.",
+      "dur": 3.0
+    },
+    {
+      "type": "step",
+      "title": "Tilt it wide",
+      "line": "angle the magnet to spread the shine",
+      "sub": "A wide blur looks like velvet.",
+      "dur": 3.0
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "Thin coats only."
+      ],
+      "sub": "Thick coats look muddy.",
+      "dur": 2.6
+    },
+    {
+      "type": "cta",
+      "title": "Save it for your next set.",
+      "dur": 3.0
+    }
+  ],
+  "pin": {
+    "kicker": "Korean nail trend",
+    "title": "Korean Cat Eye Nails 2026",
+    "sub": "Soft, sheer and velvety for fall",
+    "swatches": [
+      {
+        "name": "Mocha",
+        "color": "#6B4A3A",
+        "sheer": false,
+        "finish": "cat eye"
+      },
+      {
+        "name": "Plum",
+        "color": "#5A2A44",
+        "sheer": false,
+        "finish": "cat eye"
+      },
+      {
+        "name": "Smoke",
+        "color": "#6E6A72",
+        "sheer": true,
+        "finish": "cat eye"
+      },
+      {
+        "name": "Milk",
+        "color": "#EDE3DA",
+        "sheer": true
+      }
+    ],
+    "steps": [
+      {
+        "title": "While wet",
+        "body": "10 seconds, just above."
+      },
+      {
+        "title": "Tilt it wide",
+        "body": "A wide blur = velvet."
+      }
+    ],
+    "avoid": [
+      "Thick, heavy coats",
+      "Magnet touching the nail"
+    ],
+    "note": "Find nail polish at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "list",
+      "kicker": "Nails at home",
+      "title": "Velvet Nails at Home: Easy Korean Cat Eye Steps",
+      "sub": "Four steps, one small magnet",
+      "items": [
+        {
+          "title": "Sheer base",
+          "body": "One thin coat of milky or nude polish."
+        },
+        {
+          "title": "Thin magnetic coat",
+          "body": "One thin coat of cat eye polish."
+        },
+        {
+          "title": "Magnet, 10 seconds",
+          "body": "Hold it close while wet, never touching."
+        },
+        {
+          "title": "Glossy top coat",
+          "body": "Seal it once the shine sits right."
+        }
+      ]
+    }
+  ]
+}

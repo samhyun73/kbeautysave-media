@@ -1,0 +1,77 @@
+{
+  "slug": "day20-korean-cat-eye-nails-zh",
+  "lang": "zh",
+  "mood": "bright",
+  "seed": 21,
+  "hangul": "캣아이 네일",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "캣아이 네일 · 韩式美甲",
+      "title": "猫眼美甲太闪了？",
+      "sub": "韩式做法更柔和 ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "swatch",
+      "title": "秋季柔和猫眼",
+      "swatches": [
+        {
+          "name": "摩卡",
+          "color": "#6B4A3A",
+          "sheer": false,
+          "finish": "cat eye"
+        },
+        {
+          "name": "梅子",
+          "color": "#5A2A44",
+          "sheer": false,
+          "finish": "cat eye"
+        },
+        {
+          "name": "烟灰",
+          "color": "#6E6A72",
+          "sheer": true,
+          "finish": "cat eye"
+        },
+        {
+          "name": "奶白",
+          "color": "#EDE3DA",
+          "sheer": true
+        }
+      ],
+      "sub": "透色打底，微微闪",
+      "dur": 3.4
+    },
+    {
+      "type": "step",
+      "title": "趁湿用磁铁",
+      "line": "贴近指甲停10秒",
+      "sub": "在变干或照灯之前",
+      "dur": 3.0
+    },
+    {
+      "type": "step",
+      "title": "斜着吸更柔",
+      "line": "倾斜磁铁让光变宽",
+      "sub": "宽光带像丝绒",
+      "dur": 3.0
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "只涂薄层。"
+      ],
+      "sub": "太厚会显得浑浊",
+      "dur": 2.6
+    },
+    {
+      "type": "cta",
+      "title": "收藏备用",
+      "code_label": "额外95折 优惠码",
+      "where_html": "在 <b>Olive Young Global</b><br>结账时输入",
+      "tags": "#广告",
+      "dur": 3.0
+    }
+  ]
+}
