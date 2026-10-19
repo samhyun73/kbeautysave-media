@@ -1,0 +1,15 @@
+{
+  "slug": "day21-tight-skin-after-washing-zh",
+  "lang": "zh",
+  "mood": "calm",
+  "seed": 22,
+  "hangul": "당김",
+  "frames": [
+    {"type": "hook", "kicker": "당김 · 韩式护肤", "title": "洗完脸总是紧绷？", "sub": "韩国人洗得更温和 ↓", "dur": 2.5},
+    {"type": "step", "title": "温水不用热水", "line": "热水更容易带走油脂", "sub": "接近体温就好", "dur": 2.9},
+    {"type": "step", "title": "温和洁面啫喱", "line": "豌豆大小，洗约60秒", "sub": "弱酸性，洗完不涩", "dur": 3.0},
+    {"type": "step", "title": "一分钟内上水", "line": "趁脸还微湿时轻拍", "sub": "别等到紧绷再擦", "dur": 3.0},
+    {"type": "statement", "lines": ["别洗到", "发涩。"], "sub": "柔软舒服才是干净", "dur": 2.6},
+    {"type": "cta", "title": "今晚试试", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}

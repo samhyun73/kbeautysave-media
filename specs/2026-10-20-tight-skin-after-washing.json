@@ -1,0 +1,41 @@
+{
+  "slug": "day21-tight-skin-after-washing",
+  "lang": "en",
+  "mood": "calm",
+  "seed": 22,
+  "hangul": "당김",
+  "frames": [
+    {"type": "hook", "kicker": "당김 · Korean skincare", "title": "Skin tight after washing?", "sub": "Koreans wash gentler ↓", "dur": 2.5},
+    {"type": "step", "title": "Lukewarm, not hot", "line": "hot water dries skin out", "sub": "Aim for about body temperature.", "dur": 2.9},
+    {"type": "step", "title": "Gentle gel cleanser", "line": "a pea-sized amount, about 60 seconds", "sub": "Low pH, no squeaky feel.", "dur": 3.0},
+    {"type": "step", "title": "Toner within a minute", "line": "pat it on while damp", "sub": "Don't wait for the tight feeling.", "dur": 3.0},
+    {"type": "statement", "lines": ["Squeaky means stripped."], "sub": "Soft and calm is clean.", "dur": 2.6},
+    {"type": "cta", "title": "Save it for tonight.", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "Korean skincare",
+    "title": "Tight Skin After Washing?",
+    "sub": "The gentle Korean way to cleanse",
+    "steps": [
+      {"title": "Lukewarm water", "body": "Not hot, not icy."},
+      {"title": "Toner while damp", "body": "Within one minute."}
+    ],
+    "avoid": ["Hot water and long scrubbing", "Foams that feel squeaky"],
+    "note": "Find gentle cleansers at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "list",
+      "kicker": "Routine order",
+      "title": "Gentle Korean Face Wash: Easy Steps for Dry Skin",
+      "sub": "For skin that feels tight after cleansing",
+      "items": [
+        {"title": "Wet with lukewarm water", "body": "Close to body temperature, never hot."},
+        {"title": "Pea-sized gel cleanser", "body": "Low pH, lathered in your hands first."},
+        {"title": "About 60 seconds", "body": "Soft circles with fingertips, no scrubbing."},
+        {"title": "Pat dry, gently", "body": "Leave the skin a little damp."},
+        {"title": "Toner within a minute", "body": "Then your usual moisturizer."}
+      ]
+    }
+  ]
+}

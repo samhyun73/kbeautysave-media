@@ -1,0 +1,45 @@
+{
+  "slug": "day21-tight-skin-after-washing-tiktok",
+  "lang": "en",
+  "mood": "calm",
+  "seed": 22,
+  "hangul": "당김",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "당김 · Korean skincare",
+      "title": "Skin tight after washing?",
+      "sub": "Koreans wash gentler ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "step",
+      "title": "Lukewarm, not hot",
+      "line": "hot water dries skin out",
+      "sub": "Aim for about body temperature.",
+      "dur": 2.9
+    },
+    {
+      "type": "step",
+      "title": "Gentle gel cleanser",
+      "line": "a pea-sized amount, about 60 seconds",
+      "sub": "Low pH, no squeaky feel.",
+      "dur": 3.0
+    },
+    {
+      "type": "step",
+      "title": "Toner within a minute",
+      "line": "pat it on while damp",
+      "sub": "Don't wait for the tight feeling.",
+      "dur": 3.0
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "Squeaky means stripped."
+      ],
+      "sub": "Soft and calm is clean.",
+      "dur": 2.6
+    }
+  ]
+}
