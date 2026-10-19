@@ -10,40 +10,82 @@
   "scenes": [
     {
       "say": "Does your hair go flat by noon? In Korea, root volume starts with how you dry it.",
-      "query": ["blow dry hair", "hair dryer woman", "woman hair"],
-      "clips": []
+      "query": [
+        "blow dry hair",
+        "hair dryer woman",
+        "woman hair"
+      ],
+      "clips": [
+        "pb34769",
+        "pb37325"
+      ]
     },
     {
       "say": "First, dry your roots before the ends, brushing them the opposite way from your part. Finish with a few seconds of cool air.",
       "label": "Step 1",
-      "query": ["hair dryer", "blow drying hair brush", "drying hair"],
-      "clips": [],
+      "query": [
+        "hair dryer",
+        "blow drying hair brush",
+        "drying hair"
+      ],
+      "clips": [
+        "pb51907",
+        "pb48969"
+      ],
       "check": "Dry roots against your part"
     },
     {
       "say": "Next, roll a velcro roller at your crown or into your bangs, and leave it for about ten minutes while you do your makeup.",
       "label": "Step 2",
-      "query": ["hair roller", "hair curlers", "velcro rollers"],
-      "clips": [],
+      "query": [
+        "hair roller",
+        "hair curlers",
+        "velcro rollers"
+      ],
+      "clips": [
+        "cvhisPEcQ2ai",
+        "pb215152"
+      ],
       "check": "Roller at the crown, 10 min"
     },
     {
       "say": "Then mist a little volume spray, or tap root powder, at the roots only. Hair oil goes on the ends.",
       "label": "Step 3",
-      "query": ["hairspray", "hair spray woman", "hair styling"],
-      "clips": [],
+      "query": [
+        "hairspray",
+        "hair spray woman",
+        "hair styling"
+      ],
+      "clips": [
+        "cvQ1n9tdhx1z",
+        "cvkL4YTNlHMa"
+      ],
       "check": "Volume spray at the roots"
     },
     {
       "say": "The common mistake? Putting conditioner or oil near your scalp. It weighs the roots down by lunch.",
       "label": "Common mistake",
-      "query": ["hair conditioner", "washing hair", "brushing hair"],
-      "clips": []
+      "query": [
+        "hair conditioner",
+        "washing hair",
+        "brushing hair"
+      ],
+      "clips": [
+        "pb50743",
+        "cvZWnMNYrzlj"
+      ]
     },
     {
       "say": "Do you use rollers? Tell me in the comments. The shopping link is in my profile.",
-      "query": ["hairstyle woman", "hair", "hair brush"],
-      "clips": []
+      "query": [
+        "hairstyle woman",
+        "hair",
+        "hair brush"
+      ],
+      "clips": [
+        "cvawZzHfhHhC",
+        "cvJOVHfRRxzH"
+      ]
     }
   ],
   "cta": {
