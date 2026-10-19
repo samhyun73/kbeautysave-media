@@ -1,0 +1,54 @@
+{
+  "type": "voice_short",
+  "slug": "v04-flat-roots",
+  "lang": "en",
+  "hangul": "뿌리 볼륨",
+  "headline": "Why your hair goes flat",
+  "mood": "bright",
+  "seed": 21,
+  "voice_id": "tc_69f2e455ea79fd197aa0476f",
+  "scenes": [
+    {
+      "say": "Does your hair go flat by noon? In Korea, root volume starts with how you dry it.",
+      "query": ["blow dry hair", "hair dryer woman", "woman hair"],
+      "clips": []
+    },
+    {
+      "say": "First, dry your roots before the ends, brushing them the opposite way from your part. Finish with a few seconds of cool air.",
+      "label": "Step 1",
+      "query": ["hair dryer", "blow drying hair brush", "drying hair"],
+      "clips": [],
+      "check": "Dry roots against your part"
+    },
+    {
+      "say": "Next, roll a velcro roller at your crown or into your bangs, and leave it for about ten minutes while you do your makeup.",
+      "label": "Step 2",
+      "query": ["hair roller", "hair curlers", "velcro rollers"],
+      "clips": [],
+      "check": "Roller at the crown, 10 min"
+    },
+    {
+      "say": "Then mist a little volume spray, or tap root powder, at the roots only. Hair oil goes on the ends.",
+      "label": "Step 3",
+      "query": ["hairspray", "hair spray woman", "hair styling"],
+      "clips": [],
+      "check": "Volume spray at the roots"
+    },
+    {
+      "say": "The common mistake? Putting conditioner or oil near your scalp. It weighs the roots down by lunch.",
+      "label": "Common mistake",
+      "query": ["hair conditioner", "washing hair", "brushing hair"],
+      "clips": []
+    },
+    {
+      "say": "Do you use rollers? Tell me in the comments. The shopping link is in my profile.",
+      "query": ["hairstyle woman", "hair", "hair brush"],
+      "clips": []
+    }
+  ],
+  "cta": {
+    "line": "Shop the K-beauty picks",
+    "main": "Link in my profile"
+  },
+  "tempo": 1.1
+}
