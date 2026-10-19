@@ -1,6 +1,6 @@
 Stock footage (Pixabay: no attribution required; Coverr: attribution required):
-pb34769  jaumeps99 (Pixabay)  https://pixabay.com/videos/id-34769/
 pb37325  Engin_Akyurt (Pixabay)  https://pixabay.com/videos/id-37325/
+pb51912  chuduyen215 (Pixabay)  https://pixabay.com/videos/id-51912/
 pb51907  chuduyen215 (Pixabay)  https://pixabay.com/videos/id-51907/
 pb48969  aghyadnajjar (Pixabay)  https://pixabay.com/videos/id-48969/
 cvhisPEcQ2ai  Coverr  
@@ -13,8 +13,8 @@ cvawZzHfhHhC  Coverr
 cvJOVHfRRxzH  Coverr  
 
 Shot log:
-   0.0s  scene 1  pb34769  hair dryer, dryer, hygiene, bathroom, water, hair, girl, woman, cosmetic
-   2.4s  scene 1  pb37325  woman, hair, drying, bathroom, bathe, cleaning, dry, machine, face, portrait, human, house, maintenance, paint, wind, movement, girl, beauty, beautiful, attractive, fashion, youth, people, make-up, women
+   0.0s  scene 1  pb37325  woman, hair, drying, bathroom, bathe, cleaning, dry, machine, face, portrait, human, house, maintenance, paint, wind, movement, girl, beauty, beautiful, attractive, fashion, youth, people, make-up, women
+   2.4s  scene 1  pb51912  woman, hairstyle, hair, salon, hairdresser, haircut, girl, fashion, female, style, person, hair conditioner, conditioner
    4.7s  scene 2  pb51907  hair, salon, hairdresser, woman, haircut, fashion, female, hairstyle, style, young, person, hair conditioner, conditioner, shampoo
    7.6s  scene 2  pb48969  young, dryer, lifestyle, hand, human hand, man, males, lifestyles, people, skill, work, barbershop, beauty, care, hair, cutting, hairstyle, stylist, hairdresser, barber, barber shop, slow
   10.5s  scene 3  cvhisPEcQ2ai  Putting earrings on, girl, woman, trying on, try on, earrings, accessory, beautiful, makeup, highlighter, contour, contouring, bronzer, bronze, eyeshadow, eyelashes, mascara, lipstick, succulent, plant, decor, beauty, cosmetics, industry, people, artsy, background
