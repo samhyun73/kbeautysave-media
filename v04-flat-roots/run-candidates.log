@@ -1,0 +1,25 @@
+  search 'blow dry hair': 60 Pixabay, 1 Coverr
+  search 'hair dryer woman': 60 Pixabay, 0 Coverr
+  search 'woman hair': 60 Pixabay, 30 Coverr
+scene 1: 8 on-topic clips (1 Coverr)
+  search 'hair dryer': 60 Pixabay, 0 Coverr
+  search 'blow drying hair brush': 60 Pixabay, 0 Coverr
+  search 'drying hair': 60 Pixabay, 8 Coverr
+scene 2: 8 on-topic clips (2 Coverr)
+  search 'hair roller': 60 Pixabay, 0 Coverr
+  search 'hair curlers': 60 Pixabay, 0 Coverr
+  search 'velcro rollers': 40 Pixabay, 0 Coverr
+scene 3: 8 on-topic clips (0 Coverr)
+  search 'hairspray': 0 Pixabay, 4 Coverr
+  search 'hair spray woman': 60 Pixabay, 1 Coverr
+  search 'hair styling': 60 Pixabay, 10 Coverr
+scene 4: 8 on-topic clips (7 Coverr)
+  search 'hair conditioner': 60 Pixabay, 3 Coverr
+  search 'washing hair': 60 Pixabay, 4 Coverr
+  search 'brushing hair': 60 Pixabay, 30 Coverr
+scene 5: 8 on-topic clips (2 Coverr)
+  search 'hairstyle woman': 60 Pixabay, 15 Coverr
+  search 'hair': 60 Pixabay, 30 Coverr
+  search 'hair brush': 60 Pixabay, 30 Coverr
+scene 6: 8 on-topic clips (5 Coverr)
+candidates: 48 clips in 6 scenes -> out/vs/candidates.jpg
