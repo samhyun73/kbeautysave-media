@@ -1,0 +1,29 @@
+{
+  "slug": "day22-korean-heatless-curls-ja",
+  "lang": "ja",
+  "mood": "calm",
+  "seed": 23,
+  "hangul": "무열 컬",
+  "frames": [
+    {"type": "hook", "kicker": "무열 컬 · 韓国ヘア", "title": "毎朝コテ？", "sub": "熱なしで巻ける ↓", "dur": 2.5},
+    {"type": "step", "title": "8割乾かす", "line": "しずくが落ちない程度", "sub": "濡れすぎは朝まで乾かない", "dur": 2.9},
+    {"type": "step", "title": "外巻きに巻く", "line": "左右2つに分けて", "sub": "やわらかい巻きロッドで", "dur": 3.0},
+    {"type": "step", "title": "朝ほどく", "line": "片側ずつゆっくり", "sub": "6時間以上そのまま", "dur": 3.0},
+    {"type": "statement", "lines": ["指で", "ほぐす。"], "sub": "毛先にオイル1滴", "dur": 2.6},
+    {"type": "cta", "title": "保存してね", "code_label": "ログイン後 クーポンコード", "where_html": "<b>Olive Young Global</b> で5%オフ", "tags": "#PR #oliveyoungaffiliate", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "韓国風ヘア",
+    "title": "熱なし巻き髪",
+    "sub": "寝ている間にふんわり",
+    "steps": [
+      {"title": "8割乾かす", "body": "濡れすぎはNG"},
+      {"title": "顔の外側へ巻く", "body": "左右2つに分ける"}
+    ],
+    "avoid": ["びしょ濡れで巻く", "ブラシでとかす"],
+    "note": "ヘアオイルは Olive Young Global で",
+    "code_line": "ログイン後、Olive Young Global の決済で5%オフ",
+    "avoid_label": "やらないこと",
+    "tag": "#PR"
+  }
+}

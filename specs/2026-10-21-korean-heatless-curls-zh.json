@@ -1,0 +1,15 @@
+{
+  "slug": "day22-korean-heatless-curls-zh",
+  "lang": "zh",
+  "mood": "calm",
+  "seed": 23,
+  "hangul": "무열 컬",
+  "frames": [
+    {"type": "hook", "kicker": "무열 컬 · 韩式发型", "title": "无热卷发？", "sub": "睡一觉就有弧度 ↓", "dur": 2.5},
+    {"type": "step", "title": "头发八成干", "line": "微湿，不要滴水", "sub": "太湿一晚干不了", "dur": 2.9},
+    {"type": "step", "title": "向后缠绕", "line": "分两边，发尾收好", "sub": "用软的无热卷发棒", "dur": 3.0},
+    {"type": "step", "title": "早上慢慢拆", "line": "一边一边轻轻松开", "sub": "至少缠6小时", "dur": 3.0},
+    {"type": "statement", "lines": ["用手指，", "别用梳子。"], "sub": "发尾一滴发油", "dur": 2.6},
+    {"type": "cta", "title": "今晚试试", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}

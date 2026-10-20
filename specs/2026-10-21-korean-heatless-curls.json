@@ -1,0 +1,41 @@
+{
+  "slug": "day22-korean-heatless-curls",
+  "lang": "en",
+  "mood": "calm",
+  "seed": 23,
+  "hangul": "무열 컬",
+  "frames": [
+    {"type": "hook", "kicker": "무열 컬 · Korean hair", "title": "Curling iron every morning?", "sub": "Try curls without heat ↓", "dur": 2.5},
+    {"type": "step", "title": "About 80% dry", "line": "damp, never dripping", "sub": "Soaked hair won't dry overnight.", "dur": 2.9},
+    {"type": "step", "title": "Wrap away from face", "line": "two sections, ends tucked", "sub": "A soft heatless curler rod.", "dur": 3.0},
+    {"type": "step", "title": "Unwind in the morning", "line": "one side at a time", "sub": "Leave it on 6 hours or more.", "dur": 3.0},
+    {"type": "statement", "lines": ["Fingers, not a brush."], "sub": "One drop of oil on the ends.", "dur": 2.6},
+    {"type": "cta", "title": "Save it for tonight.", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "Korean hair",
+    "title": "Heatless Curls Overnight?",
+    "sub": "Soft Korean waves with no heat",
+    "steps": [
+      {"title": "80% dry hair", "body": "Damp, not dripping."},
+      {"title": "Wrap it back", "body": "Away from your face."}
+    ],
+    "avoid": ["Wrapping soaking wet hair", "Brushing the curls out"],
+    "note": "Find hair oils at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "list",
+      "kicker": "How to at home",
+      "title": "Korean Heatless Curls: Easy Overnight Steps",
+      "sub": "Soft waves while you sleep",
+      "items": [
+        {"title": "Towel dry to about 80%", "body": "Damp hair sets, wet hair stays wet."},
+        {"title": "Split into two sections", "body": "Centre the rod on top of your head."},
+        {"title": "Wrap away from your face", "body": "Mid-lengths down, ends tucked in."},
+        {"title": "Sleep 6 hours or more", "body": "A silk scarf keeps it in place."},
+        {"title": "Unwind and finger-comb", "body": "One drop of oil on the ends only."}
+      ]
+    }
+  ]
+}
