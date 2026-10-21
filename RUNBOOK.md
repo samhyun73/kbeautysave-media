@@ -106,6 +106,20 @@ First sale came from Japan (ETUDE + peripera, a returning Olive Young Global cus
 - **X**: a thread of 3–4 posts (each ≤280 weighted chars), separated in the caption file by a line containing only `---`. Post 1 = hook + 🧵 + `#oliveyoungaffiliate #ad` (+1 topic tag), with reel.mp4 attached; posts 2–4 = the detailed steps, the why / common mistake, and a save prompt.
 - `check_post.py` enforces: no KBEAUTY73 on TikTok/X, TikTok 400–2200 chars, X 3–4 posts each ≤280 with the disclosure in post 1.
 
+## Voice Short scripts: one emotion, a line worth sending (user decision 2026-10-21)
+Based on the user's script emotion guide (a hypothesis to check in the weekly review, not a proven rule).
+- **One emotion per Short**, set in the spec as `"emotion"`: `relief` ("it's not you, it's the method"), `recognition` ("that's me") or `competence` ("now I can do this"). Don't use fear or "protective" angles ("you're ruining your skin"); they drift into scare claims.
+- **4 beats**:
+  1. Hook (0–3 s) names the viewer's situation.
+  2. One line names the feeling (e.g. "It's not your blush. It's the order you put it on.").
+  3. Concrete steps + one common mistake. This is the frame worth saving; use the step checklist when it fits.
+  4. Close on `"shareable_line"`: a short, true sentence someone would send to a friend (e.g. "Two thin layers beat one heavy one."), then the profile pointer.
+- **Language**: second person, short sentences, examples in threes, no lecturing.
+- **No engagement bait**: no "Comment YES", "Tell me in the comments", "Like if…". A real question is fine only if it reads naturally.
+- **No same frame twice in a row**: rotate the hook formula (question, "you're doing X wrong", myth, "the Korean way to…", number/time, word of the day). Don't reuse a hook pattern from the previous Short ("…by noon" twice in a row on 10-21/10-22 was the lesson).
+- **Honesty**: only facts with a source or common practice, no exaggerated fear or anger, no invented experience.
+- Slide-reel hooks follow the same one-emotion and rotation rules where they fit.
+
 ## Daily steps
 0. Call Buffer `list_posts` (organizationId above, dueAt today 00:00–23:59 KST, status scheduled/sending/sent). If today's reel is already queued on a channel, don't queue it again on that channel (never double-post); if all three exist, skip steps 1–5 and only send the posting kit if not already sent. Exception: if today's queued posts are a **voice Short** a human-present session scheduled (`media/<date>/short.mp4` exists), skip only step 5 — still render the reel and send the full manual kit (X, Weibo, Pinterest ×3), and say in the message that IG/FB/YouTube carry the voice Short today. If a channel shows `isDisconnected` in `list_channels`, tell the user which one to reconnect in Buffer.
 1. Pick today's topic (rotation + `topics.md`), informed by the latest `reports/` file and `LEARNINGS.md` (favor topic types and hook styles that performed best).
