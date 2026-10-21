@@ -1,0 +1,15 @@
+{
+  "slug": "day23-korean-straight-brows-zh",
+  "lang": "zh",
+  "mood": "bright",
+  "seed": 24,
+  "hangul": "일자 눈썹",
+  "frames": [
+    {"type": "hook", "kicker": "일자 눈썹 · 韩系妆容", "title": "韩系一字眉怎么画？", "sub": "顺序对了就自然 ↓", "dur": 2.5},
+    {"type": "step", "title": "先梳眉毛", "line": "用螺旋刷向上梳", "sub": "看清哪里有空隙", "dur": 2.9},
+    {"type": "step", "title": "补下边缘", "line": "短短的直线笔触", "sub": "弱化眉峰，别剃掉", "dur": 3.0},
+    {"type": "step", "title": "眉头要浅", "line": "眉尾颜色最深", "sub": "眉头用眉粉晕开", "dur": 3.0},
+    {"type": "statement", "lines": ["补空隙，", "不描边。"], "sub": "最后用眉胶定型", "dur": 2.6},
+    {"type": "cta", "title": "明天试试", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}

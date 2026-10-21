@@ -1,0 +1,41 @@
+{
+  "slug": "day23-korean-straight-brows",
+  "lang": "en",
+  "mood": "bright",
+  "seed": 24,
+  "hangul": "일자 눈썹",
+  "frames": [
+    {"type": "hook", "kicker": "일자 눈썹 · Korean makeup", "title": "Why do Korean brows look soft?", "sub": "It's how they fill ↓", "dur": 2.5},
+    {"type": "step", "title": "Brush up first", "line": "a spoolie, then look", "sub": "The hairs show the gaps.", "dur": 2.9},
+    {"type": "step", "title": "Fill the lower edge", "line": "short, straight strokes", "sub": "Soften the arch, don't shave it.", "dur": 3.0},
+    {"type": "step", "title": "Lighter at the front", "line": "darkest at the tail", "sub": "Blur the front with powder.", "dur": 3.0},
+    {"type": "statement", "lines": ["Fill gaps, not outlines."], "sub": "Set with brow gel.", "dur": 2.6},
+    {"type": "cta", "title": "Save it for tomorrow.", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "Korean makeup",
+    "title": "Korean Straight Brows?",
+    "sub": "Soft, natural brows, the Korean way",
+    "steps": [
+      {"title": "Lower edge", "body": "Short, straight strokes."},
+      {"title": "Light front", "body": "Darkest at the tail."}
+    ],
+    "avoid": ["A dark, blocky front", "Shaving off the arch"],
+    "note": "Find brow pencils at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "list",
+      "kicker": "Korean makeup tutorial",
+      "title": "Korean Brow Makeup: Easy Steps",
+      "sub": "Soft, natural brows",
+      "items": [
+        {"title": "Brush up with a spoolie", "body": "You see the real shape and gaps."},
+        {"title": "Pick a softer shade", "body": "Gray-brown suits most dark hair."},
+        {"title": "Draw the lower line flat", "body": "Short strokes, no sharp arch."},
+        {"title": "Keep the front light", "body": "A little powder, blended up."},
+        {"title": "Set with brow gel", "body": "Brush up and let it dry."}
+      ]
+    }
+  ]
+}
