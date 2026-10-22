@@ -1,0 +1,20 @@
+{
+  "slug": "day24-korean-syrup-nails-zh",
+  "lang": "zh",
+  "mood": "calm",
+  "seed": 25,
+  "hangul": "시럽 네일",
+  "frames": [
+    {"type": "hook", "kicker": "시럽 네일 · 韩式美甲", "title": "糖浆色美甲怎么涂？", "sub": "韩式果冻做法 ↓", "dur": 2.5},
+    {"type": "swatch", "title": "秋季糖浆色", "swatches": [
+      {"name": "枫糖", "color": "#A0522D", "sheer": true, "finish": "gloss"},
+      {"name": "蜂蜜", "color": "#C98A3B", "sheer": true, "finish": "gloss"},
+      {"name": "可乐", "color": "#4A2620", "sheer": true, "finish": "gloss"},
+      {"name": "奶白", "color": "#EDE3DA", "sheer": true}
+    ], "sub": "透明、温暖、有光泽", "dur": 3.4},
+    {"type": "step", "title": "先薄涂一层", "line": "透出指甲本色", "sub": "刷子一面在瓶口刮掉", "dur": 3.0},
+    {"type": "step", "title": "指尖再一层", "line": "越到尖端越深", "sub": "像糖浆一样的渐变", "dur": 3.0},
+    {"type": "statement", "lines": ["上亮油。"], "sub": "太厚就不透了", "dur": 2.6},
+    {"type": "cta", "title": "收藏备用", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}

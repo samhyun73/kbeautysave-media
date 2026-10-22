@@ -1,0 +1,51 @@
+{
+  "slug": "day24-korean-syrup-nails",
+  "lang": "en",
+  "mood": "calm",
+  "seed": 25,
+  "hangul": "시럽 네일",
+  "frames": [
+    {"type": "hook", "kicker": "시럽 네일 · Korean nails", "title": "Nails that look like syrup?", "sub": "The Korean jelly way ↓", "dur": 2.5},
+    {"type": "swatch", "title": "Fall syrup shades", "swatches": [
+      {"name": "Maple", "color": "#A0522D", "sheer": true, "finish": "gloss"},
+      {"name": "Honey", "color": "#C98A3B", "sheer": true, "finish": "gloss"},
+      {"name": "Cola", "color": "#4A2620", "sheer": true, "finish": "gloss"},
+      {"name": "Milk", "color": "#EDE3DA", "sheer": true}
+    ], "sub": "Sheer, warm and glossy.", "dur": 3.4},
+    {"type": "step", "title": "Thin first coat", "line": "a sheer wash of colour", "sub": "Wipe one side of the brush.", "dur": 3.0},
+    {"type": "step", "title": "Tips again", "line": "add a coat to the tips", "sub": "Darker ends look like syrup.", "dur": 3.0},
+    {"type": "statement", "lines": ["Gloss on top."], "sub": "Thick coats lose the glow.", "dur": 2.6},
+    {"type": "cta", "title": "Save it for your next set.", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "Korean nail trend",
+    "title": "Korean Syrup Nails 2026",
+    "sub": "Sheer, glossy and warm for fall",
+    "swatches": [
+      {"name": "Maple", "color": "#A0522D", "sheer": true, "finish": "gloss"},
+      {"name": "Honey", "color": "#C98A3B", "sheer": true, "finish": "gloss"},
+      {"name": "Cola", "color": "#4A2620", "sheer": true, "finish": "gloss"},
+      {"name": "Milk", "color": "#EDE3DA", "sheer": true}
+    ],
+    "steps": [
+      {"title": "Thin coats", "body": "A sheer wash first."},
+      {"title": "Tips darker", "body": "One more at the tips."}
+    ],
+    "avoid": ["Thick, opaque coats", "Skipping the top coat"],
+    "note": "Find nail polish at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "list",
+      "kicker": "Nails at home",
+      "title": "Syrup Nails at Home: Easy Korean Jelly Steps",
+      "sub": "Four steps, regular polish",
+      "items": [
+        {"title": "Short, clean nails", "body": "File round and wipe off any oil."},
+        {"title": "One sheer coat", "body": "Amber or brown jelly, thin."},
+        {"title": "Tips again", "body": "A second coat on the top half."},
+        {"title": "Glossy top coat", "body": "The shine is what makes it syrup."}
+      ]
+    }
+  ]
+}

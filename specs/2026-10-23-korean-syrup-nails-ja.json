@@ -1,0 +1,39 @@
+{
+  "slug": "day24-korean-syrup-nails-ja",
+  "lang": "ja",
+  "mood": "calm",
+  "seed": 25,
+  "hangul": "시럽 네일",
+  "frames": [
+    {"type": "hook", "kicker": "시럽 네일 · 韓国ネイル", "title": "飴色の爪？", "sub": "韓国のうるつや爪 ↓", "dur": 2.5},
+    {"type": "swatch", "title": "秋のシロップ色", "swatches": [
+      {"name": "メープル", "color": "#A0522D", "sheer": true, "finish": "gloss"},
+      {"name": "はちみつ", "color": "#C98A3B", "sheer": true, "finish": "gloss"},
+      {"name": "コーラ", "color": "#4A2620", "sheer": true, "finish": "gloss"},
+      {"name": "ミルク", "color": "#EDE3DA", "sheer": true}
+    ], "sub": "透け感とツヤが大事", "dur": 3.4},
+    {"type": "step", "title": "薄く1度塗り", "line": "爪が透けるくらい", "sub": "ハケの片面はしごく", "dur": 3.0},
+    {"type": "step", "title": "先端に重ねる", "line": "先ほど濃くなる", "sub": "シロップのグラデに", "dur": 3.0},
+    {"type": "statement", "lines": ["ツヤで", "仕上げ。"], "sub": "厚塗りは透けない", "dur": 2.6},
+    {"type": "cta", "title": "保存してね", "code_label": "ログイン後 クーポンコード", "where_html": "<b>Olive Young Global</b> で5%オフ", "tags": "#PR #oliveyoungaffiliate", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "韓国風ネイル",
+    "title": "シロップネイル",
+    "sub": "透けるツヤで秋らしく",
+    "swatches": [
+      {"name": "メープル", "color": "#A0522D", "sheer": true, "finish": "gloss"},
+      {"name": "はちみつ", "color": "#C98A3B", "sheer": true, "finish": "gloss"},
+      {"name": "コーラ", "color": "#4A2620", "sheer": true, "finish": "gloss"}
+    ],
+    "steps": [
+      {"title": "薄く1度塗り", "body": "爪が透けるくらい"},
+      {"title": "先端に重ねる", "body": "先ほど濃く"}
+    ],
+    "avoid": ["厚塗りする", "トップコートを省く"],
+    "note": "ネイルは Olive Young Global で",
+    "code_line": "ログイン後、Olive Young Global の決済で5%オフ",
+    "avoid_label": "やらないこと",
+    "tag": "#PR"
+  }
+}
