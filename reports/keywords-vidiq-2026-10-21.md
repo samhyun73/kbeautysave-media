@@ -63,3 +63,17 @@ Excerpt (section 8 + data notes) from the user's multi-channel vidIQ report. You
 - 배너 "in 15 seconds"와 채널 설명 "under 20 seconds"의 표기가 서로 다름.
 - 제휴 고지 문구는 유지.
 
+
+### MCP 결과 (seed: korean eyebrows, 2026-10-22)
+
+| 키워드 | 월 검색량 | 경쟁 | 30일 추세 |
+|---|---|---|---|
+| korean eyebrows | <750 | 16.6 | |
+| korean makeup tutorial | 23,841 | 41.5 | **+457%** |
+| eyebrow tutorial | 15,231 | 42.5 | +23% |
+| eyebrow tutorial for beginners | 4,751 | **39.8** | |
+| eyebrow | 21,497 | 60 | +163% |
+| eyebrows tutorial / eyebrow routine | 4,421 / 3,967 | 48.5 / 43 | |
+| kbeauty | 22,420 | 62.2 | +46% |
+
+눈썹 날은 `korean eyebrows`가 아니라 `eyebrow tutorial (for beginners)` + `korean makeup tutorial`로 씁니다 (10-22 Pinterest·X에 적용).

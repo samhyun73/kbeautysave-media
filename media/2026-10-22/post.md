@@ -15,7 +15,7 @@
 ```
 ✏️ Korean makeup tutorial: why do Korean brows look so soft? It's not the pencil, it's where you fill 👀 Here's the easy daily way 🧵
 
-#oliveyoungaffiliate #ad #koreanmakeup
+#oliveyoungaffiliate #ad #koreanmakeup #eyebrowtutorial
 ```
 
 **2/4**
@@ -63,48 +63,48 @@
 ### ① 영상 핀 — reel.mp4 · 09:00 KST
 - 제목:
 ```
-Korean Makeup Tutorial: Soft Straight Brows in 3 Easy Steps (Video)
+Eyebrow Tutorial for Beginners: Soft Korean Straight Brows in 3 Steps (Video)
 ```
 - 설명:
 ```
-🎬 Korean makeup tutorial: soft straight brows in under a minute ✏️
+🎬 Eyebrow tutorial for beginners: soft Korean straight brows in under a minute ✏️
 🪮 Brush brows up with a spoolie to see the gaps
 📏 Fill only the lower edge with short, flat strokes
 ✨ Keep the front light, darkest at the tail
 💫 Blur with powder and set with brow gel 💕
 🛍️ Extra 5% off with code KBEAUTY73 at Olive Young Global checkout
-#oliveyoungaffiliate #ad #koreanmakeup #koreanbrows #browtutorial
+#oliveyoungaffiliate #ad #eyebrowtutorial #koreanmakeuptutorial #kbeauty
 ```
 
 ### ② 이미지 핀 — pin.png · 12:00 KST
 - 제목:
 ```
-Korean Straight Brows: Simple Soft Eyebrow Ideas for a Natural Look 2026
+Korean Makeup Tutorial: Simple Straight Brows for a Natural Look 2026
 ```
 - 설명:
 ```
-✏️ Korean straight brows look soft because of where you fill, not how much.
+✏️ Korean makeup tutorial: straight brows look soft because of where you fill, not how much.
 📏 Fill the lower edge with short, straight strokes
 ✨ Light front, darkest at the tail
 🚫 Skip a dark, blocky front
 🚫 Skip shaving off your arch, just soften it 💕
 🛍️ Extra 5% off with code KBEAUTY73 at Olive Young Global checkout
-#oliveyoungaffiliate #ad #koreanbrows #koreanmakeup #eyebrowtutorial
+#oliveyoungaffiliate #ad #koreanmakeuptutorial #koreanmakeup #eyebrowtutorial
 ```
 
 ### ③ 이미지 핀 — pin2.png · 22:00 KST
 - 제목:
 ```
-Korean Brow Makeup at Home: Easy Daily Steps for Natural Eyebrows
+Easy Eyebrow Tutorial: Korean Brow Makeup Steps at Home 2026
 ```
 - 설명:
 ```
-📝 Korean brow makeup, easy daily steps:
+📝 Easy eyebrow tutorial, the Korean way:
 🪮 Brush up with a spoolie to see the real shape
 🎨 Pick a softer shade, gray-brown suits most dark hair
 📏 Draw the lower line flat with short strokes
 ✨ Keep the front light with a little powder, blended up
 💫 Set with brow gel and let it dry 💕
 🛍️ Extra 5% off with code KBEAUTY73 at Olive Young Global checkout
-#oliveyoungaffiliate #ad #koreanmakeuptutorial #koreanbrows #naturalbrows
+#oliveyoungaffiliate #ad #eyebrowtutorial #koreanmakeup #kbeauty
 ```
