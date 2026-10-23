@@ -1,0 +1,15 @@
+{
+  "slug": "day27-powder-myth-zh",
+  "lang": "zh",
+  "mood": "calm",
+  "seed": 27,
+  "hangul": "뽀송",
+  "frames": [
+    {"type": "hook", "kicker": "뽀송 · 误区与真相", "title": "散粉显干？", "sub": "关键在用法 ↓", "dur": 2.5},
+    {"type": "step", "title": "关键在用量", "line": "少量，用粉扑按压", "sub": "粉扑对折，抖掉多余", "tone": "warm", "dur": 3.0},
+    {"type": "list", "title": "扑在哪里", "items": ["鼻翼两侧", "额头和下巴", "眼下轻轻一点"], "sub": "脸颊留住光泽", "dur": 3.2},
+    {"type": "step", "title": "按压别横扫", "line": "用粉扑，不用大刷子", "sub": "横扫会带走底妆", "tone": "cool", "dur": 3.0},
+    {"type": "statement", "lines": ["少量，", "按压。"], "sub": "上完底妆等一分钟", "dur": 2.8},
+    {"type": "cta", "title": "收藏备用", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}

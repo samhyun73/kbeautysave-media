@@ -1,0 +1,40 @@
+{
+  "slug": "day27-powder-myth",
+  "lang": "en",
+  "mood": "calm",
+  "seed": 27,
+  "hangul": "뽀송",
+  "frames": [
+    {"type": "hook", "kicker": "뽀송 · Myth vs fact", "title": "Powder makes skin look dry?", "sub": "It's how you apply it ↓", "dur": 2.5},
+    {"type": "step", "title": "Fact: it's the amount", "line": "a tiny bit, pressed in", "sub": "Fold the puff, tap off extra.", "tone": "warm", "dur": 3.0},
+    {"type": "list", "title": "Where it goes", "items": ["Around the nose", "Forehead and chin", "Under the eyes"], "sub": "Cheeks stay dewy.", "dur": 3.2},
+    {"type": "step", "title": "Press, don't swipe", "line": "a puff, not a big brush", "sub": "Swiping moves your base.", "tone": "cool", "dur": 3.0},
+    {"type": "statement", "lines": ["Tiny bit,", "press in."], "sub": "Wait a minute after your base.", "dur": 2.8},
+    {"type": "cta", "title": "Save it for tomorrow.", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "Myth vs fact",
+    "title": "Korean Powder Makeup Tips",
+    "sub": "Soft matte, never dry",
+    "steps": [
+      {"title": "Tiny bit, pressed", "body": "Tap off the extra."},
+      {"title": "Only where it shines", "body": "Nose, forehead, chin."}
+    ],
+    "avoid": ["A big fluffy brush", "Powder on high cheeks"],
+    "note": "Find loose powders at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "list",
+      "kicker": "Base makeup at home",
+      "title": "How to Use Loose Powder: Korean Makeup Tips",
+      "sub": "Four steps with one puff",
+      "items": [
+        {"title": "Wait one minute", "body": "Let cushion or foundation settle first."},
+        {"title": "Load the puff", "body": "Tap powder in, fold it, rub to spread."},
+        {"title": "Press, don't swipe", "body": "Nose, forehead and chin first."},
+        {"title": "Leave cheeks dewy", "body": "Skip the high points for a soft glow."}
+      ]
+    }
+  ]
+}
