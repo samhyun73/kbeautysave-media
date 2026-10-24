@@ -1,0 +1,15 @@
+{
+  "slug": "day28-sleeping-mask-zh",
+  "lang": "zh",
+  "mood": "calm",
+  "seed": 28,
+  "hangul": "슬리핑팩",
+  "frames": [
+    {"type": "hook", "kicker": "슬리핑팩 · 周日护肤", "title": "睡眠面膜涂太厚？", "sub": "韩国人其实涂很薄 ↓", "dur": 2.5},
+    {"type": "step", "title": "最后一步", "line": "涂在面霜之后", "sub": "把保湿锁住", "tone": "cool", "dur": 3.0},
+    {"type": "list", "title": "用多少", "items": ["一颗豌豆大小", "薄薄一层", "避开眼周"], "sub": "抹开别堆积", "dur": 3.2},
+    {"type": "step", "title": "等15分钟", "line": "再躺下睡觉", "sub": "枕头少沾一点", "tone": "warm", "dur": 3.0},
+    {"type": "statement", "lines": ["晚上薄涂，", "早上洗掉。"], "sub": "一周两三次", "dur": 2.8},
+    {"type": "cta", "title": "收藏备用", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}

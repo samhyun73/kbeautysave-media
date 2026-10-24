@@ -1,0 +1,41 @@
+{
+  "slug": "day28-sleeping-mask",
+  "lang": "en",
+  "mood": "calm",
+  "seed": 28,
+  "hangul": "슬리핑팩",
+  "frames": [
+    {"type": "hook", "kicker": "슬리핑팩 · Sunday reset", "title": "Sleeping mask on too thick?", "sub": "The Korean way is thinner ↓", "dur": 2.5},
+    {"type": "step", "title": "Last step only", "line": "after your moisturizer", "sub": "It seals the routine in.", "tone": "cool", "dur": 3.0},
+    {"type": "list", "title": "How much", "items": ["A pea for the face", "One thin layer", "Skip the eye area"], "sub": "Spread, don't stack.", "dur": 3.2},
+    {"type": "step", "title": "Wait 15 minutes", "line": "before you lie down", "sub": "Less ends up on the pillow.", "tone": "warm", "dur": 3.0},
+    {"type": "statement", "lines": ["Thin at night,", "rinse at dawn."], "sub": "Two or three nights a week.", "dur": 2.8},
+    {"type": "cta", "title": "Save it for tonight.", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "Sunday reset",
+    "title": "Korean Sleeping Mask Routine",
+    "sub": "A thin last step for dry nights",
+    "steps": [
+      {"title": "Last step, thin", "body": "A pea for the face."},
+      {"title": "Wait 15 minutes", "body": "Then lie down."}
+    ],
+    "avoid": ["A thick, heavy layer", "Rubbing it near eyes"],
+    "note": "Find sleeping masks at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "deal",
+      "kicker": "Shopping tips",
+      "title": "Winter K-Beauty Stock-Up List",
+      "sub": "Four easy picks for cold months",
+      "items": [
+        {"title": "A sleeping mask", "body": "An easy last step for dry nights."},
+        {"title": "Hand cream", "body": "Keep one by the sink and one by the bed."},
+        {"title": "Lip balm", "body": "For cold, windy days outside."},
+        {"title": "A gentle cleanser", "body": "Low pH gels feel softer in dry air."}
+      ],
+      "note": "Sign in, then enter KBEAUTY73 at checkout."
+    }
+  ]
+}
