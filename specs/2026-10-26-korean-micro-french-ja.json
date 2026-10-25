@@ -1,0 +1,39 @@
+{
+  "slug": "day29-korean-micro-french-ja",
+  "lang": "ja",
+  "mood": "calm",
+  "seed": 29,
+  "hangul": "프렌치 네일",
+  "frames": [
+    {"type": "hook", "kicker": "프렌치 네일 · 韓国ネイル", "title": "先が太い？", "sub": "韓国のマイクロフレンチ ↓", "dur": 2.5},
+    {"type": "swatch", "title": "秋の先端カラー", "swatches": [
+      {"name": "ミルク", "color": "#F2ECE6", "sheer": false, "finish": "gloss"},
+      {"name": "ボルドー", "color": "#6B1F2E", "sheer": false, "finish": "gloss"},
+      {"name": "モカ", "color": "#7B5544", "sheer": false, "finish": "gloss"},
+      {"name": "ゴールド", "color": "#C8A45A", "sheer": false, "finish": "shimmer"}
+    ], "sub": "細い1本線でOK", "dur": 3.4},
+    {"type": "step", "title": "ベースは薄く", "line": "ミルキーピンク1度", "sub": "2分乾かす", "dur": 3.0},
+    {"type": "step", "title": "先端だけ細く", "line": "細筆でフチだけ", "sub": "筆ではなく指を回す", "dur": 3.0},
+    {"type": "statement", "lines": ["細く", "描く。"], "sub": "細いほど指が長く見える", "dur": 2.6},
+    {"type": "cta", "title": "保存してね", "code_label": "ログイン後 クーポンコード", "where_html": "<b>Olive Young Global</b> で5%オフ", "tags": "#PR #oliveyoungaffiliate", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "韓国風ネイル",
+    "title": "マイクロフレンチ",
+    "sub": "細い先端で指が長く見える",
+    "swatches": [
+      {"name": "ミルク", "color": "#F2ECE6", "sheer": false, "finish": "gloss"},
+      {"name": "ボルドー", "color": "#6B1F2E", "sheer": false, "finish": "gloss"},
+      {"name": "モカ", "color": "#7B5544", "sheer": false, "finish": "gloss"}
+    ],
+    "steps": [
+      {"title": "ベースは薄く", "body": "ミルキーピンク1度"},
+      {"title": "先端だけ細く", "body": "細筆でフチだけ"}
+    ],
+    "avoid": ["先端を太く塗る", "トップコートを省く"],
+    "note": "ネイルは Olive Young Global で",
+    "code_line": "ログイン後、Olive Young Global の決済で5%オフ",
+    "avoid_label": "やらないこと",
+    "tag": "#PR"
+  }
+}

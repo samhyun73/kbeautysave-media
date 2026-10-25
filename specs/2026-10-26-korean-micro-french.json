@@ -1,0 +1,51 @@
+{
+  "slug": "day29-korean-micro-french",
+  "lang": "en",
+  "mood": "calm",
+  "seed": 29,
+  "hangul": "프렌치 네일",
+  "frames": [
+    {"type": "hook", "kicker": "프렌치 네일 · Korean nails", "title": "French tips too thick?", "sub": "The Korean micro French ↓", "dur": 2.5},
+    {"type": "swatch", "title": "Fall tip shades", "swatches": [
+      {"name": "Milk", "color": "#F2ECE6", "sheer": false, "finish": "gloss"},
+      {"name": "Wine", "color": "#6B1F2E", "sheer": false, "finish": "gloss"},
+      {"name": "Mocha", "color": "#7B5544", "sheer": false, "finish": "gloss"},
+      {"name": "Gold", "color": "#C8A45A", "sheer": false, "finish": "shimmer"}
+    ], "sub": "One thin line, any shade.", "dur": 3.4},
+    {"type": "step", "title": "Sheer base first", "line": "one coat of milky pink", "sub": "Let it dry 2 minutes.", "dur": 3.0},
+    {"type": "step", "title": "Hair-thin tips", "line": "thin brush, edge only", "sub": "Turn the finger, not the brush.", "dur": 3.0},
+    {"type": "statement", "lines": ["Thinner looks longer."], "sub": "Fix edges with remover.", "dur": 2.6},
+    {"type": "cta", "title": "Save it for later.", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "Korean nail trend",
+    "title": "Korean Micro French Nails",
+    "sub": "Thin tips for short nails",
+    "swatches": [
+      {"name": "Milk", "color": "#F2ECE6", "sheer": false, "finish": "gloss"},
+      {"name": "Wine", "color": "#6B1F2E", "sheer": false, "finish": "gloss"},
+      {"name": "Mocha", "color": "#7B5544", "sheer": false, "finish": "gloss"},
+      {"name": "Gold", "color": "#C8A45A", "sheer": false, "finish": "shimmer"}
+    ],
+    "steps": [
+      {"title": "Sheer base", "body": "One milky pink coat."},
+      {"title": "Thin tips", "body": "Just the very edge."}
+    ],
+    "avoid": ["Thick, wide tip lines", "Skipping the top coat"],
+    "note": "Find nail polish at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "list",
+      "kicker": "Nails at home",
+      "title": "French Manicure at Home: Korean Micro Tips",
+      "sub": "Four steps for short nails",
+      "items": [
+        {"title": "Short, clean nails", "body": "File round and wipe off any oil."},
+        {"title": "Sheer milky base", "body": "One thin coat, dry 2 minutes."},
+        {"title": "Hair-thin tip line", "body": "A thin brush on the very edge."},
+        {"title": "Clean up, then gloss", "body": "Remover on a small brush, top coat."}
+      ]
+    }
+  ]
+}

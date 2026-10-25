@@ -1,0 +1,20 @@
+{
+  "slug": "day29-korean-micro-french-zh",
+  "lang": "zh",
+  "mood": "calm",
+  "seed": 29,
+  "hangul": "프렌치 네일",
+  "frames": [
+    {"type": "hook", "kicker": "프렌치 네일 · 韩式美甲", "title": "法式太粗？", "sub": "试试韩式微法式 ↓", "dur": 2.5},
+    {"type": "swatch", "title": "秋季边色", "swatches": [
+      {"name": "奶白", "color": "#F2ECE6", "sheer": false, "finish": "gloss"},
+      {"name": "酒红", "color": "#6B1F2E", "sheer": false, "finish": "gloss"},
+      {"name": "摩卡", "color": "#7B5544", "sheer": false, "finish": "gloss"},
+      {"name": "金色", "color": "#C8A45A", "sheer": false, "finish": "shimmer"}
+    ], "sub": "细细一条就好", "dur": 3.4},
+    {"type": "step", "title": "先涂裸粉", "line": "一层奶白粉", "sub": "等两分钟晾干", "dur": 3.0},
+    {"type": "step", "title": "细线描边", "line": "只画指尖边缘", "sub": "转手指，不转刷子", "dur": 3.0},
+    {"type": "statement", "lines": ["越细", "越显长。"], "sub": "边缘用卸甲水修", "dur": 2.6},
+    {"type": "cta", "title": "先收藏", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}
