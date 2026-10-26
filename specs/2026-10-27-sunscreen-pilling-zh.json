@@ -1,0 +1,15 @@
+{
+  "slug": "day28-sunscreen-pilling-zh",
+  "lang": "zh",
+  "mood": "calm",
+  "seed": 28,
+  "hangul": "선크림",
+  "frames": [
+    {"type": "hook", "kicker": "선크림 · 韩式护肤", "title": "防晒搓泥？", "sub": "问题在手法 ↓", "dur": 2.5},
+    {"type": "step", "title": "先薄涂保湿", "line": "等两分钟吸收", "sub": "清爽乳霜就好", "dur": 2.9},
+    {"type": "step", "title": "按压别来回搓", "line": "用量约两指长", "sub": "指腹轻拍上脸", "dur": 3.0},
+    {"type": "step", "title": "等5分钟上妆", "line": "粉扑轻轻按压", "sub": "不要来回推", "dur": 3.0},
+    {"type": "statement", "lines": ["先按压，", "再等待。"], "sub": "越搓越容易起泥", "dur": 2.6},
+    {"type": "cta", "title": "明早试试", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}

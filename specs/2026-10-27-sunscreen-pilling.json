@@ -1,0 +1,41 @@
+{
+  "slug": "day28-sunscreen-pilling",
+  "lang": "en",
+  "mood": "calm",
+  "seed": 28,
+  "hangul": "선크림",
+  "frames": [
+    {"type": "hook", "kicker": "선크림 · Korean skincare", "title": "Sunscreen pilling under makeup?", "sub": "It's the rubbing, not the SPF ↓", "dur": 2.5},
+    {"type": "step", "title": "Thin moisturizer first", "line": "let it sink in 2 minutes", "sub": "A light gel or cream.", "dur": 2.9},
+    {"type": "step", "title": "Press, don't rub", "line": "two finger lengths of SPF", "sub": "Pat it in, no back and forth.", "dur": 3.0},
+    {"type": "step", "title": "Wait 5 minutes", "line": "then tap your base on", "sub": "A puff or damp sponge, no swiping.", "dur": 3.0},
+    {"type": "statement", "lines": ["Press it.", "Then wait."], "sub": "Rubbing is what rolls it up.", "dur": 2.6},
+    {"type": "cta", "title": "Save it for the morning.", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "Korean skincare",
+    "title": "Sunscreen Pilling Under Makeup?",
+    "sub": "Two simple Korean fixes",
+    "steps": [
+      {"title": "Press, don't rub", "body": "Pat it into skin."},
+      {"title": "Wait 5 minutes", "body": "Then tap on base."}
+    ],
+    "avoid": ["Rubbing back and forth", "Base over wet sunscreen"],
+    "note": "Find Korean sunscreens at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "list",
+      "kicker": "Morning order",
+      "title": "Korean Sunscreen Under Makeup: Easy No-Pill Steps",
+      "sub": "For base that stays smooth",
+      "items": [
+        {"title": "Light moisturizer", "body": "A thin layer, then wait about 2 minutes."},
+        {"title": "Two finger lengths", "body": "Enough sunscreen for the whole face."},
+        {"title": "Press it in", "body": "Pat with fingertips, no rubbing."},
+        {"title": "Wait 5 minutes", "body": "Let it set before any base."},
+        {"title": "Tap on base", "body": "Cushion puff or damp sponge, no swiping."}
+      ]
+    }
+  ]
+}
