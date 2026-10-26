@@ -1,0 +1,57 @@
+name: Keyword check
+
+# Free YouTube keyword check (autocomplete + top results via yt-dlp) for the day's topic.
+# Read-only research: nothing is published. Results go to the `keywords` branch (<date>/keywords.md), never to main.
+on:
+  workflow_dispatch:
+    inputs:
+      seeds:
+        description: "Comma-separated seed phrases, e.g. korean makeup, korean blush"
+        required: true
+      date:
+        description: "Folder name (YYYY-MM-DD)"
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: keywords
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Check
+        env:
+          SEEDS: ${{ inputs.seeds }}
+          DAY: ${{ inputs.date }}
+        run: |
+          case "$DAY" in [0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]) ;; *) echo "date must be YYYY-MM-DD"; exit 1;; esac
+          pip install -q yt-dlp
+          python tools/keywords.py "$SEEDS" out/kw 2>&1 | tee /tmp/run.log
+      - name: Save to the keywords branch
+        if: always()
+        env:
+          DAY: ${{ inputs.date }}
+        run: |
+          git config user.name "kbeautysave-bot"
+          git config user.email "kbeautysave-bot@users.noreply.github.com"
+          if git fetch -q --depth 1 origin keywords; then
+            git worktree add -q ../kw FETCH_HEAD
+          else
+            git worktree add -q --orphan -b keywords ../kw
+          fi
+          mkdir -p "../kw/$DAY"
+          cp out/kw/* "../kw/$DAY/" 2>/dev/null || true
+          cp /tmp/run.log "../kw/$DAY/run.log" 2>/dev/null || true
+          cd ../kw
+          git add -A
+          git diff --cached --quiet || git commit -q -m "Keyword check $DAY (run ${{ github.run_id }})"
+          git push -q origin HEAD:keywords
