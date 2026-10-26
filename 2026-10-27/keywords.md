@@ -1,0 +1,69 @@
+# YouTube keyword check (autocomplete + top results, US English)
+
+## sunscreen pilling
+
+- Autocomplete: sunscreen pilling, sunscreen pilling under makeup, sunscreen pilling on face, sunscreen pilling after moisturizer, dr dray sunscreen pilling
+- "how to": how to avoid sunscreen pilling, how to stop sunscreen from pilling, how to avoid peeling of sunscreen, how to prevent sunscreen from pilling
+- Top 10: 0 Shorts; median views 32,400
+
+  - Why Your Sunscreen Peels (And How to Fix It Fast) · 27,450 views · Dr Dray
+  - How to Avoid Sunscreen Pilling · 36,793 views · Melissa Van Dijk
+  - Why Your Skincare Is Pilling (And How to Stop It) · 19,355 views · Dr Dray
+  - Sunscreen pilling · 346 views · Dr. Nina Desai
+  - How To Prevent Product Pilling From Ruining Your Beauty Routine | Dr Sam Bunting · 41,063 views · Dr Sam Bunting
+  - Why is my skincare pilling? How to stop it - with Wishful Skincare! · 51,017 views · Cassandra Bankson
+  - My Top 5 Sunscreen Mistakes & How To Fix Them · 32,400 views · Dr Dray
+  - Why Your Skincare is Pilling and How to Stop it · 526 views · Root Time
+  - Why Your Skincare Is Pilling & How to Prevent It · 505 views · AnnEvolving
+  - How to LAYER SUNSCREEN| Dr Dray · 210,202 views · Dr Dray
+
+## sunscreen under makeup
+
+- Autocomplete: sunscreen under makeup, sunscreen under makeup oily skin, sunscreen under makeup or over, sunscreen with makeup, sunscreen with makeup look, sunscreen with makeup base, sunscreen with makeup in tamil, sunscreen under foundation, mineral sunscreen under makeup, best sunscreen under makeup for oily skin
+- "how to": how to use sunscreen under makeup, how to apply sunscreen under makeup, how to wear sunscreen under makeup, how to wear sunscreen with makeup, how to use sunscreen with makeup in tamil, how to use sunscreen with makeup in kannada
+- Top 10: 0 Shorts; median views 102,033
+
+  - How to Layer Sunscreen and Makeup - Which Goes First? [Dermatologist's Tips!] (2019) · 26,464 views · Dr. Bailey Skin Care
+  - "THE BEST" Sunscreens Under Makeup! · 293,112 views · Makeup By Nikki La Rose
+  - I Used All These Sunscreens: Here’s What I Think · 91,515 views · Dr Dray
+  - I'm here to show you how to get a flawless base over sunscreen bro · 161,700 views · Alexandra Anele
+  - Testing Top Sunscreens Under Makeup · 102,033 views · Milabu
+  - Best sunscreen under makeup and how I reapply it | ALI ANDREEA · 88,870 views · Ali Andreea
+  - HOW TO layer Sunscreen under Makeup | Dr Davin Lim · 4,882 views · Dr Davin Lim
+  - I Tried $500 Worth of NEW Mineral Sunscreens So YOU DON'T HAVE TO! SPF Showdown 2026 · 98,654 views · HotandFlashy
+  - How to LAYER SUNSCREEN| Dr Dray · 210,202 views · Dr Dray
+  - The absolute BEST SUNSCREENS under makeup | ALI ANDREEA · 177,446 views · Ali Andreea
+
+## korean sunscreen
+
+- Autocomplete: korean sunscreen, korean sunscreen for oily skin, korean sunscreen for dry skin, korean sunscreen for acne prone skin, korean sunscreen review, korean sunscreen dr dray, korean sunscreen for combination skin, korean sunscreen for sensitive skin, korean sunscreen for dark skin, korean sunscreen stick
+- "how to": how to make korean sunscreen at home, how to use korean sunscreen, how to apply korean sunscreen
+- Top 10: 0 Shorts; median views 99,171
+
+  - Ranking Every Viral Korean Sunscreen (here are the best!) · 48,177 views · Hyram
+  - my top 5 MOST used Korean Sunscreens! · 60,647 views · Tina Tanaka Harris
+  - I Tried 10 New Korean Sunscreens 2026 | Are They Any Good? · 4,876 views · Dan Skincare
+  - Dermatologist's Favorite K-Beauty Sunscreens & Moisturizers (Korean Skincare Picks!) | Dr. Sam Ellis · 102,247 views · Dr. Sam Ellis
+  - The BEST & WORST Korean Sunscreens of 2026 (Don't Waste Your Money!) · 8,172 views · Charisse Daily
+  - Why Korean sunscreen disappeared · 496,419 views · Christophe
+  - 20 Korean Sunscreens Ranked After Real Wear Tests · 84,989 views · CYoung
+  - Brutally honest review of 5 Viral Korean Sunscreens | Skin1004, Boj, Dr.G, Cosrx, RoundLab  · 131,961 views · 여효민 Bella
+  - My Top Korean Sunscreens (AD) · 99,171 views · Lab Muffin Beauty Science
+  - K-beauty Sunscreens: BEST EVER?! Doctor Vanita Rattan- Korean Sunscreen Review · 142,496 views · Dr. Vanita Rattan 
+
+## skincare pilling
+
+- Autocomplete: skincare pilling, skincare pilling on face, pilling skincare treatment, pilling skincare treatment side effects
+- "how to": how to stop skincare pilling, how to stop pilling on face, why is my skincare pilling
+- Top 10: 0 Shorts; median views 41,063
+
+  - Why Your Skincare Is Pilling (And How to Stop It) · 19,355 views · Dr Dray
+  - 7 reasons your skin care is pilling| Dr Dray · 124,900 views · Dr Dray
+  - How To Prevent Product Pilling From Ruining Your Beauty Routine | Dr Sam Bunting · 41,063 views · Dr Sam Bunting
+  - Why Your Skincare is Pilling and How to Stop it · 526 views · Root Time
+  - Why is my skincare pilling? How to stop it - with Wishful Skincare! · 51,017 views · Cassandra Bankson
+  - 4 Tips to Prevent Your Products From Pilling! · 73,461 views · Beauty Within
+  - Why Your Sunscreen Peels (And How to Fix It Fast) · 27,450 views · Dr Dray
+  - Why Your Skincare Is Pilling & How to Prevent It · 505 views · AnnEvolving
+  - 5 REASONS WHY YOUR SKINCARE IS PILLING & How To PREVENT It | Razia Moe · 1,727 views · Razia Moe
+  - Skincare You CAN and CANNOT Use Together | How to Layer Skincare| Dr. Sam Ellis · 124,993 views · Dr. Sam Ellis
