@@ -17,6 +17,7 @@ Owner: kbeautysave (Olive Young Global affiliate). Instagram @kbeautysave, Faceb
 
 ## Schedule
 - **Mon–Fri**: the reel → Instagram (reel) + Facebook (reel) + YouTube (Short), three Buffer posts, all published 19:00 KST the same day.
+- **Voice Shorts Tue/Wed/Thu/Fri** (Fri added from 2026-10-30, user decision 2026-10-26): made and scheduled by a human-present session; on those days the daily run skips step 5 and sends the manual kit (step 0 exception). If no voice Short is queued for that day, the daily run posts the slide reel as usual. Fri K-nails slide reel + Japan set are still rendered for the manual kit.
 - **TikTok = PAUSED (user decision 2026-10-20)**: no TikTok cut (`-tiktok.json` / `reel_tiktok.mp4`), no TikTok caption, no TikTok section in `post.md` or the daily message. Never schedule TikTok (Buffer or Metricool). History: auto-posts 09-30..10-02 got 0 views → manual from 10-03; own cut without the code frame 10-14..10-20. Resume only when the user says so.
 - **Pinterest = 3 pins every day, Mon–Sun (user decision 2026-10-03)**, posted by hand by the user:
   1. **Video pin** — the day's `reel.mp4` (9:16) with its own Pinterest title + description.
@@ -131,7 +132,8 @@ Based on the user's script emotion guide (a hypothesis to check in the weekly re
   3. Concrete steps + one common mistake. This is the frame worth saving; use the step checklist when it fits.
   4. Close on `"shareable_line"`: a short, true sentence someone would send to a friend (e.g. "Two thin layers beat one heavy one."), then the profile pointer.
 - **Language**: second person, short sentences, examples in threes, no lecturing.
-- **No engagement bait**: no "Comment YES", "Tell me in the comments", "Like if…". A real question is fine only if it reads naturally.
+- **No engagement bait**: no "Comment YES", "Tell me in the comments", "Like if…". **No closing comment question either** (user decision 2026-10-26: "Which step do you skip?" / "Do you use rollers?" got 0 comments on 2 of 2 Shorts) — end on the shareable line + profile pointer, in the video and in every caption.
+- **Open on the viewer's problem** (W43: the problem + "it's usually X, not your Y" relief line won twice; the avatar "Today's Korean beauty word" definition opener was weakest on every platform). If an avatar intro is used, its first line names the problem, not a definition (user decision 2026-10-26).
 - **No same frame twice in a row**: rotate the hook formula (question, "you're doing X wrong", myth, "the Korean way to…", number/time, word of the day). Don't reuse a hook pattern from the previous Short ("…by noon" twice in a row on 10-21/10-22 was the lesson).
 - **Honesty**: only facts with a source or common practice, no exaggerated fear or anger, no invented experience.
 - Slide-reel hooks follow the same one-emotion and rotation rules where they fit.
