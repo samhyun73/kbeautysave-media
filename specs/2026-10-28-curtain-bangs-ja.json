@@ -1,0 +1,29 @@
+{
+  "slug": "day29-curtain-bangs-ja",
+  "lang": "ja",
+  "mood": "bright",
+  "seed": 29,
+  "hangul": "커튼뱅",
+  "frames": [
+    {"type": "hook", "kicker": "커튼뱅 · 韓国ヘア", "title": "前髪ペタ？", "sub": "乾かし方で変わる ↓", "dur": 2.5},
+    {"type": "step", "title": "根元を濡らす", "line": "霧吹きで少しだけ", "sub": "前髪は乾く時に形が決まる", "dur": 2.9},
+    {"type": "step", "title": "左右に乾かす", "line": "左、右と交互に", "sub": "根元を立てて最後は冷風", "dur": 3.0},
+    {"type": "step", "title": "後ろへ巻く", "line": "大きめカーラーで10分", "sub": "顔の外側へ巻く", "dur": 3.0},
+    {"type": "statement", "lines": ["湿った", "うちに。"], "sub": "前髪にオイルはNG", "dur": 2.6},
+    {"type": "cta", "title": "保存してね", "code_label": "ログイン後 クーポンコード", "where_html": "<b>Olive Young Global</b> で5%オフ", "tags": "#PR #oliveyoungaffiliate", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "韓国風ヘア",
+    "title": "カーテン前髪",
+    "sub": "ふんわり割れる前髪に",
+    "steps": [
+      {"title": "左右に乾かす", "body": "根元を立ち上げる"},
+      {"title": "後ろへ巻く", "body": "顔の外側へ"}
+    ],
+    "avoid": ["前髪にオイル", "アイロンで下へまっすぐ"],
+    "note": "スタイリング用品は Olive Young Global で",
+    "code_line": "ログイン後、Olive Young Global の決済で5%オフ",
+    "avoid_label": "やらないこと",
+    "tag": "#PR"
+  }
+}

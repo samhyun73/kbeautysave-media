@@ -1,0 +1,15 @@
+{
+  "slug": "day29-curtain-bangs-zh",
+  "lang": "zh",
+  "mood": "bright",
+  "seed": 29,
+  "hangul": "커튼뱅",
+  "frames": [
+    {"type": "hook", "kicker": "커튼뱅 · 韩式发型", "title": "刘海塌了？", "sub": "问题在吹法 ↓", "dur": 2.5},
+    {"type": "step", "title": "先打湿发根", "line": "喷一点水就好", "sub": "刘海在变干时定型", "dur": 2.9},
+    {"type": "step", "title": "左右来回吹", "line": "先往左，再往右", "sub": "发根蓬起，最后吹冷风", "dur": 3.0},
+    {"type": "step", "title": "向后卷", "line": "大号卷发筒卷10分钟", "sub": "往脸外侧卷", "dur": 3.0},
+    {"type": "statement", "lines": ["趁湿", "定型。"], "sub": "刘海别抹发油", "dur": 2.6},
+    {"type": "cta", "title": "明早试试", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}

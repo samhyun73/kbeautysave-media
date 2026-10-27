@@ -1,0 +1,41 @@
+{
+  "slug": "day29-curtain-bangs",
+  "lang": "en",
+  "mood": "bright",
+  "seed": 29,
+  "hangul": "커튼뱅",
+  "frames": [
+    {"type": "hook", "kicker": "커튼뱅 · Korean hair", "title": "Curtain bangs falling flat?", "sub": "It's the drying, not the cut ↓", "dur": 2.5},
+    {"type": "step", "title": "Dampen the roots", "line": "a little water spray", "sub": "Bangs take their shape as they dry.", "dur": 2.9},
+    {"type": "step", "title": "Dry both ways", "line": "left, then right", "sub": "Lift at the root, cool air last.", "dur": 3.0},
+    {"type": "step", "title": "Roll them back", "line": "a big roller, 10 minutes", "sub": "Away from your face, then unroll.", "dur": 3.0},
+    {"type": "statement", "lines": ["Shape them damp."], "sub": "Skip oil on your bangs.", "dur": 2.6},
+    {"type": "cta", "title": "Save it for tomorrow.", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "Korean hair",
+    "title": "Curtain Bangs Falling Flat?",
+    "sub": "Two easy Korean styling fixes",
+    "steps": [
+      {"title": "Dry side to side", "body": "Lift at the root."},
+      {"title": "Roll them back", "body": "Away from your face."}
+    ],
+    "avoid": ["Oil on your bangs", "Flat iron straight down"],
+    "note": "Find hair styling picks at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "list",
+      "kicker": "Morning routine",
+      "title": "Korean Curtain Bangs Tutorial: Easy Styling Steps",
+      "sub": "Soft bangs that stay up",
+      "items": [
+        {"title": "Dampen the roots", "body": "A little water so the bangs reset."},
+        {"title": "Dry side to side", "body": "Left, then right, to lift the root."},
+        {"title": "Part in the middle", "body": "A soft centre part with your fingers."},
+        {"title": "Roll them back", "body": "A big velcro roller, about 10 minutes."},
+        {"title": "Cool air to set", "body": "A light mist of hairspray if needed."}
+      ]
+    }
+  ]
+}
