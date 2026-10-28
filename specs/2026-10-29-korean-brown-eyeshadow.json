@@ -1,0 +1,141 @@
+{
+  "slug": "day30-korean-brown-eyeshadow",
+  "lang": "en",
+  "mood": "calm",
+  "seed": 30,
+  "hangul": "아이섀도",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "아이섀도 · Korean eye makeup",
+      "title": "Eyeshadow making your eyes smaller?",
+      "sub": "It's the placement ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "swatch",
+      "title": "Soft brown shades",
+      "swatches": [
+        {
+          "name": "Beige",
+          "color": "#E3C9B0",
+          "sheer": true
+        },
+        {
+          "name": "Rose",
+          "color": "#B98074",
+          "sheer": true
+        },
+        {
+          "name": "Cocoa",
+          "color": "#7A5444",
+          "sheer": true
+        },
+        {
+          "name": "Gold",
+          "color": "#D4B07A",
+          "sheer": true,
+          "finish": "shimmer"
+        }
+      ],
+      "sub": "One light, one deeper, a touch of gold.",
+      "dur": 3.0
+    },
+    {
+      "type": "step",
+      "title": "Light all over",
+      "line": "beige, lash line to fold",
+      "sub": "A thin base so the brown blends.",
+      "dur": 2.9
+    },
+    {
+      "type": "step",
+      "title": "Keep it low",
+      "line": "brown on the outer third",
+      "sub": "Hooded eyes? Check with eyes open.",
+      "dur": 3.0
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "Low and soft."
+      ],
+      "sub": "Skip dark shadow in the crease.",
+      "dur": 2.6
+    },
+    {
+      "type": "cta",
+      "title": "Save it for your next look.",
+      "dur": 3.0
+    }
+  ],
+  "pin": {
+    "kicker": "Korean makeup",
+    "title": "Shadow Making Eyes Smaller?",
+    "sub": "Two easy Korean placement fixes",
+    "steps": [
+      {
+        "title": "Light all over",
+        "body": "Beige to the fold."
+      },
+      {
+        "title": "Keep brown low",
+        "body": "Outer third only."
+      }
+    ],
+    "avoid": [
+      "Dark shadow in the crease",
+      "One heavy layer"
+    ],
+    "note": "Find eye palettes at Olive Young Global.",
+    "swatches": [
+      {
+        "name": "Beige",
+        "color": "#E3C9B0",
+        "sheer": true
+      },
+      {
+        "name": "Rose",
+        "color": "#B98074",
+        "sheer": true
+      },
+      {
+        "name": "Cocoa",
+        "color": "#7A5444",
+        "sheer": true
+      },
+      {
+        "name": "Gold",
+        "color": "#D4B07A",
+        "sheer": true,
+        "finish": "shimmer"
+      }
+    ]
+  },
+  "pins": [
+    {
+      "layout": "list",
+      "kicker": "Everyday makeup",
+      "title": "Korean Eye Makeup Tutorial",
+      "sub": "Soft brown eyeshadow, step by step",
+      "items": [
+        {
+          "title": "Beige base",
+          "body": "Lash line up to the fold, thin."
+        },
+        {
+          "title": "Brown on the outer third",
+          "body": "Keep it low, under the fold."
+        },
+        {
+          "title": "Check with eyes open",
+          "body": "Extra helpful for hooded eyes."
+        },
+        {
+          "title": "Smudge underneath",
+          "body": "Same brown, outer lower lashes."
+        }
+      ]
+    }
+  ]
+}

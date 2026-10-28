@@ -1,0 +1,20 @@
+{
+  "slug": "day30-korean-brown-eyeshadow-zh",
+  "lang": "zh",
+  "mood": "calm",
+  "seed": 30,
+  "hangul": "아이섀도",
+  "frames": [
+    {"type": "hook", "kicker": "아이섀도 · 韩式眼妆", "title": "眼影显小？", "sub": "问题在位置 ↓", "dur": 2.5},
+    {"type": "swatch", "title": "柔和棕色系", "swatches": [
+      {"name": "米色", "color": "#E3C9B0", "sheer": true},
+      {"name": "玫瑰棕", "color": "#B98074", "sheer": true},
+      {"name": "可可", "color": "#7A5444", "sheer": true},
+      {"name": "金色", "color": "#D4B07A", "sheer": true, "finish": "shimmer"}
+    ], "sub": "一浅一深，加点金", "dur": 3.0},
+    {"type": "step", "title": "浅色铺满", "line": "睫毛根到眼窝", "sub": "薄薄打底好晕染", "dur": 2.9},
+    {"type": "step", "title": "棕色放低", "line": "只涂外侧三分之一", "sub": "内双？睁眼检查", "dur": 3.0},
+    {"type": "statement", "lines": ["低一点，", "淡一点。"], "sub": "眼窝别涂深色", "dur": 2.6},
+    {"type": "cta", "title": "下次化妆用", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}
