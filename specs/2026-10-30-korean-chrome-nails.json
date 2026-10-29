@@ -1,0 +1,50 @@
+{
+  "slug": "day31-korean-chrome-nails",
+  "lang": "en",
+  "mood": "bright",
+  "seed": 31,
+  "hangul": "크롬 네일",
+  "frames": [
+    {"type": "hook", "kicker": "크롬 네일 · Korean nails", "title": "Chrome nails look streaky?", "sub": "It's the powder, not you ↓", "dur": 2.5},
+    {"type": "swatch", "title": "Soft chrome shades", "swatches": [
+      {"name": "Pearl", "color": "#EDE4E8", "sheer": false, "finish": "shimmer"},
+      {"name": "Silver", "color": "#C5C9D1", "sheer": false, "finish": "shimmer"},
+      {"name": "Rose", "color": "#D6A3A0", "sheer": false, "finish": "shimmer"},
+      {"name": "Gold", "color": "#C8A45A", "sheer": false, "finish": "shimmer"}
+    ], "sub": "Over a sheer milky base.", "dur": 3.4},
+    {"type": "step", "title": "Seal it first", "line": "top coat under the lamp", "sub": "No lamp? Wait until tacky.", "dur": 3.0},
+    {"type": "step", "title": "A tiny bit of powder", "line": "rub in with a fingertip", "sub": "Small circles, about 30 s.", "dur": 3.0},
+    {"type": "statement", "lines": ["Less powder, more shine."], "sub": "Brush off, cap the edges.", "dur": 2.6},
+    {"type": "cta", "title": "Save it for your next set.", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "Korean nail trend",
+    "title": "Korean Chrome Nails",
+    "sub": "Soft pearl shine at home",
+    "swatches": [
+      {"name": "Pearl", "color": "#EDE4E8", "sheer": false, "finish": "shimmer"},
+      {"name": "Silver", "color": "#C5C9D1", "sheer": false, "finish": "shimmer"},
+      {"name": "Rose", "color": "#D6A3A0", "sheer": false, "finish": "shimmer"}
+    ],
+    "steps": [
+      {"title": "Seal first", "body": "Tacky, not wet."},
+      {"title": "Tiny bit of powder", "body": "Rub in small circles."}
+    ],
+    "avoid": ["Piling on powder", "Skipping the edge seal"],
+    "note": "Find nail polish at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "list",
+      "kicker": "Nails at home",
+      "title": "Chrome Nails at Home: Easy Steps",
+      "sub": "Four steps, no salon",
+      "items": [
+        {"title": "Smooth base", "body": "Two thin coats, fully dry."},
+        {"title": "Seal it", "body": "Top coat: lamp, or wait till tacky."},
+        {"title": "Tiny bit of powder", "body": "Fingertip, small circles, 30 s."},
+        {"title": "Brush and seal", "body": "Soft brush, top coat, cap the edges."}
+      ]
+    }
+  ]
+}

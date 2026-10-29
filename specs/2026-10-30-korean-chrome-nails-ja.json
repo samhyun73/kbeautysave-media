@@ -1,0 +1,39 @@
+{
+  "slug": "day31-korean-chrome-nails-ja",
+  "lang": "ja",
+  "mood": "bright",
+  "seed": 31,
+  "hangul": "크롬 네일",
+  "frames": [
+    {"type": "hook", "kicker": "크롬 네일 · 韓国ネイル", "title": "粉が多い？", "sub": "ミラーネイルのコツ ↓", "dur": 2.5},
+    {"type": "swatch", "title": "やわらかミラー", "swatches": [
+      {"name": "パール", "color": "#EDE4E8", "sheer": false, "finish": "shimmer"},
+      {"name": "シルバー", "color": "#C5C9D1", "sheer": false, "finish": "shimmer"},
+      {"name": "ローズ", "color": "#D6A3A0", "sheer": false, "finish": "shimmer"},
+      {"name": "ゴールド", "color": "#C8A45A", "sheer": false, "finish": "shimmer"}
+    ], "sub": "ミルキーベースの上に", "dur": 3.4},
+    {"type": "step", "title": "先にトップ", "line": "ノンワイプを硬化", "sub": "ライトなしは半乾きで", "dur": 3.0},
+    {"type": "step", "title": "粉は少しだけ", "line": "指で小さく円を描く", "sub": "約30秒", "dur": 3.0},
+    {"type": "statement", "lines": ["少ないほど", "光る。"], "sub": "余分な粉を払って仕上げ", "dur": 2.6},
+    {"type": "cta", "title": "保存してね", "code_label": "ログイン後 クーポンコード", "where_html": "<b>Olive Young Global</b> で5%オフ", "tags": "#PR #oliveyoungaffiliate", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "韓国風ネイル",
+    "title": "ミラーネイル",
+    "sub": "粉は少なめがきれい",
+    "swatches": [
+      {"name": "パール", "color": "#EDE4E8", "sheer": false, "finish": "shimmer"},
+      {"name": "シルバー", "color": "#C5C9D1", "sheer": false, "finish": "shimmer"},
+      {"name": "ローズ", "color": "#D6A3A0", "sheer": false, "finish": "shimmer"}
+    ],
+    "steps": [
+      {"title": "先にトップ", "body": "半乾きで粉をのせる"},
+      {"title": "粉は少し", "body": "指で小さく円を描く"}
+    ],
+    "avoid": ["粉を重ねすぎる", "先端の封をしない"],
+    "note": "ネイルは Olive Young Global で",
+    "code_line": "ログイン後、Olive Young Global の決済で5%オフ",
+    "avoid_label": "やらないこと",
+    "tag": "#PR"
+  }
+}

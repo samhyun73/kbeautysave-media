@@ -1,0 +1,20 @@
+{
+  "slug": "day31-korean-chrome-nails-zh",
+  "lang": "zh",
+  "mood": "bright",
+  "seed": 31,
+  "hangul": "크롬 네일",
+  "frames": [
+    {"type": "hook", "kicker": "크롬 네일 · 韩式美甲", "title": "镜面花了？", "sub": "多半是粉太多 ↓", "dur": 2.5},
+    {"type": "swatch", "title": "柔和镜面色", "swatches": [
+      {"name": "珍珠", "color": "#EDE4E8", "sheer": false, "finish": "shimmer"},
+      {"name": "银色", "color": "#C5C9D1", "sheer": false, "finish": "shimmer"},
+      {"name": "玫瑰", "color": "#D6A3A0", "sheer": false, "finish": "shimmer"},
+      {"name": "金色", "color": "#C8A45A", "sheer": false, "finish": "shimmer"}
+    ], "sub": "底色用透奶白", "dur": 3.4},
+    {"type": "step", "title": "先封层", "line": "免洗封层照灯", "sub": "没灯就等到微黏", "dur": 3.0},
+    {"type": "step", "title": "粉少一点", "line": "指腹打圈揉开", "sub": "大约30秒", "dur": 3.0},
+    {"type": "statement", "lines": ["粉少", "更亮。"], "sub": "刷掉浮粉再封边", "dur": 2.6},
+    {"type": "cta", "title": "先收藏", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}
