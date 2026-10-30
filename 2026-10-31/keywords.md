@@ -1,0 +1,69 @@
+# YouTube keyword check (autocomplete + top results, US English)
+
+## how to apply concealer
+
+- Autocomplete: how to apply concealer, how to apply concealer and foundation, how to apply concealer under the eyes, how to apply concealer for dark circles, how to apply concealer with a brush, how to apply concealer for mature skin, how to apply concealer men, how to apply concealer and foundation for beginners, how to apply concealer without foundation, how to apply concealer without creasing
+- "how to": how to how to use concealer, how to apply concealer on dark circles, how to apply concealer and foundation, how to apply concealer under the eyes, how to apply concealer without creasing, how to apply concealer on dark spots
+- Top 10: 0 Shorts; median views 271,339
+
+  - How To Apply Concealer For BEGINNERS · 165,491 views · Nina Ubhi
+  - 5 Concealer Techniques You Need to Know · 1,543,920 views · Haley Kim
+  - Invisible Men's Makeup Tutorial for Dark Circles · 83,642 views · Terribly Handsome
+  - THIS IS HOW YOU APPLY CONCEALER OVER 40! · 271,339 views · Wayne Goss
+  - HOW TO APPLY CONCEALER | Concealer and Color Corrector for Beginners | Ale Jay · 159,542 views · Ale Jay
+  - Common "Concealer Mistakes"  & How to Correct Them · 137,618 views · Makeup By Nikki La Rose
+  - THIS is How to Apply Concealer- THE ULTIMATE HACK! · 631,220 views · Lisa J
+  - CONCEALER TRICK! NEVER LOOK OLD OR CAKEY AGAIN! · 6,211,804 views · Wayne Goss
+  - How to apply Concealer on Bare Skin without using Foundation · 127,324 views · Melissa Van Dijk
+  - how to apply makeup for beginners *IN DEPTH step by step* | MAKEUP 101 · 1,732,778 views · kelly
+
+## concealer under eyes
+
+- Autocomplete: concealer under eyes, concealer under eyes men, concealer under eyes tutorial, concealer under eyes only, concealer under eyes subliminal, concealer for eyeshadow base, eye concealer, concealer around eyes, concealer under eye creases, concealer under eye bags
+- "how to": how to concealer under eyes, how to put concealer under eyes, how to apply concealer under eyes without creasing, how to blend concealer under eyes, how to wear concealer under eyes, how to use concealer under eyes
+- Top 10: 0 Shorts; median views 343,342
+
+  - how to achieve a FLAWLESS undereye ✨ smooth, bright, crease-less undereye concealer tutorial · 7,548 views · Jasmine Adetunji
+  - Common "Concealer Mistakes"  & How to Correct Them · 137,618 views · Makeup By Nikki La Rose
+  - STOP COVERING DARK CIRCLES THE WRONG WAY‼️ (try this instead) · 387,320 views · Monica Ravi-Conway
+  - HOW TO CONCEAL DARK CIRCLES & PREVENT UNDER EYE CREASING ON MATURE SKIN | Do's & Don'ts! · 276,019 views · Risa Does Makeup
+  - Which *Top Rated* Concealer erases Dark Circles without Settling into Wrinkles? · 605,047 views · Glam Girl Gabi
+  - Do This To STOP Under Eye Concealer Creasing · 1,904,443 views · Ale Jay
+  - How to Cover Up Under Eye Dark Circles & Stop Concealer from Creasing in Wrinkles| NO FILTER! · 3,124,673 views · Glam Girl Gabi
+  - How to Conceal DARK CIRCLES & HOLLOW UNDER EYES | This WORKS! | 2025 Update · 50,574 views · Stephanie Marie
+  - My Top Tips for Flawless Under Eyes | Prevent Wrinkle Creasing · 51,884 views · Alexandra Anele
+  - Life Changing Under Eye CONCEALER HACK?!? Testing the VIRAL Aquaphor Concealer Hack Over 50! · 343,342 views · HotandFlashy
+
+## korean concealer
+
+- Autocomplete: korean concealer, korean concealer makeup, korean concealer placement, korean concealer stick, korean concealer palette, korean concealer for dark circles, korean concealer hack, korean concealer review, korean concealer tutorial, korean concealer pencil
+- "how to": how to use korean concealer, how to apply concealer korean, how to do korean lips with concealer, how to do korean lips without concealer, how to do korean makeup without concealer
+- Top 10: 0 Shorts; median views 105,551
+
+  - LUNA, CLIO, WAKEMAKE, THE SAEM | Top 4 Concealers Loved By Koreans | EMCOK K-Beauty EP.07 · 34,560 views · EMCOK Audition
+  - Best Korean Foundation & Concealer for a Natural Look! · 105,551 views · Haley Kim
+  - KIMCHI CONCEALER REVIEW | KOREAN BEAUTY | · 3,397 views · SIERRA REED
+  - Testing Korean Concealers (Darkest Shade) | Haley Kim · 161,261 views · Haley Kim
+  - Trying AWARD WINNING K-beauty products! *tested for 12 hrs* · 349,423 views · Beauty Within
+  - What I learnt from Korea's Top Makeup Artist · 656,511 views · Tina Yong
+  - 5 Concealer Techniques You Need to Know · 1,543,920 views · Haley Kim
+  - Korean Makeup I Can't Stop Talking About as a Dermatologist | Dr. Sam Ellis · 94,713 views · Dr. Sam Ellis
+  - BEST of KBEAUTY MAKEUP! What's really sold out in Korea!!! · 87,207 views · Soo Beauty 수뷰티 
+  - I found the best concealer for mature under eyes | 8 hour wear test · 36,803 views · Jodi Mannes
+
+## concealer creasing
+
+- Autocomplete: concealer creasing, concealer creasing hack, concealer creasing under eyes, concealer without creasing, avoid concealer creasing, hourglass concealer creasing, kosas concealer creasing, nars concealer creasing, non creasing concealer, nina ubhi concealer creasing
+- "how to": how to avoid concealer creasing under eyes, how to fix concealer creasing, how to stop concealer creasing, how to prevent concealer creasing, how to set concealer without creasing, how to keep concealer from creasing under eye
+- Top 10: 0 Shorts; median views 89,697
+
+  - How to prevent concealer creasing FOR GOOD · 89,697 views · Alexandra Anele
+  - Do This To STOP Under Eye Concealer Creasing · 1,904,443 views · Ale Jay
+  - Why Your Concealer Creases (And How to Fix It) · 24,369 views · Lisa J
+  - Why Concealer Creases Under Eyes and How to Fix it! · 205,334 views · Smitha Deepak
+  - How To Cover DARK CIRCLES And STOP Concealer From CREASING In Wrinkles · 67,640 views · Nina Ubhi
+  - Beat the Crease: The Under Eye Routine That Actually Works · 84,619 views · Lisa Eldridge
+  - how to achieve a FLAWLESS undereye ✨ smooth, bright, crease-less undereye concealer tutorial · 7,548 views · Jasmine Adetunji
+  - Common "Concealer Mistakes"  & How to Correct Them · 137,619 views · Makeup By Nikki La Rose
+  - Why Your Concealer Routine SUCKS! And Creases FAST | Jackie Aina · 1,282,380 views · Jackie Aina
+  - Concealer Creasing on Mature Skin?  Here’s the fix!   · 2,219 views · JustDoingMyBest
