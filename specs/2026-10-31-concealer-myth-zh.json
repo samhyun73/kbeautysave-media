@@ -1,0 +1,15 @@
+{
+  "slug": "day34-concealer-myth-zh",
+  "lang": "zh",
+  "mood": "bright",
+  "seed": 34,
+  "hangul": "컨실러",
+  "frames": [
+    {"type": "hook", "kicker": "컨실러 · 误区与真相", "title": "遮瑕越厚？", "sub": "其实薄才遮得住 ↓", "dur": 2.5},
+    {"type": "step", "title": "厚涂会卡纹", "line": "哪里暗就点一点", "sub": "别画大三角", "tone": "warm", "dur": 3.0},
+    {"type": "list", "title": "点在哪里", "items": ["内眼角暗沉处", "外眼角一点点", "鼻翼两侧"], "sub": "其他眼下不用涂", "dur": 3.2},
+    {"type": "step", "title": "拍开别揉", "line": "无名指轻拍10秒", "sub": "只晕开边缘", "tone": "cool", "dur": 3.0},
+    {"type": "statement", "lines": ["少量，", "轻拍。"], "sub": "再按一点点散粉", "dur": 2.8},
+    {"type": "cta", "title": "收藏备用", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}

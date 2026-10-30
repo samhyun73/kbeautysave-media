@@ -1,0 +1,40 @@
+{
+  "slug": "day34-concealer-myth",
+  "lang": "en",
+  "mood": "bright",
+  "seed": 34,
+  "hangul": "컨실러",
+  "frames": [
+    {"type": "hook", "kicker": "컨실러 · Myth vs fact", "title": "More concealer hides more?", "sub": "Thin covers better ↓", "dur": 2.5},
+    {"type": "step", "title": "Fact: thick layers crease", "line": "one dot where it's dark", "sub": "Not a big triangle.", "tone": "warm", "dur": 3.0},
+    {"type": "list", "title": "Where it goes", "items": ["Inner corner", "Outer corner", "Beside the nose"], "sub": "Skip the rest of the under-eye.", "dur": 3.2},
+    {"type": "step", "title": "Tap to blend", "line": "ring finger, 10 seconds", "sub": "Edges only, no rubbing.", "tone": "cool", "dur": 3.0},
+    {"type": "statement", "lines": ["Tiny dot,", "tap it in."], "sub": "A pinch of powder on top.", "dur": 2.8},
+    {"type": "cta", "title": "Save it for your next look.", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "Myth vs fact",
+    "title": "Concealer the Korean Way",
+    "sub": "Less product, fewer creases",
+    "steps": [
+      {"title": "Tiny dots", "body": "Inner corner first."},
+      {"title": "Tap, then set", "body": "Ring finger, then powder."}
+    ],
+    "avoid": ["A big triangle", "Rubbing it in"],
+    "note": "Find tip concealers at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "list",
+      "kicker": "Under-eye makeup",
+      "title": "How to Apply Concealer: Korean Makeup Steps",
+      "sub": "Four steps, one ring finger",
+      "items": [
+        {"title": "Prep first", "body": "Eye cream or moisturizer, wait a minute."},
+        {"title": "Dot, don't paint", "body": "Inner corner shadow and a touch outside."},
+        {"title": "Tap to blend", "body": "Ring finger, about 10 seconds, edges only."},
+        {"title": "Set it lightly", "body": "A pinch of powder pressed on with a puff."}
+      ]
+    }
+  ]
+}
