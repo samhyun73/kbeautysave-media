@@ -1,0 +1,41 @@
+{
+  "slug": "day35-lip-reset",
+  "lang": "en",
+  "mood": "calm",
+  "seed": 35,
+  "hangul": "입술 각질",
+  "frames": [
+    {"type": "hook", "kicker": "입술 각질 · Sunday reset", "title": "Lip tint looks flaky?", "sub": "It's the prep, not the tint ↓", "dur": 2.5},
+    {"type": "step", "title": "Soften first", "line": "thick balm for 5 minutes", "sub": "Let the flakes go soft.", "tone": "cool", "dur": 3.0},
+    {"type": "step", "title": "Wipe gently", "line": "warm damp cloth, softly", "sub": "Never peel or pick.", "tone": "warm", "dur": 3.0},
+    {"type": "list", "title": "Tonight", "items": ["A thin lip mask", "On before bed", "Wipe off at dawn"], "sub": "Once a week is plenty.", "dur": 3.2},
+    {"type": "statement", "lines": ["Soft lips,", "smooth tint."], "sub": "Balm before tint, every day.", "dur": 2.8},
+    {"type": "cta", "title": "Save it for Sunday.", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "Sunday reset",
+    "title": "Korean Lip Care Routine",
+    "sub": "Soft lips before lip tint",
+    "steps": [
+      {"title": "Soften with balm", "body": "Thick layer, 5 minutes."},
+      {"title": "Wipe gently", "body": "Warm damp cloth."}
+    ],
+    "avoid": ["Peeling the flakes", "Licking dry lips"],
+    "note": "Find lip masks at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "deal",
+      "kicker": "Gift guide",
+      "title": "K-Beauty Gift Ideas",
+      "sub": "Easy picks by category",
+      "items": [
+        {"title": "Sheet mask sets", "body": "Easy to share, one for each night."},
+        {"title": "A lip tint", "body": "A small gift in a soft shade."},
+        {"title": "Hand cream", "body": "Useful for anyone in winter."},
+        {"title": "Hair oil", "body": "A few drops and a nice scent."}
+      ],
+      "note": "Sign in, then enter KBEAUTY73 at checkout."
+    }
+  ]
+}

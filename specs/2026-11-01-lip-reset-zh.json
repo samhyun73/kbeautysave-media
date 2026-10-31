@@ -1,0 +1,15 @@
+{
+  "slug": "day35-lip-reset-zh",
+  "lang": "zh",
+  "mood": "calm",
+  "seed": 35,
+  "hangul": "입술 각질",
+  "frames": [
+    {"type": "hook", "kicker": "입술 각질 · 周日护理", "title": "唇釉起皮？", "sub": "问题在打底 ↓", "dur": 2.5},
+    {"type": "step", "title": "先软化", "line": "厚涂润唇膏5分钟", "sub": "让死皮变软", "tone": "cool", "dur": 3.0},
+    {"type": "step", "title": "轻轻擦掉", "line": "温湿毛巾轻擦", "sub": "千万别撕", "tone": "warm", "dur": 3.0},
+    {"type": "list", "title": "今晚", "items": ["薄涂唇膜", "睡前涂上", "早上擦掉"], "sub": "一周一次就够", "dur": 3.2},
+    {"type": "statement", "lines": ["嘴唇软了，", "唇釉就顺。"], "sub": "上妆前先润唇", "dur": 2.8},
+    {"type": "cta", "title": "收藏备用", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}
