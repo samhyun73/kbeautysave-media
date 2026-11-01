@@ -1,0 +1,20 @@
+{
+  "slug": "day33-korean-christmas-nails-zh",
+  "lang": "zh",
+  "mood": "bright",
+  "seed": 33,
+  "hangul": "연말 네일",
+  "frames": [
+    {"type": "hook", "kicker": "연말 네일 · 韩式美甲", "title": "圣诞太闹？", "sub": "试试韩式淡雅 ↓", "dur": 2.5},
+    {"type": "swatch", "title": "温柔节日色", "swatches": [
+      {"name": "莓红", "color": "#9E2A3A", "sheer": true, "finish": "gloss"},
+      {"name": "松绿", "color": "#2F4A3A", "sheer": true, "finish": "gloss"},
+      {"name": "金色", "color": "#C8A45A", "sheer": false, "finish": "shimmer"},
+      {"name": "雪白", "color": "#F1ECEA", "sheer": false, "finish": "shimmer"}
+    ], "sub": "底色用透奶白", "dur": 3.4},
+    {"type": "step", "title": "先薄涂红", "line": "一层透色果冻红", "sub": "晾干2分钟", "dur": 3.0},
+    {"type": "step", "title": "亮片在尖", "line": "从指尖往下点", "sub": "到中间自然渐淡", "dur": 3.0},
+    {"type": "statement", "lines": ["淡雅", "更高级。"], "sub": "最后涂亮面封层", "dur": 2.6},
+    {"type": "cta", "title": "先收藏", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}

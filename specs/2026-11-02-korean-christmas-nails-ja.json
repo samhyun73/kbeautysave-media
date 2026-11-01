@@ -1,0 +1,39 @@
+{
+  "slug": "day33-korean-christmas-nails-ja",
+  "lang": "ja",
+  "mood": "bright",
+  "seed": 33,
+  "hangul": "연말 네일",
+  "frames": [
+    {"type": "hook", "kicker": "연말 네일 · 韓国ネイル", "title": "派手すぎ？", "sub": "韓国風クリスマスネイル ↓", "dur": 2.5},
+    {"type": "swatch", "title": "やさしい冬色", "swatches": [
+      {"name": "ベリー", "color": "#9E2A3A", "sheer": true, "finish": "gloss"},
+      {"name": "グリーン", "color": "#2F4A3A", "sheer": true, "finish": "gloss"},
+      {"name": "ゴールド", "color": "#C8A45A", "sheer": false, "finish": "shimmer"},
+      {"name": "スノー", "color": "#F1ECEA", "sheer": false, "finish": "shimmer"}
+    ], "sub": "ミルキーベースの上に", "dur": 3.4},
+    {"type": "step", "title": "赤は薄く", "line": "シアーな赤を1度", "sub": "2分ほど乾かす", "dur": 3.0},
+    {"type": "step", "title": "ラメは先端", "line": "先から下へポンポン", "sub": "真ん中でぼかす", "dur": 3.0},
+    {"type": "statement", "lines": ["控えめが", "かわいい。"], "sub": "ツヤのトップで仕上げ", "dur": 2.6},
+    {"type": "cta", "title": "保存してね", "code_label": "ログイン後 クーポンコード", "where_html": "<b>Olive Young Global</b> で5%オフ", "tags": "#PR #oliveyoungaffiliate", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "韓国風ネイル",
+    "title": "冬のシアー赤",
+    "sub": "短い爪に少しのラメ",
+    "swatches": [
+      {"name": "ベリー", "color": "#9E2A3A", "sheer": true, "finish": "gloss"},
+      {"name": "グリーン", "color": "#2F4A3A", "sheer": true, "finish": "gloss"},
+      {"name": "ゴールド", "color": "#C8A45A", "sheer": false, "finish": "shimmer"}
+    ],
+    "steps": [
+      {"title": "赤は薄く", "body": "シアーな赤を1度"},
+      {"title": "ラメは先端", "body": "真ん中でぼかす"}
+    ],
+    "avoid": ["全部の爪にラメ", "厚塗りの赤"],
+    "note": "ネイルは Olive Young Global で",
+    "code_line": "ログイン後、Olive Young Global の決済で5%オフ",
+    "avoid_label": "やらないこと",
+    "tag": "#PR"
+  }
+}

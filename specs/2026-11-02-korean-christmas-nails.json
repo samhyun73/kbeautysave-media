@@ -1,0 +1,50 @@
+{
+  "slug": "day33-korean-christmas-nails",
+  "lang": "en",
+  "mood": "bright",
+  "seed": 33,
+  "hangul": "연말 네일",
+  "frames": [
+    {"type": "hook", "kicker": "연말 네일 · Korean nails", "title": "Christmas nails too much for work?", "sub": "Go soft, Korean style ↓", "dur": 2.5},
+    {"type": "swatch", "title": "Soft holiday shades", "swatches": [
+      {"name": "Cranberry", "color": "#9E2A3A", "sheer": true, "finish": "gloss"},
+      {"name": "Pine", "color": "#2F4A3A", "sheer": true, "finish": "gloss"},
+      {"name": "Gold", "color": "#C8A45A", "sheer": false, "finish": "shimmer"},
+      {"name": "Snow", "color": "#F1ECEA", "sheer": false, "finish": "shimmer"}
+    ], "sub": "Over a sheer milky base.", "dur": 3.4},
+    {"type": "step", "title": "Sheer red first", "line": "one thin jelly coat", "sub": "Let it dry 2 minutes.", "dur": 3.0},
+    {"type": "step", "title": "Glitter at the tips", "line": "dab from the edge down", "sub": "Fade it out by midway.", "dur": 3.0},
+    {"type": "statement", "lines": ["Soft beats loud."], "sub": "Glossy top coat to finish.", "dur": 2.6},
+    {"type": "cta", "title": "Save it for the holidays.", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "Korean nail trend",
+    "title": "Korean Christmas Nails",
+    "sub": "Short, sheer, a little sparkle",
+    "swatches": [
+      {"name": "Cranberry", "color": "#9E2A3A", "sheer": true, "finish": "gloss"},
+      {"name": "Pine", "color": "#2F4A3A", "sheer": true, "finish": "gloss"},
+      {"name": "Gold", "color": "#C8A45A", "sheer": false, "finish": "shimmer"}
+    ],
+    "steps": [
+      {"title": "Sheer red", "body": "One thin jelly coat."},
+      {"title": "Glitter tips", "body": "Dab, fade by midway."}
+    ],
+    "avoid": ["Glitter on every nail", "Thick opaque coats"],
+    "note": "Find nail polish at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "list",
+      "kicker": "Nails at home",
+      "title": "Simple Christmas Nails at Home",
+      "sub": "Four steps, short nails",
+      "items": [
+        {"title": "Milky base", "body": "One sheer coat, fully dry."},
+        {"title": "Sheer red", "body": "One thin jelly coat, 2 min."},
+        {"title": "Glitter tips", "body": "Dab at the edge, fade by midway."},
+        {"title": "Gloss and seal", "body": "Top coat, cap the edges."}
+      ]
+    }
+  ]
+}
