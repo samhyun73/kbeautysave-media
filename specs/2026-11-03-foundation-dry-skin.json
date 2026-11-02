@@ -1,0 +1,40 @@
+{
+  "slug": "day34-foundation-dry-skin",
+  "lang": "en",
+  "mood": "calm",
+  "seed": 34,
+  "hangul": "촉촉 베이스",
+  "frames": [
+    {"type": "hook", "kicker": "촉촉 베이스 · Korean makeup", "title": "Foundation flaky by noon?", "sub": "Usually it's the prep ↓", "dur": 2.5},
+    {"type": "step", "title": "Pat toner in twice", "line": "then cream, wait 2 min", "sub": "Hands, not cotton.", "dur": 3.0},
+    {"type": "step", "title": "Balm on dry spots", "line": "around nose and mouth", "sub": "Just a thin tap.", "dur": 2.9},
+    {"type": "step", "title": "Press base on thin", "line": "damp sponge, center out", "sub": "No swiping over flakes.", "dur": 3.0},
+    {"type": "statement", "lines": ["Prep first.", "Then press."], "sub": "Powder only where you shine.", "dur": 2.6},
+    {"type": "cta", "title": "Save it for cold mornings.", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "Korean makeup",
+    "title": "Foundation Flaky by Noon?",
+    "sub": "Two simple Korean fixes",
+    "steps": [
+      {"title": "Prep in layers", "body": "Toner twice, thin cream."},
+      {"title": "Press it on", "body": "Damp sponge, center out."}
+    ],
+    "avoid": ["Powder all over", "Swiping over flakes"],
+    "note": "Find Korean base makeup at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "list",
+      "kicker": "Winter base",
+      "title": "Makeup for Dry Skin in Winter",
+      "sub": "Base that stays smooth",
+      "items": [
+        {"title": "Toner twice", "body": "Pat it in with hands, no cotton."},
+        {"title": "Thin cream", "body": "Then wait about 2 minutes."},
+        {"title": "Balm on dry spots", "body": "A tiny tap by nose and mouth."},
+        {"title": "Press base thin", "body": "Damp sponge, center outward."}
+      ]
+    }
+  ]
+}

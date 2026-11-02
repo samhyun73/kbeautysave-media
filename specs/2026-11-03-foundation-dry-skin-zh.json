@@ -1,0 +1,15 @@
+{
+  "slug": "day34-foundation-dry-skin-zh",
+  "lang": "zh",
+  "mood": "calm",
+  "seed": 34,
+  "hangul": "촉촉 베이스",
+  "frames": [
+    {"type": "hook", "kicker": "촉촉 베이스 · 韩式底妆", "title": "粉底起皮？", "sub": "问题在打底 ↓", "dur": 2.5},
+    {"type": "step", "title": "化妆水拍两次", "line": "薄涂面霜等两分钟", "sub": "用手不用化妆棉", "dur": 3.0},
+    {"type": "step", "title": "干处点膏霜", "line": "鼻翼和嘴角周围", "sub": "薄薄点一点就好", "dur": 2.9},
+    {"type": "step", "title": "粉底薄薄按压", "line": "湿美妆蛋由内向外", "sub": "别在起皮处来回抹", "dur": 3.0},
+    {"type": "statement", "lines": ["先保湿，", "再按压。"], "sub": "只在出油处定妆", "dur": 2.6},
+    {"type": "cta", "title": "明早试试", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}
