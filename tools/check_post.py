@@ -138,6 +138,9 @@ def check_caption(path, platform):
                   "say \"Extra 5% off with code KBEAUTY73\"")
     if platform == "instagram":
         check("caption: @oliveyoung_global", "@oliveyoung_global" in t)
+        # Instagram caps captions at 5 hashtags (Dec 2025): #oliveyoungaffiliate #ad + up to 3 topic tags
+        n = len(re.findall(r"(?<![\w#])#\w+", t))
+        check("caption: instagram has at most 5 hashtags", n <= 5, f"{n} hashtags")
     hit = next((p for p in LINKS if re.search(p, t, re.I)), None)
     check("caption: no links / link in bio", hit is None, hit or "")
     hit = next((p for p in MEDICAL if re.search(p, t, re.I)), None)

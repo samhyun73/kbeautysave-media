@@ -97,7 +97,7 @@ Check `topics.md` before choosing; never repeat a topic from the last 30 entries
 - **Olive Young**: "olive young haul" (17k) is popular, but a haul implies we bought and tried products, so don't title anything a haul. Use "Olive Young shopping list / what to buy at Olive Young" angles only when the content really is a list of well-known items (no first-person claims). The bare "olive young" is high competition and falling.
 - **Every English platform uses the same keyword choice** (user decision 2026-10-21), worded differently per platform (no copy-paste):
   - YouTube: searched phrase first in the title, 2–3 matching hashtags in the description.
-  - Instagram / Facebook: put the searched phrase naturally in the first line of the caption (Instagram search reads captions), and use the matching hashtags among the 8–12 (e.g. #koreanhairstyle #koreanmakeup #nailart #kbeauty).
+  - Instagram / Facebook: put the searched phrase naturally in the first line of the caption (Instagram search reads captions), and use matching hashtags (e.g. #koreanhairstyle #koreanmakeup #nailart #kbeauty). **Instagram allows at most 5 hashtags per post/Reel (since Dec 2025; the gate checks it): `#oliveyoungaffiliate #ad` + 3 topic tags** (searched phrase, category, #kbeauty). Facebook uses the same 5.
   - Pinterest: titles keep the Pinterest pattern above, built around the same searched phrase (e.g. "Korean Hairstyle for Flat Hair: Easy Root Volume Ideas 2026"); put the phrase in the description too.
   - X: the searched phrase in post 1 and 1–2 matching hashtags.
 - The "no haul" and "acne-prone = skin type only" rules apply everywhere.
