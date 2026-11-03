@@ -1,0 +1,29 @@
+{
+  "slug": "day35-winter-static-hair-ja",
+  "lang": "ja",
+  "mood": "bright",
+  "seed": 35,
+  "hangul": "정전기",
+  "frames": [
+    {"type": "hook", "kicker": "정전기 · 韓国ヘア", "title": "静電気？", "sub": "乾かし方で変わる ↓", "dur": 2.5},
+    {"type": "step", "title": "押して拭く", "line": "タオルでこすらない", "sub": "こすると毛先が広がる", "dur": 2.9},
+    {"type": "step", "title": "完全に乾かす", "line": "風は上から下へ", "sub": "根元から毛先へ、最後は冷風", "dur": 3.0},
+    {"type": "step", "title": "毛先にオイル", "line": "1〜2滴を手のひらに", "sub": "残りを表面になでる", "dur": 3.0},
+    {"type": "statement", "lines": ["下へ", "乾かす。"], "sub": "冬は木のくしがおすすめ", "dur": 2.6},
+    {"type": "cta", "title": "保存してね", "code_label": "ログイン後 クーポンコード", "where_html": "<b>Olive Young Global</b> で5%オフ", "tags": "#PR #oliveyoungaffiliate", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "韓国風ヘア",
+    "title": "冬の静電気",
+    "sub": "広がる髪をまとめる2つ",
+    "steps": [
+      {"title": "完全に乾かす", "body": "風は上から下へ"},
+      {"title": "毛先にオイル", "body": "1〜2滴だけ"}
+    ],
+    "avoid": ["タオルでこする", "根元にオイル"],
+    "note": "ヘアオイルは Olive Young Global で",
+    "code_line": "ログイン後、Olive Young Global の決済で5%オフ",
+    "avoid_label": "やらないこと",
+    "tag": "#PR"
+  }
+}

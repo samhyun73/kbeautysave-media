@@ -1,0 +1,40 @@
+{
+  "slug": "day35-winter-static-hair",
+  "lang": "en",
+  "mood": "bright",
+  "seed": 35,
+  "hangul": "정전기",
+  "frames": [
+    {"type": "hook", "kicker": "정전기 · Korean hair", "title": "Static, frizzy winter hair?", "sub": "Fix it in the drying ↓", "dur": 2.5},
+    {"type": "step", "title": "Press the towel", "line": "squeeze, no rubbing", "sub": "Rubbing roughs up the ends.", "dur": 2.9},
+    {"type": "step", "title": "Dry it fully", "line": "nozzle pointing down", "sub": "Roots to ends, cool air last.", "dur": 3.0},
+    {"type": "step", "title": "Oil on the ends", "line": "1 or 2 drops, palms flat", "sub": "Then smooth your palms over the top.", "dur": 3.0},
+    {"type": "statement", "lines": ["Dry it down."], "sub": "Try a wooden comb, not plastic.", "dur": 2.6},
+    {"type": "cta", "title": "Save it for wash day.", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "Korean hair",
+    "title": "Static Hair in Winter?",
+    "sub": "Two simple Korean fixes",
+    "steps": [
+      {"title": "Dry it fully", "body": "Nozzle pointing down."},
+      {"title": "Seal the ends", "body": "1 or 2 drops of oil."}
+    ],
+    "avoid": ["Rubbing with a towel", "Oil near the roots"],
+    "note": "Find Korean hair oils at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "list",
+      "kicker": "Winter hair",
+      "title": "Fix Frizzy Hair the Korean Way",
+      "sub": "Smooth hair, no new tools",
+      "items": [
+        {"title": "Press the towel", "body": "Squeeze the water out, no rubbing."},
+        {"title": "Dry it fully", "body": "Point the nozzle down the hair."},
+        {"title": "Cool air last", "body": "A short cool blast to finish."},
+        {"title": "Oil on the ends", "body": "1 or 2 drops, palms over the top."}
+      ]
+    }
+  ]
+}

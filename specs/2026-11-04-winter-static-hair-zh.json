@@ -1,0 +1,15 @@
+{
+  "slug": "day35-winter-static-hair-zh",
+  "lang": "zh",
+  "mood": "bright",
+  "seed": 35,
+  "hangul": "정전기",
+  "frames": [
+    {"type": "hook", "kicker": "정전기 · 韩式护发", "title": "头发静电？", "sub": "问题在吹干 ↓", "dur": 2.5},
+    {"type": "step", "title": "按压吸水", "line": "毛巾别来回搓", "sub": "搓揉会让发尾毛躁", "dur": 2.9},
+    {"type": "step", "title": "彻底吹干", "line": "风口朝下吹", "sub": "从发根到发尾，最后冷风", "dur": 3.0},
+    {"type": "step", "title": "发尾抹油", "line": "1到2滴，掌心抹开", "sub": "再用掌心轻抚表面", "dur": 3.0},
+    {"type": "statement", "lines": ["往下", "吹干。"], "sub": "冬天用木梳，别用塑料梳", "dur": 2.6},
+    {"type": "cta", "title": "洗头前收藏", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}
