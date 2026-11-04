@@ -1,0 +1,69 @@
+# YouTube keyword check (autocomplete + top results, US English)
+
+## mascara smudging
+
+- Autocomplete: mascara smudging, mascara smudging under eyes, smudging mascara trend, prevent mascara smudging under eyes
+- "how to": how to prevent smudging mascara, how to avoid smudging mascara, how to avoid mascara smudge under eyes, how to make mascara smudge proof, how to fix mascara smudge, how to apply mascara without smudging
+- Top 10: 0 Shorts; median views 30,059
+
+  - HOW TO STOP MASCARA FROM SMUDGING UNDER YOUR EYES | NINA UBHI · 173,060 views · Nina Ubhi
+  - This Mascara Technique STOPS Transfer Completely! · 20,031 views · Shonagh Scott
+  - How To STOP Mascara from Smudging (3 Ways) · 47,999 views · Smitha Deepak
+  - 3 Reasons Your Mascara Smudges....and It's NOT Your Mascara! · 11,511 views · Sharalees Box Of Chocolates
+  - How Do I Stop My Mascara From Smudging? | This Morning · 30,059 views · This Morning
+  - STOP Mascara Running/Smudging | Jackie Aina · 81,272 views · Jackie Aina
+  - How To Stop Your Mascara Smudging (quick vid) · 4,130 views · Louise Corrans
+  - HOW TO STOP MASCARA SMUDGING FOR GOOD · 17,614 views · Pampered Wolf
+  - 7 Hacks To PREVENT Eyeliner & Mascara Smudging, Transferring & Fading · 37,140 views · Stephanie Marie
+  - EASILY stop your mascara from smudging. · 431 views · Louise Corrans
+
+## how to stop mascara from smudging
+
+- Autocomplete: how to stop mascara from smudging, how to stop mascara from smudging under your eyes, how to keep mascara from smudging under eyes, how to keep mascara from smudging, how to avoid mascara smudge under eyes, how to stop bottom lash mascara smudging
+- "how to": how to stop mascara from smudging under your eyes, how to keep mascara from smudging under eyes, how to keep mascara from smudging, how to stop mascara from smudging
+- Top 10: 0 Shorts; median views 132,069
+
+  - 3 Reasons Your Mascara Smudges....and It's NOT Your Mascara! · 11,518 views · Sharalees Box Of Chocolates
+  - This will STOP Your Mascara from Smudging! · 2,151,933 views · Smitha Deepak
+  - How To Stop Your Mascara Smudging (quick vid) · 4,132 views · Louise Corrans
+  - How To Stop Mascara From Smudging On Mature Eyes This Summer · 1,042 views · Kathleen Benjamin
+  - How To STOP Mascara from Smudging (3 Ways) · 48,016 views · Smitha Deepak
+  - This Mascara Technique STOPS Transfer Completely! · 20,052 views · Shonagh Scott
+  - HOW TO STOP MASCARA FROM SMUDGING UNDER YOUR EYES | NINA UBHI · 173,080 views · Nina Ubhi
+  - How To: Stop Mascara Smudging | Beginners Guide | Eimear McElheron · 132,069 views · Eimear McElheron
+  - HOW TO: TO STOP MASCARA FROM SMUDGING! · 252,596 views · Wayne Goss
+  - BEAUTY HACK! How To: Prevent Mascara from SMUDGING! Carli Bybel · 1,171,430 views · Carli Bybel
+
+## korean mascara
+
+- Autocomplete: korean mascara, korean mascara tutorial, korean mascara review, korean mascara best, korean mascara hacks, korean mascara remover, korean mascara judydoll, mascara korean song, korean brow mascara, korean eyebrow mascara
+- "how to": how to do korean mascara, how to apply mascara korean style, how to put mascara korean
+- Top 10: 0 Shorts; median views 95,653
+
+  - The Best Korean Mascara for Short, Straight, Asian lashes · 11,435 views · Nylon Pink
+  - WATERPROOF ASIAN MASCARA BATTLE OF THE BEST- CLIO, ROMAND, JUDY DOLL, HEROINE MAKE · 12,125 views · Charisse Daily
+  - 5 Best Korean Mascaras 2023 Review - Check the best price on Amazon · 1,505 views · Tech Revision
+  - Korean Makeup I Can't Stop Talking About as a Dermatologist | Dr. Sam Ellis · 95,653 views · Dr. Sam Ellis
+  - Blushe Mascara Review: Is It Actually Worth Your Money? (Real Review) · 3,602 views · Budget Boss Matthew
+  - 7 Times Korean Makeup 🇰🇷 OUTPERFORMED High-End Makeup 🇺🇸 (on Brown Skin 🤎) · 146,655 views · Monica Ravi-Conway
+  - Reviewing the TOP 12 Korean Mascaras | Beauty Battle Breakdown! · 134,333 views · TheBeautyBreakdown
+  - The Best Asian Brand Mascaras · 41,500 views · Mae Sitler
+  - What I learnt from Korea's Top Makeup Artist · 661,473 views · Tina Yong
+  - I Tried $2 Korean Makeup from Daiso 😲 · 311,850 views · Tina Yong
+
+## mascara tutorial
+
+- Autocomplete: mascara tutorial, mascara tutorial for beginners, mascara tutorial for short lashes, mascara tutorial telescopic, mascara tutorial deftones, mascara tutorial sky high, mascara tutorial for asian lashes, mascara tutorial black woman, mascara tutorial for thin lashes, mascara tutorial men
+- "how to": how to apply mascara tutorial, tutorial how to make mascara, how to mascara apply, how to mascara eyelashes, how to mascara for beginners, how to mascara at home
+- Top 10: 0 Shorts; median views 239,320
+
+  - HOW TO Mascara 101 | long lashes w/o Falsies + Tips | JASMINE ROSE black women makeup for beginners · 70,537 views · Jasmine Rose
+  - How to Apply Mascara Like a Pro · 3,969,130 views · Marlena Stell
+  - How to Use Mascara | Vogue Beauty School | British Vogue · 177,146 views · Vogue
+  - Why this technique is BETTER than your false lashes! · 23,659,693 views · Smitha Deepak
+  - Beginners to Pro | How to Curl Your Lashes + Applying Mascara the right way (No More Clumpy Lashes) · 37,330 views · dear peachie
+  - 99% of you aren’t using your mascara properly · 230,983 views · Sarah’s Super Spa
+  - How To Apply Mascara Like A Pro | Basic Makeup Tutorial For Beginners | Eye Makeup | Be Beautiful · 239,320 views · BeBeautiful
+  - Exposing a Mascara Hack: 10x BIGGER LASHES! 😱 · 350,564 views · Amy | BILLIE BLONDE
+  - How To Apply Mascara Like A Pro | Tips and Tricks | MakeupAndArtFreak · 202,555 views · MakeupAndArtFreak
+  - Mascara Tutorial for INSANE Lashes! | Shayna Greer · 2,375,598 views · Shayna Greer
