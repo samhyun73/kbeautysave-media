@@ -1,0 +1,15 @@
+{
+  "slug": "day36-mascara-smudging-zh",
+  "lang": "zh",
+  "mood": "bright",
+  "seed": 36,
+  "hangul": "마스카라",
+  "frames": [
+    {"type": "hook", "kicker": "마스카라 · 韩式眼妆", "title": "眼下晕黑？", "sub": "多半不怪睫毛膏 ↓", "dur": 2.5},
+    {"type": "step", "title": "眼霜避开", "line": "别涂到睫毛根部", "sub": "油分会让睫毛膏晕开", "dur": 2.9},
+    {"type": "step", "title": "下眼扑粉", "line": "下睫毛下方轻点", "sub": "先吸走油光", "dur": 2.9},
+    {"type": "step", "title": "先夹再涂", "line": "每层等30秒", "sub": "薄涂干得更快", "dur": 3.0},
+    {"type": "statement", "lines": ["下睫毛", "少涂。"], "sub": "只扫一点尖端", "dur": 2.6},
+    {"type": "cta", "title": "收藏备用", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}

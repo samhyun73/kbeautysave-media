@@ -1,0 +1,40 @@
+{
+  "slug": "day36-mascara-smudging",
+  "lang": "en",
+  "mood": "bright",
+  "seed": 36,
+  "hangul": "마스카라",
+  "frames": [
+    {"type": "hook", "kicker": "마스카라 · Korean eye makeup", "title": "Mascara smudging under your eyes?", "sub": "It's what's under it ↓", "dur": 2.5},
+    {"type": "step", "title": "Eye cream off", "line": "keep it off the lash line", "sub": "Oils break mascara down.", "dur": 2.9},
+    {"type": "step", "title": "Powder under", "line": "a tap below lower lashes", "sub": "It soaks up shine first.", "dur": 2.9},
+    {"type": "step", "title": "Curl, then coat", "line": "let each coat dry 30 s", "sub": "Thin coats set faster.", "dur": 3.0},
+    {"type": "statement", "lines": ["Top lashes first."], "sub": "Bottom tips only, or skip them.", "dur": 2.6},
+    {"type": "cta", "title": "Save it for tonight.", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "Korean makeup",
+    "title": "Smudged Mascara by Noon?",
+    "sub": "Two easy Korean fixes",
+    "steps": [
+      {"title": "Powder under", "body": "A light tap below."},
+      {"title": "Thin, dry coats", "body": "Wait 30 s between."}
+    ],
+    "avoid": ["Eye cream on the lash line", "Thick coat on lower lashes"],
+    "note": "Find mascaras at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "list",
+      "kicker": "Korean makeup tutorial",
+      "title": "Smudge-Free Mascara Steps",
+      "sub": "Korean mascara tutorial for beginners",
+      "items": [
+        {"title": "Eye cream off the lash line", "body": "Pat it on the bone only."},
+        {"title": "Powder under the eyes", "body": "A light tap below the lashes."},
+        {"title": "Curl first", "body": "Then thin coats, 30 s apart."},
+        {"title": "Go light on the bottom", "body": "Tips only, or skip them."}
+      ]
+    }
+  ]
+}
