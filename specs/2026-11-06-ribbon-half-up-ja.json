@@ -1,0 +1,77 @@
+{
+  "slug": "day37-ribbon-half-up-ja",
+  "lang": "ja",
+  "mood": "calm",
+  "seed": 37,
+  "hangul": "리본 머리",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "리본 머리 · 韓国ヘア",
+      "title": "崩れる？",
+      "sub": "リボンは土台で決まる ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "step",
+      "title": "上だけ取る",
+      "line": "こめかみから頭頂へ",
+      "sub": "先に指でほぐしておく",
+      "dur": 2.9
+    },
+    {
+      "type": "step",
+      "title": "先にゴム",
+      "line": "細い透明ゴムで",
+      "sub": "リボンだけだと下がる",
+      "dur": 3.0
+    },
+    {
+      "type": "step",
+      "title": "上から結ぶ",
+      "line": "輪は手のひら幅",
+      "sub": "ピン1本を交差して留める",
+      "dur": 3.0
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "まずゴム、",
+        "次に結ぶ。"
+      ],
+      "sub": "頭頂を少し引き出す",
+      "dur": 2.6
+    },
+    {
+      "type": "cta",
+      "title": "保存してね",
+      "code_label": "ログイン後 クーポンコード",
+      "where_html": "<b>Olive Young Global</b> で5%オフ",
+      "tags": "#PR #oliveyoungaffiliate",
+      "dur": 3.0
+    }
+  ],
+  "pin": {
+    "kicker": "韓国風ヘア",
+    "title": "ずれないリボン",
+    "sub": "ハーフアップの2ステップ",
+    "steps": [
+      {
+        "title": "先にゴム",
+        "body": "細い透明ゴムで固定"
+      },
+      {
+        "title": "ピンで留める",
+        "body": "結び目に1本交差"
+      }
+    ],
+    "avoid": [
+      "リボンだけで結ぶ",
+      "上をきつく引く"
+    ],
+    "note": "ヘアアイテムは Olive Young Global で",
+    "code_line": "ログイン後、Olive Young Global の決済で5%オフ",
+    "avoid_label": "やらないこと",
+    "tag": "#PR"
+  }
+}

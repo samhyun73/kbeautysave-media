@@ -1,0 +1,54 @@
+{
+  "slug": "day37-ribbon-half-up-zh",
+  "lang": "zh",
+  "mood": "calm",
+  "seed": 37,
+  "hangul": "리본 머리",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "리본 머리 · 韩式发型",
+      "title": "丝带会滑？",
+      "sub": "问题在底下 ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "step",
+      "title": "分出上层",
+      "line": "太阳穴到头顶",
+      "sub": "先用手指抓松",
+      "dur": 2.9
+    },
+    {
+      "type": "step",
+      "title": "先扎皮筋",
+      "line": "细的透明皮筋",
+      "sub": "只绑丝带容易往下滑",
+      "dur": 3.0
+    },
+    {
+      "type": "step",
+      "title": "再绑丝带",
+      "line": "蝴蝶结约一掌宽",
+      "sub": "交叉一根黑卡子固定",
+      "dur": 3.0
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "先固定，",
+        "再绑结。"
+      ],
+      "sub": "头顶抽松几缕更蓬松",
+      "dur": 2.6
+    },
+    {
+      "type": "cta",
+      "title": "聚会前收藏",
+      "code_label": "额外95折 优惠码",
+      "where_html": "在 <b>Olive Young Global</b><br>结账时输入",
+      "tags": "#广告",
+      "dur": 3.0
+    }
+  ]
+}

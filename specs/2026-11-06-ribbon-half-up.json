@@ -1,0 +1,97 @@
+{
+  "slug": "day37-ribbon-half-up",
+  "lang": "en",
+  "mood": "calm",
+  "seed": 37,
+  "hangul": "리본 머리",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "리본 머리 · Korean hair",
+      "title": "Ribbon slipping by dinner?",
+      "sub": "It's the base, not the bow ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "step",
+      "title": "Grab the top",
+      "line": "temples to crown",
+      "sub": "Loosen it with your fingers first.",
+      "dur": 2.9
+    },
+    {
+      "type": "step",
+      "title": "Elastic first",
+      "line": "a small clear one",
+      "sub": "A ribbon alone slides on smooth hair.",
+      "dur": 3.0
+    },
+    {
+      "type": "step",
+      "title": "Tie over it",
+      "line": "palm-wide loops",
+      "sub": "One crossed pin holds the knot.",
+      "dur": 3.0
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "Grip first.",
+        "Bow last."
+      ],
+      "sub": "Pull a few crown strands for lift.",
+      "dur": 2.6
+    },
+    {
+      "type": "cta",
+      "title": "Save it for party night.",
+      "dur": 3.0
+    }
+  ],
+  "pin": {
+    "kicker": "Korean hair",
+    "title": "Ribbon Half-Up That Holds",
+    "sub": "Two simple Korean steps",
+    "steps": [
+      {
+        "title": "Elastic first",
+        "body": "A small clear one."
+      },
+      {
+        "title": "Pin the knot",
+        "body": "One bobby pin, crossed."
+      }
+    ],
+    "avoid": [
+      "Ribbon on smooth hair alone",
+      "Pulling the top too tight"
+    ],
+    "note": "Find Korean hair styling picks at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "list",
+      "kicker": "Holiday hair",
+      "title": "Easy Bow Half Up Half Down",
+      "sub": "A holiday look in 5 minutes",
+      "items": [
+        {
+          "title": "Section the top",
+          "body": "Temples to crown, loosened by hand."
+        },
+        {
+          "title": "Elastic first",
+          "body": "A small clear elastic holds it."
+        },
+        {
+          "title": "Tie the ribbon",
+          "body": "Over the elastic, palm-wide loops."
+        },
+        {
+          "title": "Add lift",
+          "body": "Pull a few strands at the crown."
+        }
+      ]
+    }
+  ]
+}
