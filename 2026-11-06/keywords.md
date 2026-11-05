@@ -1,0 +1,69 @@
+# YouTube keyword check (autocomplete + top results, US English)
+
+## ribbon hairstyle
+
+- Autocomplete: ribbon hairstyle, ribbon hairstyles for long hair, ribbon hairstyle tutorial, ribbon hairstyle for short hair, ribbon hairstyle braid, ribbon hairstyle for school, ribbon hairstyle girl, ribbon hairstyles curly hair, ribbon hairstyle ideas, ribbon hairstyles for medium hair
+- "how to": how to ribbon hairstyle, how to make ribbon hairstyle, how to do ribbon hairstyle, how to make a ribbon hairstyle for short hair, how to tie ribbon hairstyle, how to ribbon the hair
+- Top 10: 1 Shorts; median views 73,256
+
+  - 4 Strand Ribbon Braid | Brown Haired Bliss · 39,044 views · Brown Haired Bliss
+  - 10 Actually Easy Ribbon Hairstyles 🎀 (School & Everyday) · 9,660 views · Aesthetic Marvi ౨ৎ
+  - 🎀 How to do a BOW PONYTAIL 🎀 · 1,434,609 views · Another Braid
+  - New Braid Hairstyle with ribbon | Braided hairstyles | Open Hair styles |Cute hairstyles | Braids✓ · 57,626 views · Kapsels-Hairstyles
+  - French Braid with ribbon/Hairstyle for girls · 11,953 views · irina.abramova_hair
+  - I stopped wearing hair elastics for a year....AND I"M NEVER GOING BACK · 3,640,873 views · Morgan Donner
+  - Easy Ribbon Braid ⊰ Historical Hairstyle ⊱ for Long Hair ⊰ Hungarian Folklore ⊱ · 59,862 views · PrettyShepherd
+  - [S] How To Hair Bow Hairstyle 🎀 · 249,865 views · Alex Gaboury
+  - Easy Ribbon Hairstyle in 5 Mins! Balletcore Inspired Hair Ideas by 小周洁洁子 · 73,256 views · dear peachie
+  - How To Do a Bow With Hair (the easy way)🎀 · 310,348 views · SweetHearts Hair
+
+## bow hairstyle
+
+- Autocomplete: bow hairstyles, bow hairstyles 5 minute crafts, bow hairstyles for short hair, bow hairstyles half up half down, bow hairstyle tutorial, bow hairstyles for girls, bow hairstyles with braids, bow hairstyles for long hair, bow hairstyles easy, bow hairstyles for curly hair
+- "how to": how to bow hairstyle, how to do bow hairstyle, how to make bow hairstyle in short hair, how to tie bow hairstyle, how to do bow hairstyle half up, how to make bow hairstyle for girls
+- Top 10: 1 Shorts; median views 1,434,618
+
+  - The Bow Braid | Popular Hairstyles | Cute Girls Hairstyles · 5,200,876 views · Mindy McKnight
+  - [S] How To Hair Bow Hairstyle 🎀 · 249,862 views · Alex Gaboury
+  - 🎀 How to do a BOW PONYTAIL 🎀 · 1,434,618 views · Another Braid
+  - Cute Hair Bow Hairstyle! - How To Do a Bow Out Of Hair - EASY & SIMPLE FOR BEGINNERS · 71,508 views · EverydayHairInspiration
+  - 3 EASY HAIRSTYLES with BRAIDES BOW for GIRLS 🎀 · 1,042,766 views · Make-Up & Hair Tutorials
+  - Hair Bow Tutorial Hairstyle Half-Updo for Medium Long Hair · 9,018,542 views · Bebexo
+  - How To Do a Bow With Hair (the easy way)🎀 · 310,349 views · SweetHearts Hair
+  - CUTE HAIR BOW 🎀 HAIRSTYLE TUTORIAL!! · 1,120,083 views · Pretty Hair is Fun - Girls Hairstyle Tutorials
+  - Hair Bow Tutorial Hairstyle for Short and Long Hair · 17,328,975 views · Bebexo
+  - How to Create a Diagonal Bow Braid · 17,673,376 views · Mindy McKnight
+
+## half up half down hairstyle
+
+- Autocomplete: half up half down hairstyles, half up half down hairstyles braid, half up half down hairstyles wedding, half up half down hairstyles curly hair, half up half down hairstyles short hair, half up half down hairstyles prom, half up half down hairstyles claw clip, half up half down hairstyles black women, half up half down hairstyles bun, half up half down hairstyles thin hair
+- "how to": how to half up half down hairstyles, how to make half up half down hairstyle, how to do half up half down hairstyles with claw clip, how to do half up half down hairstyles curly hair, how to do half up half down hairstyles short hair, how to style half up half down hairstyles
+- Top 10: 1 Shorts; median views 189,084
+
+  - SIMPLE half up half down hairstyle for everyday · 456,517 views · Hair Angels
+  - This Half Up Half Down Hairstyle Will Be Your Favorite: a) Volume b) Lifting Effect c) Quick & Easy · 317,437 views · BEAUTALIE
+  - [S] 60 Second Half Up Half Down Hair Tutorial ❤️ · 427,587 views · Alex Gaboury
+  - EASY Half Up Half Down Hair Tutorial ❤️ Perfect for Wedding Guests, Bridesmaids, or Brides · 102,883 views · Alex Gaboury
+  - EASY half up half down hairstyle  |  quick twisted half up half down hair tutorial · 187,947 views · Hair Angels
+  - Simple Classic Half Upstyle Tutorial | Bridal Styling Partial Updo Glam Waves | Kenra Professional · 110,307 views · Kenra Professional
+  - 60 Second Half Up Half Down Hairstyle ❤️ Elegant Winter + Holiday Hairstyle · 71,278 views · Alex Gaboury
+  - Half Up Half Down Hairstyle with Twists | Elegant and Easy Tutorial · 179,489 views · Andreeva Nata
+  - Quick half up half down hairstyle · 716,001 views · Hair Angels
+  - wavy half up half down hairstyle half up messy hair tutorial · 189,084 views · Hair Angels
+
+## christmas hairstyles
+
+- Autocomplete: christmas hairstyles, christmas hairstyles easy, christmas hairstyles for kids, christmas hairstyles for girls, christmas hairstyles for short hair, christmas hairstyles braids, christmas hairstyles for children, christmas hairstyles for curly hair, christmas hairstyles for little girls, cute christmas hairstyles
+- "how to": how to do christmas hairstyles, how to make christmas hair band, how to do christmas hair
+- Top 10: 0 Shorts; median views 15,354
+
+  - ‼️2026 Most Beautiful Braids Hairstyles For Christmas 🔥A Must To Try This Year😍 · 905 views · AshelyflossytheGirlBoss
+  - 8 EASY Holiday hairstyles - Christmas hair tutorial · 14,829 views · Hair Angels
+  - Get Ready for the Best Holiday Hairstyles✨🎄 Create Festive Looks with Slick Slime Sam's Maker World · 6,588,880 views · Slick Slime Sam's Maker World
+  - Last Minute Christmas Holidays Hairstyles || Easiest Christmas hair tutorials | Vlogmass 22 · 241 views · Chy Hair Diaries
+  - 5 Quick Christmas Morning Hairstyles - Hair Tutorial · 387,237 views · Kayley Melissa
+  - Check Out These Two Fun And Festive Christmas Hairstyles 2023! · 40,797 views · SweetHearts Hair
+  - Christmas Tree Pull Through Braid | Christmas Hair | BabesInHairland.com · 311,022 views · Babes in Hairland
+  - Cute and Festive Christmas Hairstyles for the Holidays · 6,380 views · Arlene Reyes Dailo
+  - Quick Christmas Morning Hairstyles | Just Rolled Out of Bed Hair · 15,354 views · Kayley Melissa
+  - ‼️100+ Best Christmas Braids Hairstyles For 2025🔥Most Trending Festive Styles for black women · 12,114 views · AshelyflossytheGirlBoss
