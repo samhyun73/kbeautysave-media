@@ -175,3 +175,11 @@ Easy Bow Half Up Half Down Hairstyle in 5 Minutes: Classy Korean Ideas
 #PR #oliveyoungaffiliate #韓国コスメ #オリヤン #ハーフアップ
 ```
 - 해석: 영상으로 보는 안 무너지는 리본 하프업 · 관자놀이~정수리 머리 잡기 · 먼저 투명 고무줄 · 그 위에 리본, 고리는 손바닥 폭 · 실핀 1개 교차 고정 · 로그인 후 KBEAUTY73으로 5% 할인
+
+## 이벤트 핀 (추가, 블랙프라이데이 · 11/12까지)
+- 이미지: pin_bf.png · 보드: K-beauty 세일/쇼핑 보드 · 링크 칸 비움
+- 제목: Olive Young Global Black Friday 2026: K-Beauty Sale Checklist (Canada, UK, Australia)
+- 설명:
+Olive Young Global Black Friday 2026 runs 1–12 Nov for Canada, UK & Australia shoppers 🛍️ Here's a simple K-beauty checklist so you don't overbuy: restock basics first (cleanser, sunscreen, moisturizer) 🧴, then winter skin care (hydrating toner + a richer cream) 💧, holiday makeup (a lip tint, a soft glitter shade) 💄 and small gifts like sheet masks and hand cream 🎁 Offers differ by shipping country, so check your cart. Sign in, then use code KBEAUTY73 for an extra 5% off ✨ Save this for your sale cart 📌
+#oliveyoungaffiliate #ad #kbeauty #blackfriday #oliveyoung
+- ⚠️ 11/12 세일 종료 후 이 핀은 Pinterest에서 보관 처리하세요.
