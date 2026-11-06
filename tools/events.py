@@ -23,12 +23,12 @@ JS = """() => {
   for (const a of document.querySelectorAll('a[href]')) {
     let h = a.getAttribute('href') || '';
     const m = h.match(/googleViewPromotion\\("([^"]+)/); if (m) h = decodeURIComponent(m[1]).split('"')[0];
-    if (!/plndpNo=|eventNo=/i.test(h)) continue;
     const t = (a.innerText || '').replace(/\\s+/g, ' ').trim();
+    if (!/plndpNo=|eventNo=|\\/event\\//i.test(h) && !/black friday|cyber|sale|members week/i.test(t)) continue;
     const img = a.querySelector('img');
     const alt = img ? (img.getAttribute('alt') || '') : '';
     if (!t && !alt) continue;
-    out.push({id: (h.match(/(plndpNo|eventNo)=([\\w]+)/) || [,,h])[2], text: t, alt});
+    out.push({id: (h.match(/(plndpNo|eventNo)=([\\w]+)/) || [,,h.split('?')[0].slice(-60)])[2], text: t, alt});
   }
   return out;
 }"""
