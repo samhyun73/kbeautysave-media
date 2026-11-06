@@ -1,40 +1,30 @@
-{'code': '01', 'dlv': '10', 'cur': 'USD', 'bf': False, 'bf_dates': [], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '02', 'dlv': '10', 'cur': 'USD', 'bf': False, 'bf_dates': [], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '03', 'dlv': '10', 'cur': 'USD', 'bf': False, 'bf_dates': [], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '04', 'dlv': '10', 'cur': 'USD', 'bf': False, 'bf_dates': [], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '05', 'dlv': '10', 'cur': 'USD', 'bf': False, 'bf_dates': [], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '06', 'dlv': '10', 'cur': 'USD', 'bf': False, 'bf_dates': [], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '07', 'dlv': '10', 'cur': 'USD', 'bf': False, 'bf_dates': [], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '08', 'dlv': '10', 'cur': 'USD', 'bf': False, 'bf_dates': [], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '09', 'dlv': '10', 'cur': 'USD', 'bf': False, 'bf_dates': [], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '10', 'dlv': '10', 'cur': None, 'bf': False, 'bf_dates': [], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '11', 'dlv': '10', 'cur': 'USD', 'bf': False, 'bf_dates': [], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '12', 'dlv': '10', 'cur': 'USD', 'bf': False, 'bf_dates': [], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '13', 'dlv': '10', 'cur': 'USD', 'bf': False, 'bf_dates': [], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '14', 'dlv': '10', 'cur': 'USD', 'bf': False, 'bf_dates': [], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '15', 'dlv': '10', 'cur': 'USD', 'bf': False, 'bf_dates': [], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '16', 'dlv': '10', 'cur': 'USD', 'bf': False, 'bf_dates': [], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '17', 'dlv': '10', 'cur': 'USD', 'bf': False, 'bf_dates': [], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '18', 'dlv': '10', 'cur': 'USD', 'bf': False, 'bf_dates': [], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '19', 'dlv': '10', 'cur': 'USD', 'bf': False, 'bf_dates': [], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '20', 'dlv': '20', 'cur': None, 'bf': True, 'bf_dates': ['1 Nov - 12 Nov', '1 Nov - 12 Nov'], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '21', 'dlv': '10', 'cur': 'USD', 'bf': False, 'bf_dates': [], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '22', 'dlv': '10', 'cur': 'USD', 'bf': False, 'bf_dates': [], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '23', 'dlv': '10', 'cur': 'USD', 'bf': False, 'bf_dates': [], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '24', 'dlv': '10', 'cur': 'USD', 'bf': False, 'bf_dates': [], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '25', 'dlv': '10', 'cur': 'USD', 'bf': False, 'bf_dates': [], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '26', 'dlv': '10', 'cur': 'USD', 'bf': False, 'bf_dates': [], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '27', 'dlv': '10', 'cur': 'USD', 'bf': False, 'bf_dates': [], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '28', 'dlv': '10', 'cur': 'USD', 'bf': False, 'bf_dates': [], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '29', 'dlv': '10', 'cur': 'USD', 'bf': False, 'bf_dates': [], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '30', 'dlv': '30', 'cur': None, 'bf': True, 'bf_dates': ['1 Nov - 12 Nov', '1 Nov - 12 Nov'], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '31', 'dlv': '10', 'cur': 'USD', 'bf': False, 'bf_dates': [], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '32', 'dlv': '10', 'cur': 'USD', 'bf': False, 'bf_dates': [], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '33', 'dlv': '10', 'cur': 'USD', 'bf': False, 'bf_dates': [], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '34', 'dlv': '10', 'cur': 'USD', 'bf': False, 'bf_dates': [], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '35', 'dlv': '10', 'cur': 'USD', 'bf': False, 'bf_dates': [], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '36', 'dlv': '10', 'cur': 'USD', 'bf': False, 'bf_dates': [], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '37', 'dlv': '10', 'cur': 'USD', 'bf': False, 'bf_dates': [], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '38', 'dlv': '10', 'cur': 'USD', 'bf': False, 'bf_dates': [], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '39', 'dlv': '10', 'cur': 'USD', 'bf': False, 'bf_dates': [], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
-{'code': '40', 'dlv': '40', 'cur': None, 'bf': True, 'bf_dates': ['1 Nov - 12 Nov', '1 Nov - 12 Nov'], 'ship': '', 'title': "OLIVE YOUNG Global | Korea's No. 1 Healt"}
+{'code': '10', 'dlv': '10', 'bf': False, 'opt': [], 'data': ['Global (Select Location)', '\n                        ', 'Global (Select Location)'], 'slides': [('1', '21')]}
+{'code': '20', 'dlv': '20', 'bf': True, 'opt': [], 'data': ['CANADA', '\n                        ', 'CANADA'], 'slides': [('1', '26')]}
+{'code': '30', 'dlv': '30', 'bf': True, 'opt': [], 'data': ['AUSTRALIA (Oceania)', '\n                        ', 'AUSTRALIA (Oceania)'], 'slides': [('1', '26')]}
+{'code': '40', 'dlv': '40', 'bf': True, 'opt': [], 'data': ['NEW ZEALAND', '\n                        ', 'NEW ZEALAND'], 'slides': [('1', '25')]}
+{'code': '50', 'dlv': '50', 'bf': False, 'opt': [], 'data': ['SINGAPORE', '\n                        ', 'SINGAPORE'], 'slides': [('1', '25')]}
+{'code': '60', 'dlv': '60', 'bf': True, 'opt': [], 'data': ['CHINA', '\n                        ', 'CHINA'], 'slides': [('1', '25')]}
+{'code': '70', 'dlv': '70', 'bf': False, 'opt': [], 'data': ['HONG KONG', '\n                        ', 'HONG KONG'], 'slides': [('1', '23')]}
+{'code': '80', 'dlv': '80', 'bf': True, 'opt': [], 'data': ['FRANCE', '\n                        ', 'FRANCE'], 'slides': [('1', '25')]}
+{'code': '90', 'dlv': '90', 'bf': True, 'opt': [], 'data': ['GERMANY', '\n                        ', 'GERMANY'], 'slides': [('1', '25')]}
+{'code': '100', 'dlv': '100', 'bf': True, 'opt': [], 'data': ['INDONESIA', '\n                        ', 'INDONESIA'], 'slides': [('1', '25')]}
+{'code': '110', 'dlv': '110', 'bf': False, 'opt': [], 'data': ['JAPAN', '\n                        ', 'JAPAN'], 'slides': [('1', '19')]}
+{'code': '120', 'dlv': '120', 'bf': True, 'opt': [], 'data': ['LUXEMBOURG', '\n                        ', 'LUXEMBOURG'], 'slides': [('1', '25')]}
+{'code': '130', 'dlv': '10', 'bf': False, 'opt': [], 'data': [], 'slides': [('1', '21')]}
+{'code': '140', 'dlv': '140', 'bf': True, 'opt': [], 'data': ['THAILAND', '\n                        ', 'THAILAND'], 'slides': [('1', '25')]}
+{'code': '150', 'dlv': '150', 'bf': True, 'opt': [], 'data': ['MALAYSIA', '\n                        ', 'MALAYSIA'], 'slides': [('1', '25')]}
+{'code': '160', 'dlv': '160', 'bf': False, 'opt': [], 'data': ['TAIWAN', '\n                        ', 'TAIWAN'], 'slides': [('1', '22')]}
+{'code': '170', 'dlv': '170', 'bf': True, 'opt': [], 'data': ['UNITED KINGDOM', '\n                        ', 'UNITED KINGDOM'], 'slides': [('1', '27')]}
+{'code': '180', 'dlv': '180', 'bf': True, 'opt': [], 'data': ['NETHERLANDS', '\n                        ', 'NETHERLANDS'], 'slides': [('1', '25')]}
+{'code': '190', 'dlv': '190', 'bf': True, 'opt': [], 'data': ['MEXICO', '\n                        ', 'MEXICO'], 'slides': [('1', '25')]}
+{'code': '200', 'dlv': '200', 'bf': True, 'opt': [], 'data': ['SWITZERLAND', '\n                        ', 'SWITZERLAND'], 'slides': [('1', '25')]}
+{'code': '210', 'dlv': '10', 'bf': False, 'opt': [], 'data': [], 'slides': [('1', '21')]}
+{'code': '220', 'dlv': '220', 'bf': True, 'opt': [], 'data': ['UNITED ARAB EMIRATES', '\n                        ', 'UNITED ARAB EMIRATES'], 'slides': [('1', '25')]}
+{'code': '230', 'dlv': '230', 'bf': True, 'opt': [], 'data': ['KAZAKHSTAN', '\n                        ', 'KAZAKHSTAN'], 'slides': [('1', '25')]}
+{'code': '240', 'dlv': '240', 'bf': True, 'opt': [], 'data': ['QATAR', '\n                        ', 'QATAR'], 'slides': [('1', '25')]}
+{'code': '250', 'dlv': '10', 'bf': False, 'opt': [], 'data': [], 'slides': [('1', '21')]}
+{'code': '260', 'dlv': '10', 'bf': False, 'opt': [], 'data': [], 'slides': [('1', '21')]}
+{'code': '270', 'dlv': '10', 'bf': False, 'opt': [], 'data': [], 'slides': [('1', '21')]}
+{'code': '280', 'dlv': '10', 'bf': False, 'opt': [], 'data': [], 'slides': [('1', '21')]}
+{'code': '290', 'dlv': '10', 'bf': False, 'opt': [], 'data': [], 'slides': [('1', '21')]}
+{'code': '300', 'dlv': '10', 'bf': False, 'opt': [], 'data': [], 'slides': [('1', '21')]}
