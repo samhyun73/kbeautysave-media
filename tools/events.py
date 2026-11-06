@@ -38,14 +38,17 @@ def main(outdir):
     seen, items, errors = set(), [], []
     with sync_playwright() as p:
         b = p.chromium.launch()
-        pg = b.new_page(viewport={"width": 1440, "height": 900}, locale="en-US")
+        pg = b.new_page(viewport={"width": 1440, "height": 900}, locale="en-US",
+                        user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                                   "(KHTML, like Gecko) Chrome/130.0 Safari/537.36")
         for name, url in PAGES:
             try:
-                pg.goto(url, wait_until="networkidle", timeout=60000)
-                pg.wait_for_timeout(3000)
+                pg.goto(url, wait_until="domcontentloaded", timeout=60000)
+                pg.wait_for_timeout(8000)   # the site never goes network-idle (trackers); give banners time
                 for _ in range(6):                      # lazy-loaded sections
                     pg.mouse.wheel(0, 1500); pg.wait_for_timeout(700)
-                pg.screenshot(path=str(outdir / f"{name}.png"), full_page=False)
+                pg.mouse.wheel(0, -20000); pg.wait_for_timeout(500)
+                pg.screenshot(path=str(outdir / f"{name}.png"), full_page=True)
                 for x in pg.evaluate(JS):
                     key = (x["href"], x["text"][:80], x["alt"][:80])
                     if key in seen:
