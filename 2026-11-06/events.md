@@ -1,79 +1,39 @@
-# Olive Young Global events (home + /event/main, rendered)
+# Olive Young Global events by shipping market (home + /event/main, rendered)
 
-- category-promotion-image1 — http://global.oliveyoung.com/event/planning?plndpNo=2749
-- category-promotion-image1 — https://global.oliveyoung.com/gb/brands/ohir
-- category-promotion-image1 — https://global.oliveyoung.com/event/planning?plndpNo=3019
-- category-promotion-image2 — https://global.oliveyoung.com/event/planning?plndpNo=3018
-- category-promotion-image1 — https://global.oliveyoung.com/event/planning?plndpNo=2976
-- category-promotion-image2 — https://global.oliveyoung.com/event/planning?plndpNo=3049
-- category-promotion-image1 — https://global.oliveyoung.com/event/planning?plndpNo=3006
-- category-promotion-image2 — https://global.oliveyoung.com/event/planning?plndpNo=3007
-- category-promotion-image1 — https://global.oliveyoung.com/event/planning?plndpNo=2749
-- category-promotion-image2 — https://global.oliveyoung.com/gb/brands/round-lab
-- numbuzin — https://global.oliveyoung.com/event/planning?plndpNo=2749
-- Brands — https://global.oliveyoung.com/display/page/brand
-- Events — https://global.oliveyoung.com/event/main
-- Super Brand Week💜Only for 7 DAYS! — http://global.oliveyoung.com/event/planning?plndpNo=2749
-- SONGKANG x OHIR💮 White Camellia Clarity — https://global.oliveyoung.com/gb/brands/ohir
-- NUTTY MOODSoft, Warm Shades🤎 — https://global.oliveyoung.com/event/planning?plndpNo=3019
-- Glint NEWMeet the New Glow ✨ — https://global.oliveyoung.com/event/planning?plndpNo=3018
-- Find Your Moisture Match!💧For All Skin Types🤗 — https://global.oliveyoung.com/event/planning?plndpNo=3051
-- Style with Vodana🫧2 Exclusive Cart Coupons — https://global.oliveyoung.com/event/planning?plndpNo=2976
-- Online Hair Care DiagnosticTake the Quiz ⬆️ — https://global.oliveyoung.com/event/planning?plndpNo=3049
-- Autumn Barrier Boost🍂Torriden — https://global.oliveyoung.com/event/planning?plndpNo=3006
-- Bye Puffiness, Hello Glow✨Dr.Jart+ — https://global.oliveyoung.com/event/planning?plndpNo=3007
-- Super Brand Week💜Only for 7DAYS! — https://global.oliveyoung.com/event/planning?plndpNo=2749
-- ROUND LAB Suncare Limited Edition & Best Price⏰ — https://global.oliveyoung.com/gb/brands/round-lab
-- SAVE US$20 with OLIVE YOUNG APP ! — https://global.oliveyoung.com/event/detail?eventNo=EV230100113
-- Super Brand Week · numbuzin Super Deals · 7 Days Only! · Don’t miss out! · Check out our special offers — javascript:googleViewPromotion("http://global.oliveyoung.com/event/planning?plndpNo=2749%22,%20%221%22,%20%22Y%22,%20%220%22)
-- SKINCARE Categories · Buy Skincare · Get Free Gifts · More Coupons, · More Gifts ! — javascript:googleViewPromotion("https://global.oliveyoung.com/event/planning?plndpNo=2877%22,%20%221%22,%20%22Y%22,%20%221%22)
-- medicube, celimax, innisfree · Slow-Aging · Solution · More Coupons, · More Gifts ! — javascript:googleViewPromotion("https://global.oliveyoung.com/event/planning?plndpNo=2997%22,%20%221%22,%20%22Y%22,%20%222%22)
-- Dr.Jart+ · Dr.Jart+ · Unlock Your Glow · More Coupons, · More Gifts ! — javascript:googleViewPromotion("https://global.oliveyoung.com/event/planning?plndpNo=3007%22,%20%221%22,%20%22Y%22,%20%223%22)
-- VT · Ultimate At-Home Skin · Skin Booster, · Pore Tightening · With special gifts ! — javascript:googleViewPromotion("https://global.oliveyoung.com/event/planning?plndpNo=2999%22,%20%2211%22,%20%22Y%22,%20%224%22)
-- Purito SEOUL · Soft touch · Bold UV Protection · Special 1+1 Deals, · Exclusive Gifts ! — javascript:googleViewPromotion("https://global.oliveyoung.com/event/planning?plndpNo=3004%22,%20%221%22,%20%22Y%22,%20%225%22)
-- REJURAN | VITAL BEAUTIE | CJ innerB | Denps | BB LAB · Beauty · Inside & Out · From Daily Supplements · to Beauty Care — javascript:googleViewPromotion("https://global.oliveyoung.com/event/planning?plndpNo=3024%22,%20%221%22,%20%22Y%22,%20%226%22)
-- LABO-H · Online Hair Care · Diagnostic · Take the Quiz & · Find Your Perfect Haircare Routine — javascript:googleViewPromotion("https://global.oliveyoung.com/event/planning?plndpNo=3049%22,%20%221%22,%20%22Y%22,%20%227%22)
-- rom&nd · Let's Celebrate🎉 · 10 years with rom&nd · Exclusive Offers · & Free Gift — javascript:googleViewPromotion("https://global.oliveyoung.com/event/planning?plndpNo=3016%22,%20%221%22,%20%22Y%22,%20%228%22)
-- Torriden · Torriden · Autumn Barrier Boost · More Coupons, · More Gifts ! — javascript:googleViewPromotion("https://global.oliveyoung.com/event/planning?plndpNo=3006%22,%20%221%22,%20%22Y%22,%20%229%22)
-- beplain · Sun Care & Cleansing Edit · favorites to new arrivals · Extra Coupons, · Free Gift ! — javascript:googleViewPromotion("https://global.oliveyoung.com/event/planning?plndpNo=3002%22,%20%221%22,%20%22Y%22,%20%2210%22)
-- hince · MEET THE NEW · GLIT ANGEL EDITION · Get a Free Gift! — javascript:googleViewPromotion("https://global.oliveyoung.com/event/planning?plndpNo=3017%22,%20%221%22,%20%22Y%22,%20%2211%22)
-- ILLIYOON · Find Your · Moisture Match ! · 40 Years of Research · for Sensitive Skin — javascript:googleViewPromotion("https://global.oliveyoung.com/event/planning?plndpNo=3051%22,%20%221%22,%20%22Y%22,%20%2212%22)
-- Daily Base Tools · Flawless Base · Seamless Fit · Perfect tools · for all-day perfection — javascript:googleViewPromotion("https://global.oliveyoung.com/event/planning?plndpNo=3027%22,%20%221%22,%20%22Y%22,%20%2213%22)
-- LACTOFIT | Denps | TEAZEN | CJ BYOCORE | TIGER MORNING · Gut & Immune · Wellness · Small Daily Habits · Better Gut Wellness — javascript:googleViewPromotion("https://global.oliveyoung.com/event/planning?plndpNo=3023%22,%20%221%22,%20%22Y%22,%20%2214%22)
-- Balance Fit · Find Your Balance · Every Single Day · Experience Deep Relaxation · At Home — javascript:googleViewPromotion("https://global.oliveyoung.com/event/planning?plndpNo=3026%22,%20%221%22,%20%22Y%22,%20%2215%22)
-- 2026 November · Monthly · K-Brand Spotlight · Discover Rising New Brands — javascript:googleViewPromotion("https://global.oliveyoung.com/event/planning?plndpNo=3025%22,%20%221%22,%20%22Y%22,%20%2216%22)
-- App Only · Turn on Notification · Get US$15 Off · Coupon sent via app in 5 days — javascript:googleViewPromotion("https://global.oliveyoung.com/event/detail?eventNo=EV230100112%22,%20%22%EC%95%B1%EC%95%8C%EB%A6%BC2%20(%ED%94%84%EB%8D%95%ED%8C%80%20a/b%20%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%9A%A9)%22,%20%22Y%22,%20%2217%22)
-- App Only · Download the App · Unlock US$20 Benefit! · Coupon + Point Benefits — javascript:googleViewPromotion("https://global.oliveyoung.com/event/detail?eventNo=EV230100113%22,%20%22app%22,%20%22Y%22,%20%2218%22)
-- TWS · TWS - 2nd Single Album · [TO US] · OLIVE YOUNG EXCLUSIVE — javascript:googleViewPromotion("https://global.oliveyoung.com/event/planning?plndpNo=3033%22,%20%221%22,%20%22Y%22,%20%2219%22)
-- LNGSHOT · LNGSHOT - EP · [S.W.I.S.H.] · OLIVE YOUNG EXCLUSIVE — javascript:googleViewPromotion("https://global.oliveyoung.com/event/planning?plndpNo=3028%22,%20%221%22,%20%22Y%22,%20%2220%22)
-- Super Brand Week · 																						 numbuzin Super Deals7 Days Only!  numbuzin Super Deals7 Days Only!  Don’t miss out!Check out our special offers  Don’t miss out!Check out our special offers — http://global.oliveyoung.com/event/planning?plndpNo=2749
-- SKINCARE Categories · 																						 Buy SkincareGet Free Gifts  Buy SkincareGet Free Gifts  More Coupons,More Gifts !  More Coupons,More Gifts ! — https://global.oliveyoung.com/event/planning?plndpNo=2877
-- medicube, celimax, innisfree · 																						 Slow-AgingSolution  Slow-AgingSolution  More Coupons,More Gifts !  More Coupons,More Gifts ! — https://global.oliveyoung.com/event/planning?plndpNo=2997
-- Dr.Jart+ · 																						 Dr.Jart+Unlock Your Glow  Dr.Jart+Unlock Your Glow  More Coupons,More Gifts !  More Coupons,More Gifts ! — https://global.oliveyoung.com/event/planning?plndpNo=3007
-- VT · 																						 Ultimate At-Home SkinSkin Booster,  Ultimate At-Home SkinSkin Booster,  Pore TighteningWith special gifts !  Pore TighteningWith special gifts ! — https://global.oliveyoung.com/event/planning?plndpNo=2999
-- Purito SEOUL · 																						 Soft touchBold UV Protection  Soft touchBold UV Protection  Special 1+1 Deals,Exclusive Gifts !  Special 1+1 Deals,Exclusive Gifts ! — https://global.oliveyoung.com/event/planning?plndpNo=3004
-- REJURAN | VITAL BEAUTIE | CJ innerB | Denps | BB LAB · 																						 BeautyInside & Out  BeautyInside & Out  From Daily Supplementsto Beauty Care  From Daily Supplementsto Beauty Care — https://global.oliveyoung.com/event/planning?plndpNo=3024
-- LABO-H · 																						 Online Hair CareDiagnostic  Online Hair CareDiagnostic  Take the Quiz &Find Your Perfect Haircare Routine  Take the Quiz &Find Your Perfect Haircare Routine — https://global.oliveyoung.com/event/planning?plndpNo=3049
-- rom&nd · 																						 Let's Celebrate🎉10 years with rom&nd  Let's Celebrate🎉10 years with rom&nd  Exclusive Offers& Free Gift  Exclusive Offers& Free Gift — https://global.oliveyoung.com/event/planning?plndpNo=3016
-- Torriden · 																						 TorridenAutumn Barrier Boost  TorridenAutumn Barrier Boost  More Coupons,More Gifts !  More Coupons,More Gifts ! — https://global.oliveyoung.com/event/planning?plndpNo=3006
-- beplain · 																						 Sun Care & Cleansing Editfavorites to new arrivals  Sun Care & Cleansing Editfavorites to new arrivals  Extra Coupons,Free Gift !  Extra Coupons,Free Gift ! — https://global.oliveyoung.com/event/planning?plndpNo=3002
-- hince · 																						 MEET THE NEWGLIT ANGEL EDITION  MEET THE NEWGLIT ANGEL EDITION  Get a Free Gift!  Get a Free Gift! — https://global.oliveyoung.com/event/planning?plndpNo=3017
-- ILLIYOON · 																						 Find YourMoisture Match !  Find YourMoisture Match !  40 Years of Researchfor Sensitive Skin  40 Years of Researchfor Sensitive Skin — https://global.oliveyoung.com/event/planning?plndpNo=3051
-- Daily Base Tools · 																						 Flawless BaseSeamless Fit  Flawless BaseSeamless Fit  Perfect tools for all-day perfection  Perfect tools for all-day perfection — https://global.oliveyoung.com/event/planning?plndpNo=3027
-- LACTOFIT | Denps | TEAZEN | CJ BYOCORE | TIGER MORNING · 																						 Gut & ImmuneWellness  Gut & ImmuneWellness  Small Daily HabitsBetter Gut Wellness  Small Daily HabitsBetter Gut Wellness — https://global.oliveyoung.com/event/planning?plndpNo=3023
-- Balance Fit · 																						 Find Your BalanceEvery Single Day  Find Your BalanceEvery Single Day  Experience Deep RelaxationAt Home  Experience Deep RelaxationAt Home — https://global.oliveyoung.com/event/planning?plndpNo=3026
-- 2026 November · 																						 MonthlyK-Brand Spotlight  MonthlyK-Brand Spotlight  Discover Rising New Brands  Discover Rising New Brands — https://global.oliveyoung.com/event/planning?plndpNo=3025
-- App Only · 																						 Turn on NotificationGet US$15 Off  Turn on NotificationGet US$15 Off  Coupon sent via app in 5 days  Coupon sent via app in 5 days — https://global.oliveyoung.com/event/detail?eventNo=EV230100112
-- App Only · 																						 Download the AppUnlock US$20 Benefit!  Download the AppUnlock US$20 Benefit!  Coupon + Point Benefits  Coupon + Point Benefits — https://global.oliveyoung.com/event/detail?eventNo=EV230100113
-- TWS · 																						 TWS  - 2nd Single Album[TO US]  TWS  - 2nd Single Album[TO US]  OLIVE YOUNG EXCLUSIVE  OLIVE YOUNG EXCLUSIVE — https://global.oliveyoung.com/event/planning?plndpNo=3033
-- LNGSHOT · 																						 LNGSHOT - EP[S.W.I.S.H.]  LNGSHOT - EP[S.W.I.S.H.]  OLIVE YOUNG EXCLUSIVE  OLIVE YOUNG EXCLUSIVE — https://global.oliveyoung.com/event/planning?plndpNo=3028
-- ⏰ Clearance Sale ⏰ · Last Chance Deals / Clearance Sale — https://global.oliveyoung.com/event/planning?plndpNo=3020
-- Exclusive aespa Photocards📸 · Get Perfect Serum & Collect All 4 Members!💥 / Mise-en-Scene — https://global.oliveyoung.com/event/planning?plndpNo=3056
-- 💖Makeup Magic-Makers!✨ · Flawless Tools for a Perfect Look!🎨 / . — https://global.oliveyoung.com/event/planning?plndpNo=3027
-- numbuzin Week · 7 Days Only! 💜 / numbuzin Super Brand Week — https://global.oliveyoung.com/event/planning?plndpNo=2749
-- 💞numbuzin No.3 Line💞 · Refine Pores, Reveal Smooth Skin / numbuzin — https://global.oliveyoung.com/event/planning?plndpNo=3001
-- Beauty Inside & Out · Daily Health to Beauty Care / - — https://global.oliveyoung.com/event/planning?plndpNo=3024
-- numbuzin No.9 NAD+ PDRN Glow Sun Mist 50ml · US$21.00 · US$15.12 / numbuzin No.9 NAD+ PDRN Glow Sun Mist 50ml — https://global.oliveyoung.com/product/detail?prdtNo=GA260843082&dataSource=brand_item
-- numbuzin No.9 NAD+ Retinal Volumetox Eye Cream 20ml · US$25.00 · US$15.75 / numbuzin No.9 NAD+ Retinal Volumetox Eye Cream 20ml — https://global.oliveyoung.com/product/detail?prdtNo=GA260842939&dataSource=brand_item
-- numbuzin No.9 NAD+ Gold 3D Firming Cream 50ml · US$31.00 · US$22.32 / numbuzin No.9 NAD+ Gold 3D Firming Cream 50ml — https://global.oliveyoung.com/product/detail?prdtNo=GA260943974&dataSource=brand_item
-- Enjoy easy and convenient shopping experience In OLIVE YOUNG MOBILE APP — https://global.oliveyoung.com/event/detail?eventNo=EV230100112
+Markets: US=10, CA=20, UK=170, AU=30, JP=110. Use an event in copy only for the markets that see it; offers differ by shipping country.
+
+- [AU] **1 Nov - 12 Nov** 1 Nov - 12 Nov First Order Exclusive!30% OFF Coupon+Free Gift First Order Exclusive!30% OFF Coupon+Free Gift Your First Order, Extra SpecialClaim Your Exclusive Welcome Perks! Your First Order, Extra  (id 2965)
+- [UK] **1 Nov - 12 Nov** 1 Nov - 12 Nov First Order Exclusive30% OFF Coupon+Free Gift First Order Exclusive30% OFF Coupon+Free Gift Your First Order, Extra SpecialClaim Your Exclusive Welcome Perks! Your First Order, Extra Sp (id 2966)
+- [CA] **1 Nov - 12 Nov** 1 Nov - 12 Nov First Order Exclusive30% OFF Welcome Coupon First Order Exclusive30% OFF Welcome Coupon Your First Order, Extra SpecialClaim Your Exclusive Welcome Perks! Your First Order, Extra Specia (id 2967)
+- [US/CA/UK/AU/JP] Super Brand Week numbuzin Super Deals7 Days Only! numbuzin Super Deals7 Days Only! Don’t miss out!Check out our special offers Don’t miss out!Check out our special offers (id 2749)
+- [US/CA/UK/AU/JP] SKINCARE Categories Buy SkincareGet Free Gifts Buy SkincareGet Free Gifts More Coupons,More Gifts ! More Coupons,More Gifts ! (id 2877)
+- [US/CA/UK/AU/JP] Style with Vodana🫧2 Exclusive Cart Coupons (id 2976)
+- [US/CA/UK/AU/JP] medicube, celimax, innisfree Slow-AgingSolution Slow-AgingSolution More Coupons,More Gifts ! More Coupons,More Gifts ! (id 2997)
+- [US/CA/UK/AU/JP] VT Ultimate At-Home SkinSkin Booster, Ultimate At-Home SkinSkin Booster, Pore TighteningWith special gifts ! Pore TighteningWith special gifts ! (id 2999)
+- [US/CA/UK/AU/JP] 💞numbuzin No.3 Line💞 Refine Pores, Reveal Smooth Skin · numbuzin (id 3001)
+- [US/CA/UK/AU/JP] beplain Sun Care & Cleansing Editfavorites to new arrivals Sun Care & Cleansing Editfavorites to new arrivals Extra Coupons,Free Gift ! Extra Coupons,Free Gift ! (id 3002)
+- [US/CA/UK/AU/JP] Purito SEOUL Soft touchBold UV Protection Soft touchBold UV Protection Special 1+1 Deals,Exclusive Gifts ! Special 1+1 Deals,Exclusive Gifts ! (id 3004)
+- [US/CA/UK/AU/JP] Torriden TorridenAutumn Barrier Boost TorridenAutumn Barrier Boost More Coupons,More Gifts ! More Coupons,More Gifts ! (id 3006)
+- [US/CA/UK/AU/JP] Dr.Jart+ Dr.Jart+Unlock Your Glow Dr.Jart+Unlock Your Glow More Coupons,More Gifts ! More Coupons,More Gifts ! (id 3007)
+- [US/CA/UK/AU/JP] rom&nd Let's Celebrate🎉10 years with rom&nd Let's Celebrate🎉10 years with rom&nd Exclusive Offers& Free Gift Exclusive Offers& Free Gift (id 3016)
+- [US/CA/UK/AU/JP] hince MEET THE NEWGLIT ANGEL EDITION MEET THE NEWGLIT ANGEL EDITION Get a Free Gift! Get a Free Gift! (id 3017)
+- [US/CA/UK/AU/JP] Glint NEWMeet the New Glow ✨ (id 3018)
+- [US/CA/UK/AU/JP] NUTTY MOODSoft, Warm Shades🤎 (id 3019)
+- [US/CA/UK/AU/JP] ⏰ Clearance Sale ⏰ Last Chance Deals · Clearance Sale (id 3020)
+- [US/CA/UK/AU/JP] LACTOFIT | Denps | TEAZEN | CJ BYOCORE | TIGER MORNING Gut & ImmuneWellness Gut & ImmuneWellness Small Daily HabitsBetter Gut Wellness Small Daily HabitsBetter Gut Wellness (id 3023)
+- [US/CA/UK/AU/JP] REJURAN | VITAL BEAUTIE | CJ innerB | Denps | BB LAB BeautyInside & Out BeautyInside & Out From Daily Supplementsto Beauty Care From Daily Supplementsto Beauty Care (id 3024)
+- [US/CA/UK/AU/JP] 2026 November MonthlyK-Brand Spotlight MonthlyK-Brand Spotlight Discover Rising New Brands Discover Rising New Brands (id 3025)
+- [US/CA/UK/AU/JP] Balance Fit Find Your BalanceEvery Single Day Find Your BalanceEvery Single Day Experience Deep RelaxationAt Home Experience Deep RelaxationAt Home (id 3026)
+- [US/CA/UK/AU/JP] Daily Base Tools Flawless BaseSeamless Fit Flawless BaseSeamless Fit Perfect tools for all-day perfection Perfect tools for all-day perfection (id 3027)
+- [US/CA/UK/AU/JP] LNGSHOT LNGSHOT - EP[S.W.I.S.H.] LNGSHOT - EP[S.W.I.S.H.] OLIVE YOUNG EXCLUSIVE OLIVE YOUNG EXCLUSIVE (id 3028)
+- [US/CA/UK/AU/JP] TWS TWS - 2nd Single Album[TO US] TWS - 2nd Single Album[TO US] OLIVE YOUNG EXCLUSIVE OLIVE YOUNG EXCLUSIVE (id 3033)
+- [US/CA/UK/AU/JP] LABO-H Online Hair CareDiagnostic Online Hair CareDiagnostic Take the Quiz &Find Your Perfect Haircare Routine Take the Quiz &Find Your Perfect Haircare Routine (id 3049)
+- [US/CA/UK/AU/JP] ILLIYOON Find YourMoisture Match ! Find YourMoisture Match ! 40 Years of Researchfor Sensitive Skin 40 Years of Researchfor Sensitive Skin (id 3051)
+- [US/CA/UK/AU/JP] Exclusive aespa Photocards📸 Get Perfect Serum & Collect All 4 Members!💥 · Mise-en-Scene (id 3056)
+- [US/CA/UK/AU/JP] App Only Turn on NotificationGet US$15 Off Turn on NotificationGet US$15 Off Coupon sent via app in 5 days Coupon sent via app in 5 days (id EV230100112)
+- [US/CA/UK/AU/JP] App Only Download the AppUnlock US$20 Benefit! Download the AppUnlock US$20 Benefit! Coupon + Point Benefits Coupon + Point Benefits (id EV230100113)
+- [CA/UK/AU] Limited Time Only! O.Y MEMBERS WEEK O.Y MEMBERS WEEK Grab your Point Boosterfor up to 10% point back. Grab your Point Boosterfor up to 10% point back. (id 2944)
+- [AU] NOV 1 - NOV 28 November K-Beauty TrendsCurated by Olive Young November K-Beauty TrendsCurated by Olive Young O.Y PICKS • See K-Beauty Trends O.Y PICKS • See K-Beauty Trends (id 3043)
+- [UK] NOV 1 - NOV 28 November K-Beauty TrendsCurated by Olive Young November K-Beauty TrendsCurated by Olive Young O.Y PICKS • See K-Beauty Trends O.Y PICKS • See K-Beauty Trends (id 3044)
+- [CA] NOV 1 - NOV 28 November K-Beauty TrendsCurated by Olive Young November K-Beauty TrendsCurated by Olive Young O.Y PICKS • See K-Beauty Trends O.Y PICKS • See K-Beauty Trends (id 3045)
+- [UK] For Our Global Customers What isOLIVE YOUNG What isOLIVE YOUNG We bring the best of K-beauty, wherever you are in the world! We bring the best of K-beauty, wherever you are in the world! (id 961)
