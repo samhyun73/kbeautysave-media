@@ -1,0 +1,43 @@
+{
+  "slug": "day38-oily-skin-winter-moisturizer",
+  "lang": "en",
+  "mood": "bright",
+  "seed": 38,
+  "hangul": "수분크림",
+  "frames": [
+    {"type": "hook", "kicker": "수분크림 · Myth vs fact", "title": "Oily skin skips moisturizer?", "sub": "Not in winter ↓", "dur": 2.5},
+    {"type": "step", "title": "Fact: skipping backfires", "line": "tight now, shiny later", "sub": "Cold air dries every skin type.", "tone": "warm", "dur": 3.0},
+    {"type": "step", "title": "Pick a gel", "line": "light and water-based", "sub": "Not a heavy, oily cream.", "tone": "cool", "dur": 3.0},
+    {"type": "list", "title": "How Koreans layer it", "items": ["Toner, patted in", "A pea of gel", "Thin on T-zone"], "sub": "A bit more on cheeks.", "dur": 3.2},
+    {"type": "statement", "lines": ["Thin,", "not none."], "sub": "Blot at noon, don't wash again.", "dur": 2.8},
+    {"type": "cta", "title": "Save it for winter.", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "Myth vs fact",
+    "title": "Oily Skin Needs Moisturizer",
+    "sub": "Two simple Korean winter steps",
+    "steps": [
+      {"title": "Gel, not cream", "body": "Light and water-based."},
+      {"title": "Thin on T-zone", "body": "A bit more on cheeks."}
+    ],
+    "avoid": ["Skipping it all winter", "Washing twice by noon"],
+    "note": "Find gel moisturizers at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "deal",
+      "kicker": "K-beauty sale",
+      "title": "Black Friday Winter Restock",
+      "dates": "1 – 12 Nov",
+      "dates_label": "Black Friday",
+      "sub": "For Canada, UK & Australia shoppers",
+      "items": [
+        {"title": "Gentle cleanser", "body": "Low pH gel, for morning and night."},
+        {"title": "Hydrating toner", "body": "Pat in two thin layers."},
+        {"title": "Gel moisturizer", "body": "Light enough for oily skin."},
+        {"title": "Sunscreen", "body": "Still a daily step in winter."}
+      ],
+      "note": "Sign in, then enter KBEAUTY73 at checkout for an extra 5% off."
+    }
+  ]
+}

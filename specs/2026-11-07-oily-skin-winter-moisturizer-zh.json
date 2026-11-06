@@ -1,0 +1,15 @@
+{
+  "slug": "day38-oily-skin-winter-moisturizer-zh",
+  "lang": "zh",
+  "mood": "bright",
+  "seed": 38,
+  "hangul": "수분크림",
+  "frames": [
+    {"type": "hook", "kicker": "수분크림 · 误区与真相", "title": "油皮不涂？", "sub": "冬天也要保湿 ↓", "dur": 2.5},
+    {"type": "step", "title": "不涂反而更油", "line": "先紧绷，再出油", "sub": "冷空气让每种肤质都干", "tone": "warm", "dur": 3.0},
+    {"type": "step", "title": "选啫喱面霜", "line": "清爽水感质地", "sub": "不要厚重油润的面霜", "tone": "cool", "dur": 3.0},
+    {"type": "list", "title": "韩国人这样涂", "items": ["拍上化妆水", "豌豆大小啫喱", "T区薄薄一层"], "sub": "两颊多一点", "dur": 3.2},
+    {"type": "statement", "lines": ["要薄，", "别不涂。"], "sub": "中午吸油纸按一按", "dur": 2.8},
+    {"type": "cta", "title": "收藏备用", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}
