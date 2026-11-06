@@ -27,11 +27,11 @@ jobs:
         run: |
           pip install -q playwright
           python -m playwright install --with-deps chromium > /dev/null
-          python tools/events.py out/ev 2>&1 | tee /tmp/run.log
+          python tools/probe_country.py out/ev 2>&1 | tee /tmp/run.log
       - name: Save to the events branch
         if: always()
         run: |
-          DAY=$(TZ=Asia/Seoul date +%F)
+          DAY=probe
           git config user.name "kbeautysave-bot"
           git config user.email "kbeautysave-bot@users.noreply.github.com"
           if git fetch -q --depth 1 origin events; then
