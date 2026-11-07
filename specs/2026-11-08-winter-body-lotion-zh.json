@@ -1,0 +1,15 @@
+{
+  "slug": "day39-winter-body-lotion-zh",
+  "lang": "zh",
+  "mood": "calm",
+  "seed": 39,
+  "hangul": "보습",
+  "frames": [
+    {"type": "hook", "kicker": "보습 · 周日护理", "title": "身体乳涂了没用？", "sub": "问题在洗澡 ↓", "dur": 2.5},
+    {"type": "step", "title": "温水不烫", "line": "十分钟左右", "sub": "热水会带走皮肤油脂", "tone": "warm", "dur": 3.0},
+    {"type": "step", "title": "轻轻拍干", "line": "毛巾别来回擦", "sub": "微湿时更好吸收", "tone": "cool", "dur": 3.0},
+    {"type": "list", "title": "三分钟内涂", "items": ["全身身体乳", "小腿涂乳霜", "手肘和脚跟"], "sub": "越干的地方越厚", "dur": 3.2},
+    {"type": "statement", "lines": ["趁湿，", "再涂。"], "sub": "搓澡巾一周最多一次", "dur": 2.8},
+    {"type": "cta", "title": "收藏备用", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "day39-winter-body-lotion",
+  "lang": "en",
+  "mood": "calm",
+  "seed": 39,
+  "hangul": "보습",
+  "frames": [
+    {"type": "hook", "kicker": "보습 · Sunday reset", "title": "Body lotion not working in winter?", "sub": "Usually it's the shower ↓", "dur": 2.5},
+    {"type": "step", "title": "Warm, not hot", "line": "about 10 minutes", "sub": "Hot water strips your skin's oils.", "tone": "warm", "dur": 3.0},
+    {"type": "step", "title": "Pat, stay damp", "line": "no rubbing with the towel", "sub": "Damp skin holds lotion better.", "tone": "cool", "dur": 3.0},
+    {"type": "list", "title": "Within 3 minutes", "items": ["Lotion all over", "Cream on shins", "Elbows and heels"], "sub": "Thicker where it's driest.", "dur": 3.2},
+    {"type": "statement", "lines": ["Damp skin,", "then lotion."], "sub": "Scrub towel once a week, max.", "dur": 2.8},
+    {"type": "cta", "title": "Save it for tonight.", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "Sunday reset",
+    "title": "Body Lotion That Works",
+    "sub": "Two simple Korean shower steps",
+    "steps": [
+      {"title": "Warm, short shower", "body": "About 10 minutes."},
+      {"title": "Lotion on damp skin", "body": "Within 3 minutes."}
+    ],
+    "avoid": ["Long hot showers", "Scrubbing every day"],
+    "note": "Find body lotions at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "deal",
+      "kicker": "K-beauty sale",
+      "title": "Black Friday Body Care List",
+      "dates": "1 – 12 Nov",
+      "dates_label": "Black Friday",
+      "sub": "For Canada, UK & Australia shoppers",
+      "items": [
+        {"title": "Gentle body wash", "body": "Low pH, for daily showers."},
+        {"title": "Body lotion", "body": "A light one for all over."},
+        {"title": "Body cream", "body": "Richer, for shins and elbows."},
+        {"title": "Hand cream", "body": "One small tube for your bag."}
+      ],
+      "note": "Sign in, then enter KBEAUTY73 at checkout for an extra 5% off."
+    }
+  ]
+}
