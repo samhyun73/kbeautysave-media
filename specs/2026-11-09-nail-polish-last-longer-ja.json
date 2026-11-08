@@ -1,0 +1,29 @@
+{
+  "slug": "day40-nail-polish-last-longer-ja",
+  "lang": "ja",
+  "mood": "calm",
+  "seed": 40,
+  "hangul": "오래가는 네일",
+  "frames": [
+    {"type": "hook", "kicker": "오래가는 네일 · 韓国ネイル", "title": "剥げる？", "sub": "1日で剥げるネイル対策 ↓", "dur": 2.5},
+    {"type": "step", "title": "油分オフ", "line": "リムーバーでひと拭き", "sub": "きれいな爪にも油分", "tone": "cool", "dur": 3.0},
+    {"type": "step", "title": "薄く塗る", "line": "ベース+カラー2度", "sub": "1層ごとに2分待つ", "tone": "warm", "dur": 3.0},
+    {"type": "step", "title": "先端を包む", "line": "爪の先をなぞる", "sub": "トップコートでも", "tone": "cool", "dur": 3.0},
+    {"type": "statement", "lines": ["薄く、", "包む。"], "sub": "3日目にトップを重ねる", "dur": 2.8},
+    {"type": "cta", "title": "保存してね", "code_label": "ログイン後 クーポンコード", "where_html": "<b>Olive Young Global</b> で5%オフ", "tags": "#PR #oliveyoungaffiliate", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "韓国風ネイル",
+    "title": "長持ちネイル",
+    "sub": "1日で剥げない塗り方",
+    "steps": [
+      {"title": "油分オフ", "body": "リムーバーでひと拭き"},
+      {"title": "先端を包む", "body": "爪の先をなぞる"}
+    ],
+    "avoid": ["厚塗り", "塗る前のハンドクリーム"],
+    "note": "ネイルは Olive Young Global で",
+    "code_line": "ログイン後、Olive Young Global の決済で5%オフ",
+    "avoid_label": "やらないこと",
+    "tag": "#PR"
+  }
+}

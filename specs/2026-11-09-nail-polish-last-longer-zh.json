@@ -1,0 +1,15 @@
+{
+  "slug": "day40-nail-polish-last-longer-zh",
+  "lang": "zh",
+  "mood": "calm",
+  "seed": 40,
+  "hangul": "오래가는 네일",
+  "frames": [
+    {"type": "hook", "kicker": "오래가는 네일 · 韩式美甲", "title": "一天就掉？", "sub": "问题在涂之前 ↓", "dur": 2.5},
+    {"type": "step", "title": "先去油", "line": "卸甲水擦一遍", "sub": "干净的指甲也有油", "tone": "cool", "dur": 3.0},
+    {"type": "step", "title": "每层要薄", "line": "底油 + 两层薄色", "sub": "每层间隔2分钟", "tone": "warm", "dur": 3.0},
+    {"type": "step", "title": "包住甲尖", "line": "刷子沿边缘扫一下", "sub": "每一层都包边", "tone": "cool", "dur": 3.0},
+    {"type": "statement", "lines": ["薄涂，", "再包边。"], "sub": "第3天补一层亮油", "dur": 2.8},
+    {"type": "cta", "title": "先收藏", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}

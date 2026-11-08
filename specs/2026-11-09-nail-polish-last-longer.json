@@ -1,0 +1,43 @@
+{
+  "slug": "day40-nail-polish-last-longer",
+  "lang": "en",
+  "mood": "calm",
+  "seed": 40,
+  "hangul": "오래가는 네일",
+  "frames": [
+    {"type": "hook", "kicker": "오래가는 네일 · Korean nails", "title": "Nail polish chipping after one day?", "sub": "Blame the prep ↓", "dur": 2.5},
+    {"type": "step", "title": "Oil off first", "line": "remover on a cotton pad", "sub": "Even clean nails hold oil.", "tone": "cool", "dur": 3.0},
+    {"type": "step", "title": "Go thin", "line": "base + 2 thin colour coats", "sub": "Wait 2 minutes between.", "tone": "warm", "dur": 3.0},
+    {"type": "step", "title": "Cap the tip", "line": "swipe along the free edge", "sub": "Every coat, top coat too.", "tone": "cool", "dur": 3.0},
+    {"type": "statement", "lines": ["Thin coats.", "Capped tips."], "sub": "Top coat again on day 3.", "dur": 2.8},
+    {"type": "cta", "title": "Save it for party season.", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "Korean nail care",
+    "title": "Polish That Lasts",
+    "sub": "Holiday nails without the chips",
+    "steps": [
+      {"title": "Wipe the oil", "body": "Remover on a cotton pad."},
+      {"title": "Cap the tip", "body": "Swipe along the edge."}
+    ],
+    "avoid": ["Thick coats", "Hand cream before painting"],
+    "note": "Find nail polish at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "deal",
+      "kicker": "K-beauty sale",
+      "title": "Black Friday Nail Kit List",
+      "dates": "1 – 12 Nov",
+      "dates_label": "Black Friday",
+      "sub": "For Canada, UK & Australia shoppers",
+      "items": [
+        {"title": "Base coat", "body": "The step most people skip."},
+        {"title": "Sheer jelly polish", "body": "Tip wear shows less."},
+        {"title": "Glossy top coat", "body": "Add a fresh layer on day 3."},
+        {"title": "Gel nail strips", "body": "Peel, press, lamp to set."}
+      ],
+      "note": "Sign in, then enter KBEAUTY73 at checkout for an extra 5% off."
+    }
+  ]
+}
