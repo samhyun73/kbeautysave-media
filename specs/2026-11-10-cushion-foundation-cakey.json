@@ -1,0 +1,43 @@
+{
+  "slug": "day41-cushion-foundation-cakey",
+  "lang": "en",
+  "mood": "bright",
+  "seed": 41,
+  "hangul": "쿠션",
+  "frames": [
+    {"type": "hook", "kicker": "쿠션 · Korean makeup", "title": "Cushion cakey by lunch?", "sub": "Usually it's the puff ↓", "dur": 2.5},
+    {"type": "step", "title": "Let cream settle", "line": "wait about 2 minutes", "sub": "A thin layer is enough.", "dur": 2.9},
+    {"type": "step", "title": "One press only", "line": "puff on the cushion once", "sub": "Not three dips.", "dur": 2.9},
+    {"type": "step", "title": "Tap outward", "line": "cheeks first, then edges", "sub": "Never drag the puff.", "dur": 3.0},
+    {"type": "statement", "lines": ["Press less.", "Tap more."], "sub": "A 2nd thin layer only where needed.", "dur": 2.6},
+    {"type": "cta", "title": "Save it for party days.", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "Korean makeup",
+    "title": "Cushion Cakey by Lunch?",
+    "sub": "Two simple Korean fixes",
+    "steps": [
+      {"title": "Less on the puff", "body": "Press the cushion once."},
+      {"title": "Tap, don't drag", "body": "Center of face outward."}
+    ],
+    "avoid": ["Three dips at once", "Swiping the puff"],
+    "note": "Find Korean cushions at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "deal",
+      "kicker": "K-beauty sale",
+      "title": "Black Friday Base Makeup List",
+      "dates": "1 – 12 Nov",
+      "dates_label": "Black Friday",
+      "sub": "For Canada, UK & Australia shoppers",
+      "items": [
+        {"title": "Cushion foundation", "body": "Light, buildable base."},
+        {"title": "Refill pack", "body": "Check if your shade has one."},
+        {"title": "Spare puffs", "body": "Swap often, wash weekly."},
+        {"title": "Setting powder", "body": "Only where you get shiny."}
+      ],
+      "note": "Sign in, then enter KBEAUTY73 at checkout for an extra 5% off."
+    }
+  ]
+}

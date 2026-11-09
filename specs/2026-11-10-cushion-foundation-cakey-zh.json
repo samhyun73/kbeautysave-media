@@ -1,0 +1,15 @@
+{
+  "slug": "day41-cushion-foundation-cakey-zh",
+  "lang": "zh",
+  "mood": "bright",
+  "seed": 41,
+  "hangul": "쿠션",
+  "frames": [
+    {"type": "hook", "kicker": "쿠션 · 韩式底妆", "title": "气垫卡粉？", "sub": "问题在粉扑 ↓", "dur": 2.5},
+    {"type": "step", "title": "面霜等两分钟", "line": "薄涂一层就够", "sub": "别涂太厚", "dur": 2.9},
+    {"type": "step", "title": "只按一下", "line": "粉扑在气垫上按一次", "sub": "不要连蘸三次", "dur": 2.9},
+    {"type": "step", "title": "由内向外拍", "line": "先脸颊再到边缘", "sub": "别拖着粉扑抹", "dur": 3.0},
+    {"type": "statement", "lines": ["少蘸，", "多拍。"], "sub": "需要的地方再薄补一层", "dur": 2.6},
+    {"type": "cta", "title": "聚会前试试", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}
