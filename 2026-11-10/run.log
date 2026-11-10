@@ -31,6 +31,7 @@ Markets: US=10, CA=20, UK=170, AU=30, JP=110. Use an event in copy only for the 
 - [US/CA/UK/AU/JP] ILLIYOON Find YourMoisture Match ! Find YourMoisture Match ! 40 Years of Researchfor Sensitive Skin 40 Years of Researchfor Sensitive Skin (id 3051)
 - [US/CA/UK/AU/JP] Exclusive aespa Photocards📸 Get Perfect Serum & Collect All 4 Members!💥 · Mise-en-Scene (id 3056)
 - [US/CA/UK/AU/JP] Rising Brand Week 4-Days Flash Sale!BIODANCE Super Deals 4-Days Flash Sale!BIODANCE Super Deals Exclusive Offers & Free Gift Exclusive Offers & Free Gift (id 3057)
+- [US/CA/UK/AU/JP] ISEGYE IDOL ISEGYE IDOL[Across Dimensions] ISEGYE IDOL[Across Dimensions] OLIVE YOUNG EXCLUSIVE OLIVE YOUNG EXCLUSIVE (id 3079)
 - [US/CA/UK/AU/JP] App Only Turn on NotificationGet US$15 Off Turn on NotificationGet US$15 Off Coupon sent via app in 5 days Coupon sent via app in 5 days (id EV230100112)
 - [US/CA/UK/AU/JP] App Only Download the AppUnlock US$20 Benefit! Download the AppUnlock US$20 Benefit! Coupon + Point Benefits Coupon + Point Benefits (id EV230100113)
 - [AU] NOV 1 - NOV 28 November K-Beauty TrendsCurated by Olive Young November K-Beauty TrendsCurated by Olive Young O.Y PICKS • See K-Beauty Trends O.Y PICKS • See K-Beauty Trends (id 3043)
