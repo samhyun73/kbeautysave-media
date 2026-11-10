@@ -1,0 +1,61 @@
+{
+  "slug": "day42-scalp-first-shampoo-zh",
+  "lang": "zh",
+  "mood": "calm",
+  "seed": 42,
+  "hangul": "두피",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "두피 · 韩式护发",
+      "title": "发根总油？",
+      "sub": "先洗头皮 ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "step",
+      "title": "先梳开",
+      "line": "洗前把头发梳顺",
+      "sub": "约1分钟，从发尾开始",
+      "dur": 2.6
+    },
+    {
+      "type": "step",
+      "title": "洗头皮",
+      "line": "洗发水先在掌心起泡",
+      "sub": "用指腹，别用指甲",
+      "dur": 2.7
+    },
+    {
+      "type": "step",
+      "title": "护发素抹发尾",
+      "line": "只从发中到发尾",
+      "sub": "别碰到发根",
+      "dur": 2.7
+    },
+    {
+      "type": "step",
+      "title": "先吹发根",
+      "line": "先温风再冷风",
+      "sub": "别湿着头皮睡觉",
+      "dur": 2.6
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "先头皮，",
+        "后发尾。"
+      ],
+      "sub": "冲到不滑为止",
+      "dur": 2.5
+    },
+    {
+      "type": "cta",
+      "title": "洗头前收藏",
+      "code_label": "额外95折 优惠码",
+      "where_html": "在 <b>Olive Young Global</b><br>结账时输入",
+      "tags": "#广告",
+      "dur": 3.0
+    }
+  ]
+}

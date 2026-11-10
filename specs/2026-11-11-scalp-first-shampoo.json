@@ -1,0 +1,107 @@
+{
+  "slug": "day42-scalp-first-shampoo",
+  "lang": "en",
+  "mood": "calm",
+  "seed": 42,
+  "hangul": "두피",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "두피 · Korean hair",
+      "title": "Greasy roots by evening?",
+      "sub": "Wash the scalp first ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "step",
+      "title": "Brush it dry",
+      "line": "detangle before water",
+      "sub": "About a minute, ends first.",
+      "dur": 2.6
+    },
+    {
+      "type": "step",
+      "title": "Shampoo the scalp",
+      "line": "foam it in your palms",
+      "sub": "Fingertips, never nails.",
+      "dur": 2.7
+    },
+    {
+      "type": "step",
+      "title": "Condition the ends",
+      "line": "mid-lengths down only",
+      "sub": "Keep it off the roots.",
+      "dur": 2.7
+    },
+    {
+      "type": "step",
+      "title": "Dry roots",
+      "line": "first, warm then cool",
+      "sub": "Don't sleep on a wet scalp.",
+      "dur": 2.6
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "Scalp first.",
+        "Ends last."
+      ],
+      "sub": "Rinse until nothing feels slippery.",
+      "dur": 2.5
+    },
+    {
+      "type": "cta",
+      "title": "Save it for wash day.",
+      "dur": 3.0
+    }
+  ],
+  "pin": {
+    "kicker": "Korean hair",
+    "title": "Greasy Roots by Evening?",
+    "sub": "Two simple Korean wash fixes",
+    "steps": [
+      {
+        "title": "Shampoo the scalp",
+        "body": "Fingertips, small circles."
+      },
+      {
+        "title": "Condition the ends",
+        "body": "Keep it off the roots."
+      }
+    ],
+    "avoid": [
+      "Scrubbing with nails",
+      "Sleeping on wet roots"
+    ],
+    "note": "Find Korean scalp shampoos at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "deal",
+      "kicker": "K-beauty sale",
+      "title": "Black Friday Hair Care List",
+      "dates": "1 – 12 Nov",
+      "dates_label": "Black Friday",
+      "sub": "For Canada, UK & Australia shoppers",
+      "items": [
+        {
+          "title": "Scalp shampoo",
+          "body": "Gentle enough for daily washing."
+        },
+        {
+          "title": "Hair mask",
+          "body": "Mid-lengths to ends, 2–3× a week."
+        },
+        {
+          "title": "Hair oil",
+          "body": "1 or 2 drops on dry ends."
+        },
+        {
+          "title": "Wide-tooth comb",
+          "body": "Detangle before you wash."
+        }
+      ],
+      "note": "Sign in, then enter KBEAUTY73 at checkout for an extra 5% off."
+    }
+  ]
+}

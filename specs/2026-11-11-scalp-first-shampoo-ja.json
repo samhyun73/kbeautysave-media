@@ -1,0 +1,84 @@
+{
+  "slug": "day42-scalp-first-shampoo-ja",
+  "lang": "ja",
+  "mood": "calm",
+  "seed": 42,
+  "hangul": "두피",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "두피 · 韓国ヘア",
+      "title": "ベタつく？",
+      "sub": "夕方の根元は地肌から ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "step",
+      "title": "先にブラシ",
+      "line": "濡らす前にとかす",
+      "sub": "毛先から1分ほど",
+      "dur": 2.6
+    },
+    {
+      "type": "step",
+      "title": "地肌を洗う",
+      "line": "手のひらで泡立てる",
+      "sub": "爪ではなく指の腹で",
+      "dur": 2.7
+    },
+    {
+      "type": "step",
+      "title": "毛先にだけ",
+      "line": "コンディショナーは中間から",
+      "sub": "根元にはつけない",
+      "dur": 2.7
+    },
+    {
+      "type": "step",
+      "title": "根元から",
+      "line": "温風→冷風で乾かす",
+      "sub": "濡れたまま寝ない",
+      "dur": 2.6
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "地肌が先、",
+        "毛先は後。"
+      ],
+      "sub": "ぬるつきがなくなるまですすぐ",
+      "dur": 2.5
+    },
+    {
+      "type": "cta",
+      "title": "保存してね",
+      "code_label": "ログイン後 クーポンコード",
+      "where_html": "<b>Olive Young Global</b> で5%オフ",
+      "tags": "#PR #oliveyoungaffiliate",
+      "dur": 3.0
+    }
+  ],
+  "pin": {
+    "kicker": "韓国風ヘア",
+    "title": "地肌から洗う",
+    "sub": "夕方ベタつかない洗い方",
+    "steps": [
+      {
+        "title": "地肌を洗う",
+        "body": "指の腹で小さく円を描く"
+      },
+      {
+        "title": "毛先にだけ",
+        "body": "根元にはつけない"
+      }
+    ],
+    "avoid": [
+      "爪でこする",
+      "濡れたまま寝る"
+    ],
+    "note": "シャンプーは Olive Young Global で",
+    "code_line": "ログイン後、Olive Young Global の決済で5%オフ",
+    "avoid_label": "やらないこと",
+    "tag": "#PR"
+  }
+}
