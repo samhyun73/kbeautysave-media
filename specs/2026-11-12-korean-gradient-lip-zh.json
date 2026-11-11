@@ -1,0 +1,21 @@
+{
+  "slug": "day43-korean-gradient-lip-zh",
+  "lang": "zh",
+  "mood": "bright",
+  "seed": 43,
+  "hangul": "그라데이션",
+  "frames": [
+    {"type": "hook", "kicker": "그라데이션 · 韩系唇妆", "title": "整唇涂满？", "sub": "从唇心开始 ↓", "dur": 2.5},
+    {"type": "swatch", "title": "水光唇釉色", "swatches": [
+        {"name": "珊瑚", "color": "#E8735F", "sheer": true, "finish": "gloss"},
+        {"name": "玫瑰", "color": "#C9566A", "sheer": true, "finish": "gloss"},
+        {"name": "无花果", "color": "#8E3B4C", "sheer": true, "finish": "gloss"},
+        {"name": "樱桃", "color": "#B3202F", "sheer": true, "finish": "gloss"}
+      ], "sub": "比唇色深一号就好", "dur": 2.8},
+    {"type": "step", "title": "点唇心", "line": "只点内侧", "sub": "上唇一点，下唇一点", "dur": 2.6},
+    {"type": "step", "title": "指腹拍开", "line": "往唇边轻轻拍", "sub": "到唇线前停下", "dur": 2.6},
+    {"type": "step", "title": "加深中间", "line": "再点一小点", "sub": "抿一抿，别搓", "dur": 2.6},
+    {"type": "statement", "lines": ["里深，", "外柔。"], "sub": "补妆只补唇心", "dur": 2.5},
+    {"type": "cta", "title": "派对前收藏", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}

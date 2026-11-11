@@ -1,0 +1,94 @@
+{
+  "slug": "day43-korean-gradient-lip",
+  "lang": "en",
+  "mood": "bright",
+  "seed": 43,
+  "hangul": "그라데이션",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "Korean makeup",
+      "title": "Lip tint all over?",
+      "sub": "Start in the center ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "swatch",
+      "title": "Juicy tint shades",
+      "swatches": [
+        {"name": "Coral", "color": "#E8735F", "sheer": true, "finish": "gloss"},
+        {"name": "Rose", "color": "#C9566A", "sheer": true, "finish": "gloss"},
+        {"name": "Fig", "color": "#8E3B4C", "sheer": true, "finish": "gloss"},
+        {"name": "Cherry", "color": "#B3202F", "sheer": true, "finish": "gloss"}
+      ],
+      "sub": "One shade deeper than your lips.",
+      "dur": 2.8
+    },
+    {
+      "type": "step",
+      "title": "Dab the center",
+      "line": "inner lips only",
+      "sub": "One dab top, one dab bottom.",
+      "dur": 2.6
+    },
+    {
+      "type": "step",
+      "title": "Tap it out",
+      "line": "fingertip, outward",
+      "sub": "Stop before the lip line.",
+      "dur": 2.6
+    },
+    {
+      "type": "step",
+      "title": "Deepen the middle",
+      "line": "a second tiny dab",
+      "sub": "Press your lips, don't rub.",
+      "dur": 2.6
+    },
+    {
+      "type": "statement",
+      "lines": ["Deep inside.", "Soft edges."],
+      "sub": "Touch up only the center later.",
+      "dur": 2.5
+    },
+    {
+      "type": "cta",
+      "title": "Save it for party night.",
+      "dur": 3.0
+    }
+  ],
+  "pin": {
+    "kicker": "Korean makeup",
+    "title": "Korean Gradient Lips",
+    "sub": "Two easy juicy tint steps",
+    "steps": [
+      {"title": "Dab the center", "body": "Inner lips only."},
+      {"title": "Tap it out", "body": "Fingertip, soft edges."}
+    ],
+    "avoid": ["Lining the lips first", "Tint over dry flakes"],
+    "note": "Find juicy lip tints at Olive Young Global.",
+    "swatches": [
+      {"name": "Coral", "color": "#E8735F", "sheer": true, "finish": "gloss"},
+      {"name": "Rose", "color": "#C9566A", "sheer": true, "finish": "gloss"},
+      {"name": "Fig", "color": "#8E3B4C", "sheer": true, "finish": "gloss"},
+      {"name": "Cherry", "color": "#B3202F", "sheer": true, "finish": "gloss"}
+    ]
+  },
+  "pins": [
+    {
+      "layout": "deal",
+      "kicker": "K-beauty sale",
+      "title": "Black Friday Lip Tint List",
+      "dates": "1 – 12 Nov",
+      "dates_label": "Black Friday",
+      "sub": "Last day for Canada, UK & Australia",
+      "items": [
+        {"title": "Juicy lip tint", "body": "One shade for a soft gradient."},
+        {"title": "Lip balm", "body": "Thin layer, blot before tint."},
+        {"title": "Lip mask", "body": "Overnight on dry winter lips."},
+        {"title": "Concealer", "body": "Optional, to soften the edges."}
+      ],
+      "note": "Sign in, then enter KBEAUTY73 at checkout for an extra 5% off."
+    }
+  ]
+}
