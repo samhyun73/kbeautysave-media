@@ -1,0 +1,109 @@
+{
+  "slug": "day44-glitter-eyeshadow-no-fallout-ja",
+  "lang": "ja",
+  "mood": "bright",
+  "seed": 44,
+  "hangul": "글리터",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "글리터 · 韓国メイク",
+      "title": "ラメ落ち？",
+      "sub": "塗らずに、のせる ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "swatch",
+      "title": "パーティーのラメ",
+      "swatches": [
+        {
+          "name": "ベージュ",
+          "color": "#E6CFA8",
+          "sheer": true,
+          "finish": "shimmer"
+        },
+        {
+          "name": "ローズ",
+          "color": "#D49A86",
+          "sheer": true,
+          "finish": "shimmer"
+        },
+        {
+          "name": "藤色",
+          "color": "#C9A3C4",
+          "sheer": true,
+          "finish": "shimmer"
+        },
+        {
+          "name": "ブロンズ",
+          "color": "#A8714B",
+          "sheer": true,
+          "finish": "shimmer"
+        }
+      ],
+      "sub": "1色にしぼる",
+      "dur": 2.8
+    },
+    {
+      "type": "step",
+      "title": "先にベース",
+      "line": "マットなベージュを薄く",
+      "sub": "ラメが密着しやすい",
+      "dur": 2.6
+    },
+    {
+      "type": "step",
+      "title": "量を減らす",
+      "line": "指先→手の甲で調整",
+      "sub": "少ないほど落ちにくい",
+      "dur": 2.6
+    },
+    {
+      "type": "step",
+      "title": "中央にだけ",
+      "line": "まぶたの真ん中に",
+      "sub": "押して離す、こすらない",
+      "dur": 2.6
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "真ん中に",
+        "押すだけ。"
+      ],
+      "sub": "アイメイクはベースメイクの前に",
+      "dur": 2.5
+    },
+    {
+      "type": "cta",
+      "title": "保存してね",
+      "code_label": "ログイン後 クーポンコード",
+      "where_html": "<b>Olive Young Global</b> で5%オフ",
+      "tags": "#PR #oliveyoungaffiliate",
+      "dur": 3.0
+    }
+  ],
+  "pin": {
+    "kicker": "韓国メイク",
+    "title": "落ちないラメ",
+    "sub": "パーティーの目もとに",
+    "steps": [
+      {
+        "title": "量を減らす",
+        "body": "指先→手の甲で調整"
+      },
+      {
+        "title": "中央にだけ",
+        "body": "押して離す、こすらない"
+      }
+    ],
+    "avoid": [
+      "ブラシでこする",
+      "まぶた全体にラメ"
+    ],
+    "note": "ラメシャドウは Olive Young Global で",
+    "code_line": "ログイン後、Olive Young Global の決済で5%オフ",
+    "avoid_label": "やらないこと",
+    "tag": "#PR"
+  }
+}

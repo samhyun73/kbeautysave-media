@@ -1,0 +1,155 @@
+{
+  "slug": "day44-glitter-eyeshadow-no-fallout",
+  "lang": "en",
+  "mood": "bright",
+  "seed": 44,
+  "hangul": "글리터",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "Korean makeup",
+      "title": "Glitter fallout by midnight?",
+      "sub": "Press it, don't swipe ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "swatch",
+      "title": "Party glitter shades",
+      "swatches": [
+        {
+          "name": "Champagne",
+          "color": "#E6CFA8",
+          "sheer": true,
+          "finish": "shimmer"
+        },
+        {
+          "name": "Rose gold",
+          "color": "#D49A86",
+          "sheer": true,
+          "finish": "shimmer"
+        },
+        {
+          "name": "Pink lilac",
+          "color": "#C9A3C4",
+          "sheer": true,
+          "finish": "shimmer"
+        },
+        {
+          "name": "Bronze",
+          "color": "#A8714B",
+          "sheer": true,
+          "finish": "shimmer"
+        }
+      ],
+      "sub": "Pick one, not three.",
+      "dur": 2.8
+    },
+    {
+      "type": "step",
+      "title": "Base first",
+      "line": "matte beige on the lid",
+      "sub": "Glitter needs something to grip.",
+      "dur": 2.6
+    },
+    {
+      "type": "step",
+      "title": "Tap off extra",
+      "line": "fingertip, then your hand",
+      "sub": "Less on the finger, less fallout.",
+      "dur": 2.6
+    },
+    {
+      "type": "step",
+      "title": "Center only",
+      "line": "press the middle of the lid",
+      "sub": "Press and lift. No swiping.",
+      "dur": 2.6
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "Pressed,",
+        "not swept."
+      ],
+      "sub": "Do your eyes before foundation.",
+      "dur": 2.5
+    },
+    {
+      "type": "cta",
+      "title": "Save it for party night.",
+      "dur": 3.0
+    }
+  ],
+  "pin": {
+    "kicker": "Korean makeup",
+    "title": "Party Glitter Eyes",
+    "sub": "No fallout in two easy steps",
+    "steps": [
+      {
+        "title": "Tap off the extra",
+        "body": "Fingertip, then the back of your hand."
+      },
+      {
+        "title": "Press the center",
+        "body": "Middle of the lid only. No swiping."
+      }
+    ],
+    "avoid": [
+      "Swiping with a fluffy brush",
+      "Glitter over the whole lid"
+    ],
+    "note": "Find glitter eyeshadow at Olive Young Global.",
+    "swatches": [
+      {
+        "name": "Champagne",
+        "color": "#E6CFA8",
+        "sheer": true,
+        "finish": "shimmer"
+      },
+      {
+        "name": "Rose gold",
+        "color": "#D49A86",
+        "sheer": true,
+        "finish": "shimmer"
+      },
+      {
+        "name": "Pink lilac",
+        "color": "#C9A3C4",
+        "sheer": true,
+        "finish": "shimmer"
+      },
+      {
+        "name": "Bronze",
+        "color": "#A8714B",
+        "sheer": true,
+        "finish": "shimmer"
+      }
+    ]
+  },
+  "pins": [
+    {
+      "layout": "list",
+      "kicker": "Holiday makeup",
+      "title": "Glitter Eyeshadow at Home",
+      "sub": "4 easy tips for clean sparkle",
+      "items": [
+        {
+          "title": "Eyes before base",
+          "body": "Fallout wipes off bare skin easily."
+        },
+        {
+          "title": "Matte beige first",
+          "body": "A soft base gives glitter grip."
+        },
+        {
+          "title": "Fingertip, pressed",
+          "body": "Tap off extra, press the lid center."
+        },
+        {
+          "title": "Tape for cleanup",
+          "body": "Dab stray specks off, don't wipe."
+        }
+      ]
+    }
+  ]
+}

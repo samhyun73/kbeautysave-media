@@ -1,0 +1,86 @@
+{
+  "slug": "day44-glitter-eyeshadow-no-fallout-zh",
+  "lang": "zh",
+  "mood": "bright",
+  "seed": 44,
+  "hangul": "글리터",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "글리터 · 韩系眼妆",
+      "title": "亮片乱掉？",
+      "sub": "按压，别刷 ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "swatch",
+      "title": "派对亮片色",
+      "swatches": [
+        {
+          "name": "香槟",
+          "color": "#E6CFA8",
+          "sheer": true,
+          "finish": "shimmer"
+        },
+        {
+          "name": "玫瑰金",
+          "color": "#D49A86",
+          "sheer": true,
+          "finish": "shimmer"
+        },
+        {
+          "name": "粉紫",
+          "color": "#C9A3C4",
+          "sheer": true,
+          "finish": "shimmer"
+        },
+        {
+          "name": "古铜",
+          "color": "#A8714B",
+          "sheer": true,
+          "finish": "shimmer"
+        }
+      ],
+      "sub": "选一个色就够",
+      "dur": 2.8
+    },
+    {
+      "type": "step",
+      "title": "先打底色",
+      "line": "眼皮薄涂哑光米色",
+      "sub": "亮片才抓得住",
+      "dur": 2.6
+    },
+    {
+      "type": "step",
+      "title": "抖掉多余",
+      "line": "先在手背点一下",
+      "sub": "指尖越少，越不掉",
+      "dur": 2.6
+    },
+    {
+      "type": "step",
+      "title": "按在中间",
+      "line": "只按眼皮中央",
+      "sub": "按压再抬起，别刷",
+      "dur": 2.6
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "只放中间，",
+        "按压不刷。"
+      ],
+      "sub": "先画眼妆，再上粉底",
+      "dur": 2.5
+    },
+    {
+      "type": "cta",
+      "title": "派对前收藏",
+      "code_label": "额外95折 优惠码",
+      "where_html": "在 <b>Olive Young Global</b><br>结账时输入",
+      "tags": "#广告",
+      "dur": 3.0
+    }
+  ]
+}
