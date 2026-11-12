@@ -1,0 +1,69 @@
+# YouTube keyword check (autocomplete + top results, US English)
+
+## glitter eyeshadow
+
+- Autocomplete: glitter eyeshadow, glitter eyeshadow tutorial, glitter eyeshadow palette, glitter eyeshadow makeup, glitter eyeshadow for hooded eyes, glitter eyeshadow look, glitter eyeshadow stick, glitter eyeshadow tutorial for beginners, glitter eyeshadow drugstore, glitter eyeshadow dark skin
+- "how to": how to glitter eyeshadow, how to apply glitter eyeshadow, how to make glitter eyeshadow at home, how to put glitter eyeshadow on eyes, how to do glitter eyeshadow, how to remove glitter eyeshadow from face
+- Top 10: 0 Shorts; median views 244,430
+
+  - THESE ARE THE BEST GLITTER TOPPERS✨🤩💖 Swatches & Try-Ons | 🎬2022 Ver. | Stacy Chen · 71,536 views · Stacy Chen
+  - Ranking all the bestselling sparkly eyeshadows at Sephora! Let’s swatch, demo, and discuss! · 9,913 views · glamsmitty
+  - GLITTER EYESHADOW TUTORIAL for hooded eyes ft mfmg glitter palette · 20,438 views · Ronkeraji
+  - How To Apply Glitter on CREASED or HOODED Eyelids (3 Ways) · 1,117,658 views · Smitha Deepak
+  - GLITTER GLAM || HUDA BEAUTY NEW NUDE PALETTE · 887,186 views · Aroni Hossain
+  - HOW TO: APPLY GLITTER EYESHADOW AND MAKE IT LAST | EIMEAR MCELHERON · 32,757 views · Eimear McElheron
+  - HOW TO: DIY PRESSED GLITTER EYESHADOW · 184,168 views · AlexandrasGirlyTalk
+  - Battle of the Glitter Glues! Which will prevail? | THE MAKEUP BREAKUP · 244,430 views · BEAUTY NEWS
+  - Huda Beauty Mercury Retrograde Palette | Purple Glitter Eye Makeup Tutorial · 1,254,093 views · Angela Bright
+  - How to Apply Glitter Eyeshadow (Zero Fallout!) · 6,006,531 views · ModaMob
+
+## how to apply glitter eyeshadow
+
+- Autocomplete: how to apply glitter eyeshadow, how to apply glitter eyeshadow for beginners, how to apply glitter eyeshadow on hooded eyes, how to apply glitter eyeshadow without making a mess, how to apply glitter eyeshadow without glue, how to apply glitter eyeshadow with fingers, how to apply glitter eyeshadow with glue, how to apply glitter eyeshadow on eyes, how to apply shimmer eyeshadow, how to put glitter eyeshadow on eyes
+- "how to": how to apply glitter eyeshadow, how to apply glitter eyeshadow without glue, how to apply glitter eyeshadow for beginners, how to apply glitter eyeshadow on hooded eyes, how to apply glitter eyeshadow with glue, how to apply glitter eyeshadow with fingers
+- Top 10: 1 Shorts; median views 695,883
+
+  - How To Apply Glitter on CREASED or HOODED Eyelids (3 Ways) · 1,117,687 views · Smitha Deepak
+  - HOW TO: APPLY GLITTER EYESHADOW AND MAKE IT LAST | EIMEAR MCELHERON · 32,757 views · Eimear McElheron
+  - Beginners Eye Makeup Tutorial  | How To Apply Glittery Smokey Eyeshadow · 4,003,430 views · TheMakeupChair
+  - Pink Champagne Glitter Cut Crease | How to: Soft Pink Neutral Glitter Glam · 156,969 views · Kiki Adams
+  - QUICK TIP: HOW TO APPLY MAKEUP GLITTER · 695,883 views · Kris
+  - DIY │ PRESSED GLITTER EYESHADOW · 172,794 views · Jennisse
+  - CLASSIC GOLD GLITTER MAKEUP TUTORIAL !! How to apply glitter eyeshadow for beginners · 618,865 views · Cyntibenmakeover
+  - Glitter Eyeshadow Makeup|| Chunky Glittery Eyeshadow Tutorial|How to Apply Chunky Glitters|| · 2,160,848 views · Amara Javed
+  - How to Apply Glitter Eyeshadow (Zero Fallout!) · 6,006,531 views · ModaMob
+  - [S] 3 Ways To Apply Glitter & Glow Liquid Eyeshadow | Stila Cosmetics · 271,791 views · Stila Cosmetics
+
+## glitter makeup
+
+- Autocomplete: glitter makeup, glitter makeup tutorial, glitter makeup disaster, glitter makeup look, glitter makeup fail, glitter makeup trend, glitter makeup asmr, glitter makeup transition, glitter makeup palette, glitter makeup for concert
+- "how to": how to glitter makeup, how to shimmer makeup, how to do glitter makeup, how to glitter eye makeup, how to apply glitter makeup on face, how to remove glitter makeup from face
+- Top 10: 0 Shorts; median views 366,206
+
+  - Bombshell Makeup using my Sephora "Must Haves!" · 753,452 views · SPENCER HEDGES
+  - Glitter Holidays Makeup 🦌 #grwm · 366,206 views · Jessica Vu
+  - SMOKEY GLITTER GLAM MAKEUP TUTORIAL · 113,475 views · Jordan Lipscombe
+  - How to Do Glitter Makeup on Hooded Eyes (Super Easy!) | Elena Rachitskaya · 71,010 views · Elena Rachitskaya
+  - Huda Beauty Mercury Retrograde Palette | Purple Glitter Eye Makeup Tutorial · 1,254,093 views · Angela Bright
+  - vevina's valentines day makeup tutorial ♡ ︱#douyin inspired pink & purple half glitter cut crease · 341,230 views · vevina chu
+  - GLITTER FRECKLES MAKEUP TUTORIAL · 1,225,183 views · James Charles
+  - Mixing”Pink Starbucks” Eyeshadow and Makeup,parts,glitter Into Slime!Satisfying Slime Video!★ASMR★ · 14,874,887 views · jenny slime
+  - Glitter Baddie Makeup 🦢✨🖤🌸 · 19,572 views · Himanee˖ ִ𐙚
+  - Glitter Makeup GRWM | Makeup vlog | Glitter makeup 🪩 · 9,624 views · With Love, Sarang ♡
+
+## korean glitter eye makeup
+
+- Autocomplete: korean glitter eye makeup, korean glitter eye makeup tutorial, korean shimmer eye makeup, under eye glitter makeup korean
+- "how to": korean glitter eye makeup, korean glitter eye makeup tutorial
+- Top 10: 0 Shorts; median views 218,121
+
+  - Glitter Holidays Makeup 🦌 #grwm · 366,206 views · Jessica Vu
+  - vevina's valentines day makeup tutorial ♡ ︱#douyin inspired pink & purple half glitter cut crease · 341,230 views · vevina chu
+  - KPOP IDOL MAKEUP TRANSFORMATION ♡ hair & makeup tips · 489,644 views · Jessica Vu
+  - THESE ARE THE BEST GLITTER TOPPERS✨🤩💖 Swatches & Try-Ons | 🎬2022 Ver. | Stacy Chen · 71,536 views · Stacy Chen
+  - Soft Cut Crease Eye Makeup - 4 Sexy & Romantic Styles | Step by Step Tutorial by 造孽小猪. · 1,411,025 views · dear peachie
+  - 💫 Korean Festival Makeup 2025 | Glitter Eyes & Idol Vibes | Personal Beauty Ep.29 · 387 views · Koreanet
+  - Soft Glam Cut Crease Eyes Makeup- 4 Ethereal and Elegant Styles | Easy Tutorial by 再吃一斤羊 · 64,720 views · dear peachie
+  - Ethereal Soft Glam 🧚🏻 #grwm · 218,121 views · Jessica Vu
+  - KOREAN AEGYO SAL MAKEUP TUTORIAL | shade, colors, glitter, placement, etc · 31,884 views · Elaine Park
+  - Korean Eye Glitter Makeup | Get the Kpop Idol Eye Look with this Palette - Unleisha Glitterpedia · 632 views · Nayely
