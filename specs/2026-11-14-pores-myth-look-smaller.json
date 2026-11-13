@@ -1,0 +1,40 @@
+{
+  "slug": "day45-pores-myth-look-smaller",
+  "lang": "en",
+  "mood": "calm",
+  "seed": 45,
+  "hangul": "모공",
+  "frames": [
+    {"type": "hook", "kicker": "모공 · Myth vs fact", "title": "Pores can shrink?", "sub": "Fact: not really ↓", "dur": 2.5},
+    {"type": "step", "title": "Size is set", "line": "mostly by genes and age", "sub": "Oil and buildup make them look bigger.", "tone": "warm", "dur": 3.0},
+    {"type": "step", "title": "Oil cleanse", "line": "massage the nose 1 min", "sub": "Then a gentle gel cleanser.", "tone": "cool", "dur": 3.0},
+    {"type": "list", "title": "Then, every day", "items": ["Lukewarm water", "Toner, patted in", "Light gel cream"], "sub": "Dry skin shows pores more.", "dur": 3.2},
+    {"type": "statement", "lines": ["Clean,", "don't squeeze."], "sub": "Cold water won't close them.", "dur": 2.8},
+    {"type": "cta", "title": "Save this for later.", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "Myth vs fact",
+    "title": "Can Pores Shrink?",
+    "sub": "Two simple Korean steps",
+    "steps": [
+      {"title": "Oil cleanse", "body": "Massage the nose 1 min."},
+      {"title": "Stay hydrated", "body": "Toner, then light gel."}
+    ],
+    "avoid": ["Squeezing your nose", "Daily pore strips"],
+    "note": "Find cleansing oils at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "list",
+      "kicker": "Korean makeup",
+      "title": "Make Pores Look Smaller",
+      "sub": "With makeup, no filters",
+      "items": [
+        {"title": "Prime thin", "body": "Press it on the nose, no rubbing."},
+        {"title": "Thin base", "body": "Tap it on with a damp sponge."},
+        {"title": "Powder on shine", "body": "Press it on with a puff."},
+        {"title": "Blot at noon", "body": "A tissue, not more powder."}
+      ]
+    }
+  ]
+}

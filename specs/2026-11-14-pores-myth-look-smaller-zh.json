@@ -1,0 +1,15 @@
+{
+  "slug": "day45-pores-myth-look-smaller-zh",
+  "lang": "zh",
+  "mood": "calm",
+  "seed": 45,
+  "hangul": "모공",
+  "frames": [
+    {"type": "hook", "kicker": "모공 · 误区与真相", "title": "毛孔能缩？", "sub": "真相是这样 ↓", "dur": 2.5},
+    {"type": "step", "title": "大小天生定", "line": "主要看遗传和年龄", "sub": "油脂和堵塞让它显大", "tone": "warm", "dur": 3.0},
+    {"type": "step", "title": "先用卸妆油", "line": "鼻子按摩一分钟", "sub": "再用温和洁面啫喱", "tone": "cool", "dur": 3.0},
+    {"type": "list", "title": "每天这样做", "items": ["温水洗脸", "轻拍化妆水", "清爽啫喱霜"], "sub": "皮肤干时毛孔更明显", "dur": 3.2},
+    {"type": "statement", "lines": ["要清洁，", "别挤。"], "sub": "冷水也关不上毛孔", "dur": 2.8},
+    {"type": "cta", "title": "收藏备用", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}
