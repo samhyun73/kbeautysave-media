@@ -1,0 +1,41 @@
+{
+  "slug": "day46-clean-makeup-puff-brushes",
+  "lang": "en",
+  "mood": "calm",
+  "seed": 46,
+  "hangul": "퍼프 세척",
+  "frames": [
+    {"type": "hook", "kicker": "퍼프 세척 · Sunday reset", "title": "Patchy base? Check your puff.", "sub": "A 5 min Sunday reset ↓", "dur": 2.5},
+    {"type": "step", "title": "Oil first", "line": "one drop of cleansing oil", "sub": "It melts old base out of the puff.", "tone": "warm", "dur": 3.0},
+    {"type": "step", "title": "Then soap", "line": "lukewarm water, squeeze", "sub": "Squeeze until the water runs clear.", "tone": "cool", "dur": 3.0},
+    {"type": "list", "title": "Brushes, too", "items": ["Bristles down", "Press out water", "Lay flat to dry"], "sub": "Water in the handle loosens glue.", "dur": 3.2},
+    {"type": "statement", "lines": ["Dry first,", "then pack."], "sub": "A damp puff in the case smells.", "dur": 2.8},
+    {"type": "cta", "title": "Save it for Sunday.", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "Sunday reset",
+    "title": "Clean Puffs, Smooth Base",
+    "sub": "Two simple Korean cleaning steps",
+    "steps": [
+      {"title": "Oil, then soap", "body": "Melts old base out."},
+      {"title": "Dry it flat", "body": "A full day, no heat."}
+    ],
+    "avoid": ["Storing it damp", "Hot water or a dryer"],
+    "note": "Find puffs and sponges at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "deal",
+      "kicker": "Gift guide",
+      "title": "K-Beauty Stocking Stuffers",
+      "sub": "Small picks by category",
+      "items": [
+        {"title": "Puffs and sponges", "body": "A fresh set for any base fan."},
+        {"title": "A mini lip tint", "body": "Fits right in a stocking."},
+        {"title": "Gel nail strips", "body": "Salon look, no lamp needed."},
+        {"title": "Travel hand cream", "body": "Small, useful all winter."}
+      ],
+      "note": "Sign in, then enter KBEAUTY73 at checkout."
+    }
+  ]
+}

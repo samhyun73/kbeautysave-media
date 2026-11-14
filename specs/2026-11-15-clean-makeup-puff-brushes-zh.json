@@ -1,0 +1,15 @@
+{
+  "slug": "day46-clean-makeup-puff-brushes-zh",
+  "lang": "zh",
+  "mood": "calm",
+  "seed": 46,
+  "hangul": "퍼프 세척",
+  "frames": [
+    {"type": "hook", "kicker": "퍼프 세척 · 周日护理", "title": "底妆斑驳？", "sub": "先看看粉扑 ↓", "dur": 2.5},
+    {"type": "step", "title": "先用卸妆油", "line": "一滴就够", "sub": "把残留粉底溶出来", "tone": "warm", "dur": 3.0},
+    {"type": "step", "title": "再用洗剂", "line": "温水反复挤压", "sub": "挤到水变清为止", "tone": "cool", "dur": 3.0},
+    {"type": "list", "title": "刷子也要洗", "items": ["刷毛朝下", "挤出水分", "平放晾干"], "sub": "别让水进刷柄", "dur": 3.2},
+    {"type": "statement", "lines": ["先晾干，", "再收纳。"], "sub": "湿粉扑放盒里会有异味", "dur": 2.8},
+    {"type": "cta", "title": "收藏备用", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}
