@@ -1,0 +1,80 @@
+{
+  "slug": "day47-gel-nail-strips-at-home-zh",
+  "lang": "zh",
+  "mood": "bright",
+  "seed": 47,
+  "hangul": "젤네일 스티커",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "젤네일 스티커 · 韩式美甲",
+      "title": "甲贴翘边？",
+      "sub": "多半是尺寸选大了 ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "swatch",
+      "title": "节日色",
+      "swatches": [
+        {
+          "name": "红宝石",
+          "color": "#9B1B30",
+          "sheer": false,
+          "finish": "gloss"
+        },
+        {
+          "name": "奶白",
+          "color": "#F2E4DE",
+          "sheer": true,
+          "finish": "gloss"
+        },
+        {
+          "name": "松绿",
+          "color": "#2F4A3A",
+          "sheer": true,
+          "finish": "gloss"
+        },
+        {
+          "name": "金色",
+          "color": "#C8A45A",
+          "sheer": false,
+          "finish": "shimmer"
+        }
+      ],
+      "sub": "先用酒精擦指甲",
+      "dur": 3.2
+    },
+    {
+      "type": "step",
+      "title": "小一号",
+      "line": "选比指甲小一点的",
+      "sub": "别碰到皮肤",
+      "tone": "cool",
+      "dur": 2.7
+    },
+    {
+      "type": "step",
+      "title": "从中间压",
+      "line": "再压向两边",
+      "sub": "用力按10秒",
+      "tone": "warm",
+      "dur": 2.7
+    },
+    {
+      "type": "step",
+      "title": "向下磨边",
+      "line": "多余部分往下锉",
+      "sub": "再用灯照60秒",
+      "tone": "cool",
+      "dur": 2.7
+    },
+    {
+      "type": "cta",
+      "title": "先收藏",
+      "code_label": "额外95折 优惠码",
+      "where_html": "在 <b>Olive Young Global</b><br>结账时输入",
+      "tags": "#广告",
+      "dur": 3.0
+    }
+  ]
+}

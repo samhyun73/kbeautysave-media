@@ -1,0 +1,123 @@
+{
+  "slug": "day47-gel-nail-strips-at-home-ja",
+  "lang": "ja",
+  "mood": "bright",
+  "seed": 47,
+  "hangul": "젤네일 스티커",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "젤네일 스티커 · 韓国ネイル",
+      "title": "すぐ浮く？",
+      "sub": "ジェルネイルシールのコツ ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "swatch",
+      "title": "冬カラー",
+      "swatches": [
+        {
+          "name": "ルビー",
+          "color": "#9B1B30",
+          "sheer": false,
+          "finish": "gloss"
+        },
+        {
+          "name": "ミルク",
+          "color": "#F2E4DE",
+          "sheer": true,
+          "finish": "gloss"
+        },
+        {
+          "name": "グリーン",
+          "color": "#2F4A3A",
+          "sheer": true,
+          "finish": "gloss"
+        },
+        {
+          "name": "ゴールド",
+          "color": "#C8A45A",
+          "sheer": false,
+          "finish": "shimmer"
+        }
+      ],
+      "sub": "先にアルコールで拭く",
+      "dur": 3.2
+    },
+    {
+      "type": "step",
+      "title": "小さめに",
+      "line": "爪より少し小さく",
+      "sub": "肌につけない",
+      "tone": "cool",
+      "dur": 2.7
+    },
+    {
+      "type": "step",
+      "title": "中央から",
+      "line": "それから両端へ",
+      "sub": "10秒しっかり押す",
+      "tone": "warm",
+      "dur": 2.7
+    },
+    {
+      "type": "step",
+      "title": "下へ削る",
+      "line": "はみ出しをファイルで",
+      "sub": "ライトで60秒",
+      "tone": "cool",
+      "dur": 2.7
+    },
+    {
+      "type": "cta",
+      "title": "保存してね",
+      "code_label": "ログイン後 クーポンコード",
+      "where_html": "<b>Olive Young Global</b> で5%オフ",
+      "tags": "#PR #oliveyoungaffiliate",
+      "dur": 3.0
+    }
+  ],
+  "pin": {
+    "kicker": "韓国風ネイル",
+    "title": "ジェルシール",
+    "sub": "浮かない貼り方",
+    "swatches": [
+      {
+        "name": "ルビー",
+        "color": "#9B1B30",
+        "sheer": false,
+        "finish": "gloss"
+      },
+      {
+        "name": "ミルク",
+        "color": "#F2E4DE",
+        "sheer": true,
+        "finish": "gloss"
+      },
+      {
+        "name": "グリーン",
+        "color": "#2F4A3A",
+        "sheer": true,
+        "finish": "gloss"
+      }
+    ],
+    "steps": [
+      {
+        "title": "小さめに",
+        "body": "肌につけない"
+      },
+      {
+        "title": "下へ削る",
+        "body": "ライトで60秒"
+      }
+    ],
+    "avoid": [
+      "肌にはみ出す",
+      "油分が残った爪"
+    ],
+    "note": "ネイルは Olive Young Global で",
+    "code_line": "ログイン後、Olive Young Global の決済で5%オフ",
+    "avoid_label": "やらないこと",
+    "tag": "#PR"
+  }
+}

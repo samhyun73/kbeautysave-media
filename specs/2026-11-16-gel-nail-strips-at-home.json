@@ -1,0 +1,143 @@
+{
+  "slug": "day47-gel-nail-strips-at-home",
+  "lang": "en",
+  "mood": "bright",
+  "seed": 47,
+  "hangul": "젤네일 스티커",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "젤네일 스티커 · Korean nails",
+      "title": "Gel nail strips lifting by day two?",
+      "sub": "Usually it's the size ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "swatch",
+      "title": "Holiday strip shades",
+      "swatches": [
+        {
+          "name": "Ruby",
+          "color": "#9B1B30",
+          "sheer": false,
+          "finish": "gloss"
+        },
+        {
+          "name": "Milk",
+          "color": "#F2E4DE",
+          "sheer": true,
+          "finish": "gloss"
+        },
+        {
+          "name": "Pine",
+          "color": "#2F4A3A",
+          "sheer": true,
+          "finish": "gloss"
+        },
+        {
+          "name": "Gold",
+          "color": "#C8A45A",
+          "sheer": false,
+          "finish": "shimmer"
+        }
+      ],
+      "sub": "Wipe nails with alcohol first.",
+      "dur": 3.2
+    },
+    {
+      "type": "step",
+      "title": "Size down",
+      "line": "one size smaller",
+      "sub": "Keep a gap from the skin.",
+      "tone": "cool",
+      "dur": 2.7
+    },
+    {
+      "type": "step",
+      "title": "Press it flat",
+      "line": "center, then the edges",
+      "sub": "Firm, for 10 seconds.",
+      "tone": "warm",
+      "dur": 2.7
+    },
+    {
+      "type": "step",
+      "title": "File down",
+      "line": "file the tip edge downward",
+      "sub": "Then 60 s under the lamp.",
+      "tone": "cool",
+      "dur": 2.7
+    },
+    {
+      "type": "cta",
+      "title": "Save it for gift season.",
+      "dur": 3.0
+    }
+  ],
+  "pin": {
+    "kicker": "Korean nails at home",
+    "title": "Gel Strips at Home",
+    "sub": "Holiday nails in 15 minutes",
+    "swatches": [
+      {
+        "name": "Ruby",
+        "color": "#9B1B30",
+        "sheer": false,
+        "finish": "gloss"
+      },
+      {
+        "name": "Milk",
+        "color": "#F2E4DE",
+        "sheer": true,
+        "finish": "gloss"
+      },
+      {
+        "name": "Pine",
+        "color": "#2F4A3A",
+        "sheer": true,
+        "finish": "gloss"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Size down",
+        "body": "One size smaller."
+      },
+      {
+        "title": "File down",
+        "body": "Then lamp to set."
+      }
+    ],
+    "avoid": [
+      "Strip touching skin",
+      "Oily nails"
+    ],
+    "note": "Find gel nail strips at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "list",
+      "kicker": "Holiday gift idea",
+      "title": "Nail Strip Gift Box",
+      "sub": "What to put in the box",
+      "items": [
+        {
+          "title": "Two strip sets",
+          "body": "A classic and a party shade."
+        },
+        {
+          "title": "Mini nail lamp",
+          "body": "If your strips need one."
+        },
+        {
+          "title": "File and buffer",
+          "body": "For a clean tip edge."
+        },
+        {
+          "title": "Prep pads",
+          "body": "Alcohol wipes for oil-free nails."
+        }
+      ]
+    }
+  ]
+}
