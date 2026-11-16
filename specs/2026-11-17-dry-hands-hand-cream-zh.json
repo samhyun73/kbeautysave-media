@@ -1,0 +1,15 @@
+{
+  "slug": "day48-dry-hands-hand-cream-zh",
+  "lang": "zh",
+  "mood": "calm",
+  "seed": 48,
+  "hangul": "핸드크림",
+  "frames": [
+    {"type": "hook", "kicker": "핸드크림 · 韩式护手", "title": "涂了还干？", "sub": "问题在时机 ↓", "dur": 2.5},
+    {"type": "step", "title": "先擦干手", "line": "指缝也要擦干", "sub": "别用太烫的水", "dur": 2.9},
+    {"type": "step", "title": "先涂手背", "line": "豌豆大小，掌心捂热", "sub": "手心需要最少", "dur": 2.9},
+    {"type": "step", "title": "每次洗手后", "line": "水池边放一支", "sub": "不只一天一次", "dur": 2.9},
+    {"type": "statement", "lines": ["白天薄涂，", "晚上厚涂。"], "sub": "厚涂后戴棉手套", "dur": 2.6},
+    {"type": "cta", "title": "冬天收藏", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}

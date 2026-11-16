@@ -1,0 +1,43 @@
+{
+  "slug": "day48-dry-hands-hand-cream",
+  "lang": "en",
+  "mood": "calm",
+  "seed": 48,
+  "hangul": "핸드크림",
+  "frames": [
+    {"type": "hook", "kicker": "핸드크림 · Korean skincare", "title": "Still dry after hand cream?", "sub": "Usually it's the timing ↓", "dur": 2.5},
+    {"type": "step", "title": "Pat dry first", "line": "between the fingers too", "sub": "Skip very hot water.", "dur": 2.9},
+    {"type": "step", "title": "Backs first", "line": "a pea, warmed in palms", "sub": "Palms need the least.", "dur": 2.9},
+    {"type": "step", "title": "After every wash", "line": "keep a tube by the sink", "sub": "Not just once a day.", "dur": 2.9},
+    {"type": "statement", "lines": ["Thin by day.", "Rich at night."], "sub": "Cotton gloves over a thick layer.", "dur": 2.6},
+    {"type": "cta", "title": "Save it for winter.", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "Korean skincare",
+    "title": "Dry Hands After Hand Cream?",
+    "sub": "Two simple Korean habits",
+    "steps": [
+      {"title": "Backs first", "body": "A pea, warmed in palms."},
+      {"title": "Every wash", "body": "A tube by the sink."}
+    ],
+    "avoid": ["Very hot water", "Cream on palms only"],
+    "note": "Find Korean hand creams at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "deal",
+      "kicker": "K-beauty sale",
+      "title": "Winter Care Wishlist",
+      "dates": "From 22 Nov",
+      "dates_label": "Big yearly sale",
+      "sub": "For Canada, UK & Australia shoppers",
+      "items": [
+        {"title": "Hand cream", "body": "A tube for every sink."},
+        {"title": "Rich night cream", "body": "Under cotton gloves."},
+        {"title": "Lip balm", "body": "One for your coat pocket."},
+        {"title": "Body lotion", "body": "Right after the shower."}
+      ],
+      "note": "Sign in, then enter KBEAUTY73 at checkout for an extra 5% off."
+    }
+  ]
+}
