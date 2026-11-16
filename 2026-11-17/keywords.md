@@ -1,0 +1,69 @@
+# YouTube keyword check (autocomplete + top results, US English)
+
+## how to use hand cream
+
+- Autocomplete: how to use hand cream, how to use hand cream moisturizer, how to use hand lotion, how to use plum hand cream, how to use luca hand cream, how to use chanel hand cream, how to use zudio hand cream, how to use tamburins hand cream, how to use hand mixer for cream, how to use hand and foot cream
+- "how to": how to use hand cream, how to use plum hand cream, how to use luca hand cream, how to use chanel hand cream, how to use zudio hand cream, how to use tamburins hand cream
+- Top 10: 1 Shorts; median views 164,692
+
+  - Dermatologist Explains: Why Your Hand Cream Isn’t Working · 28,126 views · Dr Dray
+  - [S] how to apply your hand cream · 20,812 views · VAUNT Skincare
+  - The Ultimate Guide to Hand Care for Aging Hands · 465,912 views · Doctorly
+  - DERMATOLOGIST'S TOP 5 HAND CREAMS| DR DRAY · 217,261 views · Dr Dray
+  - Anti-Aging Hand Care Tips from a Dermatologist | Reverse Dry, Wrinkled & Spotty Hands · 115,664 views · Dr Dray
+  - Dermatologist Hand Care Tips for Dermatitis, Dry Skin, & More | Dr. Sam Ellis · 117,110 views · Dr. Sam Ellis
+  - How To Heal Hand Eczema Fast · 164,692 views · Dr Dray
+  - Easy Moisturizing Hand Cream with Shea Butter · 61,388 views · Our Oily House
+  - OVERNIGHT Dry Hands Treatment · 192,061 views · Doro Cubillo
+  - Top 5 anti-aging products for your hands| Dr Dray · 543,204 views · Dr Dray
+
+## dry hands in winter
+
+- Autocomplete: dry hands in winter, best hand cream for dry hands in winter
+- "how to": dry hands in winter
+- Top 10: 1 Shorts; median views 30,356
+
+  - Dermatologist Tips for Dry Winter Hands · 22,342 views · Dr. Dustin Portela
+  - How to heal your winter hands · 25,905 views · Click On Detroit | Local 4 | WDIV
+  - Dry Hands in Winter - Daily Do's of Dermatology · 1,209 views · Doctorpedia
+  - [S] Treatment for Dry Hands | The Dr. Oz Show Smart Skin Series Presented by Aquaphor® · 18,049 views · AquaphorUS
+  - Dry cracked and bleeding hands - This is what you need to do! | Ask Doctor Anne · 30,356 views · Doctor Anne
+  - How to Fix Dry, Wrinkled Hands · 9,112,933 views · Dr. Eric Berg DC
+  - Heal Dry & Cracked Hands & Feet with This Quick Dermatologist Tip · 31,674 views · Dr. Jenny Liu
+  - क्या आपके हाथ बार-बार ड्राई हो रहे हैं? Winter Dryness Ya Hand Dermatitis | Symptoms & Care in Hindi · 3,734 views · Dr Garima Skin doctor Varanasi 
+  - Tips for dry hands from a dermatologist · 134,421 views · Dr Dray
+  - Pandemic Skincare: How to Fix Dry Hands (Dermatologist Advice) | Lab Muffin Beauty Science · 39,182 views · Lab Muffin Beauty Science
+
+## hand care routine
+
+- Autocomplete: hand care routıne asmr, hand care routıne at home, hand care routine🫦, hand care routines compilation
+- "how to": (none)
+- Top 10: 0 Shorts; median views 115,664
+
+  - Anti-Aging Hand Care Tips from a Dermatologist | Reverse Dry, Wrinkled & Spotty Hands · 115,664 views · Dr Dray
+  - The Ultimate Guide to Hand Care for Aging Hands · 465,912 views · Doctorly
+  - Keep Your Hands Youthful & Pretty with this Anti Aging Routine · 26,142 views · Musings of a Curvy Lady
+  - Dermatologist Hand Care Tips for Dermatitis, Dry Skin, & More | Dr. Sam Ellis · 117,110 views · Dr. Sam Ellis
+  - hand care routines on tiktok may be a little excessive... · 46,431 views · Shawna Ripari
+  - HANDCARE ROUTINE | How to have soft, healthy, young looking hands! · 183,989 views · Tina Tanaka Harris
+  - KEEP YOUR HANDS SOFT & YOUNG: ESSENTIAL TIPS & TRICKS · 44,807 views · Dimma Umeh
+  - How to Make Your Hands Look 10 Years Younger (Anti-Aging Routine) · 21,854 views · Hollie Eng
+  - 5 Minute Finger and Hand Stiffness Exercise Routine for Both Hands: No Equipment Required · 2,533,175 views · Virtual Hand Care
+  - How I Take Care of My Hands | Hand Care Routine for Soft, Polished & Elegant Hands · 30,356 views · Jamila Musayeva
+
+## korean hand cream
+
+- Autocomplete: korean hand cream, korean hand cream for dry skin, korean hand cream review, tonymoly hand cream, korean hand lotion, best korean hand cream, korean hand whitening cream, korean cute hand cream, korean hand and feet cream, hand cream korean drama
+- "how to": how to make korean hand cream at home
+- Top 10: 0 Shorts; median views 21,854
+
+  - How to Make Your Hands Look 10 Years Younger (Anti-Aging Routine) · 21,854 views · Hollie Eng
+  - 3 Affordable K-Beauty HAND CREAMS for dry dehydrated skin 💦 · 1,214 views · RAYLIUR • Skincare Reviews
+  - The Ultimate Guide to Hand Care for Aging Hands · 465,912 views · Doctorly
+  - Stop Buying "Viral" K-Beauty. 🛑 (What Koreans Actually Use) · 669,234 views · Soo Beauty 수뷰티 
+  - 8 Korean HAND CREAMS for Dry Skin - Korean Skincare Review 💦 · 10,609 views · RAYLIUR • Skincare Reviews
+  - TOP 5 HAND CREAMS [ ILLIYOON , HANYUL , BENTON , Dr.Jart , INNISFREE ] for dry hands ! + comparison · 17,746 views · JOOHKY
+  - 6 Korean skincare for dry, sensitive skin • hand cream, moisturizer, toner 💦🧸 · 615 views · RAYLIUR • Skincare Reviews and a boy & the moon
+  - Korean vs. Japanese Skincare — Which One Is Actually Better for Your Skin? | Dr. Jenny Liu · 9,120 views · Dr. Jenny Liu
+  - Hand Cream | Favourite Formulas · 149,176 views · Matilda on Video
+  - Everyone Uses THESE in Korea👌 What Koreans ACTUALLY buy! · 569,486 views · Beauty Within
