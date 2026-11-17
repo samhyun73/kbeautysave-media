@@ -1,0 +1,30 @@
+{
+  "slug": "day49-hair-oil-how-much-ja",
+  "lang": "ja",
+  "mood": "bright",
+  "seed": 49,
+  "hangul": "헤어 오일",
+  "frames": [
+    {"type": "hook", "kicker": "헤어 오일 · 韓国ヘア", "title": "パサつく？", "sub": "オイルは量がカギ ↓", "dur": 2.5},
+    {"type": "step", "title": "1〜2滴だけ", "line": "手のひらで温める", "sub": "髪に直接つけない", "dur": 2.6},
+    {"type": "step", "title": "毛先から", "line": "毛先をにぎるように", "sub": "いちばん乾く所", "dur": 2.6},
+    {"type": "step", "title": "表面は軽く", "line": "手のひらでなでる", "sub": "手に残った分だけ", "dur": 2.6},
+    {"type": "step", "title": "根元はなし", "line": "ぺたんこの原因に", "sub": "足りなければ1滴", "dur": 2.6},
+    {"type": "statement", "lines": ["少なめで、", "つややか。"], "sub": "濡れ髪でも乾いた髪でもOK", "dur": 2.5},
+    {"type": "cta", "title": "保存してね", "code_label": "ログイン後 クーポンコード", "where_html": "<b>Olive Young Global</b> で5%オフ", "tags": "#PR #oliveyoungaffiliate", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "韓国風ヘア",
+    "title": "オイルは2滴",
+    "sub": "パサつかない韓国風のつけ方",
+    "steps": [
+      {"title": "毛先から", "body": "手のひらで温めて"},
+      {"title": "表面は軽く", "body": "手に残った分だけ"}
+    ],
+    "avoid": ["根元につける", "ボトルから直接"],
+    "note": "ヘアオイルは Olive Young Global で",
+    "code_line": "ログイン後、Olive Young Global の決済で5%オフ",
+    "avoid_label": "やらないこと",
+    "tag": "#PR"
+  }
+}

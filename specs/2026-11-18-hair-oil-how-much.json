@@ -1,0 +1,95 @@
+{
+  "slug": "day49-hair-oil-how-much",
+  "lang": "en",
+  "mood": "bright",
+  "seed": 49,
+  "hangul": "헤어 오일",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "헤어 오일 · Korean hair",
+      "title": "Fuzzy hair in party photos?",
+      "sub": "It's how much oil ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "step",
+      "title": "One or two drops",
+      "line": "warm it in your palms",
+      "sub": "Not straight from the bottle.",
+      "dur": 2.6
+    },
+    {
+      "type": "step",
+      "title": "Ends first",
+      "line": "squeeze it into the tips",
+      "sub": "That's where it's driest.",
+      "dur": 2.6
+    },
+    {
+      "type": "step",
+      "title": "Skim the top",
+      "line": "flat palms, light touch",
+      "sub": "Only what's left on your hands.",
+      "dur": 2.6
+    },
+    {
+      "type": "step",
+      "title": "Keep it off roots",
+      "line": "roots go flat and shiny",
+      "sub": "Add a drop later if needed.",
+      "dur": 2.6
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "Less oil.",
+        "More shine."
+      ],
+      "sub": "Damp or dry hair both work.",
+      "dur": 2.5
+    },
+    {
+      "type": "cta",
+      "title": "Save this one.",
+      "dur": 3.0
+    }
+  ],
+  "pin": {
+    "kicker": "Korean hair",
+    "title": "Just 2 Drops",
+    "sub": "Korean hair oil, two easy steps",
+    "steps": [
+      {
+        "title": "One or two drops",
+        "body": "Warmed in your palms."
+      },
+      {
+        "title": "Ends first",
+        "body": "Then skim the top."
+      }
+    ],
+    "avoid": [
+      "Oil on the roots",
+      "Pouring from the bottle"
+    ],
+    "note": "Find Korean hair oils at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "deal",
+      "kicker": "K-beauty sale",
+      "title": "Party Hair Wishlist",
+      "dates": "From 22 Nov",
+      "dates_label": "Big yearly sale",
+      "sub": "For Canada, UK & Australia shoppers",
+      "items": [
+        {"title": "Hair oil", "body": "1 or 2 drops on the ends."},
+        {"title": "Hair mask", "body": "Mid-lengths to ends, weekly."},
+        {"title": "Velcro rollers", "body": "Volume at the crown."},
+        {"title": "Wide-tooth comb", "body": "Detangle without pulling."}
+      ],
+      "note": "Sign in, then enter KBEAUTY73 at checkout for an extra 5% off."
+    }
+  ]
+}

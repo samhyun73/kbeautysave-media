@@ -1,0 +1,16 @@
+{
+  "slug": "day49-hair-oil-how-much-zh",
+  "lang": "zh",
+  "mood": "bright",
+  "seed": 49,
+  "hangul": "헤어 오일",
+  "frames": [
+    {"type": "hook", "kicker": "헤어 오일 · 韩式护发", "title": "发尾毛躁？", "sub": "关键是用量 ↓", "dur": 2.5},
+    {"type": "step", "title": "一两滴就够", "line": "先在掌心搓热", "sub": "别直接倒在头发上", "dur": 2.6},
+    {"type": "step", "title": "先抹发尾", "line": "握住发尾按压", "sub": "发尾最干", "dur": 2.6},
+    {"type": "step", "title": "轻抚表面", "line": "手掌平贴，轻轻带过", "sub": "只用手上剩下的", "dur": 2.6},
+    {"type": "step", "title": "别碰发根", "line": "发根会塌、会油", "sub": "不够再补一滴", "dur": 2.6},
+    {"type": "statement", "lines": ["少一点，", "更有光泽。"], "sub": "湿发干发都可以用", "dur": 2.5},
+    {"type": "cta", "title": "先收藏", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}
