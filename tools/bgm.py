@@ -1,6 +1,9 @@
 """Generate a soft lo-fi BGM track (royalty-free, synthesized) as WAV.
 usage: python3 bgm.py out.wav seconds [seed] [mood]
 mood: calm (default) | bright
+Variation (2026-11-18, user: "every Short should be different"): the seed picks the key, the chord progression,
+the drum feel and the melody pattern, so consecutive Shorts don't share the same track. Tempo stays per mood
+(BPM must match make_reel.py's beat grid).
 """
 import sys, numpy as np
 from scipy.io import wavfile
@@ -47,10 +50,23 @@ def make(seconds, seed=1, mood="calm"):
     n = int(SR*(seconds+2))
     mus = np.zeros(n); drm = np.zeros(n)
     progs = {
-        "calm":   [[53,57,60,64],[52,55,59,62],[50,53,57,60],[48,52,55,59]],  # Fmaj7 Em7 Dm7 Cmaj7
-        "bright": [[48,52,55,59],[57,60,64,67],[53,57,60,64],[55,59,62,65]],  # Cmaj7 Am7 Fmaj7 G7
+        "calm": [
+            [[53,57,60,64],[52,55,59,62],[50,53,57,60],[48,52,55,59]],  # Fmaj7 Em7 Dm7 Cmaj7
+            [[50,53,57,60],[55,59,62,65],[48,52,55,59],[57,60,64,67]],  # Dm7 G7 Cmaj7 Am7
+            [[45,48,52,55],[53,57,60,64],[48,52,55,59],[55,59,62,65]],  # Am7 Fmaj7 Cmaj7 G7
+        ],
+        "bright": [
+            [[48,52,55,59],[57,60,64,67],[53,57,60,64],[55,59,62,65]],  # Cmaj7 Am7 Fmaj7 G7
+            [[53,57,60,64],[55,59,62,65],[52,55,59,62],[57,60,64,67]],  # Fmaj7 G7 Em7 Am7
+            [[48,52,55,59],[55,59,62,65],[57,60,64,67],[53,57,60,64]],  # Cmaj7 G7 Am7 Fmaj7
+        ],
     }
-    prog = progs.get(mood, progs["calm"])
+    opts = progs.get(mood, progs["calm"])
+    shift = [0, 2, -3, 5, -2][seed % 5]                 # key
+    prog = [[m + shift for m in ch] for ch in opts[(seed // 5) % len(opts)]]
+    feel = (seed // 15) % 3                             # 0 straight, 1 half-time, 2 swung hats
+    arp = (seed // 2) % 2 == 1                          # melody: off-beat plucks or a soft 8th-note arpeggio
+    swing = beat * (0.58 if feel == 2 else 0.5)
     bar = 4*beat
     t = 0.0; ci = 0
     while t < seconds + 1:
@@ -58,15 +74,23 @@ def make(seconds, seed=1, mood="calm"):
         for k, m in enumerate(ch):
             add(mus, epiano(note_freq(m), bar*1.1, 0.16), t + k*0.018)
         add(mus, epiano(note_freq(ch[0]-12), bar, 0.22), t)          # bass
-        # little melody pluck on beats 2 and 4
-        for b in (1, 3):
-            m = ch[rng.integers(1, 4)] + 12
-            add(mus, epiano(note_freq(m), beat*1.5, 0.07), t + b*beat + rng.uniform(0, 0.03))
+        if arp:
+            for b in range(8):
+                m = ch[(b + ci) % 4] + 12
+                add(mus, epiano(note_freq(m), beat*0.9, 0.045), t + b*beat/2 + rng.uniform(0, 0.02))
+        else:   # little melody pluck on beats 2 and 4
+            for b in (1, 3):
+                m = ch[rng.integers(1, 4)] + 12
+                add(mus, epiano(note_freq(m), beat*1.5, 0.07), t + b*beat + rng.uniform(0, 0.03))
         for b in range(4):
             bt = t + b*beat
-            if b in (0, 2): add(drm, kick(), bt)
-            if b in (1, 3): add(drm, snare(rng), bt)
-            add(drm, hat(rng), bt + beat/2)
+            if feel == 1:
+                if b == 0: add(drm, kick(), bt)
+                if b == 2: add(drm, snare(rng), bt)
+            else:
+                if b in (0, 2): add(drm, kick(), bt)
+                if b in (1, 3): add(drm, snare(rng), bt)
+            add(drm, hat(rng), bt + swing)
             add(drm, hat(rng)*0.6, bt)
         t += bar; ci += 1
     # soften drums (lo-fi)

@@ -358,6 +358,11 @@ def _band(d, spec):
     return lines, top, top + 2 * pad + len(lines) * lh, f, lh, pad
 
 
+# Variation (2026-11-18, user: "every Short should be different"): the spec seed picks the headline band colours
+# (and, through tools/bgm.py, the music), so consecutive Shorts don't open on the same frame. (band, text, hangul pill)
+BANDS = [("pine", "rice", "celadon"), ("deep", "rice", "blush"), ("blush", "pine", "celadon")]
+
+
 def overlay_static(spec, path):
     """Shown for the whole video (no fades, so nothing flickers at cuts): bottom shade for captions, hangul
     watermark on the left, centred headline band and the centred hangul pill under it."""
@@ -373,10 +378,11 @@ def overlay_static(spec, path):
     for k, ch in enumerate(hg):
         d.text((48, 700 + k * size), ch, font=wm, fill=C["rice"] + (70,))
     lines, top, bottom, f, lh, pad = _band(d, spec)
-    rounded(d, (60, top, W - 60, bottom), 32, C["pine"] + (232,))
+    band, ink, pill = BANDS[int(spec.get("seed", 1)) % len(BANDS)]
+    rounded(d, (60, top, W - 60, bottom), 32, C[band] + (232,))
     for k, ln in enumerate(lines):   # anchor "mm" = each line centred on its own slot
-        d.text((W // 2, top + pad + k * lh + lh // 2), ln, font=f, fill=C["rice"], anchor="mm")
-    _pill(d, spec["hangul"], C["celadon"], bottom + 22)
+        d.text((W // 2, top + pad + k * lh + lh // 2), ln, font=f, fill=C[ink], anchor="mm")
+    _pill(d, spec["hangul"], C[pill], bottom + 22)
     img.save(path)
 
 

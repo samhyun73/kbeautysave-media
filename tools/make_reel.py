@@ -60,21 +60,30 @@ h1,h2,p{{margin:0}}
 @keyframes drift{{from{{transform:translateY(0)}}to{{transform:translateY(-70px)}}}}
 </style></head><body><div class="root">{wm_html}<div class="bar">{segs}</div><div class="block">{inner}</div></div></body></html>"""
 
+# Variation (2026-11-18, user: "every Short should be different"): the spec seed picks the hook ground and the
+# slide transition, so consecutive reels don't open on the same frame. Spec "hook_style" / "transition" override.
+HOOK_GROUNDS = {"blush": (C["blush"], "#E8B3A5", C["deep"]), "celadon": (C["celadon"], "#B3CDC3", C["pine"]),
+                "mist": (C["mist"], "#B7C7C0", C["deep"])}   # ground, watermark, sub line
+HOOK_CYCLE = ["blush", "celadon", "dark", "mist"]
+TRANSITIONS = ["fade", "smoothup", "smoothleft", "dissolve"]
+
 def f_hook(f, ctx):
     # v2.1 (2026-10-03): bright blush hook — high contrast, bigger question line, kicker as a pill.
     # Stands out in a dark feed; the rest of the reel keeps the rice/pine rhythm. "hook_style": "dark" = old look.
-    if f.get("hook_style") == "dark":
+    style = f.get("hook_style") or ctx.get("hook_style", "blush")
+    if style == "dark":
         inner = (f'<p style="font-size:40px;font-weight:500;color:{C["celadon"]}">{plain(f.get("kicker",""))}</p>'
                  f'<h1 class="d" style="font-size:132px">{plain(f["title"])}</h1>'
                  f'<p style="font-size:50px;line-height:1.35;color:{C["soft"]}">{plain(f.get("sub",""))}</p>')
         return page(C["pine"], C["rice"], inner, ctx["wm"], C["pine2"], ctx["prog"], ctx["dur"], dark=True)
+    bg, wmc, sc = HOOK_GROUNDS.get(style, HOOK_GROUNDS["blush"])
     t = plain(f["title"])
     size = 156 if len(t) <= 34 or LANG != "en" else 138
     inner = (f'<p style="align-self:flex-start;font-size:40px;font-weight:700;padding:14px 32px 16px;border-radius:60px;'
              f'background:{C["pine"]};color:{C["rice"]}">{plain(f.get("kicker",""))}</p>'
              f'<h1 class="d" style="font-size:{size}px;color:{C["pine"]}">{t}</h1>'
-             f'<p style="font-size:52px;line-height:1.35;font-weight:700;color:{C["deep"]}">{plain(f.get("sub",""))}</p>')
-    return page(C["blush"], C["pine"], inner, ctx["wm"], "#E8B3A5", ctx["prog"], ctx["dur"])
+             f'<p style="font-size:52px;line-height:1.35;font-weight:700;color:{sc}">{plain(f.get("sub",""))}</p>')
+    return page(bg, C["pine"], inner, ctx["wm"], wmc, ctx["prog"], ctx["dur"])
 
 def f_step(f, ctx):
     inner = (f'<h2 class="d" style="font-size:124px">{plain(f["title"])}</h2>'
@@ -266,13 +275,16 @@ def main(spec_path, out):
     here = os.path.dirname(os.path.abspath(__file__))
     frames = spec["frames"]; n = len(frames)
     jobs, durs = [], []
+    seed = int(spec.get("seed", 1))
+    hook_style = HOOK_CYCLE[seed % len(HOOK_CYCLE)]
+    trans = spec.get("transition") or TRANSITIONS[(seed // len(HOOK_CYCLE)) % len(TRANSITIONS)]
     for i, f in enumerate(frames):
         # beat grid: each slide = whole beats + crossfade, so every cut lands on a beat of the BGM
         beat = 60.0 / BPM[spec.get("mood", "calm")]
         nb = max(2, round((float(f.get("dur", 3)) - XF) / beat))
         d = nb * beat + XF; durs.append(d)
         hp = os.path.abspath(os.path.join(out, f"frame{i+1}.html"))
-        open(hp, "w").write(RENDER[f["type"]](f, dict(wm=wm, prog=(i, n), dur=d)))
+        open(hp, "w").write(RENDER[f["type"]](f, dict(wm=wm, prog=(i, n), dur=d, hook_style=hook_style)))
         sd = os.path.abspath(os.path.join(out, f"seq{i+1}")); shutil.rmtree(sd, ignore_errors=True); os.makedirs(sd)
         jobs.append(dict(html=hp, w=W, h=H, fps=FPS, frames=int(round(d * FPS)), pattern=os.path.join(sd, "%04d.png")))
     # image pins: "pin" (one) and/or "pins" (list) -> pin.png, pin2.png, ... ; layout "list" uses the second template
@@ -304,14 +316,14 @@ def main(spec_path, out):
     prev, off = "[s0]", 0.0
     for i in range(1, n):
         off += durs[i-1] - XF
-        fl.append(f"{prev}[s{i}]xfade=transition=fade:duration={XF}:offset={off:.2f}[x{i}]"); prev = f"[x{i}]"
+        fl.append(f"{prev}[s{i}]xfade=transition={trans}:duration={XF}:offset={off:.2f}[x{i}]"); prev = f"[x{i}]"
     mp4 = os.path.join(out, f"{spec.get('slug','reel')}.mp4")
     cmd += ["-filter_complex", ";".join(fl), "-map", prev, "-map", f"{n}:a",
             "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p", "-r", "30",
             "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart", mp4]
     subprocess.run(cmd, check=True)
     for i in range(n): shutil.rmtree(os.path.join(out, f"seq{i+1}"), ignore_errors=True)
-    print("reel:", mp4, f"({total:.1f}s)")
+    print("reel:", mp4, f"({total:.1f}s, hook {hook_style}, {trans})")
 
 if __name__ == "__main__":
     main(sys.argv[1], sys.argv[2])
