@@ -1,0 +1,107 @@
+{
+  "slug": "day50-makeup-last-all-day",
+  "lang": "en",
+  "mood": "calm",
+  "seed": 50,
+  "hangul": "메이크업 수정",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "메이크업 · Korean makeup",
+      "title": "Foundation gone around your nose?",
+      "sub": "Fix it before dinner ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "step",
+      "title": "Thin base",
+      "line": "one layer, pressed in",
+      "sub": "Thick base slides first.",
+      "dur": 2.6
+    },
+    {
+      "type": "step",
+      "title": "Nose first",
+      "line": "press powder on",
+      "sub": "Chin too. Cheeks stay dewy.",
+      "dur": 2.6
+    },
+    {
+      "type": "step",
+      "title": "Blot first",
+      "line": "one blotting paper",
+      "sub": "Before any touch-up.",
+      "dur": 2.6
+    },
+    {
+      "type": "step",
+      "title": "Tap the spot",
+      "line": "cushion, bare spot only",
+      "sub": "No new full layer.",
+      "dur": 2.6
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "Blot,",
+        "then tap."
+      ],
+      "sub": "Never powder over oil.",
+      "dur": 2.5
+    },
+    {
+      "type": "cta",
+      "title": "Save this one.",
+      "dur": 3.0
+    }
+  ],
+  "pin": {
+    "kicker": "Korean makeup",
+    "title": "Makeup That Lasts",
+    "sub": "Korean base, two easy steps",
+    "steps": [
+      {
+        "title": "Thin base",
+        "body": "Powder nose and chin."
+      },
+      {
+        "title": "Blot, then tap",
+        "body": "Cushion on the spot."
+      }
+    ],
+    "avoid": [
+      "Powder over oil",
+      "A new full layer"
+    ],
+    "note": "Find Korean cushions at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "deal",
+      "kicker": "K-beauty sale",
+      "title": "Party Base Wishlist",
+      "dates": "From 22 Nov",
+      "dates_label": "Big yearly sale",
+      "sub": "For Canada, UK & Australia shoppers",
+      "items": [
+        {
+          "title": "Cushion",
+          "body": "Tap it on, never swipe."
+        },
+        {
+          "title": "Loose powder",
+          "body": "Nose and chin only."
+        },
+        {
+          "title": "Blotting papers",
+          "body": "Before every touch-up."
+        },
+        {
+          "title": "Mini puff",
+          "body": "Small enough for a clutch."
+        }
+      ],
+      "note": "Sign in, then enter KBEAUTY73 at checkout for an extra 5% off."
+    }
+  ]
+}

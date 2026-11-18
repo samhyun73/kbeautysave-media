@@ -1,0 +1,16 @@
+{
+  "slug": "day50-makeup-last-all-day-zh",
+  "lang": "zh",
+  "mood": "calm",
+  "seed": 50,
+  "hangul": "메이크업 수정",
+  "frames": [
+    {"type": "hook", "kicker": "메이크업 · 韩式底妆", "title": "鼻翼脱妆？", "sub": "晚餐前这样补 ↓", "dur": 2.5},
+    {"type": "step", "title": "底妆要薄", "line": "一层，按压上脸", "sub": "太厚最先移位", "dur": 2.6},
+    {"type": "step", "title": "鼻子定妆", "line": "按压，别横扫", "sub": "下巴也要，脸颊留光泽", "dur": 2.6},
+    {"type": "step", "title": "先吸油", "line": "一张吸油纸按一按", "sub": "补妆前先做", "dur": 2.6},
+    {"type": "step", "title": "哪里掉补哪里", "line": "气垫只拍空的地方", "sub": "别再铺满全脸", "dur": 2.6},
+    {"type": "statement", "lines": ["先吸油，", "再轻拍。"], "sub": "别在油上直接扑粉", "dur": 2.5},
+    {"type": "cta", "title": "先收藏", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}
