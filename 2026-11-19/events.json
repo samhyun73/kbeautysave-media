@@ -357,6 +357,21 @@
   "dates": []
  },
  {
+  "id": "3159",
+  "texts": [
+   "AMPERS&ONE AMPERS&ONE [PATHFINDER] OLIVE YOUNG EXCLUSIVE",
+   "AMPERS&ONE AMPERS&ONE[PATHFINDER] AMPERS&ONE[PATHFINDER] OLIVE YOUNG EXCLUSIVE OLIVE YOUNG EXCLUSIVE"
+  ],
+  "markets": [
+   "US",
+   "CA",
+   "UK",
+   "AU",
+   "JP"
+  ],
+  "dates": []
+ },
+ {
   "id": "EV230100112",
   "texts": [
    "App Only Turn on Notification Get US$15 Off Coupon sent via app in 5 days",
@@ -394,6 +409,19 @@
   "texts": [
    "STARTS 22 NOV (KST) ONCE A YEAR OUR BIGGEST SAVINGS Unmissable Deals Await Get your wishlist ready!",
    "STARTS 22 NOV (KST) ONCE A YEAROUR BIGGEST SAVINGS ONCE A YEAROUR BIGGEST SAVINGS Unmissable Deals AwaitGet your wishlist ready! Unmissable Deals AwaitGet your wishlist ready!"
+  ],
+  "markets": [
+   "CA",
+   "UK",
+   "AU"
+  ],
+  "dates": []
+ },
+ {
+  "id": "EV261100573",
+  "texts": [
+   "11.19 - 11.26 Write Reviews, Get Shopping Credit! Have you reviewed your purchases? Write a review now and get up to 7P",
+   "11.19 - 11.26 Write Reviews,Get Shopping Credit! Write Reviews,Get Shopping Credit! Have you reviewed your purchases?Write a review now and get up to 7P Have you reviewed your purchases?Write a review now and get up to 7P"
   ],
   "markets": [
    "CA",
