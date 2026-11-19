@@ -1,0 +1,132 @@
+{
+  "slug": "day51-paint-nails-neatly-ja",
+  "lang": "ja",
+  "mood": "bright",
+  "seed": 51,
+  "hangul": "셀프 네일",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "셀프 네일 · 韓国ネイル",
+      "title": "はみ出す？",
+      "sub": "ブラシの量が原因かも ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "swatch",
+      "title": "冬カラー",
+      "swatches": [
+        {
+          "name": "チェリー",
+          "color": "#A3122A",
+          "sheer": false,
+          "finish": "gloss"
+        },
+        {
+          "name": "ミルク",
+          "color": "#F2E4DE",
+          "sheer": true,
+          "finish": "gloss"
+        },
+        {
+          "name": "モカ",
+          "color": "#8A5A44",
+          "sheer": false,
+          "finish": "gloss"
+        },
+        {
+          "name": "ベリー",
+          "color": "#6B1E3A",
+          "sheer": true,
+          "finish": "gloss"
+        }
+      ],
+      "sub": "どの色でも同じコツ",
+      "dur": 3.2
+    },
+    {
+      "type": "step",
+      "title": "片側でしごく",
+      "line": "ボトルの口の片側で",
+      "sub": "先に小さな玉を残す",
+      "tone": "cool",
+      "dur": 2.6
+    },
+    {
+      "type": "step",
+      "title": "3回で塗る",
+      "line": "中央から左右へ",
+      "sub": "キワは少しあける",
+      "tone": "warm",
+      "dur": 2.6
+    },
+    {
+      "type": "step",
+      "title": "キワを整える",
+      "line": "細筆に除光液",
+      "sub": "乾く前に",
+      "tone": "cool",
+      "dur": 2.6
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "薄く、",
+        "きれいに。"
+      ],
+      "sub": "厚塗りははみ出す",
+      "dur": 2.5
+    },
+    {
+      "type": "cta",
+      "title": "保存してね",
+      "code_label": "ログイン後 クーポンコード",
+      "where_html": "<b>Olive Young Global</b> で5%オフ",
+      "tags": "#PR #oliveyoungaffiliate",
+      "dur": 3.0
+    }
+  ],
+  "pin": {
+    "kicker": "韓国風ネイル",
+    "title": "はみ出さない",
+    "sub": "セルフネイルのコツ",
+    "swatches": [
+      {
+        "name": "チェリー",
+        "color": "#A3122A",
+        "sheer": false,
+        "finish": "gloss"
+      },
+      {
+        "name": "ミルク",
+        "color": "#F2E4DE",
+        "sheer": true,
+        "finish": "gloss"
+      },
+      {
+        "name": "モカ",
+        "color": "#8A5A44",
+        "sheer": false,
+        "finish": "gloss"
+      }
+    ],
+    "steps": [
+      {
+        "title": "片側でしごく",
+        "body": "小さな玉を残す"
+      },
+      {
+        "title": "キワを整える",
+        "body": "乾く前に除光液"
+      }
+    ],
+    "avoid": [
+      "ブラシにたっぷり",
+      "半乾きの重ね塗り"
+    ],
+    "note": "ネイルは Olive Young Global で",
+    "code_line": "ログイン後、Olive Young Global の決済で5%オフ",
+    "avoid_label": "やらないこと",
+    "tag": "#PR"
+  }
+}

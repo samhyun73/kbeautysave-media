@@ -1,0 +1,155 @@
+{
+  "slug": "day51-paint-nails-neatly",
+  "lang": "en",
+  "mood": "bright",
+  "seed": 51,
+  "hangul": "셀프 네일",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "셀프 네일 · Korean nails",
+      "title": "Polish all over your cuticles?",
+      "sub": "It's the brush load ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "swatch",
+      "title": "Party shades",
+      "swatches": [
+        {
+          "name": "Cherry",
+          "color": "#A3122A",
+          "sheer": false,
+          "finish": "gloss"
+        },
+        {
+          "name": "Milk",
+          "color": "#F2E4DE",
+          "sheer": true,
+          "finish": "gloss"
+        },
+        {
+          "name": "Mocha",
+          "color": "#8A5A44",
+          "sheer": false,
+          "finish": "gloss"
+        },
+        {
+          "name": "Berry",
+          "color": "#6B1E3A",
+          "sheer": true,
+          "finish": "gloss"
+        }
+      ],
+      "sub": "Same steps, any shade.",
+      "dur": 3.2
+    },
+    {
+      "type": "step",
+      "title": "One side only",
+      "line": "wipe the brush once",
+      "sub": "Keep a small bead on the tip.",
+      "tone": "cool",
+      "dur": 2.6
+    },
+    {
+      "type": "step",
+      "title": "Three strokes",
+      "line": "middle, then each side",
+      "sub": "Start a hair from the cuticle.",
+      "tone": "warm",
+      "dur": 2.6
+    },
+    {
+      "type": "step",
+      "title": "Clean the edge",
+      "line": "small brush + remover",
+      "sub": "Before the polish dries.",
+      "tone": "cool",
+      "dur": 2.6
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "Less polish,",
+        "cleaner lines."
+      ],
+      "sub": "Thick coats flood the edges.",
+      "dur": 2.5
+    },
+    {
+      "type": "cta",
+      "title": "Save this one.",
+      "dur": 3.0
+    }
+  ],
+  "pin": {
+    "kicker": "Korean nails at home",
+    "title": "Neat Nails at Home",
+    "sub": "Clean edges, two easy steps",
+    "swatches": [
+      {
+        "name": "Cherry",
+        "color": "#A3122A",
+        "sheer": false,
+        "finish": "gloss"
+      },
+      {
+        "name": "Milk",
+        "color": "#F2E4DE",
+        "sheer": true,
+        "finish": "gloss"
+      },
+      {
+        "name": "Mocha",
+        "color": "#8A5A44",
+        "sheer": false,
+        "finish": "gloss"
+      }
+    ],
+    "steps": [
+      {
+        "title": "One side only",
+        "body": "Small bead on the tip."
+      },
+      {
+        "title": "Clean the edge",
+        "body": "Remover, small brush."
+      }
+    ],
+    "avoid": [
+      "A loaded brush",
+      "Repainting tacky polish"
+    ],
+    "note": "Find nail polish at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "deal",
+      "kicker": "K-beauty sale",
+      "title": "Party Nail Wishlist",
+      "dates": "From 22 Nov",
+      "dates_label": "Big yearly sale",
+      "sub": "For Canada, UK & Australia shoppers",
+      "items": [
+        {
+          "title": "Sheer jelly polish",
+          "body": "Two thin coats."
+        },
+        {
+          "title": "Glossy top coat",
+          "body": "Cap the free edge."
+        },
+        {
+          "title": "Clean-up brush",
+          "body": "Small, flat, soft."
+        },
+        {
+          "title": "Gel nail strips",
+          "body": "No drying time."
+        }
+      ],
+      "note": "Sign in, then enter KBEAUTY73 at checkout for an extra 5% off."
+    }
+  ]
+}

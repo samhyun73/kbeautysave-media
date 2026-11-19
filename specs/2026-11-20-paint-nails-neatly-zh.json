@@ -1,0 +1,89 @@
+{
+  "slug": "day51-paint-nails-neatly-zh",
+  "lang": "zh",
+  "mood": "bright",
+  "seed": 51,
+  "hangul": "셀프 네일",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "셀프 네일 · 韩式美甲",
+      "title": "涂出界了？",
+      "sub": "多半是刷子蘸太多 ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "swatch",
+      "title": "派对色",
+      "swatches": [
+        {
+          "name": "樱桃红",
+          "color": "#A3122A",
+          "sheer": false,
+          "finish": "gloss"
+        },
+        {
+          "name": "奶白",
+          "color": "#F2E4DE",
+          "sheer": true,
+          "finish": "gloss"
+        },
+        {
+          "name": "摩卡",
+          "color": "#8A5A44",
+          "sheer": false,
+          "finish": "gloss"
+        },
+        {
+          "name": "莓果",
+          "color": "#6B1E3A",
+          "sheer": true,
+          "finish": "gloss"
+        }
+      ],
+      "sub": "什么颜色都一样",
+      "dur": 3.2
+    },
+    {
+      "type": "step",
+      "title": "只刮一边",
+      "line": "在瓶口刮一侧",
+      "sub": "刷尖留一小滴",
+      "tone": "cool",
+      "dur": 2.6
+    },
+    {
+      "type": "step",
+      "title": "三笔涂完",
+      "line": "先中间再两侧",
+      "sub": "离甲缘留一线",
+      "tone": "warm",
+      "dur": 2.6
+    },
+    {
+      "type": "step",
+      "title": "清理边缘",
+      "line": "小刷子蘸卸甲水",
+      "sub": "趁还没干",
+      "tone": "cool",
+      "dur": 2.6
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "少一点，",
+        "更干净。"
+      ],
+      "sub": "太厚就会溢边",
+      "dur": 2.5
+    },
+    {
+      "type": "cta",
+      "title": "先收藏",
+      "code_label": "额外95折 优惠码",
+      "where_html": "在 <b>Olive Young Global</b><br>结账时输入",
+      "tags": "#广告",
+      "dur": 3.0
+    }
+  ]
+}

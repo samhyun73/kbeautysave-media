@@ -1,0 +1,75 @@
+{
+  "type": "voice_short",
+  "slug": "v05-paint-nails-neatly",
+  "lang": "en",
+  "hangul": "셀프 네일",
+  "headline": "Paint your nails neatly",
+  "mood": "calm",
+  "seed": 51,
+  "voice_id": "tc_69f2e455ea79fd197aa0476f",
+  "tempo": 1.1,
+  "emotion": "relief",
+  "shareable_line": "Less polish on the brush, cleaner lines on the nail.",
+  "ai_generated": false,
+  "scenes": [
+    {
+      "say": "Polish all over your cuticles every time you paint your nails? It's usually how much is on the brush, not your shaky hand.",
+      "query": [
+        "painting nails",
+        "nail polish brush",
+        "manicure at home"
+      ]
+    },
+    {
+      "say": "First, wipe one side of the brush on the bottle neck. Keep just a small bead of polish on the tip.",
+      "label": "Step 1",
+      "query": [
+        "nail polish bottle",
+        "nail polish brush close up",
+        "nail polish"
+      ],
+      "check": "Wipe one side, small bead"
+    },
+    {
+      "say": "Set that bead in the middle of the nail, a hair away from the cuticle. Then one stroke down the center and one down each side.",
+      "label": "Step 2",
+      "query": [
+        "painting nails close up",
+        "applying nail polish",
+        "manicure"
+      ],
+      "check": "Middle, then each side"
+    },
+    {
+      "say": "Before it dries, dip a small flat brush in remover and trace the edge. Little slips wipe right off.",
+      "label": "Step 3",
+      "query": [
+        "nail polish remover",
+        "manicure brush",
+        "cleaning nails"
+      ],
+      "check": "Clean the edge with remover"
+    },
+    {
+      "say": "The common mistake is a fully loaded brush, then going back over polish that's already tacky. That's what floods the edges.",
+      "label": "Common mistake",
+      "query": [
+        "nail polish",
+        "nails drying",
+        "woman hands nails"
+      ]
+    },
+    {
+      "say": "Less polish on the brush, cleaner lines on the nail. The shopping link is in my profile.",
+      "query": [
+        "manicured nails",
+        "red nails hands",
+        "nail polish colors"
+      ]
+    }
+  ],
+  "cta": {
+    "line": "Shop the K-beauty picks",
+    "main": "Link in my profile"
+  }
+}
