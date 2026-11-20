@@ -1,0 +1,43 @@
+{
+  "slug": "day52-code-sign-in-myth",
+  "lang": "en",
+  "mood": "calm",
+  "seed": 52,
+  "hangul": "할인 코드",
+  "frames": [
+    {"type": "hook", "kicker": "할인 코드 · Myth vs fact", "title": "Codes work as a guest?", "sub": "Fact: sign in first ↓", "dur": 2.5},
+    {"type": "step", "title": "Sign in first", "line": "or create an account", "sub": "The code is for members only.", "tone": "warm", "dur": 2.8},
+    {"type": "step", "title": "Redeem code box", "line": "type it, tap apply", "sub": "It's on the checkout page.", "tone": "cool", "dur": 2.8},
+    {"type": "list", "title": "Code not taken?", "items": ["Signed out", "A stray space", "Apply not tapped"], "sub": "Check these three.", "dur": 3.2},
+    {"type": "statement", "lines": ["Check the total,", "then pay."], "sub": "Make sure the 5% is there.", "dur": 2.6},
+    {"type": "cta", "title": "Save this one.", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "Olive Young Global tips",
+    "title": "Code Not Working?",
+    "sub": "Two steps at checkout",
+    "steps": [
+      {"title": "Sign in first", "body": "Members-only code."},
+      {"title": "Code box", "body": "Type it, tap apply."}
+    ],
+    "avoid": ["Guest checkout", "Extra spaces"],
+    "note": "Check your total before you pay."
+  },
+  "pins": [
+    {
+      "layout": "deal",
+      "kicker": "K-beauty sale",
+      "title": "Sale Day Checklist",
+      "dates": "From 22 Nov",
+      "dates_label": "Big yearly sale",
+      "sub": "For Canada, UK & Australia shoppers",
+      "items": [
+        {"title": "Wishlist tonight", "body": "Skin, makeup, hair."},
+        {"title": "Sign in early", "body": "Before the rush."},
+        {"title": "Check delivery", "body": "For holiday gifts."},
+        {"title": "Read the total", "body": "Before you pay."}
+      ],
+      "note": "Sign in, then enter KBEAUTY73 at checkout for an extra 5% off."
+    }
+  ]
+}

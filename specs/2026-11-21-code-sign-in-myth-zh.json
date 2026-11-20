@@ -1,0 +1,15 @@
+{
+  "slug": "day52-code-sign-in-myth-zh",
+  "lang": "zh",
+  "mood": "calm",
+  "seed": 52,
+  "hangul": "할인 코드",
+  "frames": [
+    {"type": "hook", "kicker": "할인 코드 · 误区与真相", "title": "码用不了？", "sub": "先登录再输入 ↓", "dur": 2.5},
+    {"type": "step", "title": "先登录", "line": "或注册会员账号", "sub": "优惠码仅限会员使用", "tone": "warm", "dur": 2.8},
+    {"type": "step", "title": "兑换码栏", "line": "输入后点应用", "sub": "就在结账页面", "tone": "cool", "dur": 2.8},
+    {"type": "list", "title": "没生效？", "items": ["没登录", "多了空格", "没点应用"], "sub": "检查这三点", "dur": 3.2},
+    {"type": "statement", "lines": ["先看总价，", "再付款。"], "sub": "确认95折已生效", "dur": 2.6},
+    {"type": "cta", "title": "收藏备用", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}
