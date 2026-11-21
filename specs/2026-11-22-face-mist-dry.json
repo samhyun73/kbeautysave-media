@@ -1,0 +1,106 @@
+{
+  "slug": "day53-face-mist-dry",
+  "lang": "en",
+  "mood": "bright",
+  "seed": 53,
+  "hangul": "미스트",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "미스트 · Sunday reset",
+      "title": "Face mist drying you out?",
+      "sub": "It's what comes next ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "step",
+      "title": "Press it in",
+      "line": "palms on in 10 seconds",
+      "sub": "Don't let it dry on its own.",
+      "tone": "warm",
+      "dur": 2.8
+    },
+    {
+      "type": "step",
+      "title": "Seal it",
+      "line": "a thin layer of cream",
+      "sub": "Mist alone just evaporates.",
+      "tone": "cool",
+      "dur": 2.8
+    },
+    {
+      "type": "list",
+      "title": "Over makeup?",
+      "items": [
+        "Arm's length",
+        "Eyes closed",
+        "Press with a puff"
+      ],
+      "sub": "No rubbing.",
+      "dur": 3.2
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "Mist first,",
+        "seal last."
+      ],
+      "sub": "Spraying all day can feel drier.",
+      "dur": 2.6
+    },
+    {
+      "type": "cta",
+      "title": "Save it for winter.",
+      "dur": 3.0
+    }
+  ],
+  "pin": {
+    "kicker": "Winter skin",
+    "title": "Mist, Then Seal",
+    "sub": "Two easy Korean steps",
+    "steps": [
+      {
+        "title": "Press it in",
+        "body": "Palms, within 10 sec."
+      },
+      {
+        "title": "Seal it",
+        "body": "A thin cream layer."
+      }
+    ],
+    "avoid": [
+      "Letting it air dry",
+      "Spraying all day"
+    ],
+    "note": "Find mists and creams at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "deal",
+      "kicker": "K-beauty sale",
+      "title": "Winter Skin List",
+      "dates": "From 22 Nov",
+      "dates_label": "Final Black Friday deals",
+      "sub": "For Canada, UK & Australia shoppers",
+      "items": [
+        {
+          "title": "A hydrating mist",
+          "body": "For desk and travel."
+        },
+        {
+          "title": "A rich cream",
+          "body": "To seal it all in."
+        },
+        {
+          "title": "A lip balm",
+          "body": "Under every tint."
+        },
+        {
+          "title": "A hand cream",
+          "body": "One by every sink."
+        }
+      ],
+      "note": "Sign in, then enter KBEAUTY73 at checkout for an extra 5% off."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "day53-face-mist-dry-zh",
+  "lang": "zh",
+  "mood": "bright",
+  "seed": 53,
+  "hangul": "미스트",
+  "frames": [
+    {"type": "hook", "kicker": "미스트 · 周日护理", "title": "越喷越干？", "sub": "关键在喷完之后 ↓", "dur": 2.5},
+    {"type": "step", "title": "喷完就按压", "line": "10秒内用手掌按", "sub": "别让它自己蒸发", "tone": "warm", "dur": 2.8},
+    {"type": "step", "title": "再锁一层", "line": "薄涂一层面霜", "sub": "只喷水分会蒸发掉", "tone": "cool", "dur": 2.8},
+    {"type": "list", "title": "带妆补水？", "items": ["一臂距离", "闭上眼睛", "用粉扑按压"], "sub": "不要用手抹", "dur": 3.2},
+    {"type": "statement", "lines": ["先喷雾，", "再锁水。"], "sub": "一天狂喷反而更干", "dur": 2.6},
+    {"type": "cta", "title": "收藏备用", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}
