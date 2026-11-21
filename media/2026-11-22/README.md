@@ -8,3 +8,4 @@
 - Stock had no face-mist spray clips (2 candidate runs) → steps show skincare-at-mirror, face patting and cream on hands; the checklist pills carry the steps. First render dropped (hand-cream tube with a readable brand label).
 - No code, no link; captions point to the profile. ai_generated: false (stock footage only)
 - Made and scheduled by the unattended daily run (RUNBOOK 5v)
+- Buffer (19:00 KST 2026-11-22, all `scheduled`, durationMs 40067): IG 6b022ec8cc364169c113b591 · FB 6b022ed1846b0ee90747d697 · YT 6b022ed2846b0ee90747d6c4
