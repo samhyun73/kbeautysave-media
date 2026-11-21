@@ -5,12 +5,11 @@ pb210574  u_xhp5h45w73 (Pixabay)  https://pixabay.com/videos/id-210574/
 cvXSb0Zj5iaD  Coverr  
 pb103255  azharkhandeena (Pixabay)  https://pixabay.com/videos/id-103255/
 pb117113  Lucfier (Pixabay)  https://pixabay.com/videos/id-117113/
-cvlVg41x5Ow6  Coverr  
 pb38080  mephala1980 (Pixabay)  https://pixabay.com/videos/id-38080/
-pb113878  yensdickmans (Pixabay)  https://pixabay.com/videos/id-113878/
+pb103254  azharkhandeena (Pixabay)  https://pixabay.com/videos/id-103254/
 pb37325  Engin_Akyurt (Pixabay)  https://pixabay.com/videos/id-37325/
 pb210846  u_qtg17dbg65 (Pixabay)  https://pixabay.com/videos/id-210846/
-pb103254  azharkhandeena (Pixabay)  https://pixabay.com/videos/id-103254/
+pb209634  u_45xbkmqygv (Pixabay)  https://pixabay.com/videos/id-209634/
 
 Shot log:
    0.0s  scene 1  cvWdw6RibTBZ  Blonde woman brushing her hair, girl, woman, brush, brushing, hair, hair flip, long hair, hairstyle, hair brush, styling, style, makeup, beauty, cosmetics, industry, highlighter, bronzer, bronze, eyeshadow, mascara, cleansing, clear skin, skincare, plant, small, rounded, mirror, smiling, smile, joy, people, artsy, background
@@ -19,10 +18,10 @@ Shot log:
   11.1s  scene 2  cvXSb0Zj5iaD  Applying makeup in front of mirror, girl, woman, makeup, finish, touches, beauty, cosmetics, industry, highlighter, contour, contouring, eyeshadow, cleansing, mascara, mascara wand, powder, powder brush, plant, decor, beautiful, people, artsy, background
   14.8s  scene 3  pb103255  skin care, woman, skin, grl, natural skincare, organic, organic skin care
   17.7s  scene 3  pb117113  hand, cream, skincare, spa, hand cream
-  20.6s  scene 4  cvlVg41x5Ow6  Close-Up: Hands After Applying Hand Cream — Beauty Demo, hands, hand cream, skincare, moisturizer, beauty tutorial, product demo, close-up, vertical video, personal care, woman, smiling, cosmetics tube, tabletop, skin texture
-  23.2s  scene 4  pb38080  hands, hand cream, cream, health, skin, care, skincare, wellness, lotion, cosmetics, treatment, woman
-  25.9s  scene 5  pb113878  self care, bath, bathroom, water, skin, cosmetics, mirror, chill, relax, relaxation, clean, face, product
+  20.6s  scene 4  pb38080  hands, hand cream, cream, health, skin, care, skincare, wellness, lotion, cosmetics, treatment, woman
+  23.2s  scene 4  pb103254  natural skincare, natural skin care, organic skin care, organic, skin care, skin, best natural skin care
+  25.9s  scene 5  pb37325  woman, hair, drying, bathroom, bathe, cleaning, dry, machine, face, portrait, human, house, maintenance, paint, wind, movement, girl, beauty, beautiful, attractive, fashion, youth, people, make-up, women
   28.4s  scene 5  pb37325  woman, hair, drying, bathroom, bathe, cleaning, dry, machine, face, portrait, human, house, maintenance, paint, wind, movement, girl, beauty, beautiful, attractive, fashion, youth, people, make-up, women
-  31.0s  scene 5  pb113878  self care, bath, bathroom, water, skin, cosmetics, mirror, chill, relax, relaxation, clean, face, product
+  31.0s  scene 5  pb37325  woman, hair, drying, bathroom, bathe, cleaning, dry, machine, face, portrait, human, house, maintenance, paint, wind, movement, girl, beauty, beautiful, attractive, fashion, youth, people, make-up, women
   33.6s  scene 6  pb210846  skincare, products, glow
-  36.6s  scene 6  pb103254  natural skincare, natural skin care, organic skin care, organic, skin care, skin, best natural skin care
+  36.6s  scene 6  pb209634  woman, cosmetics, products, freshness, healthy, beauty
