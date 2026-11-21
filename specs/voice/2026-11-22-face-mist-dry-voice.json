@@ -18,6 +18,10 @@
         "woman skincare mirror",
         "face skincare routine",
         "water spray face"
+      ],
+      "clips": [
+        "cvWdw6RibTBZ",
+        "cvTvoA3A2g3x"
       ]
     },
     {
@@ -29,7 +33,11 @@
         "toner spray",
         "woman spraying"
       ],
-      "check": "Arm's length, 2 or 3 sprays"
+      "check": "Arm's length, 2 or 3 sprays",
+      "clips": [
+        "pb210574",
+        "cvXSb0Zj5iaD"
+      ]
     },
     {
       "say": "Within ten seconds, press it in with clean palms. Don't wait for it to dry on its own.",
@@ -39,7 +47,11 @@
         "skincare face hands",
         "applying skincare face"
       ],
-      "check": "Press it in within 10 seconds"
+      "check": "Press it in within 10 seconds",
+      "clips": [
+        "pb103255",
+        "pb117113"
+      ]
     },
     {
       "say": "Then seal it with a thin layer of cream, or a tiny dab of balm on the dry spots.",
@@ -49,7 +61,11 @@
         "moisturizer cream jar",
         "skincare cream hands"
       ],
-      "check": "Seal with a thin layer of cream"
+      "check": "Seal with a thin layer of cream",
+      "clips": [
+        "cvlVg41x5Ow6",
+        "pb38080"
+      ]
     },
     {
       "say": "The common mistake is spraying again and again all day and letting it dry off. In a heated room, skin can end up feeling even tighter.",
@@ -58,6 +74,10 @@
         "woman applying skincare",
         "skincare bathroom mirror",
         "spray mist"
+      ],
+      "clips": [
+        "pb113878",
+        "pb37325"
       ]
     },
     {
@@ -66,6 +86,10 @@
         "skincare products bottles",
         "skincare routine",
         "cosmetics flat lay"
+      ],
+      "clips": [
+        "pb210846",
+        "pb103254"
       ]
     }
   ],
