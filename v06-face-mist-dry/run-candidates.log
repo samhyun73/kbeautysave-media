@@ -1,0 +1,25 @@
+  search 'face mist spray': 60 Pixabay, 0 Coverr
+  search 'woman spraying face mist': 60 Pixabay, 0 Coverr
+  search 'facial spray': 60 Pixabay, 0 Coverr
+scene 1: 8 on-topic clips (0 Coverr)
+  search 'spraying face mist': 60 Pixabay, 0 Coverr
+  search 'facial mist bottle': 60 Pixabay, 0 Coverr
+  search 'spray bottle mist': 60 Pixabay, 0 Coverr
+scene 2: 0 on-topic clips (0 Coverr)
+  search 'patting face skincare': 60 Pixabay, 6 Coverr
+  search 'hands on cheeks skincare': 60 Pixabay, 0 Coverr
+  search 'woman touching face skincare': 60 Pixabay, 0 Coverr
+scene 3: 8 on-topic clips (3 Coverr)
+  search 'applying face cream': 60 Pixabay, 0 Coverr
+  search 'moisturizer cream jar': 60 Pixabay, 0 Coverr
+  search 'skincare cream hands': 60 Pixabay, 1 Coverr
+scene 4: 1 on-topic clips (1 Coverr)
+  search 'face mist': 60 Pixabay, 2 Coverr
+  search 'woman skincare mirror': 60 Pixabay, 7 Coverr
+  search 'winter indoor cozy': 60 Pixabay, 2 Coverr
+scene 5: 8 on-topic clips (4 Coverr)
+  search 'skincare products bottles': 60 Pixabay, 1 Coverr
+  search 'skincare routine': 43 Pixabay, 0 Coverr
+  search 'cosmetics flat lay': 60 Pixabay, 0 Coverr
+scene 6: 8 on-topic clips (1 Coverr)
+candidates: 33 clips in 6 scenes -> out/vs/candidates.jpg
