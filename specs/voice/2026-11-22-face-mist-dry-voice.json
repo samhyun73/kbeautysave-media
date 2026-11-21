@@ -1,0 +1,75 @@
+{
+  "type": "voice_short",
+  "slug": "v06-face-mist-dry",
+  "lang": "en",
+  "hangul": "미스트",
+  "headline": "How to use face mist",
+  "mood": "bright",
+  "seed": 53,
+  "voice_id": "tc_692799c46508f6b9468c54c7",
+  "tempo": 1.1,
+  "emotion": "relief",
+  "shareable_line": "Mist is a first step, not the last one.",
+  "ai_generated": false,
+  "scenes": [
+    {
+      "say": "Skin feels tighter a few minutes after face mist? You're not imagining it. You're just stopping one step too early.",
+      "query": [
+        "face mist spray",
+        "woman spraying face mist",
+        "facial spray"
+      ]
+    },
+    {
+      "say": "First, hold the mist about an arm's length away, close your eyes, and spray two or three times.",
+      "label": "Step 1",
+      "query": [
+        "spraying face mist",
+        "facial mist bottle",
+        "spray bottle mist"
+      ],
+      "check": "Arm's length, 2 or 3 sprays"
+    },
+    {
+      "say": "Within ten seconds, press it in with clean palms. Don't wait for it to dry on its own.",
+      "label": "Step 2",
+      "query": [
+        "patting face skincare",
+        "hands on cheeks skincare",
+        "woman touching face skincare"
+      ],
+      "check": "Press it in within 10 seconds"
+    },
+    {
+      "say": "Then seal it with a thin layer of cream, or a tiny dab of balm on the dry spots.",
+      "label": "Step 3",
+      "query": [
+        "applying face cream",
+        "moisturizer cream jar",
+        "skincare cream hands"
+      ],
+      "check": "Seal with a thin layer of cream"
+    },
+    {
+      "say": "The common mistake is spraying again and again all day and letting it dry off. In a heated room, skin can end up feeling even tighter.",
+      "label": "Common mistake",
+      "query": [
+        "face mist",
+        "woman skincare mirror",
+        "winter indoor cozy"
+      ]
+    },
+    {
+      "say": "Mist is a first step, not the last one. The shopping link is in my profile.",
+      "query": [
+        "skincare products bottles",
+        "skincare routine",
+        "cosmetics flat lay"
+      ]
+    }
+  ],
+  "cta": {
+    "line": "Shop the K-beauty picks",
+    "main": "Link in my profile"
+  }
+}
