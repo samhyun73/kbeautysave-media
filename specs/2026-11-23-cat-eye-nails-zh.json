@@ -1,0 +1,89 @@
+{
+  "slug": "day54-cat-eye-nails-zh",
+  "lang": "zh",
+  "mood": "calm",
+  "seed": 54,
+  "hangul": "자석 네일",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "자석 네일 · 韩式美甲",
+      "title": "猫眼不亮？",
+      "sub": "关键是磁铁的时机 ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "swatch",
+      "title": "节日猫眼",
+      "swatches": [
+        {
+          "name": "丝绒红",
+          "color": "#8E1B2C",
+          "sheer": false,
+          "finish": "cat eye"
+        },
+        {
+          "name": "午夜蓝",
+          "color": "#1E2340",
+          "sheer": false,
+          "finish": "cat eye"
+        },
+        {
+          "name": "香槟",
+          "color": "#B89B72",
+          "sheer": false,
+          "finish": "cat eye"
+        },
+        {
+          "name": "玫瑰",
+          "color": "#A8606E",
+          "sheer": false,
+          "finish": "shimmer"
+        }
+      ],
+      "sub": "深色最显光带",
+      "dur": 3.2
+    },
+    {
+      "type": "step",
+      "title": "薄涂一层",
+      "line": "马上用磁铁",
+      "sub": "一次只做一个指甲",
+      "tone": "cool",
+      "dur": 2.6
+    },
+    {
+      "type": "step",
+      "title": "靠近吸10秒",
+      "line": "贴近但别碰到",
+      "sub": "甲油还湿的时候",
+      "tone": "warm",
+      "dur": 2.6
+    },
+    {
+      "type": "step",
+      "title": "丝绒感",
+      "line": "左右慢慢移动",
+      "sub": "光会散开",
+      "tone": "cool",
+      "dur": 2.6
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "湿的会动，",
+        "干了不动。"
+      ],
+      "sub": "先磁铁，最后封层",
+      "dur": 2.5
+    },
+    {
+      "type": "cta",
+      "title": "先收藏",
+      "code_label": "额外95折 优惠码",
+      "where_html": "在 <b>Olive Young Global</b><br>结账时输入",
+      "tags": "#广告",
+      "dur": 3.0
+    }
+  ]
+}

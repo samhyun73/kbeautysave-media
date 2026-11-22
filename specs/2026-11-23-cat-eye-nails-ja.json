@@ -1,0 +1,132 @@
+{
+  "slug": "day54-cat-eye-nails-ja",
+  "lang": "ja",
+  "mood": "calm",
+  "seed": 54,
+  "hangul": "자석 네일",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "자석 네일 · 韓国ネイル",
+      "title": "光らない？",
+      "sub": "マグネットのタイミング ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "swatch",
+      "title": "冬のマグネット",
+      "swatches": [
+        {
+          "name": "レッド",
+          "color": "#8E1B2C",
+          "sheer": false,
+          "finish": "cat eye"
+        },
+        {
+          "name": "ネイビー",
+          "color": "#1E2340",
+          "sheer": false,
+          "finish": "cat eye"
+        },
+        {
+          "name": "ゴールド",
+          "color": "#B89B72",
+          "sheer": false,
+          "finish": "cat eye"
+        },
+        {
+          "name": "ローズ",
+          "color": "#A8606E",
+          "sheer": false,
+          "finish": "shimmer"
+        }
+      ],
+      "sub": "濃い色ほど光が映える",
+      "dur": 3.2
+    },
+    {
+      "type": "step",
+      "title": "薄く1度塗り",
+      "line": "すぐマグネット",
+      "sub": "1本ずつ仕上げる",
+      "tone": "cool",
+      "dur": 2.6
+    },
+    {
+      "type": "step",
+      "title": "近づけて10秒",
+      "line": "触れないギリギリ",
+      "sub": "ネイルが乾く前に",
+      "tone": "warm",
+      "dur": 2.6
+    },
+    {
+      "type": "step",
+      "title": "ベルベット風",
+      "line": "左右にゆっくり",
+      "sub": "光がふんわり広がる",
+      "tone": "cool",
+      "dur": 2.6
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "乾く前なら",
+        "光は動く。"
+      ],
+      "sub": "マグネットが先、トップは最後",
+      "dur": 2.5
+    },
+    {
+      "type": "cta",
+      "title": "保存してね",
+      "code_label": "ログイン後 クーポンコード",
+      "where_html": "<b>Olive Young Global</b> で5%オフ",
+      "tags": "#PR #oliveyoungaffiliate",
+      "dur": 3.0
+    }
+  ],
+  "pin": {
+    "kicker": "韓国風ネイル",
+    "title": "マグネットネイル",
+    "sub": "光らせる2つのコツ",
+    "swatches": [
+      {
+        "name": "レッド",
+        "color": "#8E1B2C",
+        "sheer": false,
+        "finish": "cat eye"
+      },
+      {
+        "name": "ネイビー",
+        "color": "#1E2340",
+        "sheer": false,
+        "finish": "cat eye"
+      },
+      {
+        "name": "ゴールド",
+        "color": "#B89B72",
+        "sheer": false,
+        "finish": "cat eye"
+      }
+    ],
+    "steps": [
+      {
+        "title": "薄く1度塗り",
+        "body": "乾く前にマグネット"
+      },
+      {
+        "title": "近づけて10秒",
+        "body": "ネイルに触れない"
+      }
+    ],
+    "avoid": [
+      "10本塗ってから",
+      "厚塗り"
+    ],
+    "note": "ネイルは Olive Young Global で",
+    "code_line": "ログイン後、Olive Young Global の決済で5%オフ",
+    "avoid_label": "やらないこと",
+    "tag": "#PR"
+  }
+}

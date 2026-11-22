@@ -1,0 +1,155 @@
+{
+  "slug": "day54-cat-eye-nails",
+  "lang": "en",
+  "mood": "calm",
+  "seed": 54,
+  "hangul": "자석 네일",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "자석 네일 · Korean nails",
+      "title": "Cat eye nails look flat?",
+      "sub": "It's the magnet timing ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "swatch",
+      "title": "Holiday cat eye",
+      "swatches": [
+        {
+          "name": "Ruby",
+          "color": "#8E1B2C",
+          "sheer": false,
+          "finish": "cat eye"
+        },
+        {
+          "name": "Midnight",
+          "color": "#1E2340",
+          "sheer": false,
+          "finish": "cat eye"
+        },
+        {
+          "name": "Champagne",
+          "color": "#B89B72",
+          "sheer": false,
+          "finish": "cat eye"
+        },
+        {
+          "name": "Rose",
+          "color": "#A8606E",
+          "sheer": false,
+          "finish": "shimmer"
+        }
+      ],
+      "sub": "Dark shades show the line best.",
+      "dur": 3.2
+    },
+    {
+      "type": "step",
+      "title": "Thin coat",
+      "line": "then the magnet, fast",
+      "sub": "One nail at a time.",
+      "tone": "cool",
+      "dur": 2.6
+    },
+    {
+      "type": "step",
+      "title": "Hold it close",
+      "line": "about 10 seconds",
+      "sub": "Never touch the polish.",
+      "tone": "warm",
+      "dur": 2.6
+    },
+    {
+      "type": "step",
+      "title": "For velvet",
+      "line": "sweep side to side",
+      "sub": "The shine spreads out.",
+      "tone": "cool",
+      "dur": 2.6
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "Wet polish moves.",
+        "Set polish doesn't."
+      ],
+      "sub": "Magnet first, top coat last.",
+      "dur": 2.5
+    },
+    {
+      "type": "cta",
+      "title": "Save this one.",
+      "dur": 3.0
+    }
+  ],
+  "pin": {
+    "kicker": "Korean nails at home",
+    "title": "Cat Eye Nails",
+    "sub": "Magnetic polish in two steps",
+    "swatches": [
+      {
+        "name": "Ruby",
+        "color": "#8E1B2C",
+        "sheer": false,
+        "finish": "cat eye"
+      },
+      {
+        "name": "Midnight",
+        "color": "#1E2340",
+        "sheer": false,
+        "finish": "cat eye"
+      },
+      {
+        "name": "Champagne",
+        "color": "#B89B72",
+        "sheer": false,
+        "finish": "cat eye"
+      }
+    ],
+    "steps": [
+      {
+        "title": "One thin coat",
+        "body": "Magnet while wet."
+      },
+      {
+        "title": "Hold it close",
+        "body": "About 10 seconds."
+      }
+    ],
+    "avoid": [
+      "Painting all ten first",
+      "Thick coats"
+    ],
+    "note": "Find nail polish at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "deal",
+      "kicker": "K-beauty sale",
+      "title": "Cat Eye Nail Kit",
+      "dates": "From 22 Nov",
+      "dates_label": "Last chance deals",
+      "sub": "For Canada, UK & Australia shoppers",
+      "items": [
+        {
+          "title": "Magnetic polish",
+          "body": "A dark or warm shade."
+        },
+        {
+          "title": "A nail magnet",
+          "body": "Small and flat."
+        },
+        {
+          "title": "A base coat",
+          "body": "Thin, under everything."
+        },
+        {
+          "title": "Glossy top coat",
+          "body": "Float it on gently."
+        }
+      ],
+      "note": "Sign in, then enter KBEAUTY73 at checkout for an extra 5% off."
+    }
+  ]
+}
