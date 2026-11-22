@@ -1,0 +1,25 @@
+  search 'nail polish bottle': 60 Pixabay, 0 Coverr
+  search 'painting nails': 60 Pixabay, 5 Coverr
+  search 'manicure at home': 60 Pixabay, 1 Coverr
+scene 1: 8 on-topic clips (2 Coverr)
+  search 'painting nails close up': 60 Pixabay, 4 Coverr
+  search 'applying nail polish': 60 Pixabay, 0 Coverr
+  search 'nail polish brush': 60 Pixabay, 0 Coverr
+scene 2: 8 on-topic clips (2 Coverr)
+  search 'manicure close up': 60 Pixabay, 2 Coverr
+  search 'nail art': 60 Pixabay, 3 Coverr
+  search 'woman hands nails': 60 Pixabay, 12 Coverr
+scene 3: 8 on-topic clips (3 Coverr)
+  search 'nail art tutorial': 60 Pixabay, 0 Coverr
+  search 'glitter nail polish': 60 Pixabay, 0 Coverr
+  search 'manicure': 20 Pixabay, 5 Coverr
+scene 4: 8 on-topic clips (0 Coverr)
+  search 'nail polish drying': 60 Pixabay, 0 Coverr
+  search 'manicure table': 60 Pixabay, 0 Coverr
+  search 'nail polish': 60 Pixabay, 12 Coverr
+scene 5: 8 on-topic clips (1 Coverr)
+  search 'manicured nails': 44 Pixabay, 3 Coverr
+  search 'red nails hands': 60 Pixabay, 3 Coverr
+  search 'nail polish colors': 60 Pixabay, 1 Coverr
+scene 6: 8 on-topic clips (0 Coverr)
+candidates: 48 clips in 6 scenes -> out/vs/candidates.jpg
