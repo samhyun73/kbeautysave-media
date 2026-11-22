@@ -14,34 +14,82 @@
   "scenes": [
     {
       "say": "Cat eye polish looks so shiny in the bottle, but flat on your nails? It's almost always the timing, not the polish.",
-      "query": ["nail polish bottle", "painting nails", "manicure at home"]
+      "query": [
+        "nail polish bottle",
+        "painting nails",
+        "manicure at home"
+      ],
+      "clips": [
+        "cvH0yI0f2fKq",
+        "pb121293"
+      ]
     },
     {
       "say": "First, paint one nail with a thin coat. Then pick up the magnet right away, while the polish is still wet.",
       "label": "Step 1",
-      "query": ["painting nails close up", "applying nail polish", "nail polish brush"],
-      "check": "One thin coat, magnet right away"
+      "query": [
+        "painting nails close up",
+        "applying nail polish",
+        "nail polish brush"
+      ],
+      "check": "One thin coat, magnet right away",
+      "clips": [
+        "pb189018",
+        "cvK6wiEpfjka"
+      ]
     },
     {
       "say": "Hold the magnet just above the nail for about ten seconds. Close, but never touching the polish.",
       "label": "Step 2",
-      "query": ["manicure close up", "nail art", "woman hands nails"],
-      "check": "Hold it close for 10 seconds"
+      "query": [
+        "manicure close up",
+        "nail art",
+        "woman hands nails"
+      ],
+      "check": "Hold it close for 10 seconds",
+      "clips": [
+        "pb121292",
+        "pb121288"
+      ]
     },
     {
       "say": "For a soft velvet look, sweep the magnet slowly from side to side instead of holding it still. Finish that nail, then move on to the next.",
       "label": "Step 3",
-      "query": ["nail art tutorial", "glitter nail polish", "manicure"],
-      "check": "Sweep side to side for velvet"
+      "query": [
+        "nail art tutorial",
+        "glitter nail polish",
+        "manicure"
+      ],
+      "check": "Sweep side to side for velvet",
+      "clips": [
+        "pb121297",
+        "pb121299"
+      ]
     },
     {
       "say": "The common mistake is painting all ten nails first and using the magnet at the end. By then the polish has started to set, and the shine can't move.",
       "label": "Common mistake",
-      "query": ["nail polish drying", "manicure table", "nail polish"]
+      "query": [
+        "nail polish drying",
+        "manicure table",
+        "nail polish"
+      ],
+      "clips": [
+        "pb121289",
+        "pb121290"
+      ]
     },
     {
       "say": "Wet polish moves. Set polish doesn't. The shopping link is in my profile.",
-      "query": ["manicured nails", "red nails hands", "nail polish colors"]
+      "query": [
+        "manicured nails",
+        "red nails hands",
+        "nail polish colors"
+      ],
+      "clips": [
+        "pb121298",
+        "pb43630"
+      ]
     }
   ],
   "cta": {
