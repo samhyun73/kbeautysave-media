@@ -1,6 +1,6 @@
 # 2026-11-23 (월) · 마그넷(캣아이) 네일이 안 빛날 때: 폴리시가 아니라 자석 타이밍 (K-네일 · 보이스 쇼츠 날)
 
-- 인스타 릴스 · 페이스북 릴스 · 유튜브 쇼츠: **보이스 쇼츠** 19:00 KST 자동 게시 (Buffer) — [short.mp4](short.mp4) · 자세한 내용 [README.md](README.md)
+- 인스타 릴스 · 페이스북 릴스 · 유튜브 쇼츠: **보이스 쇼츠** 19:00 KST 자동 게시 (Buffer) — [short.mp4](short.mp4) (37.8초, 목소리 Krista) · 자세한 내용 [README.md](README.md)
 - 슬라이드 릴은 수동 키트용(X · 웨이보 · Pinterest · 일본)
 - 파일: [reel.mp4](reel.mp4) (영어) · [reel_zh.mp4](reel_zh.mp4) (중국어, 웨이보용) · [reel_ja.mp4](reel_ja.mp4) (일본어) · [pin.png](pin.png) · [pin2.png](pin2.png) · [pin_ja.png](pin_ja.png) · [cover.png](cover.png) · 보이스 쇼츠 캡션 [voice/](voice/)
 

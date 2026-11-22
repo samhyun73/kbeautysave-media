@@ -7,3 +7,4 @@
 - Clips (Pixabay + Coverr): cvH0yI0f2fKq, pb121293, pb189018, pb121303, pb121292, pb121288, pb121297, pb121299, pb121289, pb121287, pb121298, pb140928 → captions carry "🎥 Stock footage: Coverr"
 - No code, no link; captions point to the profile. ai_generated: false (stock footage only)
 - Made and scheduled by the unattended daily run (RUNBOOK 5v)
+- Buffer (19:00 KST 2026-11-23, all `scheduled`, durationMs 37800): IG 6b038059d5eabfb8ccec6600 · FB 6b03805a846b0ee907c92aee · YT 6b03805acc364169c1952dcc
