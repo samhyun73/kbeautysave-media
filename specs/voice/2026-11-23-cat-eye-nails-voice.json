@@ -1,0 +1,51 @@
+{
+  "type": "voice_short",
+  "slug": "v07-cat-eye-nails",
+  "lang": "en",
+  "hangul": "자석 네일",
+  "headline": "How to do cat eye nails",
+  "mood": "calm",
+  "seed": 54,
+  "voice_id": "tc_6aa23da1f9559d89ed550d7e",
+  "tempo": 1.1,
+  "emotion": "relief",
+  "shareable_line": "Wet polish moves. Set polish doesn't.",
+  "ai_generated": false,
+  "scenes": [
+    {
+      "say": "Cat eye polish looks so shiny in the bottle, but flat on your nails? It's almost always the timing, not the polish.",
+      "query": ["nail polish bottle", "painting nails", "manicure at home"]
+    },
+    {
+      "say": "First, paint one nail with a thin coat. Then pick up the magnet right away, while the polish is still wet.",
+      "label": "Step 1",
+      "query": ["painting nails close up", "applying nail polish", "nail polish brush"],
+      "check": "One thin coat, magnet right away"
+    },
+    {
+      "say": "Hold the magnet just above the nail for about ten seconds. Close, but never touching the polish.",
+      "label": "Step 2",
+      "query": ["manicure close up", "nail art", "woman hands nails"],
+      "check": "Hold it close for 10 seconds"
+    },
+    {
+      "say": "For a soft velvet look, sweep the magnet slowly from side to side instead of holding it still. Finish that nail, then move on to the next.",
+      "label": "Step 3",
+      "query": ["nail art tutorial", "glitter nail polish", "manicure"],
+      "check": "Sweep side to side for velvet"
+    },
+    {
+      "say": "The common mistake is painting all ten nails first and using the magnet at the end. By then the polish has started to set, and the shine can't move.",
+      "label": "Common mistake",
+      "query": ["nail polish drying", "manicure table", "nail polish"]
+    },
+    {
+      "say": "Wet polish moves. Set polish doesn't. The shopping link is in my profile.",
+      "query": ["manicured nails", "red nails hands", "nail polish colors"]
+    }
+  ],
+  "cta": {
+    "line": "Shop the K-beauty picks",
+    "main": "Link in my profile"
+  }
+}
