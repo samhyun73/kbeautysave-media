@@ -1,0 +1,69 @@
+# YouTube keyword check (autocomplete + top results, US English)
+
+## cat eye nails
+
+- Autocomplete: cat eye nails, cat eye nails heart, cat eye nails design, cat eye nails french tip, cat eye nails red, cat eye nails magnetic, cat eye nails tutorial for beginners, cat eye nails for beginners, cat eye nails with chrome, cat eye nails pink
+- "how to": how to cat eye nails, how to cat eye nails at home, how to cat eye nail polish, how to do cat eye nails at home without tools, how to do cat eye nails with magnet at home, how to do cat eye nails at home step by step
+- Top 10: 1 Shorts; median views 221,953
+
+  - How to Use Cat Eye Magnetic Gel Polish in 5 Patterns💅【ASKA NAILS】 · 1,462,635 views · ASKA NAILS
+  - [S] How To Create Cat Eye Nails · 221,953 views · NailproMagazine
+  - how to do cat eye magnetic gel nails at home, step by step tutorial, beginner friendly · 219,452 views · Gabby Angelique
+  - Cat Eye Tricks Nobody Shows You · 252,714 views · Nailcou
+  - How To Use Cat Eye Gel Polish! | Cat Eye Gel Tutorial | Magnetic Nail Art Tutorial · 1,218,954 views · NailsByKatieDutra
+  - DIY Testing CAT EYE gel polish from AMAZON · 126,754 views · LongHairPrettyNails
+  - Cat Eye Blush Nails/ Sunset Nails 🌅/ Douyin Nails/ asmr/ Gelx/ Self-Nail/ Xiahongshu Nail Art · 291,133 views · pjy nails ♡
+  - EP 59: How to Use CAT EYE at www.TinoVo.shop · 74,308 views · Tino Vo
+  - how to do Cat Eye nails - THE COMPLETE GUIDE 💅 gel polish, magnets & designs · 36,222 views · Hope Jordan
+  - Simple Cat Eye Nails ASMR | Step-by-Step Nail Art Tutorial | Relaxing & Satisfying · 10,294 views · Vanki Nails
+
+## velvet nails
+
+- Autocomplete: velvet nails, velvet nails tutorial, velvet nails magnetic, velvet nails cat eye, velvet nails magnetic tutorial, velvet nails horseshoe magnet, velvet nails with regular polish, velvet glow nails, mooncat velvet nails, red velvet nails
+- "how to": how to velvet nails, how to do velvet nails, how to make velvet nails, how to do velvet cat eye nails, how to grow nails fast velvet glow, how to velvet magnetic nail polish
+- Top 10: (no data)
+
+  - DIY Velvet Nails · 0 views · None
+  - How to create VELVET NAILS · 0 views · None
+  - How to Do Velvet Nails💅 fluffy powder tutorial【ASKA NAILS】 · 0 views · None
+  - How to Create Three Different Velvet Nails Looks | Gel Nail Trend Tutorial | Gelous Gel Nail Polish · 0 views · None
+  - How To Do Velvet Nails Using Magnetic Gel Nail Polish | Nail Art Tutorial | Gelous Gel Nail Polish · 0 views · None
+  - How to: Velour Velvet Nails · 0 views · None
+  - Super simple velvet effect nail art · 0 views · None
+  - doing my own gel manicure using MAGNET gel! (how to do velvet magnet nails) · 0 views · None
+  - TRYING VIRAL VELVET GLASS NAILS TREND on myself!! · 0 views · None
+  - DIY: Velvet Nails! Inexpensive Alternative! · 0 views · None
+
+## magnetic nail polish
+
+- Autocomplete: magnetic nail polish, magnetic nail polish designs, magnetic nail polish tutorial, magnetic nail polish heart, magnetic nail polish techniques, magnetic nail polish french tip, magnetic nail polish velvet, magnetic nail polish art, magnetic nail polish tips, magnetic nail polish mooncat
+- "how to": how to magnetic nail polish, how to magnetic gel polish, how to apply magnetic nail polish, how to make magnetic nail polish at home, how to use magnetic nail polish wand, how to remove magnetic nail polish
+- Top 10: 0 Shorts; median views 219,452
+
+  - How-To 🧲 Magnetic Nail Polish at Home! No Gel! · 399,820 views · Holo Taco
+  - EVERYTHING You Need to Know About Magnetic Nail Polish! (Nail Polish 101) || KELLI MARISSA · 315,879 views · Kelli Marissa
+  - Cat Eye Tricks Nobody Shows You · 252,714 views · Nailcou
+  - How to Use Cat Eye Magnetic Gel Polish in 5 Patterns💅【ASKA NAILS】 · 1,462,635 views · ASKA NAILS
+  - Testing Viral Magnetic Polish Techniques | Are They As Easy As They Look? · 28,262 views · Love Your Nails
+  - how to do cat eye magnetic gel nails at home, step by step tutorial, beginner friendly · 219,452 views · Gabby Angelique
+  - Jen and Berries: Did Someone Say Ring Magnet?! · 3,208 views · The Polished Mage
+  - Magnetic Nail Lacquer Tutorial · 11,213 views · Clionadh Cosmetics
+  - My Favorite MAGNETIC Nail Polishes! 🧲🤩 What I Love (& Don’t) About Each Brand ✨ · 25,357 views · Stefanie 🌻 polished_yogi
+  - What is magnetic nail polish? Application methods, tips, and tricks!! 🧲💅 | ALL ABOUT MAGNETICS · 110,399 views · Color Expression
+
+## how to do cat eye nails
+
+- Autocomplete: how to do cat eye nails, how to do cat eye nails at home, how to do cat eye nails with magnet beetles, how to do cat eye nails with magnet french tip, how to do cat eye nails with magnet at home, how to do cat eye nails step by step, how to do cat eye nails beetles, how to do cat eye nails for beginners, how to do cat eye nails with magnet heart, how to do cat eye nails without magnet
+- "how to": how to do cat eye nails, how to do cat eye nails at home, how to do cat eye nails at home without tools, how to do cat eye nails with magnet at home, how to do cat eye nails at home step by step, how to do cat eye nails with magnet french tip
+- Top 10: 1 Shorts; median views 219,452
+
+  - How to Use Cat Eye Magnetic Gel Polish in 5 Patterns💅【ASKA NAILS】 · 1,462,635 views · ASKA NAILS
+  - how to do cat eye magnetic gel nails at home, step by step tutorial, beginner friendly · 219,452 views · Gabby Angelique
+  - [S] How To Create Cat Eye Nails · 221,953 views · NailproMagazine
+  - How To Use Cat Eye Gel Polish! | Cat Eye Gel Tutorial | Magnetic Nail Art Tutorial · 1,218,954 views · NailsByKatieDutra
+  - Cat Eye Tricks Nobody Shows You · 252,714 views · Nailcou
+  - DIY Testing CAT EYE gel polish from AMAZON · 126,754 views · LongHairPrettyNails
+  - EP 59: How to Use CAT EYE at www.TinoVo.shop · 74,308 views · Tino Vo
+  - how to do Cat Eye nails - THE COMPLETE GUIDE 💅 gel polish, magnets & designs · 36,222 views · Hope Jordan
+  - Trendy Glassy Red Cat Eye Nails | Step-By-Step Tutorial ❤️✨ · 116,530 views · Novagelic
+  - Cat Eye Gel Nails 😽 Magnetic Nail Polish Tutorial · 42,180 views · Neo Trix
