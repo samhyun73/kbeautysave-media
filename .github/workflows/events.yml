@@ -4,7 +4,7 @@ name: Event check
 # Read-only research: nothing is published. Results go to the `events` branch (<date>/), never to main.
 on:
   schedule:
-    - cron: "17 22 * * *"   # 07:17 KST daily, before the 08:47 daily run
+    - cron: "17 16 * * *"   # 01:17 KST; GitHub starts it 2–6 h late, so it lands before the 08:47 daily run
   workflow_dispatch:
 
 permissions:
