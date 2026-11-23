@@ -1,0 +1,15 @@
+{
+  "slug": "day55-winter-restock-order-zh",
+  "lang": "zh",
+  "mood": "bright",
+  "seed": 55,
+  "hangul": "겨울 기초",
+  "frames": [
+    {"type": "hook", "kicker": "겨울 기초 · 韩式护肤", "title": "先买精华？", "sub": "顺序反了 ↓", "dur": 2.5},
+    {"type": "step", "title": "先买洁面", "line": "温和，不紧绷", "sub": "别选清洁力太强的", "dur": 2.7},
+    {"type": "list", "title": "按肤质选霜", "items": ["油皮：啫喱霜", "干皮：滋润霜", "混合：两种"], "sub": "第二个买它", "dur": 3.2},
+    {"type": "step", "title": "每天防晒", "line": "阴天也要涂", "sub": "两指长的量", "dur": 2.7},
+    {"type": "statement", "lines": ["先基础，", "后加分。"], "sub": "精华面膜最后买", "dur": 2.5},
+    {"type": "cta", "title": "冬天收藏", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}
