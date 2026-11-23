@@ -1,28 +1,20 @@
-import json, re, sys
+import re, sys
 from pathlib import Path
 from playwright.sync_api import sync_playwright
-out = Path(sys.argv[1]); out.mkdir(parents=True, exist_ok=True)
+Path(sys.argv[1]).mkdir(parents=True, exist_ok=True)
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
 with sync_playwright() as p:
     b = p.chromium.launch()
-    ctx = b.new_context(viewport={"width": 1440, "height": 900}, locale="en-US", user_agent=UA)
-    pg = ctx.new_page()
-    pg.goto("https://global.oliveyoung.com/", wait_until="domcontentloaded", timeout=60000)
-    pg.wait_for_timeout(7000)
-    html = pg.content()
-    opts = re.findall(r'<(?:option|li|a|button)[^>]*(?:value|data-[a-z-]+)="(\d{2,3})"[^>]*>\s*([A-Za-z][A-Za-z .&\'()-]{2,40})<', html)
-    near = re.findall(r'.{0,120}Philippines.{0,120}', html)[:5]
-    print("OPTS", opts[:200]); print("NEAR", near)
-    ctx.close()
-    codes = sorted({c for c, n in opts if "Philipp" in n}) or [str(i*10) for i in range(14, 30)]
-    for code in codes:
+    for cc in ["ph", "us", "ca", "jp"]:
         ctx = b.new_context(viewport={"width": 1440, "height": 900}, locale="en-US", user_agent=UA)
-        ctx.add_cookies([{"name": "dlvCntry", "value": code, "domain": "global.oliveyoung.com", "path": "/"}])
         pg = ctx.new_page()
+        pg.goto(f"https://global.oliveyoung.com/{cc}/brands/fromlabs", wait_until="domcontentloaded", timeout=60000)
+        pg.wait_for_timeout(5000)
+        ck = {c["name"]: c["value"] for c in ctx.cookies()}
         pg.goto("https://global.oliveyoung.com/", wait_until="domcontentloaded", timeout=60000)
         pg.wait_for_timeout(6000)
         t = pg.evaluate("() => document.body.innerText")
-        ck = {c["name"]: c["value"] for c in ctx.cookies()}
-        print("CODE", code, ck.get("dlvCntry"), "BF" if "BLACK FRIDAY" in t.upper() else "-", re.findall(r"Final BLACK FRIDAY[^\n]*|\d+ Nov - \d+ Nov", t)[:3])
+        ck2 = {c["name"]: c["value"] for c in ctx.cookies()}
+        print(cc.upper(), "url", pg.url, "dlv", ck.get("dlvCntry"), "->", ck2.get("dlvCntry"), "strip:", re.findall(r"Final BLACK FRIDAY[^\n]*", t)[:1], re.findall(r"\d+ Nov - \d+ Nov", t)[:1], "| ship-text:", re.findall(r"[^\n]*(?:shoppers|Ship to|Deliver)[^\n]*", t)[:2])
         ctx.close()
     b.close()
