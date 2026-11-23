@@ -45,6 +45,21 @@
   ]
  },
  {
+  "id": "3041",
+  "texts": [
+   "Final BLACK FRIDAY Deals : ~70% OFF!",
+   "Black Friday Sale",
+   "22 Nov - 28 Nov First Order Exclusive! 30% OFF Coupon Claim Your Exclusive Welcome Gift! Make Your First Order Extra Special",
+   "22 Nov - 28 Nov First Order Exclusive!30% OFF Coupon First Order Exclusive!30% OFF Coupon Claim Your Exclusive Welcome Gift!Make Your First Order Extra Special Claim Your Exclusive Welcome Gift!Make Your First Order Extra Special"
+  ],
+  "markets": [
+   "PH"
+  ],
+  "dates": [
+   "22 Nov - 28 Nov"
+  ]
+ },
+ {
   "id": "/display/page/flash-deal",
   "texts": [
    "Sale"
@@ -54,7 +69,8 @@
    "CA",
    "UK",
    "AU",
-   "JP"
+   "JP",
+   "PH"
   ],
   "dates": []
  },
@@ -68,7 +84,8 @@
    "CA",
    "UK",
    "AU",
-   "JP"
+   "JP",
+   "PH"
   ],
   "dates": []
  },
@@ -82,23 +99,8 @@
    "CA",
    "UK",
    "AU",
-   "JP"
-  ],
-  "dates": []
- },
- {
-  "id": "3012",
-  "texts": [
-   "Enjoy 4 Exclusive Benefits!🤎Only for 8 Days💐",
-   "Longtake Autumn Lingers🍂 ROSE REMAINS🌹",
-   "Longtake AutumnLingers🍂 AutumnLingers🍂 ROSE REMAINS🌹 ROSE REMAINS🌹"
-  ],
-  "markets": [
-   "US",
-   "CA",
-   "UK",
-   "AU",
-   "JP"
+   "JP",
+   "PH"
   ],
   "dates": []
  },
@@ -112,7 +114,8 @@
    "CA",
    "UK",
    "AU",
-   "JP"
+   "JP",
+   "PH"
   ],
   "dates": []
  },
@@ -126,7 +129,8 @@
    "CA",
    "UK",
    "AU",
-   "JP"
+   "JP",
+   "PH"
   ],
   "dates": []
  },
@@ -144,7 +148,8 @@
    "CA",
    "UK",
    "AU",
-   "JP"
+   "JP",
+   "PH"
   ],
   "dates": []
  },
@@ -159,7 +164,8 @@
    "CA",
    "UK",
    "AU",
-   "JP"
+   "JP",
+   "PH"
   ],
   "dates": []
  },
@@ -174,7 +180,8 @@
    "CA",
    "UK",
    "AU",
-   "JP"
+   "JP",
+   "PH"
   ],
   "dates": []
  },
@@ -188,7 +195,8 @@
    "CA",
    "UK",
    "AU",
-   "JP"
+   "JP",
+   "PH"
   ],
   "dates": []
  },
@@ -202,7 +210,8 @@
    "CA",
    "UK",
    "AU",
-   "JP"
+   "JP",
+   "PH"
   ],
   "dates": []
  },
@@ -218,7 +227,8 @@
    "CA",
    "UK",
    "AU",
-   "JP"
+   "JP",
+   "PH"
   ],
   "dates": []
  },
@@ -233,7 +243,8 @@
    "CA",
    "UK",
    "AU",
-   "JP"
+   "JP",
+   "PH"
   ],
   "dates": []
  },
@@ -248,7 +259,8 @@
    "CA",
    "UK",
    "AU",
-   "JP"
+   "JP",
+   "PH"
   ],
   "dates": []
  },
@@ -262,7 +274,8 @@
    "CA",
    "UK",
    "AU",
-   "JP"
+   "JP",
+   "PH"
   ],
   "dates": []
  },
@@ -277,7 +290,8 @@
    "CA",
    "UK",
    "AU",
-   "JP"
+   "JP",
+   "PH"
   ],
   "dates": []
  },
@@ -292,7 +306,8 @@
    "CA",
    "UK",
    "AU",
-   "JP"
+   "JP",
+   "PH"
   ],
   "dates": []
  },
@@ -308,7 +323,8 @@
    "CA",
    "UK",
    "AU",
-   "JP"
+   "JP",
+   "PH"
   ],
   "dates": []
  },
@@ -323,7 +339,8 @@
    "CA",
    "UK",
    "AU",
-   "JP"
+   "JP",
+   "PH"
   ],
   "dates": []
  },
@@ -338,7 +355,8 @@
    "CA",
    "UK",
    "AU",
-   "JP"
+   "JP",
+   "PH"
   ],
   "dates": []
  },
@@ -354,7 +372,8 @@
    "CA",
    "UK",
    "AU",
-   "JP"
+   "JP",
+   "PH"
   ],
   "dates": []
  },
@@ -370,7 +389,8 @@
    "CA",
    "UK",
    "AU",
-   "JP"
+   "JP",
+   "PH"
   ],
   "dates": []
  },
@@ -385,7 +405,25 @@
    "CA",
    "UK",
    "AU",
-   "JP"
+   "JP",
+   "PH"
+  ],
+  "dates": []
+ },
+ {
+  "id": "3114",
+  "texts": [
+   "Men's Care😎Easy Makeup Essentials🪄",
+   "OBgE Men's Care Explore Everyday Essentials",
+   "OBgE Men's Care Men's Care ExploreEveryday Essentials ExploreEveryday Essentials"
+  ],
+  "markets": [
+   "US",
+   "CA",
+   "UK",
+   "AU",
+   "JP",
+   "PH"
   ],
   "dates": []
  },
@@ -400,7 +438,8 @@
    "CA",
    "UK",
    "AU",
-   "JP"
+   "JP",
+   "PH"
   ],
   "dates": []
  },
@@ -414,7 +453,8 @@
    "CA",
    "UK",
    "AU",
-   "JP"
+   "JP",
+   "PH"
   ],
   "dates": []
  },
@@ -429,7 +469,8 @@
    "CA",
    "UK",
    "AU",
-   "JP"
+   "JP",
+   "PH"
   ],
   "dates": []
  },
@@ -444,7 +485,8 @@
    "CA",
    "UK",
    "AU",
-   "JP"
+   "JP",
+   "PH"
   ],
   "dates": []
  },
@@ -460,7 +502,8 @@
    "CA",
    "UK",
    "AU",
-   "JP"
+   "JP",
+   "PH"
   ],
   "dates": []
  },
@@ -477,7 +520,22 @@
    "CA",
    "UK",
    "AU",
-   "JP"
+   "JP",
+   "PH"
+  ],
+  "dates": []
+ },
+ {
+  "id": "https://global.oliveyoung.com/jp/brands/beauty-of-joseon",
+  "texts": [
+   "UV care On SALE 💥Don’t miss this chance!"
+  ],
+  "markets": [
+   "US",
+   "CA",
+   "UK",
+   "AU",
+   "PH"
   ],
   "dates": []
  },
@@ -490,7 +548,8 @@
   "markets": [
    "CA",
    "UK",
-   "AU"
+   "AU",
+   "PH"
   ],
   "dates": []
  },
@@ -557,6 +616,17 @@
   ],
   "markets": [
    "CA"
+  ],
+  "dates": []
+ },
+ {
+  "id": "3070",
+  "texts": [
+   "7 DAYS ONLY UP TO 70% OFF LAST CHANCE DEALS! Don't Miss These Incredible Deals! Shop Your Faves Before They're Gone",
+   "7 DAYS ONLY UP TO 70% OFFLAST CHANCE DEALS! UP TO 70% OFFLAST CHANCE DEALS! Don't Miss These Incredible Deals!Shop Your Faves Before They're Gone Don't Miss These Incredible Deals!Shop Your Faves Before They're Gone"
+  ],
+  "markets": [
+   "PH"
   ],
   "dates": []
  },
