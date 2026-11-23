@@ -12,7 +12,7 @@ import json, re, sys
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 
-MARKETS = {"US": "10", "CA": "20", "UK": "170", "AU": "30", "JP": "110"}   # site codes (dlvCntryList)
+MARKETS = {"US": "10", "CA": "20", "UK": "170", "AU": "30", "JP": "110", "PH": "1710"}   # site codes (dlvCntryList; PH = FB audience)
 PAGES = [("home", "https://global.oliveyoung.com/"),
          ("events", "https://global.oliveyoung.com/event/main")]
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
