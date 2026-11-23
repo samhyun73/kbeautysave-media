@@ -1,4 +1,6 @@
-PH url https://global.oliveyoung.com/ dlv None -> 10 strip: [] [] | ship-text: ['US shoppers: Visit our new US Online Store!', 'Delivery Method\t']
-US url https://global.oliveyoung.com/ dlv 10 -> 10 strip: [] [] | ship-text: ['US shoppers: Visit our new US Online Store!', 'Delivery Method\t']
-CA url https://global.oliveyoung.com/ dlv 20 -> 20 strip: ['Final BLACK FRIDAY Deals : ~70% OFF!'] ['22 Nov - 28 Nov'] | ship-text: ['Delivery Method\t']
-JP url https://global.oliveyoung.com/ dlv 110 -> 110 strip: [] [] | ship-text: []
+OPTIONS 0
+[]
+CODE 40 https://global.oliveyoung.com/event/planning?plndpNo=3041 | notice: [] | BF: ['✨BLACK FRIDAY✨THE BIGGEST SAVINGS OF THE YEAR!', 'ONCE A YEAR OUR BIGGEST SAVINGS!', '22–28 NOV']
+CODE 60 https://global.oliveyoung.com/event/planning?plndpNo=3041 | notice: [] | BF: ['✨BLACK FRIDAY✨THE BIGGEST SAVINGS OF THE YEAR!', 'ONCE A YEAR OUR BIGGEST SAVINGS!', '22–28 NOV']
+CODE 140 https://global.oliveyoung.com/event/planning?plndpNo=3041 | notice: [] | BF: ['✨BLACK FRIDAY✨THE BIGGEST SAVINGS OF THE YEAR!', 'ONCE A YEAR OUR BIGGEST SAVINGS!', '22–28 NOV']
+CODE 200 https://global.oliveyoung.com/event/planning?plndpNo=3041 | notice: [] | BF: ['✨BLACK FRIDAY✨THE BIGGEST SAVINGS OF THE YEAR!', 'ONCE A YEAR OUR BIGGEST SAVINGS!', '22–28 NOV']
