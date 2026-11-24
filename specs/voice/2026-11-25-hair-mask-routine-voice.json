@@ -18,15 +18,19 @@
         "wet hair shower",
         "washing hair",
         "woman hair dry ends"
+      ],
+      "clips": [
+        "pb43633",
+        "pb80817"
       ]
     },
     {
       "say": "First, after shampoo, squeeze the water out and press your hair with a towel. Damp, not dripping.",
       "label": "Step 1",
       "query": [
-        "towel drying hair",
-        "wrapping hair in towel",
-        "squeezing wet hair"
+        "woman hair towel bathroom",
+        "towel on head",
+        "bathrobe towel hair"
       ],
       "check": "Squeeze out the water first"
     },
@@ -34,9 +38,9 @@
       "say": "Take about a quarter-sized amount, more for long hair, and smooth it from the mid-lengths to the ends. Keep it off your scalp.",
       "label": "Step 2",
       "query": [
-        "applying hair conditioner",
-        "hair mask application",
-        "hands in long hair"
+        "woman touching long hair",
+        "hair ends close up",
+        "hair care woman"
       ],
       "check": "Mid-lengths to ends only"
     },
@@ -44,9 +48,9 @@
       "say": "Comb it through with a wide-tooth comb, then leave it for three to five minutes, or as long as the label says.",
       "label": "Step 3",
       "query": [
-        "combing wet hair",
-        "wide tooth comb hair",
-        "brushing long hair"
+        "combing hair",
+        "hair brush long hair",
+        "brushing hair mirror"
       ],
       "check": "Comb through, wait 3 to 5 minutes"
     },
@@ -54,9 +58,9 @@
       "say": "Rinse with lukewarm water, press with a towel again, and finish with one or two drops of hair oil on the ends.",
       "label": "Step 4",
       "query": [
-        "hair oil ends",
-        "applying hair serum",
-        "shiny long hair"
+        "hair serum",
+        "cosmetic oil dropper",
+        "hair care product"
       ],
       "check": "Rinse, then 1 or 2 drops of oil"
     },
@@ -67,6 +71,10 @@
         "shower water hair",
         "rinsing hair",
         "dripping wet hair"
+      ],
+      "clips": [
+        "pb201134",
+        "pb79393"
       ]
     },
     {
@@ -75,6 +83,10 @@
         "healthy shiny hair",
         "woman touching hair",
         "long smooth hair"
+      ],
+      "clips": [
+        "pb62839",
+        "pb51908"
       ]
     }
   ],
