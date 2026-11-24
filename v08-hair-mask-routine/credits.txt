@@ -9,7 +9,6 @@ cvZWnMNYrzlj  Coverr
 cvJOVHfRRxzH  Coverr  
 cvGg5RlLSxNp  Coverr  
 cvo6DhozW7nP  Coverr  
-pb45283  Engin_Akyurt (Pixabay)  https://pixabay.com/videos/id-45283/
 pb201134  Engin_Akyurt (Pixabay)  https://pixabay.com/videos/id-201134/
 pb79393  Engin_Akyurt (Pixabay)  https://pixabay.com/videos/id-79393/
 pb78732  Engin_Akyurt (Pixabay)  https://pixabay.com/videos/id-78732/
@@ -17,19 +16,16 @@ pb51908  chuduyen215 (Pixabay)  https://pixabay.com/videos/id-51908/
 
 Shot log:
    0.0s  scene 1  pb43633  hair, wind, girl, woman, people, person, model, young, dream, human, sunlight, passion, alone, aesthetics
-   2.7s  scene 1  pb80817  hair, wind, girl, person, young, portrait
-   5.4s  scene 1  pb43633  hair, wind, girl, woman, people, person, model, young, dream, human, sunlight, passion, alone, aesthetics
-   8.1s  scene 2  pb50741  salon, hair, shampoo, hair consultant, hair care, hair specialist, haircut, woman, girl, fashion, style, women, person, young, makeup, hairstyle, relax, massage
-  11.5s  scene 2  pb215152  woman, face, beauty, flowers, petals, flora, blonde hair, pose, nature
-  14.9s  scene 3  pb50743  salon, hair, hair consultant, hair care, hair specialist, haircut, woman, girl, face, fashion, style, nail, women, person, young, makeup, hairstyle, relax, shampoo, massage, health, soap, spa, hair conditioner
-  17.6s  scene 3  pb51912  woman, hairstyle, hair, salon, hairdresser, haircut, girl, fashion, female, style, person, hair conditioner, conditioner
-  20.3s  scene 3  pb50743  salon, hair, hair consultant, hair care, hair specialist, haircut, woman, girl, face, fashion, style, nail, women, person, young, makeup, hairstyle, relax, shampoo, massage, health, soap, spa, hair conditioner
-  23.0s  scene 4  cvZWnMNYrzlj  Brushing hair, girl, woman, brush, brushing, hair brush, hair flip, hairstyle, styling, style, long hair, beautiful, accessory, hoola hoop, hoola hoop earrings, clear skin, skincare, pampering, long, eyelashes, people, background
-  26.0s  scene 4  cvJOVHfRRxzH  Woman brushing her hair , clear skin, succulent, hair brush, background, brushing, hair, brush, plant, people, girl, mirror, decoration, woman, skincare, vanity
-  29.1s  scene 5  cvGg5RlLSxNp  Close-Up Golden Facial Oil Drop from Luxury Serum Dropper, golden oil, serum, dropper, droplet, cosmetic, skincare, beauty product, luxury, macro, close-up, liquid, bokeh, studio lighting, shallow depth of field, reflection, texture, premium, advertising, product shot, slow motion
-  31.6s  scene 5  cvo6DhozW7nP  Putting on pink lipstick, woman, girl, pink, lipstick, cosmetics, beauty, industry, beautiful, sheer, color, sparkle, twist, lips, face, clear skin, skincare, makeup, slow motion, people, artsy, background
-  34.2s  scene 5  pb45283  portrait, woman, smile, girl, beautiful, pose, model, expression, mimic, beauty, white, background, insulating, face, young, make-up, eyes, laugh, happy, happiness, teeth, mouth, cosmetics
-  36.7s  scene 6  pb201134  waves, river, water, stream, flow, nature, shiny, texture, beauty, waterfall, climate change, background
-  40.1s  scene 6  pb79393  woman, model, face, hair, wind, pose, fashion, beauty, skin, eyes, young, emotional, melancholy, think, adult, portrait
-  43.5s  scene 7  pb78732  woman, face, young, look, adult, beauty, person, head, eyes, pose, model, hair, human, emotions, fashion, style, portrait, dance, music, happiness
-  46.5s  scene 7  pb51908  hair, salon, hairdresser, woman, haircut, girl, fashion, female, hairstyle, style, young, person, nail, relax, design, hair conditioner, conditioner, shampoo, drying
+   3.2s  scene 1  pb80817  hair, wind, girl, person, young, portrait
+   6.5s  scene 2  pb50741  salon, hair, shampoo, hair consultant, hair care, hair specialist, haircut, woman, girl, fashion, style, women, person, young, makeup, hairstyle, relax, massage
+   9.6s  scene 2  pb215152  woman, face, beauty, flowers, petals, flora, blonde hair, pose, nature
+  12.7s  scene 3  pb50743  salon, hair, hair consultant, hair care, hair specialist, haircut, woman, girl, face, fashion, style, nail, women, person, young, makeup, hairstyle, relax, shampoo, massage, health, soap, spa, hair conditioner
+  15.7s  scene 3  pb51912  woman, hairstyle, hair, salon, hairdresser, haircut, girl, fashion, female, style, person, hair conditioner, conditioner
+  18.6s  scene 4  cvZWnMNYrzlj  Brushing hair, girl, woman, brush, brushing, hair brush, hair flip, hairstyle, styling, style, long hair, beautiful, accessory, hoola hoop, hoola hoop earrings, clear skin, skincare, pampering, long, eyelashes, people, background
+  21.5s  scene 4  cvJOVHfRRxzH  Woman brushing her hair , clear skin, succulent, hair brush, background, brushing, hair, brush, plant, people, girl, mirror, decoration, woman, skincare, vanity
+  24.3s  scene 5  cvGg5RlLSxNp  Close-Up Golden Facial Oil Drop from Luxury Serum Dropper, golden oil, serum, dropper, droplet, cosmetic, skincare, beauty product, luxury, macro, close-up, liquid, bokeh, studio lighting, shallow depth of field, reflection, texture, premium, advertising, product shot, slow motion
+  27.4s  scene 5  cvo6DhozW7nP  Putting on pink lipstick, woman, girl, pink, lipstick, cosmetics, beauty, industry, beautiful, sheer, color, sparkle, twist, lips, face, clear skin, skincare, makeup, slow motion, people, artsy, background
+  30.5s  scene 6  pb201134  waves, river, water, stream, flow, nature, shiny, texture, beauty, waterfall, climate change, background
+  33.9s  scene 6  pb79393  woman, model, face, hair, wind, pose, fashion, beauty, skin, eyes, young, emotional, melancholy, think, adult, portrait
+  37.3s  scene 7  pb78732  woman, face, young, look, adult, beauty, person, head, eyes, pose, model, hair, human, emotions, fashion, style, portrait, dance, music, happiness
+  40.3s  scene 7  pb51908  hair, salon, hairdresser, woman, haircut, girl, fashion, female, hairstyle, style, young, person, nail, relax, design, hair conditioner, conditioner, shampoo, drying
