@@ -13,7 +13,7 @@
   "ai_generated": false,
   "scenes": [
     {
-      "say": "Your hair mask doesn't seem to do much for dry winter hair? It's usually how wet your hair is, not the mask.",
+      "say": "Hair mask not doing much for dry winter hair? It's usually how wet your hair is, not the mask.",
       "query": [
         "wet hair shower",
         "washing hair",
@@ -25,7 +25,7 @@
       ]
     },
     {
-      "say": "First, after shampoo, squeeze the water out and press your hair with a towel. Damp, not dripping.",
+      "say": "After shampoo, squeeze the water out and press with a towel. Damp, not dripping.",
       "label": "Step 1",
       "query": [
         "woman hair towel bathroom",
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "say": "Take about a quarter-sized amount, more for long hair, and smooth it from the mid-lengths to the ends. Keep it off your scalp.",
+      "say": "Smooth a quarter-sized amount from the mid-lengths to the ends. Keep it off your scalp.",
       "label": "Step 2",
       "query": [
         "woman touching long hair",
@@ -53,7 +53,7 @@
       ]
     },
     {
-      "say": "Comb it through with a wide-tooth comb, then leave it for three to five minutes, or as long as the label says.",
+      "say": "Comb it through, then wait three to five minutes, or what the label says.",
       "label": "Step 3",
       "query": [
         "combing hair",
@@ -67,7 +67,7 @@
       ]
     },
     {
-      "say": "Rinse with lukewarm water, press with a towel again, and finish with one or two drops of hair oil on the ends.",
+      "say": "Rinse with lukewarm water, then add one or two drops of oil to the ends.",
       "label": "Step 4",
       "query": [
         "hair serum",
@@ -82,7 +82,7 @@
       ]
     },
     {
-      "say": "The common mistake is putting the mask on dripping wet hair. The water thins it out, and most of it slides right off.",
+      "say": "The common mistake is dripping wet hair. The water thins the mask, and it slides right off.",
       "label": "Common mistake",
       "query": [
         "shower water hair",
