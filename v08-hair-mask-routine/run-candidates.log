@@ -1,0 +1,29 @@
+  search 'wet hair shower': 59 Pixabay, 0 Coverr
+  search 'washing hair': 60 Pixabay, 4 Coverr
+  search 'woman hair dry ends': 60 Pixabay, 0 Coverr
+scene 1: 8 on-topic clips (0 Coverr)
+  search 'towel drying hair': 60 Pixabay, 2 Coverr
+  search 'wrapping hair in towel': 60 Pixabay, 2 Coverr
+  search 'squeezing wet hair': 59 Pixabay, 0 Coverr
+scene 2: 8 on-topic clips (1 Coverr)
+  search 'applying hair conditioner': 60 Pixabay, 0 Coverr
+  search 'hair mask application': 60 Pixabay, 0 Coverr
+  search 'hands in long hair': 60 Pixabay, 10 Coverr
+scene 3: 8 on-topic clips (0 Coverr)
+  search 'combing wet hair': 59 Pixabay, 0 Coverr
+  search 'wide tooth comb hair': 60 Pixabay, 0 Coverr
+  search 'brushing long hair': 60 Pixabay, 17 Coverr
+scene 4: 8 on-topic clips (3 Coverr)
+  search 'hair oil ends': 60 Pixabay, 0 Coverr
+  search 'applying hair serum': 60 Pixabay, 0 Coverr
+  search 'shiny long hair': 60 Pixabay, 2 Coverr
+scene 5: 8 on-topic clips (2 Coverr)
+  search 'shower water hair': 60 Pixabay, 4 Coverr
+  search 'rinsing hair': 60 Pixabay, 4 Coverr
+  search 'dripping wet hair': 59 Pixabay, 0 Coverr
+scene 6: 8 on-topic clips (0 Coverr)
+  search 'healthy shiny hair': 60 Pixabay, 0 Coverr
+  search 'woman touching hair': 60 Pixabay, 3 Coverr
+  search 'long smooth hair': 60 Pixabay, 0 Coverr
+scene 7: 8 on-topic clips (1 Coverr)
+candidates: 56 clips in 7 scenes -> out/vs/candidates.jpg
