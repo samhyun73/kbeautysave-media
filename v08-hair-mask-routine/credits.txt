@@ -8,7 +8,7 @@ pb51912  chuduyen215 (Pixabay)  https://pixabay.com/videos/id-51912/
 cvZWnMNYrzlj  Coverr  
 cvJOVHfRRxzH  Coverr  
 cvGg5RlLSxNp  Coverr  
-cvo6DhozW7nP  Coverr  
+pb45283  Engin_Akyurt (Pixabay)  https://pixabay.com/videos/id-45283/
 pb201134  Engin_Akyurt (Pixabay)  https://pixabay.com/videos/id-201134/
 pb79393  Engin_Akyurt (Pixabay)  https://pixabay.com/videos/id-79393/
 pb78732  Engin_Akyurt (Pixabay)  https://pixabay.com/videos/id-78732/
@@ -24,7 +24,7 @@ Shot log:
   18.6s  scene 4  cvZWnMNYrzlj  Brushing hair, girl, woman, brush, brushing, hair brush, hair flip, hairstyle, styling, style, long hair, beautiful, accessory, hoola hoop, hoola hoop earrings, clear skin, skincare, pampering, long, eyelashes, people, background
   21.5s  scene 4  cvJOVHfRRxzH  Woman brushing her hair , clear skin, succulent, hair brush, background, brushing, hair, brush, plant, people, girl, mirror, decoration, woman, skincare, vanity
   24.3s  scene 5  cvGg5RlLSxNp  Close-Up Golden Facial Oil Drop from Luxury Serum Dropper, golden oil, serum, dropper, droplet, cosmetic, skincare, beauty product, luxury, macro, close-up, liquid, bokeh, studio lighting, shallow depth of field, reflection, texture, premium, advertising, product shot, slow motion
-  27.4s  scene 5  cvo6DhozW7nP  Putting on pink lipstick, woman, girl, pink, lipstick, cosmetics, beauty, industry, beautiful, sheer, color, sparkle, twist, lips, face, clear skin, skincare, makeup, slow motion, people, artsy, background
+  27.4s  scene 5  pb45283  portrait, woman, smile, girl, beautiful, pose, model, expression, mimic, beauty, white, background, insulating, face, young, make-up, eyes, laugh, happy, happiness, teeth, mouth, cosmetics
   30.5s  scene 6  pb201134  waves, river, water, stream, flow, nature, shiny, texture, beauty, waterfall, climate change, background
   33.9s  scene 6  pb79393  woman, model, face, hair, wind, pose, fashion, beauty, skin, eyes, young, emotional, melancholy, think, adult, portrait
   37.3s  scene 7  pb78732  woman, face, young, look, adult, beauty, person, head, eyes, pose, model, hair, human, emotions, fashion, style, portrait, dance, music, happiness
