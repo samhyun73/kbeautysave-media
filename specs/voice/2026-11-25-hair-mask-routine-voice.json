@@ -32,7 +32,11 @@
         "towel on head",
         "bathrobe towel hair"
       ],
-      "check": "Squeeze out the water first"
+      "check": "Squeeze out the water first",
+      "clips": [
+        "pb50741",
+        "pb215152"
+      ]
     },
     {
       "say": "Take about a quarter-sized amount, more for long hair, and smooth it from the mid-lengths to the ends. Keep it off your scalp.",
@@ -42,7 +46,11 @@
         "hair ends close up",
         "hair care woman"
       ],
-      "check": "Mid-lengths to ends only"
+      "check": "Mid-lengths to ends only",
+      "clips": [
+        "pb50743",
+        "pb51912"
+      ]
     },
     {
       "say": "Comb it through with a wide-tooth comb, then leave it for three to five minutes, or as long as the label says.",
@@ -52,7 +60,11 @@
         "hair brush long hair",
         "brushing hair mirror"
       ],
-      "check": "Comb through, wait 3 to 5 minutes"
+      "check": "Comb through, wait 3 to 5 minutes",
+      "clips": [
+        "cvZWnMNYrzlj",
+        "cvJOVHfRRxzH"
+      ]
     },
     {
       "say": "Rinse with lukewarm water, press with a towel again, and finish with one or two drops of hair oil on the ends.",
@@ -62,7 +74,12 @@
         "cosmetic oil dropper",
         "hair care product"
       ],
-      "check": "Rinse, then 1 or 2 drops of oil"
+      "check": "Rinse, then 1 or 2 drops of oil",
+      "clips": [
+        "cvGg5RlLSxNp",
+        "cvo6DhozW7nP",
+        "pb45283"
+      ]
     },
     {
       "say": "The common mistake is putting the mask on dripping wet hair. The water thins it out, and most of it slides right off.",
@@ -85,7 +102,7 @@
         "long smooth hair"
       ],
       "clips": [
-        "pb62839",
+        "pb78732",
         "pb51908"
       ]
     }
