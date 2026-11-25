@@ -1,0 +1,61 @@
+{
+  "slug": "day56-hair-mask-routine-zh",
+  "lang": "zh",
+  "mood": "calm",
+  "seed": 56,
+  "hangul": "헤어 마스크",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "헤어 마스크 · 韩式护发",
+      "title": "湿发就涂？",
+      "sub": "发膜全冲走了 ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "step",
+      "title": "先挤干水",
+      "line": "毛巾按压，别搓",
+      "sub": "半干，不滴水",
+      "dur": 2.4
+    },
+    {
+      "type": "step",
+      "title": "只涂发尾",
+      "line": "从中段往下",
+      "sub": "避开头皮",
+      "dur": 2.4
+    },
+    {
+      "type": "step",
+      "title": "梳开再等",
+      "line": "3到5分钟",
+      "sub": "或按包装说明",
+      "dur": 2.4
+    },
+    {
+      "type": "step",
+      "title": "冲净后上油",
+      "line": "发尾1到2滴",
+      "sub": "温水，别太烫",
+      "dur": 2.4
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "水少一点，",
+        "膜留得住。"
+      ],
+      "sub": "每周两到三次",
+      "dur": 2.5
+    },
+    {
+      "type": "cta",
+      "title": "冬天收藏",
+      "code_label": "额外95折 优惠码",
+      "where_html": "在 <b>Olive Young Global</b><br>结账时输入",
+      "tags": "#广告",
+      "dur": 3.0
+    }
+  ]
+}

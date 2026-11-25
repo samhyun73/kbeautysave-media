@@ -1,0 +1,111 @@
+{
+  "slug": "day56-hair-mask-routine",
+  "lang": "en",
+  "mood": "calm",
+  "seed": 56,
+  "hangul": "헤어 마스크",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "헤어 마스크 · Korean hair care",
+      "title": "Hair mask on dripping hair?",
+      "sub": "That's why it slides off ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "step",
+      "title": "Squeeze first",
+      "line": "press with a towel",
+      "sub": "Damp, not dripping.",
+      "tone": "cool",
+      "dur": 2.4
+    },
+    {
+      "type": "step",
+      "title": "Ends only",
+      "line": "mid-lengths down",
+      "sub": "Keep it off the scalp.",
+      "tone": "warm",
+      "dur": 2.4
+    },
+    {
+      "type": "step",
+      "title": "Comb it in",
+      "line": "then wait 3 to 5 minutes",
+      "sub": "Or what the label says.",
+      "tone": "cool",
+      "dur": 2.4
+    },
+    {
+      "type": "step",
+      "title": "Oil last",
+      "line": "1 or 2 drops on the ends",
+      "sub": "After a lukewarm rinse.",
+      "tone": "warm",
+      "dur": 2.4
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "Less water,",
+        "more mask."
+      ],
+      "sub": "Two or three times a week.",
+      "dur": 2.5
+    },
+    {
+      "type": "cta",
+      "title": "Save this one.",
+      "dur": 3.0
+    }
+  ],
+  "pin": {
+    "kicker": "Korean hair care at home",
+    "title": "Hair Mask Routine",
+    "sub": "For dry winter hair",
+    "steps": [
+      {
+        "title": "Squeeze first",
+        "body": "Damp, not dripping."
+      },
+      {
+        "title": "Ends, then wait",
+        "body": "Comb through, 3 to 5 min."
+      }
+    ],
+    "avoid": [
+      "Dripping wet hair",
+      "Mask on the scalp"
+    ],
+    "note": "Find hair masks at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "deal",
+      "kicker": "K-beauty sale",
+      "title": "Dry Hair Wishlist",
+      "dates": "22–28 Nov",
+      "dates_label": "Black Friday",
+      "sub": "Many countries · not US or Japan",
+      "items": [
+        {
+          "title": "A hair mask",
+          "body": "Two or three times a week."
+        },
+        {
+          "title": "A hair oil",
+          "body": "1 or 2 drops on the ends."
+        },
+        {
+          "title": "A wide-tooth comb",
+          "body": "Spreads the mask evenly."
+        },
+        {
+          "title": "A soft towel",
+          "body": "Press, don't rub."
+        }
+      ],
+      "note": "Sign in, then enter KBEAUTY73 at checkout for an extra 5% off."
+    }
+  ]
+}

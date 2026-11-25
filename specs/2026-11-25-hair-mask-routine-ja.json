@@ -1,0 +1,88 @@
+{
+  "slug": "day56-hair-mask-routine-ja",
+  "lang": "ja",
+  "mood": "calm",
+  "seed": 56,
+  "hangul": "헤어 마스크",
+  "frames": [
+    {
+      "type": "hook",
+      "kicker": "헤어 마스크 · 韓国ヘアケア",
+      "title": "濡れ髪に？",
+      "sub": "ヘアマスクが流れちゃう ↓",
+      "dur": 2.5
+    },
+    {
+      "type": "step",
+      "title": "まず水気を",
+      "line": "タオルで押さえる",
+      "sub": "こすらない",
+      "tone": "cool",
+      "dur": 2.4
+    },
+    {
+      "type": "step",
+      "title": "毛先だけ",
+      "line": "中間から毛先へ",
+      "sub": "頭皮にはつけない",
+      "tone": "warm",
+      "dur": 2.4
+    },
+    {
+      "type": "step",
+      "title": "とかして待つ",
+      "line": "3〜5分",
+      "sub": "または表示どおり",
+      "tone": "cool",
+      "dur": 2.4
+    },
+    {
+      "type": "step",
+      "title": "流してオイル",
+      "line": "毛先に1〜2滴",
+      "sub": "ぬるま湯で流す",
+      "tone": "warm",
+      "dur": 2.4
+    },
+    {
+      "type": "statement",
+      "lines": [
+        "しぼるほど",
+        "なじむ。"
+      ],
+      "sub": "週2〜3回が目安",
+      "dur": 2.5
+    },
+    {
+      "type": "cta",
+      "title": "保存してね",
+      "code_label": "ログイン後 クーポンコード",
+      "where_html": "<b>Olive Young Global</b> で5%オフ",
+      "tags": "#PR #oliveyoungaffiliate",
+      "dur": 3.0
+    }
+  ],
+  "pin": {
+    "kicker": "韓国風ヘアケア",
+    "title": "ヘアマスク",
+    "sub": "冬の乾燥髪に2つのコツ",
+    "steps": [
+      {
+        "title": "水気をしぼる",
+        "body": "しずくが落ちない程度"
+      },
+      {
+        "title": "毛先につけて",
+        "body": "とかして3〜5分"
+      }
+    ],
+    "avoid": [
+      "びしょ濡れの髪",
+      "頭皮につける"
+    ],
+    "note": "ヘアマスクは Olive Young Global で",
+    "code_line": "ログイン後、Olive Young Global の決済で5%オフ",
+    "avoid_label": "やらないこと",
+    "tag": "#PR"
+  }
+}
