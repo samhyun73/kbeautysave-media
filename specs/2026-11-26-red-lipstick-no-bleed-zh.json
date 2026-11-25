@@ -1,0 +1,21 @@
+{
+  "slug": "day57-red-lipstick-no-bleed-zh",
+  "lang": "zh",
+  "mood": "bright",
+  "seed": 57,
+  "hangul": "레드 립",
+  "frames": [
+    {"type": "hook", "kicker": "레드 립 · 韩系唇妆", "title": "口红晕开？", "sub": "问题在打底 ↓", "dur": 2.5},
+    {"type": "swatch", "title": "派对红色", "swatches": [
+        {"name": "樱桃", "color": "#B3202F", "sheer": false, "finish": "gloss"},
+        {"name": "砖红", "color": "#9E3A2B", "sheer": false, "finish": "gloss"},
+        {"name": "莓果", "color": "#8A1F3D", "sheer": false, "finish": "gloss"},
+        {"name": "朱红", "color": "#D9442F", "sheer": false, "finish": "gloss"}
+      ], "sub": "哑光更持久", "dur": 2.8},
+    {"type": "step", "title": "润唇后吸掉", "line": "薄涂，等2分钟", "sub": "用纸巾按一下", "dur": 2.6},
+    {"type": "step", "title": "唇线画在内", "line": "沿唇边内侧", "sub": "再轻轻填满", "dur": 2.6},
+    {"type": "step", "title": "从中间涂", "line": "涂完抿纸巾", "sub": "再薄涂一层", "dur": 2.6},
+    {"type": "statement", "lines": ["线在内，", "不外扩。"], "sub": "画出界最先晕", "dur": 2.5},
+    {"type": "cta", "title": "派对前收藏", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}

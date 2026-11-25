@@ -1,0 +1,55 @@
+{
+  "slug": "day57-red-lipstick-no-bleed",
+  "lang": "en",
+  "mood": "bright",
+  "seed": 57,
+  "hangul": "레드 립",
+  "frames": [
+    {"type": "hook", "kicker": "Korean makeup", "title": "Red lipstick bleeding?", "sub": "Fix the prep ↓", "dur": 2.5},
+    {"type": "swatch", "title": "Party reds", "swatches": [
+        {"name": "Cherry", "color": "#B3202F", "sheer": false, "finish": "gloss"},
+        {"name": "Brick", "color": "#9E3A2B", "sheer": false, "finish": "gloss"},
+        {"name": "Berry", "color": "#8A1F3D", "sheer": false, "finish": "gloss"},
+        {"name": "Poppy", "color": "#D9442F", "sheer": false, "finish": "gloss"}
+      ], "sub": "Matte or satin stays put.", "dur": 2.8},
+    {"type": "step", "title": "Blot first", "line": "thin balm, 2 minutes", "sub": "Press a tissue on it.", "dur": 2.6},
+    {"type": "step", "title": "Line inside", "line": "just inside your edge", "sub": "Then fill in lightly.", "dur": 2.6},
+    {"type": "step", "title": "Center out", "line": "lipstick, then blot", "sub": "Add a second thin layer.", "dur": 2.6},
+    {"type": "statement", "lines": ["Line in,", "not out."], "sub": "Overlining bleeds first.", "dur": 2.5},
+    {"type": "cta", "title": "Save this one.", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "Korean makeup",
+    "title": "Red Lips That Last",
+    "sub": "Two steps before the lipstick",
+    "steps": [
+      {"title": "Blot the balm", "body": "Thin layer, then tissue."},
+      {"title": "Line inside", "body": "Fill in lightly."}
+    ],
+    "avoid": ["Thick balm under red", "Overlining the edge"],
+    "note": "Find red lipsticks and liners at Olive Young Global.",
+    "swatches": [
+      {"name": "Cherry", "color": "#B3202F", "sheer": false, "finish": "gloss"},
+      {"name": "Brick", "color": "#9E3A2B", "sheer": false, "finish": "gloss"},
+      {"name": "Berry", "color": "#8A1F3D", "sheer": false, "finish": "gloss"},
+      {"name": "Poppy", "color": "#D9442F", "sheer": false, "finish": "gloss"}
+    ]
+  },
+  "pins": [
+    {
+      "layout": "deal",
+      "kicker": "K-beauty sale",
+      "title": "Party Red Lip Kit",
+      "dates": "22–28 Nov",
+      "dates_label": "Black Friday",
+      "sub": "Many countries · not US or Japan",
+      "items": [
+        {"title": "A red lip liner", "body": "Close to your lipstick shade."},
+        {"title": "A matte red lipstick", "body": "Stays put longer than gloss."},
+        {"title": "A thin lip balm", "body": "Blot it before the red."},
+        {"title": "A concealer", "body": "Cleans up the edge."}
+      ],
+      "note": "Sign in, then enter KBEAUTY73 at checkout for an extra 5% off."
+    }
+  ]
+}
