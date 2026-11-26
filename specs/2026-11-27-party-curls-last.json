@@ -1,0 +1,44 @@
+{
+  "slug": "day58-party-curls-last",
+  "lang": "en",
+  "mood": "bright",
+  "seed": 58,
+  "hangul": "고데기 컬",
+  "frames": [
+    {"type": "hook", "kicker": "Korean hairstyle", "title": "Curls falling flat?", "sub": "It's the cooling ↓", "dur": 2.5},
+    {"type": "step", "title": "Dry hair only", "line": "small sections, 2 fingers", "sub": "Heat protectant first.", "dur": 2.4},
+    {"type": "step", "title": "Hold 5 seconds", "line": "then cup it in your palm", "sub": "Don't let it drop.", "dur": 2.4},
+    {"type": "step", "title": "Pin to cool", "line": "about one minute", "sub": "Clip it flat to your head.", "dur": 2.4},
+    {"type": "step", "title": "Loosen last", "line": "fingers, then light spray", "sub": "From arm's length.", "dur": 2.4},
+    {"type": "statement", "lines": ["Cool it", "first."], "sub": "Warm curls drop fast.", "dur": 2.5},
+    {"type": "cta", "title": "Save this one.", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "Korean hairstyle",
+    "title": "Curls That Last",
+    "sub": "Two steps after the iron",
+    "steps": [
+      {"title": "Catch and pin", "body": "Clip each curl to cool."},
+      {"title": "Then spray", "body": "Loosen with fingers first."}
+    ],
+    "avoid": ["Brushing warm curls", "Curling damp hair"],
+    "note": "Find curling irons and hairspray at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "deal",
+      "kicker": "K-beauty sale",
+      "title": "Party Hair Kit",
+      "dates": "22–28 Nov",
+      "dates_label": "Black Friday",
+      "sub": "Many countries · not US or Japan",
+      "items": [
+        {"title": "A heat protectant spray", "body": "Mist it on before the iron."},
+        {"title": "A curling iron", "body": "A wide barrel for loose curls."},
+        {"title": "Flat hair clips", "body": "Pin each curl while it cools."},
+        {"title": "A light hairspray", "body": "Mist from arm's length."}
+      ],
+      "note": "Sign in, then enter KBEAUTY73 at checkout for an extra 5% off."
+    }
+  ]
+}

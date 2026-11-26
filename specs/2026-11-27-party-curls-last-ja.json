@@ -1,0 +1,30 @@
+{
+  "slug": "day58-party-curls-last-ja",
+  "lang": "ja",
+  "mood": "bright",
+  "seed": 58,
+  "hangul": "고데기 컬",
+  "frames": [
+    {"type": "hook", "kicker": "고데기 컬 · 韓国ヘア", "title": "すぐ取れる？", "sub": "コテ巻きは冷まし方 ↓", "dur": 2.5},
+    {"type": "step", "title": "乾いた髪に", "line": "指2本分ずつ", "sub": "先に熱から守るスプレー", "tone": "cool", "dur": 2.4},
+    {"type": "step", "title": "5秒キープ", "line": "手のひらで受ける", "sub": "すぐ離さない", "tone": "warm", "dur": 2.4},
+    {"type": "step", "title": "ピンで冷ます", "line": "約1分", "sub": "頭に沿って留める", "tone": "cool", "dur": 2.4},
+    {"type": "step", "title": "指でほぐす", "line": "冷めてからスプレー", "sub": "腕の長さ離して", "tone": "warm", "dur": 2.4},
+    {"type": "statement", "lines": ["冷ますが", "先。"], "sub": "温かいうちにとかさない", "dur": 2.5},
+    {"type": "cta", "title": "保存してね", "code_label": "ログイン後 クーポンコード", "where_html": "<b>Olive Young Global</b> で5%オフ", "tags": "#PR #oliveyoungaffiliate", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "韓国風ヘア",
+    "title": "コテ巻きキープ",
+    "sub": "巻いた後の2つのコツ",
+    "steps": [
+      {"title": "手で受けてピン", "body": "1分冷ます"},
+      {"title": "指でほぐす", "body": "冷めてからスプレー"}
+    ],
+    "avoid": ["温かいうちにブラシ", "濡れた髪に巻く"],
+    "note": "コテやスプレーは Olive Young Global で",
+    "code_line": "ログイン後、Olive Young Global の決済で5%オフ",
+    "avoid_label": "やらないこと",
+    "tag": "#PR"
+  }
+}

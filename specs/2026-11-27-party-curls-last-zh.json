@@ -1,0 +1,16 @@
+{
+  "slug": "day58-party-curls-last-zh",
+  "lang": "zh",
+  "mood": "bright",
+  "seed": 58,
+  "hangul": "고데기 컬",
+  "frames": [
+    {"type": "hook", "kicker": "고데기 컬 · 韩系发型", "title": "卷发塌了？", "sub": "关键在冷却 ↓", "dur": 2.5},
+    {"type": "step", "title": "干发再卷", "line": "分小束，两指宽", "sub": "先喷隔热喷雾", "dur": 2.4},
+    {"type": "step", "title": "停5秒", "line": "用手心接住", "sub": "别让它掉下来", "dur": 2.4},
+    {"type": "step", "title": "夹住冷却", "line": "大约1分钟", "sub": "贴着头发夹好", "dur": 2.4},
+    {"type": "step", "title": "最后抓松", "line": "手指抓松再定型", "sub": "一臂远喷发胶", "dur": 2.4},
+    {"type": "statement", "lines": ["先冷却，", "再整理。"], "sub": "热的时候别梳", "dur": 2.5},
+    {"type": "cta", "title": "收藏备用", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}

@@ -1,0 +1,15 @@
+{
+ "slug": "day58x3-flat-iron-curls",
+ "lang": "en",
+ "mood": "bright",
+ "seed": 2060,
+ "hangul": "판고데기",
+ "frames": [
+  {"type": "hook", "kicker": "Korean hairstyle", "title": "Curls with a flat iron?", "sub": "Twist, then glide ↓", "dur": 2.5},
+  {"type": "step", "title": "Dry hair first", "line": "small section, 2 fingers", "sub": "Heat protectant on.", "dur": 2.6},
+  {"type": "step", "title": "Clamp, twist", "line": "half turn, away from face", "sub": "Start near the roots.", "dur": 2.6},
+  {"type": "step", "title": "Glide slowly", "line": "all the way to the ends", "sub": "Slower means a tighter curl.", "dur": 2.6},
+  {"type": "statement", "lines": ["Twist once,", "glide slow."], "sub": "Stopping leaves a dent.", "dur": 2.4},
+  {"type": "cta", "title": "Save this one.", "dur": 3.0}
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "slug": "day58x2-warm-curls-brushing",
+ "lang": "en",
+ "mood": "bright",
+ "seed": 1059,
+ "hangul": "식히기",
+ "frames": [
+  {"type": "hook", "kicker": "Korean hairstyle", "title": "Brushing out warm curls?", "sub": "Wait one minute ↓", "dur": 2.5},
+  {"type": "step", "title": "Feel the curl", "line": "warm means still soft", "sub": "It sets as it cools.", "dur": 2.6},
+  {"type": "step", "title": "Clip it up", "line": "flat clip, about a minute", "sub": "Roll it back to the root.", "dur": 2.6},
+  {"type": "step", "title": "Use fingers", "line": "pull each curl apart", "sub": "Or a wide-tooth comb.", "dur": 2.6},
+  {"type": "statement", "lines": ["Cool,", "then touch."], "sub": "Warm curls drop first.", "dur": 2.4},
+  {"type": "cta", "title": "Save this one.", "dur": 3.0}
+ ]
+}
