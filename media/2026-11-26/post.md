@@ -26,7 +26,7 @@ how to apply red lipstick, how to apply red lipstick perfectly, how to apply red
 ## 인스타그램 메모
 - 19:00 릴스가 올라간 뒤: ⋯ → 수정 → 파트너 콘텐츠 → **협찬 광고 레이블 추가** → 브랜드 파트너 `oliveyoung_global`
 
-## X 스레드 (직접 게시 · 1/4에 reel.mp4 첨부, 나머지는 답글로)
+## X 스레드 ① (직접 게시 · 09:00 KST · 1/4에 reel.mp4 첨부, 나머지는 답글로)
 **1/4**
 ```
 💄 How to apply red lipstick so it doesn't bleed into little lines by the end of the night. It's the prep, not the lipstick 🧵
@@ -55,6 +55,61 @@ how to apply red lipstick, how to apply red lipstick perfectly, how to apply red
 ✨ Bonus: a tiny bit of concealer on a flat brush right around the edge makes the line crisp.
 
 🔖 Save this before your next party 💕
+```
+
+## X 스레드 ② 립 라이너 (실수부터) (직접 게시 · 14:00 KST · 1/3에 reel_x2.mp4 첨부, 나머지는 답글로)
+
+**1/3**
+```
+💄 How to line your lips for red lipstick, without the overlined look that bleeds by dinner 🧵
+
+🍂 Olive Young Global Black Friday: until 28 Nov in many countries (varies, not US/Japan)
+
+#oliveyoungaffiliate #ad #redlipstick
+```
+
+**2/3**
+```
+😌 1. Relax your mouth: lips closed, no smile. That's your real edge
+✏️ 2. Liner close to your red, short strokes just INSIDE that edge
+🖍️ 3. Fill the whole lip lightly with the liner, so the red has something to grip
+```
+
+**3/3**
+```
+🤔 Why: anything outside your natural edge sits on skin with fine lines, so that's where red travels first.
+
+🚫 Common mistake: smiling while you line. The edge moves and the line ends up outside.
+
+🔖 Save this for party night 💋
+```
+
+## X 스레드 ③ 피부톤별 레드 고르기 (직접 게시 · 22:00 KST · 1/3에 reel_x3.mp4 첨부, 나머지는 답글로)
+
+**1/3**
+```
+💋 How to choose red lipstick for your skin tone in 10 seconds. Start with your undertone, not the shade name 🧵
+
+🍂 Olive Young Global Black Friday: until 28 Nov in many countries (varies, not US/Japan)
+
+#oliveyoungaffiliate #ad #redlipstick
+```
+
+**2/3**
+```
+🔍 1. Look at your wrist veins in daylight: greenish = warm, blue/purple = cool, hard to tell = neutral
+🍂 Warm: brick or orange-red
+❤️ Neutral: true red
+🍷 Cool: blue-red or berry
+```
+
+**3/3**
+```
+👆 2. Swatch on a fingertip pad, not the back of your hand. Fingertips are closer to your lip colour.
+
+🚫 Common mistake: picking a red from the bullet. Lipstick looks different on skin than in the tube.
+
+🔖 Save this before you shop 💄
 ```
 
 ## 웨이보 (직접 게시 · reel_zh.mp4 첨부)

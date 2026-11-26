@@ -1,0 +1,15 @@
+{
+ "slug": "day57x2-red-lip-liner",
+ "lang": "en",
+ "mood": "bright",
+ "seed": 1058,
+ "hangul": "립 라이너",
+ "frames": [
+  {"type": "hook", "kicker": "Korean makeup", "title": "Overlining your red lip?", "sub": "Line inside instead ↓", "dur": 2.5},
+  {"type": "step", "title": "Relax your mouth", "line": "lips closed, no smile", "sub": "That's your real edge.", "dur": 2.6},
+  {"type": "step", "title": "Trace inside", "line": "short strokes, liner = red", "sub": "Just inside the edge.", "dur": 2.6},
+  {"type": "step", "title": "Fill it lightly", "line": "liner over the whole lip", "sub": "A base for the red.", "dur": 2.6},
+  {"type": "statement", "lines": ["Line in,", "not out."], "sub": "The outer edge bleeds first.", "dur": 2.4},
+  {"type": "cta", "title": "Save this one.", "dur": 3.0}
+ ]
+}

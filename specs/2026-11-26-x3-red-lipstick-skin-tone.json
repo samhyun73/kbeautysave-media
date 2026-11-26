@@ -1,0 +1,19 @@
+{
+ "slug": "day57x3-red-lipstick-skin-tone",
+ "lang": "en",
+ "mood": "bright",
+ "seed": 2059,
+ "hangul": "레드 찾기",
+ "frames": [
+  {"type": "hook", "kicker": "Korean makeup", "title": "Which red suits you?", "sub": "Check your undertone ↓", "dur": 2.5},
+  {"type": "step", "title": "Look at your wrist", "line": "in daylight", "sub": "Green veins: warm. Blue: cool.", "dur": 2.8},
+  {"type": "swatch", "title": "Reds by undertone", "swatches": [
+    {"name": "Warm", "color": "#C2412D", "sheer": false, "finish": "gloss"},
+    {"name": "Neutral", "color": "#B3202F", "sheer": false, "finish": "gloss"},
+    {"name": "Cool", "color": "#9C1B3E", "sheer": false, "finish": "gloss"}
+   ], "sub": "Brick · true red · blue-red", "dur": 2.8},
+  {"type": "step", "title": "Test on a fingertip", "line": "not the back of your hand", "sub": "Closer to your lip colour.", "dur": 2.6},
+  {"type": "statement", "lines": ["Undertone first,", "shade second."], "sub": "Then pick matte or satin.", "dur": 2.4},
+  {"type": "cta", "title": "Save this one.", "dur": 3.0}
+ ]
+}
