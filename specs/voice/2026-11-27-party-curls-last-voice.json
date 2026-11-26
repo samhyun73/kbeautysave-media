@@ -32,7 +32,11 @@
         "woman styling hair mirror",
         "hairdresser styling woman hair"
       ],
-      "check": "Dry hair, small sections"
+      "check": "Dry hair, small sections",
+      "clips": [
+        "pb51907",
+        "pb51908"
+      ]
     },
     {
       "say": "Hold each one about five seconds, then catch the curl in your palm.",
@@ -42,7 +46,11 @@
         "hair curler",
         "hand touching hair curl"
       ],
-      "check": "Hold 5 seconds, catch the curl"
+      "check": "Hold 5 seconds, catch the curl",
+      "clips": [
+        "pb80817",
+        "pb37056"
+      ]
     },
     {
       "say": "Pin it up and let it cool for about a minute.",
