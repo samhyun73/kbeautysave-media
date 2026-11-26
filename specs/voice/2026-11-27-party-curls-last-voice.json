@@ -18,15 +18,19 @@
         "woman curling hair",
         "curling iron hair",
         "curly hair woman mirror"
+      ],
+      "clips": [
+        "pb21147",
+        "pb43633"
       ]
     },
     {
       "say": "Curl fully dry hair in small sections, about two fingers wide.",
       "label": "Step 1",
       "query": [
-        "hair sectioning clip",
-        "curling iron close up",
-        "hairdresser curling hair"
+        "hair straightener",
+        "woman styling hair mirror",
+        "hairdresser styling woman hair"
       ],
       "check": "Dry hair, small sections"
     },
@@ -34,9 +38,9 @@
       "say": "Hold each one about five seconds, then catch the curl in your palm.",
       "label": "Step 2",
       "query": [
-        "curling iron hair strand",
-        "woman holding curl hand",
-        "curling hair tongs"
+        "woman curling her hair",
+        "hair curler",
+        "hand touching hair curl"
       ],
       "check": "Hold 5 seconds, catch the curl"
     },
@@ -48,7 +52,11 @@
         "hair pins hairstyle",
         "hairstylist pinning hair"
       ],
-      "check": "Pin it, cool about a minute"
+      "check": "Pin it, cool about a minute",
+      "clips": [
+        "pb61893",
+        "pb215152"
+      ]
     },
     {
       "say": "Once it's cool, loosen it with your fingers and mist hairspray from arm's length.",
@@ -58,7 +66,11 @@
         "woman fingers through curly hair",
         "hair spray styling"
       ],
-      "check": "Fingers only, light spray"
+      "check": "Fingers only, light spray",
+      "clips": [
+        "cvQ1n9tdhx1z",
+        "cvkL4YTNlHMa"
+      ]
     },
     {
       "say": "The common mistake is brushing curls out while they're still warm. Warm hair still moves, so the curl drops.",
@@ -67,6 +79,10 @@
         "brushing hair",
         "hair brush long hair",
         "combing hair mirror"
+      ],
+      "clips": [
+        "cvJOVHfRRxzH",
+        "cvZWnMNYrzlj"
       ]
     },
     {
@@ -75,6 +91,10 @@
         "wavy hair woman",
         "curly hair glamorous",
         "woman touching wavy hair"
+      ],
+      "clips": [
+        "cvX0QnVJShcc",
+        "cv0SOg5pTA8L"
       ]
     }
   ],
