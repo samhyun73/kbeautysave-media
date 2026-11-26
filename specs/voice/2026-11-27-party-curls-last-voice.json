@@ -1,0 +1,85 @@
+{
+  "type": "voice_short",
+  "slug": "v09-party-curls-last",
+  "lang": "en",
+  "hangul": "고데기 컬",
+  "headline": "Make curls last all day",
+  "mood": "calm",
+  "seed": 58,
+  "voice_id": "tc_69f2e455ea79fd197aa0476f",
+  "tempo": 1.1,
+  "emotion": "relief",
+  "shareable_line": "Heat shapes the curl. Cooling keeps it.",
+  "ai_generated": false,
+  "scenes": [
+    {
+      "say": "Curls gone flat before the party even starts? It's not your hair. It's the minute after the iron.",
+      "query": [
+        "woman curling hair",
+        "curling iron hair",
+        "curly hair woman mirror"
+      ]
+    },
+    {
+      "say": "Curl fully dry hair in small sections, about two fingers wide.",
+      "label": "Step 1",
+      "query": [
+        "hair sectioning clip",
+        "curling iron close up",
+        "hairdresser curling hair"
+      ],
+      "check": "Dry hair, small sections"
+    },
+    {
+      "say": "Hold each one about five seconds, then catch the curl in your palm.",
+      "label": "Step 2",
+      "query": [
+        "curling iron hair strand",
+        "woman holding curl hand",
+        "curling hair tongs"
+      ],
+      "check": "Hold 5 seconds, catch the curl"
+    },
+    {
+      "say": "Pin it up and let it cool for about a minute.",
+      "label": "Step 3",
+      "query": [
+        "hair clips pinned curls",
+        "hair pins hairstyle",
+        "hairstylist pinning hair"
+      ],
+      "check": "Pin it, cool about a minute"
+    },
+    {
+      "say": "Once it's cool, loosen it with your fingers and mist hairspray from arm's length.",
+      "label": "Step 4",
+      "query": [
+        "hairspray",
+        "woman fingers through curly hair",
+        "hair spray styling"
+      ],
+      "check": "Fingers only, light spray"
+    },
+    {
+      "say": "The common mistake is brushing curls out while they're still warm. Warm hair still moves, so the curl drops.",
+      "label": "Common mistake",
+      "query": [
+        "brushing hair",
+        "hair brush long hair",
+        "combing hair mirror"
+      ]
+    },
+    {
+      "say": "Heat shapes the curl. Cooling keeps it. The shopping link is in my profile.",
+      "query": [
+        "wavy hair woman",
+        "curly hair glamorous",
+        "woman touching wavy hair"
+      ]
+    }
+  ],
+  "cta": {
+    "line": "Shop the K-beauty picks",
+    "main": "Link in my profile"
+  }
+}
