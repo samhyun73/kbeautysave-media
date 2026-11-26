@@ -1,0 +1,29 @@
+  search 'woman curling hair': 60 Pixabay, 0 Coverr
+  search 'curling iron hair': 60 Pixabay, 0 Coverr
+  search 'curly hair woman mirror': 60 Pixabay, 0 Coverr
+scene 1: 8 on-topic clips (0 Coverr)
+  search 'hair sectioning clip': 60 Pixabay, 0 Coverr
+  search 'curling iron close up': 60 Pixabay, 0 Coverr
+  search 'hairdresser curling hair': 60 Pixabay, 0 Coverr
+scene 2: 8 on-topic clips (0 Coverr)
+  search 'curling iron hair strand': 60 Pixabay, 0 Coverr
+  search 'woman holding curl hand': 60 Pixabay, 0 Coverr
+  search 'curling hair tongs': 60 Pixabay, 0 Coverr
+scene 3: 8 on-topic clips (0 Coverr)
+  search 'hair clips pinned curls': 60 Pixabay, 0 Coverr
+  search 'hair pins hairstyle': 60 Pixabay, 0 Coverr
+  search 'hairstylist pinning hair': 60 Pixabay, 0 Coverr
+scene 4: 8 on-topic clips (0 Coverr)
+  search 'hairspray': 0 Pixabay, 4 Coverr
+  search 'woman fingers through curly hair': 60 Pixabay, 0 Coverr
+  search 'hair spray styling': 60 Pixabay, 0 Coverr
+scene 5: 8 on-topic clips (4 Coverr)
+  search 'brushing hair': 60 Pixabay, 30 Coverr
+  search 'hair brush long hair': 60 Pixabay, 4 Coverr
+  search 'combing hair mirror': 60 Pixabay, 0 Coverr
+scene 6: 8 on-topic clips (4 Coverr)
+  search 'wavy hair woman': 60 Pixabay, 30 Coverr
+  search 'curly hair glamorous': 60 Pixabay, 1 Coverr
+  search 'woman touching wavy hair': 60 Pixabay, 0 Coverr
+scene 7: 8 on-topic clips (8 Coverr)
+candidates: 56 clips in 7 scenes -> out/vs/candidates.jpg
