@@ -1,0 +1,23 @@
+Stock footage (Pixabay: no attribution required; Coverr: attribution required):
+pb21147  Art-Production (Pixabay)  https://pixabay.com/videos/id-21147/
+pb43633  GreenCardShow (Pixabay)  https://pixabay.com/videos/id-43633/
+pb51907  chuduyen215 (Pixabay)  https://pixabay.com/videos/id-51907/
+pb80817  RuslanSikunov (Pixabay)  https://pixabay.com/videos/id-80817/
+pb61893  8682001 (Pixabay)  https://pixabay.com/videos/id-61893/
+cvQ1n9tdhx1z  Coverr  
+cvJOVHfRRxzH  Coverr  
+cvZWnMNYrzlj  Coverr  
+cvX0QnVJShcc  Coverr  
+cv0SOg5pTA8L  Coverr  
+
+Shot log:
+   0.0s  scene 1  pb21147  model, beauty, beauty salon, care, client, fashion, women, hair, hairstyle, lady, makeup, salon, style, stylist, beautiful, woman, eyelash, eyelashes, haircut
+   2.5s  scene 1  pb43633  hair, wind, girl, woman, people, person, model, young, dream, human, sunlight, passion, alone, aesthetics
+   5.0s  scene 2  pb51907  hair, salon, hairdresser, woman, haircut, fashion, female, hairstyle, style, young, person, hair conditioner, conditioner, shampoo
+   8.9s  scene 3  pb80817  hair, wind, girl, person, young, portrait
+  12.2s  scene 4  pb61893  woman, female, model, young, beauty, femininity, face, feminine, fantasy, hair, portrait, pose, person, head
+  14.5s  scene 5  cvQ1n9tdhx1z  Hairspray , spray, brilliant, hairstyle, slow motion, bright, hair, face, diamond, people, girl, covid-19, makeup, fixing, brunette, mua, skin, hairspray, close up, sparkle, beauty, shining, quarantine, artsy, industry, fix, skincare
+  18.4s  scene 6  cvJOVHfRRxzH  Woman brushing her hair , clear skin, succulent, hair brush, background, brushing, hair, brush, plant, people, girl, mirror, decoration, woman, skincare, vanity
+  21.2s  scene 6  cvZWnMNYrzlj  Brushing hair, girl, woman, brush, brushing, hair brush, hair flip, hairstyle, styling, style, long hair, beautiful, accessory, hoola hoop, hoola hoop earrings, clear skin, skincare, pampering, long, eyelashes, people, background
+  23.9s  scene 7  cvX0QnVJShcc  Professional dancer at the beach , background, beach, dance, wave, ocean, hair, sand, creative, people, girl, sport, beautiful, professional, seashore, talented, dancing, dancer, summer, woman, redhead, sunlight, red, talent
+  26.5s  scene 7  cv0SOg5pTA8L  Dancing in the sunlight on the beach , sea, background, beach, dance, wave, curly hair, sun rays, peaceful, sand, creative, scenery, people, girl, beautiful, professional, seashore, talented, dancing, dancer, choreographer, summer, woman, redhead, sunlight
