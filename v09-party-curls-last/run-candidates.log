@@ -2,13 +2,13 @@
   search 'curling iron hair': 60 Pixabay, 0 Coverr
   search 'curly hair woman mirror': 60 Pixabay, 0 Coverr
 scene 1: 8 on-topic clips (0 Coverr)
-  search 'hair sectioning clip': 60 Pixabay, 0 Coverr
-  search 'curling iron close up': 60 Pixabay, 0 Coverr
-  search 'hairdresser curling hair': 60 Pixabay, 0 Coverr
-scene 2: 8 on-topic clips (0 Coverr)
-  search 'curling iron hair strand': 60 Pixabay, 0 Coverr
-  search 'woman holding curl hand': 60 Pixabay, 0 Coverr
-  search 'curling hair tongs': 60 Pixabay, 0 Coverr
+  search 'hair straightener': 60 Pixabay, 2 Coverr
+  search 'woman styling hair mirror': 60 Pixabay, 2 Coverr
+  search 'hairdresser styling woman hair': 60 Pixabay, 0 Coverr
+scene 2: 8 on-topic clips (4 Coverr)
+  search 'woman curling her hair': 60 Pixabay, 0 Coverr
+  search 'hair curler': 60 Pixabay, 0 Coverr
+  search 'hand touching hair curl': 60 Pixabay, 0 Coverr
 scene 3: 8 on-topic clips (0 Coverr)
   search 'hair clips pinned curls': 60 Pixabay, 0 Coverr
   search 'hair pins hairstyle': 60 Pixabay, 0 Coverr
@@ -21,7 +21,7 @@ scene 5: 8 on-topic clips (4 Coverr)
   search 'brushing hair': 60 Pixabay, 30 Coverr
   search 'hair brush long hair': 60 Pixabay, 4 Coverr
   search 'combing hair mirror': 60 Pixabay, 0 Coverr
-scene 6: 8 on-topic clips (4 Coverr)
+scene 6: 8 on-topic clips (3 Coverr)
   search 'wavy hair woman': 60 Pixabay, 30 Coverr
   search 'curly hair glamorous': 60 Pixabay, 1 Coverr
   search 'woman touching wavy hair': 60 Pixabay, 0 Coverr

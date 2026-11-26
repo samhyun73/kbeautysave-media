@@ -91,38 +91,95 @@
  ],
  [
   {
-   "id": "pb189018",
-   "duration": 14.0,
-   "link": "https://cdn.pixabay.com/video/2023/11/13/189018-884234917_large.mp4",
+   "id": "pb51912",
+   "duration": 6.0,
+   "link": "https://cdn.pixabay.com/video/2020/10/09/51912-467131993_large.mp4",
+   "w": 3840,
+   "h": 2160,
+   "credit": "chuduyen215 (Pixabay)",
+   "url": "https://pixabay.com/videos/id-51912/",
+   "tags": "woman, hairstyle, hair, salon, hairdresser, haircut, girl, fashion, female, style, person, hair conditioner, conditioner",
+   "thumb": "https://cdn.pixabay.com/video/2020/10/09/51912-467131993_large.jpg"
+  },
+  {
+   "id": "cvB9zumiCY53",
+   "duration": 12.5,
+   "link": "https://cdn.coverr.co/videos/coverr-woman-fixing-her-hair-as-the-sun-sets-6828/1080p.mp4",
    "w": 1920,
    "h": 1080,
-   "credit": "choxyltd (Pixabay)",
-   "url": "https://pixabay.com/videos/id-189018/",
-   "tags": "lipstick, make up, bride, woman, fashion, wedding, close up, texture",
-   "thumb": "https://cdn.pixabay.com/video/2023/11/13/189018-884234917_large.jpg"
+   "credit": "Coverr",
+   "url": null,
+   "tags": "Woman fixing her hair as the sun sets , girl, woman, female, blonde, straightens, hair, sunset, sunlight, sun, hill, glade, trees, greenery, sky, skyline, blue sky, enjoy, peaceful, beautiful, landscape, outdoors, outside, fresh air, nature, people",
+   "thumb": "https://cdn.coverr.co/videos/coverr-woman-fixing-her-hair-as-the-sun-sets-6828/thumbnail?width=640"
   },
   {
-   "id": "pb116192",
-   "duration": 18.0,
-   "link": "https://cdn.pixabay.com/video/2022/05/06/116192-707327017_large.mp4",
-   "w": 3840,
-   "h": 2160,
-   "credit": "ChristianBodhi (Pixabay)",
-   "url": "https://pixabay.com/videos/id-116192/",
-   "tags": "hair clipper, hair cutter, vintage, manual, dresser, stylist, barber, hairdresser, hair, tool, old, steel, trimmer, chrome, antique, salon",
-   "thumb": "https://cdn.pixabay.com/video/2022/05/06/116192-707327017_large.jpg"
+   "id": "cvWdw6RibTBZ",
+   "duration": 29.791667,
+   "link": "https://cdn.coverr.co/videos/coverr-blonde-woman-brushing-her-hair-6799/1080p.mp4",
+   "w": 1920,
+   "h": 1080,
+   "credit": "Coverr",
+   "url": null,
+   "tags": "Blonde woman brushing her hair, girl, woman, brush, brushing, hair, hair flip, long hair, hairstyle, hair brush, styling, style, makeup, beauty, cosmetics, industry, highlighter, bronzer, bronze, eyeshadow, mascara, cleansing, clear skin, skincare, plant, small, rounded, mirror, smiling, smile, joy, people, artsy, background",
+   "thumb": "https://cdn.coverr.co/videos/coverr-blonde-woman-brushing-her-hair-6799/thumbnail?width=640"
   },
   {
-   "id": "pb212453",
-   "duration": 20.0,
-   "link": "https://cdn.pixabay.com/video/2024/05/18/212453_large.mp4",
+   "id": "pb51908",
+   "duration": 19.0,
+   "link": "https://cdn.pixabay.com/video/2020/10/09/51908-467131978_large.mp4",
    "w": 3840,
    "h": 2160,
-   "credit": "JoshuaWoroniecki (Pixabay)",
-   "url": "https://pixabay.com/videos/id-212453/",
-   "tags": "flowers, tulips, petals, yellow, golden, close up, springtime, season, green, gold, blossom, grass, field, garden, beauty, summer, bloom, spring",
-   "thumb": "https://cdn.pixabay.com/video/2024/05/18/212453_large.jpg"
+   "credit": "chuduyen215 (Pixabay)",
+   "url": "https://pixabay.com/videos/id-51908/",
+   "tags": "hair, salon, hairdresser, woman, haircut, girl, fashion, female, hairstyle, style, young, person, nail, relax, design, hair conditioner, conditioner, shampoo, drying",
+   "thumb": "https://cdn.pixabay.com/video/2020/10/09/51908-467131978_large.jpg"
   },
+  {
+   "id": "pb51907",
+   "duration": 11.0,
+   "link": "https://cdn.pixabay.com/video/2020/10/09/51907-467131981_large.mp4",
+   "w": 3840,
+   "h": 2160,
+   "credit": "chuduyen215 (Pixabay)",
+   "url": "https://pixabay.com/videos/id-51907/",
+   "tags": "hair, salon, hairdresser, woman, haircut, fashion, female, hairstyle, style, young, person, hair conditioner, conditioner, shampoo",
+   "thumb": "https://cdn.pixabay.com/video/2020/10/09/51907-467131981_large.jpg"
+  },
+  {
+   "id": "cvJBSC658pr4",
+   "duration": 24.25,
+   "link": "https://cdn.coverr.co/videos/coverr-woman-running-her-fingers-through-her-hair-4283/1080p.mp4",
+   "w": 1920,
+   "h": 1080,
+   "credit": "Coverr",
+   "url": null,
+   "tags": "Woman running her fingers through her hair, girl, sunset, glade, woman, female, blonde, straightens, hair, sunlight, sun, evening, hill, trees, greenery, sky, skyline, blue sky, peaceful, beautiful, landscape, outdoors, outside, fresh air, nature, people",
+   "thumb": "https://cdn.coverr.co/videos/coverr-woman-running-her-fingers-through-her-hair-4283/thumbnail?width=640"
+  },
+  {
+   "id": "cva18T3AkPLs",
+   "duration": 25.375,
+   "link": "https://cdn.coverr.co/videos/coverr-woman-brushing-her-hair-9094/1080p.mp4",
+   "w": 1920,
+   "h": 1080,
+   "credit": "Coverr",
+   "url": null,
+   "tags": "Woman brushing her hair, girl, woman, pick up, hair brush, brush, brushing, hair, hair flip, hairstyle, long hair, styling, style, makeup, beauty, cosmetics, industry, highlighter, powder, powder brush, contour, contouring, eyeshadow, mascara, cleansing, small, rounded, mirror, plant, decoration, greenery, beautiful, interior, people, artsy, background",
+   "thumb": "https://cdn.coverr.co/videos/coverr-woman-brushing-her-hair-9094/thumbnail?width=640"
+  },
+  {
+   "id": "pb51910",
+   "duration": 13.0,
+   "link": "https://cdn.pixabay.com/video/2020/10/09/51910-467131994_large.mp4",
+   "w": 3840,
+   "h": 2160,
+   "credit": "chuduyen215 (Pixabay)",
+   "url": "https://pixabay.com/videos/id-51910/",
+   "tags": "woman, hair, salon, hairdresser, haircut, fashion, female, hairstyle, style, person",
+   "thumb": "https://cdn.pixabay.com/video/2020/10/09/51910-467131994_large.jpg"
+  }
+ ],
+ [
   {
    "id": "pb48968",
    "duration": 8.0,
@@ -133,28 +190,6 @@
    "url": "https://pixabay.com/videos/id-48968/",
    "tags": "barber, barbershop, hairstyle, hand, human hand, man, males, lifestyles, people, skill, work, beauty, care, hair, cutting, stylist, hairdresser, barber shop, slow",
    "thumb": "https://cdn.pixabay.com/video/2020/09/03/48968-459186304_large.jpg"
-  },
-  {
-   "id": "pb3654",
-   "duration": 13.0,
-   "link": "https://cdn.pixabay.com/video/2016/06/29/3654-173062443_large.mp4",
-   "w": 1920,
-   "h": 1080,
-   "credit": "FMFA (Pixabay)",
-   "url": "https://pixabay.com/videos/id-3654/",
-   "tags": "rose, red rose, rose flower, flower, blossom, bloom, rose blooms, garden rose, nature, rose red, red, to flourish, rose blossom, blooming flowers, beauty, plants, close up, garden, romantic, fragrance, environment, inspiration, artwork, amazing, natural",
-   "thumb": "https://cdn.pixabay.com/video/2016/06/29/3654-173062443_large.jpg"
-  },
-  {
-   "id": "pb42964",
-   "duration": 17.0,
-   "link": "https://cdn.pixabay.com/video/2020/06/23/42964-434316735_large.mp4",
-   "w": 1920,
-   "h": 1080,
-   "credit": "MaxMedyk (Pixabay)",
-   "url": "https://pixabay.com/videos/id-42964/",
-   "tags": "hairstyle, man, haircut, stylist, barber, style, barbershop, fashion, male, cut, grooming, beard, face, hairstylist, professional, hair products, beautician, hairdresser",
-   "thumb": "https://cdn.pixabay.com/video/2020/06/23/42964-434316735_large.jpg"
   },
   {
    "id": "pb48969",
@@ -177,41 +212,6 @@
    "url": "https://pixabay.com/videos/id-80817/",
    "tags": "hair, wind, girl, person, young, portrait",
    "thumb": "https://cdn.pixabay.com/video/2021/07/09/80817-573496287_large.jpg"
-  }
- ],
- [
-  {
-   "id": "pb701",
-   "duration": 15.0,
-   "link": "https://cdn.pixabay.com/video/2015/09/06/701-138504820_medium.mp4",
-   "w": 1280,
-   "h": 720,
-   "credit": "Vimeo-Free-Videos (Pixabay)",
-   "url": "https://pixabay.com/videos/id-701/",
-   "tags": "massage, wellness, recreation, spa, massage therapy, therapy, health, treatment, relaxation, body, care, massage woman, woman, relax, body care, luxury, wellbeing, skin, back, pampering, hands, 127789756",
-   "thumb": "https://cdn.pixabay.com/video/2015/09/06/701-138504820_medium.jpg"
-  },
-  {
-   "id": "pb43630",
-   "duration": 7.0,
-   "link": "https://cdn.pixabay.com/video/2020/07/02/43630-436237633_large.mp4",
-   "w": 1920,
-   "h": 1080,
-   "credit": "GreenCardShow (Pixabay)",
-   "url": "https://pixabay.com/videos/id-43630/",
-   "tags": "kite, rope, hand, female, girl, nails, hold, nature, happiness, sky",
-   "thumb": "https://cdn.pixabay.com/video/2020/07/02/43630-436237633_large.jpg"
-  },
-  {
-   "id": "pb47678",
-   "duration": 62.0,
-   "link": "https://cdn.pixabay.com/video/2020/08/20/47678-451695697_large.mp4",
-   "w": 1920,
-   "h": 1080,
-   "credit": "MeeNee (Pixabay)",
-   "url": "https://pixabay.com/videos/id-47678/",
-   "tags": "art, beautiful, beautiful woman, beauty, bodyart, bridal, bride, shiva, brown, color, design, fashion, girl, hand, henna, india, jewellery, jewelry, makeup, mehendi, mehndi, mehndi tattoo, tattoo, wedding, woman, women",
-   "thumb": "https://cdn.pixabay.com/video/2020/08/20/47678-451695697_large.jpg"
   },
   {
    "id": "pb2449",
@@ -225,6 +225,28 @@
    "thumb": "https://cdn.pixabay.com/video/2016/03/14/2449-159139941_large.jpg"
   },
   {
+   "id": "pb37056",
+   "duration": 16.0,
+   "link": "https://cdn.pixabay.com/video/2020/04/24/37056-415142655_large.mp4",
+   "w": 4096,
+   "h": 2160,
+   "credit": "8682001 (Pixabay)",
+   "url": "https://pixabay.com/videos/id-37056/",
+   "tags": "young, woman, blond, eyes, blue, closeup, slow, move, hair",
+   "thumb": "https://cdn.pixabay.com/video/2020/04/24/37056-415142655_large.jpg"
+  },
+  {
+   "id": "pb215152",
+   "duration": 6.0,
+   "link": "https://cdn.pixabay.com/video/2024/06/03/215152_large.mp4",
+   "w": 3840,
+   "h": 2160,
+   "credit": "VanzetPictures (Pixabay)",
+   "url": "https://pixabay.com/videos/id-215152/",
+   "tags": "woman, face, beauty, flowers, petals, flora, blonde hair, pose, nature",
+   "thumb": "https://cdn.pixabay.com/video/2024/06/03/215152_large.jpg"
+  },
+  {
    "id": "pb29916",
    "duration": 12.0,
    "link": "https://cdn.pixabay.com/video/2019/12/07/29916-378294445_large.mp4",
@@ -234,6 +256,41 @@
    "url": "https://pixabay.com/videos/id-29916/",
    "tags": "hair salon, salon, hair, woman, makeup, girl, hairstyle, fashion, young, people, haircut, female, style, model, furniture, stylish, face",
    "thumb": "https://cdn.pixabay.com/video/2019/12/07/29916-378294445_large.jpg"
+  },
+  {
+   "id": "pb79395",
+   "duration": 51.0,
+   "link": "https://cdn.pixabay.com/video/2021/06/28/79395-569653289_large.mp4",
+   "w": 4096,
+   "h": 2160,
+   "credit": "Engin_Akyurt (Pixabay)",
+   "url": "https://pixabay.com/videos/id-79395/",
+   "tags": "woman, model, face, hair, wind, pose, fashion, beauty, skin, eyes, young, emotional, melancholy, think, adult, portrait",
+   "thumb": "https://cdn.pixabay.com/video/2021/06/28/79395-569653289_large.jpg"
+  }
+ ],
+ [
+  {
+   "id": "pb216973",
+   "duration": 9.0,
+   "link": "https://cdn.pixabay.com/video/2024/06/16/216973_large.mp4",
+   "w": 1080,
+   "h": 1920,
+   "credit": "DoniShala (Pixabay)",
+   "url": "https://pixabay.com/videos/id-216973/",
+   "tags": "woman, model, fashion, hairstyle, female, pose, posing, modeling, face, skin, style, makeup, portrait",
+   "thumb": "https://cdn.pixabay.com/video/2024/06/16/216973_large.jpg"
+  },
+  {
+   "id": "pb42964",
+   "duration": 17.0,
+   "link": "https://cdn.pixabay.com/video/2020/06/23/42964-434316735_large.mp4",
+   "w": 1920,
+   "h": 1080,
+   "credit": "MaxMedyk (Pixabay)",
+   "url": "https://pixabay.com/videos/id-42964/",
+   "tags": "hairstyle, man, haircut, stylist, barber, style, barbershop, fashion, male, cut, grooming, beard, face, hairstylist, professional, hair products, beautician, hairdresser",
+   "thumb": "https://cdn.pixabay.com/video/2020/06/23/42964-434316735_large.jpg"
   },
   {
    "id": "pb3408",
@@ -258,50 +315,15 @@
    "thumb": "https://cdn.pixabay.com/video/2021/09/29/90193-624024980_large.jpg"
   },
   {
-   "id": "pb37056",
-   "duration": 16.0,
-   "link": "https://cdn.pixabay.com/video/2020/04/24/37056-415142655_large.mp4",
-   "w": 4096,
-   "h": 2160,
-   "credit": "8682001 (Pixabay)",
-   "url": "https://pixabay.com/videos/id-37056/",
-   "tags": "young, woman, blond, eyes, blue, closeup, slow, move, hair",
-   "thumb": "https://cdn.pixabay.com/video/2020/04/24/37056-415142655_large.jpg"
-  }
- ],
- [
-  {
-   "id": "pb216973",
-   "duration": 9.0,
-   "link": "https://cdn.pixabay.com/video/2024/06/16/216973_large.mp4",
-   "w": 1080,
-   "h": 1920,
-   "credit": "DoniShala (Pixabay)",
-   "url": "https://pixabay.com/videos/id-216973/",
-   "tags": "woman, model, fashion, hairstyle, female, pose, posing, modeling, face, skin, style, makeup, portrait",
-   "thumb": "https://cdn.pixabay.com/video/2024/06/16/216973_large.jpg"
-  },
-  {
-   "id": "pb215152",
-   "duration": 6.0,
-   "link": "https://cdn.pixabay.com/video/2024/06/03/215152_large.mp4",
+   "id": "pb116192",
+   "duration": 18.0,
+   "link": "https://cdn.pixabay.com/video/2022/05/06/116192-707327017_large.mp4",
    "w": 3840,
    "h": 2160,
-   "credit": "VanzetPictures (Pixabay)",
-   "url": "https://pixabay.com/videos/id-215152/",
-   "tags": "woman, face, beauty, flowers, petals, flora, blonde hair, pose, nature",
-   "thumb": "https://cdn.pixabay.com/video/2024/06/03/215152_large.jpg"
-  },
-  {
-   "id": "pb79395",
-   "duration": 51.0,
-   "link": "https://cdn.pixabay.com/video/2021/06/28/79395-569653289_large.mp4",
-   "w": 4096,
-   "h": 2160,
-   "credit": "Engin_Akyurt (Pixabay)",
-   "url": "https://pixabay.com/videos/id-79395/",
-   "tags": "woman, model, face, hair, wind, pose, fashion, beauty, skin, eyes, young, emotional, melancholy, think, adult, portrait",
-   "thumb": "https://cdn.pixabay.com/video/2021/06/28/79395-569653289_large.jpg"
+   "credit": "ChristianBodhi (Pixabay)",
+   "url": "https://pixabay.com/videos/id-116192/",
+   "tags": "hair clipper, hair cutter, vintage, manual, dresser, stylist, barber, hairdresser, hair, tool, old, steel, trimmer, chrome, antique, salon",
+   "thumb": "https://cdn.pixabay.com/video/2022/05/06/116192-707327017_large.jpg"
   },
   {
    "id": "pb48255",
@@ -335,28 +357,6 @@
    "url": "https://pixabay.com/videos/id-58444/",
    "tags": "men, barbershop, hair salon, barber, hairstylist, business, beauty, artisan, hair, hair care, haircut, hairdresser, hairstyle, job, male, modern, people, professional, salon, service, work, workplace",
    "thumb": "https://cdn.pixabay.com/video/2020/12/06/58444-488804243_large.jpg"
-  },
-  {
-   "id": "pb61893",
-   "duration": 20.0,
-   "link": "https://cdn.pixabay.com/video/2021/01/13/61893-501113779_large.mp4",
-   "w": 1920,
-   "h": 1080,
-   "credit": "8682001 (Pixabay)",
-   "url": "https://pixabay.com/videos/id-61893/",
-   "tags": "woman, female, model, young, beauty, femininity, face, feminine, fantasy, hair, portrait, pose, person, head",
-   "thumb": "https://cdn.pixabay.com/video/2021/01/13/61893-501113779_large.jpg"
-  },
-  {
-   "id": "pb79393",
-   "duration": 12.0,
-   "link": "https://cdn.pixabay.com/video/2021/06/28/79393-569653281_large.mp4",
-   "w": 4096,
-   "h": 2160,
-   "credit": "Engin_Akyurt (Pixabay)",
-   "url": "https://pixabay.com/videos/id-79393/",
-   "tags": "woman, model, face, hair, wind, pose, fashion, beauty, skin, eyes, young, emotional, melancholy, think, adult, portrait",
-   "thumb": "https://cdn.pixabay.com/video/2021/06/28/79393-569653281_large.jpg"
   }
  ],
  [
@@ -416,6 +416,28 @@
    "thumb": "https://cdn.pixabay.com/video/2020/07/14/44648-439940295_large.jpg"
   },
   {
+   "id": "pb61893",
+   "duration": 20.0,
+   "link": "https://cdn.pixabay.com/video/2021/01/13/61893-501113779_large.mp4",
+   "w": 1920,
+   "h": 1080,
+   "credit": "8682001 (Pixabay)",
+   "url": "https://pixabay.com/videos/id-61893/",
+   "tags": "woman, female, model, young, beauty, femininity, face, feminine, fantasy, hair, portrait, pose, person, head",
+   "thumb": "https://cdn.pixabay.com/video/2021/01/13/61893-501113779_large.jpg"
+  },
+  {
+   "id": "pb79393",
+   "duration": 12.0,
+   "link": "https://cdn.pixabay.com/video/2021/06/28/79393-569653281_large.mp4",
+   "w": 4096,
+   "h": 2160,
+   "credit": "Engin_Akyurt (Pixabay)",
+   "url": "https://pixabay.com/videos/id-79393/",
+   "tags": "woman, model, face, hair, wind, pose, fashion, beauty, skin, eyes, young, emotional, melancholy, think, adult, portrait",
+   "thumb": "https://cdn.pixabay.com/video/2021/06/28/79393-569653281_large.jpg"
+  },
+  {
    "id": "pb79392",
    "duration": 60.0,
    "link": "https://cdn.pixabay.com/video/2021/06/28/79392-569653284_large.mp4",
@@ -425,28 +447,6 @@
    "url": "https://pixabay.com/videos/id-79392/",
    "tags": "woman, model, face, hair, wind, pose, fashion, beauty, skin, eyes, young, emotional, melancholy, think, adult, portrait",
    "thumb": "https://cdn.pixabay.com/video/2021/06/28/79392-569653284_large.jpg"
-  },
-  {
-   "id": "pb79386",
-   "duration": 60.0,
-   "link": "https://cdn.pixabay.com/video/2021/06/28/79386-569653278_large.mp4",
-   "w": 3840,
-   "h": 2160,
-   "credit": "Engin_Akyurt (Pixabay)",
-   "url": "https://pixabay.com/videos/id-79386/",
-   "tags": "woman, model, face, hair, wind, pose, fashion, beauty, skin, eyes, young, emotional, melancholy, think, adult, portrait",
-   "thumb": "https://cdn.pixabay.com/video/2021/06/28/79386-569653278_large.jpg"
-  },
-  {
-   "id": "pb78731",
-   "duration": 60.0,
-   "link": "https://cdn.pixabay.com/video/2021/06/24/78731-567321503_large.mp4",
-   "w": 3840,
-   "h": 2160,
-   "credit": "Engin_Akyurt (Pixabay)",
-   "url": "https://pixabay.com/videos/id-78731/",
-   "tags": "woman, face, young, look, adult, beauty, person, head, eyes, pose, model, hair, human, emotions, fashion, style, portrait",
-   "thumb": "https://cdn.pixabay.com/video/2021/06/24/78731-567321503_large.jpg"
   }
  ],
  [
@@ -473,17 +473,6 @@
    "thumb": "https://cdn.coverr.co/videos/coverr-brushing-hair-6132/thumbnail?width=640"
   },
   {
-   "id": "cva18T3AkPLs",
-   "duration": 25.375,
-   "link": "https://cdn.coverr.co/videos/coverr-woman-brushing-her-hair-9094/1080p.mp4",
-   "w": 1920,
-   "h": 1080,
-   "credit": "Coverr",
-   "url": null,
-   "tags": "Woman brushing her hair, girl, woman, pick up, hair brush, brush, brushing, hair, hair flip, hairstyle, long hair, styling, style, makeup, beauty, cosmetics, industry, highlighter, powder, powder brush, contour, contouring, eyeshadow, mascara, cleansing, small, rounded, mirror, plant, decoration, greenery, beautiful, interior, people, artsy, background",
-   "thumb": "https://cdn.coverr.co/videos/coverr-woman-brushing-her-hair-9094/thumbnail?width=640"
-  },
-  {
    "id": "pb9477",
    "duration": 20.0,
    "link": "https://cdn.pixabay.com/video/2017/06/01/9477-219900745_large.mp4",
@@ -493,17 +482,6 @@
    "url": "https://pixabay.com/videos/id-9477/",
    "tags": "beauty, person, cosmetics, portrait, woman, makeup, fashion, lips, beautiful, model, ink, human, glamor, eyelashes, eyeshadow, eye, sight, eyebrow, brush, skin, lady, artist, pomade, hair",
    "thumb": "https://cdn.pixabay.com/video/2017/06/01/9477-219900745_large.jpg"
-  },
-  {
-   "id": "cvWdw6RibTBZ",
-   "duration": 29.791667,
-   "link": "https://cdn.coverr.co/videos/coverr-blonde-woman-brushing-her-hair-6799/1080p.mp4",
-   "w": 1920,
-   "h": 1080,
-   "credit": "Coverr",
-   "url": null,
-   "tags": "Blonde woman brushing her hair, girl, woman, brush, brushing, hair, hair flip, long hair, hairstyle, hair brush, styling, style, makeup, beauty, cosmetics, industry, highlighter, bronzer, bronze, eyeshadow, mascara, cleansing, clear skin, skincare, plant, small, rounded, mirror, smiling, smile, joy, people, artsy, background",
-   "thumb": "https://cdn.coverr.co/videos/coverr-blonde-woman-brushing-her-hair-6799/thumbnail?width=640"
   },
   {
    "id": "pb131603",
@@ -537,6 +515,28 @@
    "url": null,
    "tags": "Woman brushing her hair , clear skin, succulent, hair brush, background, brushing, hair, brush, plant, people, girl, mirror, decoration, woman, skincare, vanity",
    "thumb": "https://cdn.coverr.co/videos/coverr-woman-brushing-her-hair-7224/thumbnail?width=640"
+  },
+  {
+   "id": "cvuQmROHfGzO",
+   "duration": 16.784,
+   "link": "https://cdn.coverr.co/videos/coverr-cutting-a-man-s-hair-2016/1080p.mp4",
+   "w": 1920,
+   "h": 1080,
+   "credit": "Coverr",
+   "url": null,
+   "tags": "Cutting a man's hair , barbershop, barber, hairdresser, hair, beard, moustaches, hairstyle, haircut, bristle, whiskers, shaving, hairdressing, scissors, wig, razor, comb, hair brush, style, trimmer, salon, people, styling, cutting, cut, interior, beautiful, lights, mirror, male, long hair, background",
+   "thumb": "https://cdn.coverr.co/videos/coverr-cutting-a-man-s-hair-2016/thumbnail?width=640"
+  },
+  {
+   "id": "pb131609",
+   "duration": 39.0,
+   "link": "https://cdn.pixabay.com/video/2022/09/17/131609-750753076_large.mp4",
+   "w": 1920,
+   "h": 1080,
+   "credit": "nataliemukundu (Pixabay)",
+   "url": "https://pixabay.com/videos/id-131609/",
+   "tags": "woman, hairstyle, brush, hair, african hair, curly hair, female, afro",
+   "thumb": "https://cdn.pixabay.com/video/2022/09/17/131609-750753076_large.jpg"
   }
  ],
  [
