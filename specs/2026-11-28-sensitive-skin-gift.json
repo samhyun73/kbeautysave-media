@@ -1,0 +1,43 @@
+{
+  "slug": "day59-sensitive-skin-gift",
+  "lang": "en",
+  "mood": "calm",
+  "seed": 59,
+  "hangul": "민감 피부",
+  "frames": [
+    {"type": "hook", "kicker": "Sensitive skin gifts", "title": "More serums, better gift?", "sub": "Myth. Go simple ↓", "dur": 2.5},
+    {"type": "step", "title": "Read the label", "line": "no fragrance, short list", "sub": "Skip strong acids and retinol.", "dur": 2.4},
+    {"type": "step", "title": "Pick basics", "line": "cleanser, cream, sunscreen", "sub": "Gentle and easy to use.", "dur": 2.4},
+    {"type": "step", "title": "Go mini", "line": "small sizes to try first", "sub": "Add a gift receipt.", "dur": 2.4},
+    {"type": "statement", "lines": ["Fewer,", "gentler."], "sub": "Less guessing for them.", "dur": 2.5},
+    {"type": "cta", "title": "Save this one.", "dur": 3.0}
+  ],
+  "pin": {
+    "kicker": "Sensitive skin",
+    "title": "Gentle Skincare Gifts",
+    "sub": "Two checks before you buy",
+    "steps": [
+      {"title": "Read the label", "body": "No fragrance, few actives."},
+      {"title": "Go mini", "body": "Small sizes to try first."}
+    ],
+    "avoid": ["Big serum sets", "Strong scents"],
+    "note": "Find gentle K-beauty basics at Olive Young Global."
+  },
+  "pins": [
+    {
+      "layout": "deal",
+      "kicker": "K-beauty sale",
+      "title": "Gentle Gift List",
+      "dates": "22–28 Nov",
+      "dates_label": "Black Friday",
+      "sub": "Many countries · not US or Japan",
+      "items": [
+        {"title": "A gentle cleanser", "body": "A low pH gel or cream wash."},
+        {"title": "A simple moisturizer", "body": "No fragrance, short list."},
+        {"title": "A daily sunscreen", "body": "Light enough for every day."},
+        {"title": "Minis or a small set", "body": "Easy to try before full size."}
+      ],
+      "note": "Sign in, then enter KBEAUTY73 at checkout for an extra 5% off."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "day59-sensitive-skin-gift-zh",
+  "lang": "zh",
+  "mood": "calm",
+  "seed": 59,
+  "hangul": "민감 피부",
+  "frames": [
+    {"type": "hook", "kicker": "민감 피부 · 敏感肌送礼", "title": "送大礼盒？", "sub": "敏感肌要简单 ↓", "dur": 2.5},
+    {"type": "step", "title": "先看成分", "line": "无香精，成分少", "sub": "避开强酸和A醇", "dur": 2.4},
+    {"type": "step", "title": "选基础款", "line": "洁面、面霜、防晒", "sub": "温和又好用", "dur": 2.4},
+    {"type": "step", "title": "选小样", "line": "先用小份试试", "sub": "附上礼物小票", "dur": 2.4},
+    {"type": "statement", "lines": ["少而精，", "更温和。"], "sub": "对方用得更安心", "dur": 2.5},
+    {"type": "cta", "title": "收藏备用", "code_label": "额外95折 优惠码", "where_html": "在 <b>Olive Young Global</b><br>结账时输入", "tags": "#广告", "dur": 3.0}
+  ]
+}

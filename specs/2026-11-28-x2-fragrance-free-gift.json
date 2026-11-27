@@ -1,0 +1,15 @@
+{
+ "slug": "day59x2-fragrance-free-gift",
+ "lang": "en",
+ "mood": "calm",
+ "seed": 1060,
+ "hangul": "무향",
+ "frames": [
+  {"type": "hook", "kicker": "Sensitive skin gifts", "title": "Picking skincare by scent?", "sub": "Read the back ↓", "dur": 2.5},
+  {"type": "step", "title": "Flip it over", "line": "ingredient list on the back", "sub": "Not the front claims.", "dur": 2.6},
+  {"type": "step", "title": "Spot the scent", "line": "fragrance, parfum, oils", "sub": "Essential oils count too.", "dur": 2.6},
+  {"type": "step", "title": "None listed?", "line": "that's the one to gift", "sub": "Look for fragrance free.", "dur": 2.6},
+  {"type": "statement", "lines": ["Label first,", "scent last."], "sub": "Simple is the easy pick.", "dur": 2.4},
+  {"type": "cta", "title": "Save this one.", "dur": 3.0}
+ ]
+}

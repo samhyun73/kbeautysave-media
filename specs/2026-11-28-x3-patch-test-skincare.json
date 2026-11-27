@@ -1,0 +1,15 @@
+{
+ "slug": "day59x3-patch-test-skincare",
+ "lang": "en",
+ "mood": "calm",
+ "seed": 2061,
+ "hangul": "패치 테스트",
+ "frames": [
+  {"type": "hook", "kicker": "Skincare basics", "title": "New skincare straight on your face?", "sub": "Patch test first ↓", "dur": 2.5},
+  {"type": "step", "title": "Pick a spot", "line": "side of neck or inner arm", "sub": "A pea-sized dab.", "dur": 2.6},
+  {"type": "step", "title": "Twice a day", "line": "same spot, a few days", "sub": "Use it as you normally would.", "dur": 2.6},
+  {"type": "step", "title": "Check it", "line": "redness, itch or sting?", "sub": "Then skip that product.", "dur": 2.6},
+  {"type": "statement", "lines": ["Small spot,", "then face."], "sub": "One new product at a time.", "dur": 2.4},
+  {"type": "cta", "title": "Save this one.", "dur": 3.0}
+ ]
+}
